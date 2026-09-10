@@ -1,0 +1,33 @@
+name: Refresh company list
+
+on:
+  schedule:
+    # Twice a month - the 1st and the 15th at 06:00 UTC. This just grows the
+    # list (adds newly-appeared companies from the source datasets); it never
+    # removes anything or touches data/state.json.
+    - cron: "0 6 1,15 * *"
+  workflow_dispatch: {}   # trigger manually from the Actions tab any time
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh company list
+        run: python3 refresh_companies.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "job-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/companies.json
+          git diff --quiet --cached || git commit -m "Refresh company list [skip ci]"
+          git push

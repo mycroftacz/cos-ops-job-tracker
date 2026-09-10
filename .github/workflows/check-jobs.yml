@@ -1,0 +1,41 @@
+name: Check job boards
+
+on:
+  schedule:
+    # Hourly, offset 7 minutes past the hour to dodge the congestion GitHub
+    # sees right at :00 (their scheduler explicitly warns runs are more
+    # likely to be delayed at the top of the hour). Comfortably fits a
+    # private repo's free 2,000 Actions-minutes/month budget too.
+    - cron: "7 * * * *"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+# Needed so the workflow can commit the updated state/results files back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: check-jobs
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run checker
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 checker.py
+
+      - name: Commit updated state and results
+        run: |
+          git config user.name "job-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/state.json results/latest.json results/history.jsonl
+          git diff --quiet --cached || git commit -m "Update job tracker state [skip ci]"
+          git push
