@@ -51,8 +51,26 @@ list in well under a minute per run.
    currently open as the starting point rather than "new" - it will NOT send a
    notification on this run, but `results/latest.json` will show you a snapshot of
    every Chief-of-Staff/Ops role currently open across the whole list, which is a
-   nice bonus. After this, it's on the 15-minute schedule and will only alert on
+   nice bonus. After this, it's on the hourly schedule and will only alert on
    postings that appear after this point.
+
+## Finding a match after the fact
+
+- `results/latest.json` - only the *most recent* run's findings. It gets fully
+  overwritten every hour, so it's good for "what just happened" but not a
+  permanent record.
+- `results/history.jsonl` - one line per run, forever appended, never
+  overwritten. Each line includes that run's full `new_matches` list (company,
+  title, link), so this is the actual answer to "where did that batch of
+  matches go" if you didn't check `latest.json` in time. Open it on github.com,
+  or download it and search/grep locally - each line is a standalone JSON
+  object (that's what the `.jsonl` extension means), so a plain text search
+  for a company name or `"new_match_count":` values greater than 1 will find
+  bursts quickly even as the file grows over the 3 months you're planning to
+  run this.
+- When a single run finds more than 10 matches, the push notification only
+  lists the first 10 inline and links directly to `results/history.jsonl` for
+  the rest, rather than truncating with no way to recover what got cut.
 
 ## Public vs. private repo
 

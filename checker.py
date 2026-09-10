@@ -156,18 +156,37 @@ def matches_keywords(title, keywords, keyword_word_groups, exclude_keywords):
     return False
 
 
+def repo_file_url(relative_path):
+    """Build a direct link to a file in this repo, using the env vars GitHub
+    Actions sets automatically. Returns None outside of Actions (e.g. a local
+    test run), where there's no repo/ref to link to."""
+    server = os.environ.get("GITHUB_SERVER_URL")
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    ref = os.environ.get("GITHUB_REF_NAME")
+    if server and repo and ref:
+        return f"{server}/{repo}/blob/{ref}/{relative_path}"
+    return None
+
+
 def send_ntfy(topic, notification_title, matches):
     """Send a push notification for one or more new matches. Each match is
     {"company", "platform", "title", "url"}. If there's exactly one match,
     the notification is made directly tappable to the job posting via ntfy's
     "Click" header - tapping the phone notification opens the JD in one step.
     With multiple matches, each one's link is listed in the body instead
-    (most ntfy clients auto-linkify URLs in the expanded notification)."""
+    (most ntfy clients auto-linkify URLs in the expanded notification). Past
+    10 matches in one run, the rest are summarized with a direct link to
+    results/history.jsonl (append-only - never overwritten by a later run,
+    unlike results/latest.json) rather than listed inline."""
     if not topic:
         return
     lines = [f"{m['company']}: {m['title']}\n{m['url']}" for m in matches[:10]]
     if len(matches) > 10:
-        lines.append(f"...and {len(matches) - 10} more - see results/latest.json in the repo")
+        history_url = repo_file_url("results/history.jsonl")
+        if history_url:
+            lines.append(f"...and {len(matches) - 10} more - full list: {history_url}")
+        else:
+            lines.append(f"...and {len(matches) - 10} more - see results/history.jsonl in the repo")
     body = "\n\n".join(lines)
     headers = {"Title": notification_title, "Priority": "default", "Tags": "briefcase"}
     if len(matches) == 1:
@@ -239,6 +258,9 @@ def main():
     with open(LATEST_PATH, "w") as f:
         json.dump(result, f, indent=1)
 
+    # Append-only, unlike latest.json which is overwritten every run - this is
+    # the permanent record of every match ever found, so a burst of matches is
+    # never lost even if nobody checks latest.json before the next run replaces it.
     with open(HISTORY_PATH, "a") as f:
         f.write(json.dumps({
             "run_utc": result["run_utc"],
@@ -246,6 +268,7 @@ def main():
             "companies_checked": checked,
             "companies_unreachable": len(unreachable),
             "new_match_count": len(new_matches),
+            "new_matches": new_matches,
         }) + "\n")
 
     print(f"Checked {checked} companies, {len(unreachable)} unreachable, {len(new_matches)} matches.")
