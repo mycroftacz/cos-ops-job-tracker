@@ -17,21 +17,101 @@
   "general manager"
  ],
  "keyword_word_groups": [
-  ["operations", "manager"],
-  ["operations", "lead"],
-  ["operations", "director"],
-  ["operations", "head"],
-  ["operations", "vp"],
-  ["operations", "vice president"],
-  ["operations", "strategy"]
+  [
+   "operations",
+   "manager"
+  ],
+  [
+   "operations",
+   "lead"
+  ],
+  [
+   "operations",
+   "director"
+  ],
+  [
+   "operations",
+   "head"
+  ],
+  [
+   "operations",
+   "vp"
+  ],
+  [
+   "operations",
+   "vice president"
+  ],
+  [
+   "operations",
+   "strategy"
+  ]
  ],
  "exclude_title_keywords": [
   "intern",
   "internship",
   "co-op",
-  "coop",
   "coordinator",
-  "assistant"
+  "assistant",
+  "clinical",
+  "laboratory",
+  "psychiatric",
+  "nursing",
+  "patient",
+  "pharmacy",
+  "pharma",
+  "cleanroom",
+  "biosafety",
+  "scientific",
+  "quality control",
+  "quality assurance",
+  "facilities",
+  "facility",
+  "warehouse",
+  "logistics",
+  "fleet",
+  "manufacturing",
+  "production",
+  "construction",
+  "solar",
+  "drilling",
+  "mining",
+  "culinary",
+  "kitchen",
+  "restaurant",
+  "supply chain",
+  "field operations",
+  "store operations",
+  "retail operations",
+  "simulation",
+  "infrastructure",
+  "data center",
+  "datacenter",
+  "network operations",
+  "it operations",
+  "devops",
+  "security operations",
+  "cybersecurity",
+  "aml",
+  "bsa",
+  "sanctions",
+  "fraud",
+  "underwriting",
+  "payroll",
+  "treasury",
+  "collections",
+  "billing",
+  "denials",
+  "claims",
+  "tax operations",
+  "accounting",
+  "conveyancing",
+  "trading",
+  "merchandising",
+  "loan",
+  "mortgage",
+  "recruiting",
+  "recruitment",
+  "talent acquisition"
  ],
  "api_url_templates": {
   "greenhouse": "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=false",

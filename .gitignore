@@ -1,5 +1,12 @@
+# Python bytecode - never belongs in the repo
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets - NTFY_TOPIC lives in GitHub Actions secrets, never in a file here
 .env
 .env.local
 .env.*.local
+
 node_modules/
 .DS_Store

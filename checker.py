@@ -5,9 +5,9 @@ Chief of Staff / Ops job tracker - checker script.
 Polls every company's ATS job board directly (Greenhouse, Lever, Ashby, Workable),
 diffs against previously-seen job ids, and writes any brand-new postings whose
 title matches the configured keywords to results/latest.json. Designed to run
-on a tight cron (e.g. every 10-15 minutes) via GitHub Actions - it's plain
-concurrent HTTP + JSON parsing, no AI model in the loop, so it can get through
-thousands of companies in well under a minute.
+on a cron (hourly, via GitHub Actions) - it's plain concurrent HTTP + JSON
+parsing, no AI model in the loop. Measured throughput is roughly 200 companies
+per 35s at MAX_WORKERS=40, i.e. ~6 minutes for the full ~2,180-company list.
 
 State (data/state.json) is committed back to the repo each run so nothing gets
 re-reported. results/latest.json always reflects the most recent run's findings
@@ -15,12 +15,14 @@ re-reported. results/latest.json always reflects the most recent run's findings
 """
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
 import urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
+from functools import lru_cache
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -133,6 +135,20 @@ def check_company(company, url_templates):
     return name, platform, slug, jobs, None
 
 
+@lru_cache(maxsize=8)
+def _exclude_regex(exclude_terms):
+    """Compile the exclude list into one word-boundary alternation.
+
+    Word boundaries matter: a plain substring test made "intern" reject
+    "Chief of Staff, International" and "Head of Internal Operations", and
+    made "co-op" reject "Cooperative Operations Manager" - i.e. it silently
+    threw away the exact roles this tracker exists to find. Cached because
+    main() calls this once per job title across ~110k titles per run."""
+    if not exclude_terms:
+        return None
+    return re.compile(r"\b(?:" + "|".join(re.escape(t) for t in exclude_terms) + r")\b")
+
+
 def matches_keywords(title, keywords, keyword_word_groups, exclude_keywords):
     """A title matches if either:
     - it contains one of `keywords` verbatim as a substring (for fixed phrases
@@ -142,11 +158,14 @@ def matches_keywords(title, keywords, keyword_word_groups, exclude_keywords):
       real postings use both orders, and a plain substring check would only
       ever catch one of them).
     Either way, a title containing any `exclude_keywords` term is rejected
-    first - this is what keeps entry-level titles (Associate, Coordinator,
-    Assistant, Intern) out of the results.
+    first - this is what keeps entry-level titles (Coordinator, Assistant,
+    Intern) and unrelated operational domains (facilities, warehouse,
+    clinical, ...) out of the results. Exclude terms are matched on word
+    boundaries, not as bare substrings - see _exclude_regex.
     """
     t = title.lower()
-    if any(x in t for x in exclude_keywords):
+    rx = _exclude_regex(tuple(exclude_keywords))
+    if rx is not None and rx.search(t):
         return False
     if any(k in t for k in keywords):
         return True
@@ -218,6 +237,7 @@ def main():
 
     new_matches = []
     unreachable = []
+    emptied = []
     checked = 0
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
@@ -229,6 +249,17 @@ def main():
                 unreachable.append({"name": name, "error": err})
                 continue
             company_seen = set(seen.get(name, []))
+            if not jobs:
+                # A 200 response that parses to zero jobs is ambiguous: the board
+                # really is empty, OR the ATS changed its response shape / served
+                # a soft-error page. Overwriting state with [] on the second case
+                # would make every one of this company's roles look brand-new on
+                # the next run, firing a burst of false alerts. Keep the previous
+                # state instead - a genuinely-emptied board costs us nothing, since
+                # there are no jobs to report either way.
+                if company_seen:
+                    emptied.append(name)
+                continue
             new_ids_this_run = set()
             for jid, title, url in jobs:
                 new_ids_this_run.add(jid)
@@ -242,6 +273,21 @@ def main():
                         })
             seen[name] = sorted(new_ids_this_run)
 
+    # Companies routinely post the same role several times under different job
+    # ids (one company in testing had the identical freelance listing open 6x).
+    # State above already recorded every id, so none of these will re-report on
+    # a later run - this only collapses what gets shown/pushed for THIS run.
+    deduped = []
+    seen_pairs = set()
+    for m in new_matches:
+        key = (m["company"], m["title"].strip().lower())
+        if key in seen_pairs:
+            continue
+        seen_pairs.add(key)
+        deduped.append(m)
+    duplicates_collapsed = len(new_matches) - len(deduped)
+    new_matches = deduped
+
     state["seen_job_ids"] = seen
     state["_last_run_utc"] = datetime.now(timezone.utc).isoformat()
     with open(STATE_PATH, "w") as f:
@@ -253,6 +299,8 @@ def main():
         "companies_checked": checked,
         "companies_unreachable": len(unreachable),
         "unreachable_sample": unreachable[:20],
+        "companies_empty_state_preserved": len(emptied),
+        "duplicates_collapsed": duplicates_collapsed,
         "new_matches": new_matches,
     }
     with open(LATEST_PATH, "w") as f:
@@ -267,11 +315,14 @@ def main():
             "is_seed_run": is_seed_run,
             "companies_checked": checked,
             "companies_unreachable": len(unreachable),
+            "duplicates_collapsed": duplicates_collapsed,
             "new_match_count": len(new_matches),
             "new_matches": new_matches,
         }) + "\n")
 
-    print(f"Checked {checked} companies, {len(unreachable)} unreachable, {len(new_matches)} matches.")
+    print(f"Checked {checked} companies, {len(unreachable)} unreachable, "
+          f"{len(emptied)} returned empty (prior state kept), "
+          f"{duplicates_collapsed} duplicate postings collapsed, {len(new_matches)} matches.")
     for m in new_matches:
         print(f"  MATCH: {m['company']} - {m['title']} - {m['url']}")
 
@@ -283,6 +334,10 @@ def main():
 
     if new_matches:
         topic = os.environ.get("NTFY_TOPIC", "").strip()
+        if not topic:
+            print("NTFY_TOPIC is not set - matches above were NOT pushed to your phone. "
+                  "Set it under Settings -> Secrets and variables -> Actions to get "
+                  "notifications.", file=sys.stderr)
         count_label = "1 new Chief of Staff / Ops posting" if len(new_matches) == 1 \
             else f"{len(new_matches)} new Chief of Staff / Ops postings"
         send_ntfy(topic, count_label, new_matches)

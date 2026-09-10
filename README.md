@@ -2,8 +2,9 @@
 
 Checks ~2,180 companies' own job boards (Greenhouse, Lever, Ashby, Workable) directly,
 once an hour, for new postings matching Chief of Staff / Ops-style keywords -
-no LinkedIn lag, no AI model in the polling loop, so it can get through the whole
-list in well under a minute per run.
+no LinkedIn lag, no AI model in the polling loop. Measured throughput is about
+200 companies per 35 seconds, so a full pass over the list takes **roughly 6
+minutes**.
 
 ## How it works
 
@@ -20,10 +21,40 @@ list in well under a minute per run.
 
 ## One-time setup
 
-1. **Create a repo.** On github.com, create a new repository (public is simplest -
-   see "Public vs. private" below). Add every file in this folder to it (drag-and-drop
-   on github.com works fine, or `git init && git add . && git commit -m "init" && git push`
-   if you're comfortable with git).
+1. **Create a repo and push with git - not drag-and-drop.** On github.com, create a
+   new repository (public is strongly preferred - see "Public vs. private" below).
+
+   **Do not use github.com's drag-and-drop upload for this repo.** Two things about
+   it will silently break Actions:
+   - The browser upload **skips dot-directories**, so `.github/` and `.gitignore`
+     never make it up - and a workflow that isn't in `.github/workflows/` simply
+     does not exist as far as GitHub is concerned.
+   - Dragging the *folder* nests everything one level deep (`cos-ops-job-tracker/...`).
+     Workflows are only picked up from `.github/workflows/` at the **repository
+     root**, so a nested copy is ignored even if it does upload.
+
+   Push from this directory instead, so the layout is right:
+
+   ```
+   .github/workflows/check-jobs.yml   <- must be exactly here, at the repo root
+   .github/workflows/refresh-companies.yml
+   checker.py
+   data/companies.json
+   ```
+
+   One more gotcha: pushing a commit that adds or edits anything under
+   `.github/workflows/` requires a token with the **`workflow` scope**. If you
+   authenticated with `gh` and get `refusing to allow an OAuth App to create or
+   update workflow`, run `gh auth refresh -h github.com -s workflow` and push again.
+
+   To confirm the workflows actually registered after pushing:
+
+   ```
+   gh api repos/<you>/cos-ops-job-tracker/actions/workflows --jq '.total_count'
+   ```
+
+   That must print `2`. If it prints `0`, the files aren't where GitHub expects
+   them - re-check the layout above.
 
 2. **(Optional but recommended) Get instant push notifications.**
    - Install the [ntfy app](https://ntfy.sh/) (iOS/Android) or just use ntfy.sh in a browser tab.
@@ -51,14 +82,20 @@ list in well under a minute per run.
    currently open as the starting point rather than "new" - it will NOT send a
    notification on this run, but `results/latest.json` will show you a snapshot of
    every Chief-of-Staff/Ops role currently open across the whole list, which is a
-   nice bonus. After this, it's on the hourly schedule and will only alert on
+   nice bonus. Expect that snapshot to be large - on the order of **1,000 roles**,
+   since it's every open match across ~2,180 companies at once. Ongoing hourly runs
+   report only what's genuinely new, which is a handful a day at most. After this, it's on the hourly schedule and will only alert on
    postings that appear after this point.
 
 ## Finding a match after the fact
 
 - `results/latest.json` - only the *most recent* run's findings. It gets fully
   overwritten every hour, so it's good for "what just happened" but not a
-  permanent record.
+  permanent record. Alongside the matches it records `companies_unreachable`
+  (boards that failed to fetch), `companies_empty_state_preserved` (boards that
+  returned zero jobs, where the previous state was deliberately kept rather than
+  wiped), and `duplicates_collapsed` (repeat postings of the same role that were
+  folded into one).
 - `results/history.jsonl` - one line per run, forever appended, never
   overwritten. Each line includes that run's full `new_matches` list (company,
   title, link), so this is the actual answer to "where did that batch of
@@ -75,11 +112,17 @@ list in well under a minute per run.
 ## Public vs. private repo
 
 GitHub Actions is **unlimited and free on public repos**. Private repos get 2,000
-free minutes/month on the free plan. At the current hourly schedule (~720 runs/month,
-each maybe 1-2 minutes end to end) this comfortably fits inside that budget, so
-private is a real option now, not just public. There's nothing sensitive in this
-repo either way (just job titles and companies), so pick whichever you're more
-comfortable with.
+free minutes/month on the free plan.
+
+**Public is the right call here.** A full pass takes ~6 minutes of wall time
+(measured, not estimated), and at ~720 runs/month that's roughly **4,300 minutes** -
+more than double the private-repo free allowance, and Actions minutes are billed
+past it. There's nothing sensitive in this repo (just public job titles and company
+names), so public costs you nothing.
+
+If you want it private anyway, drop the cadence so you stay inside 2,000 minutes -
+`0 */3 * * *` (every 3 hours, ~240 runs/month, ~1,400 minutes) is a safe setting.
+Edit the `cron:` line in `.github/workflows/check-jobs.yml`.
 
 ## Keeping the company list current
 
@@ -120,9 +163,24 @@ to `data/companies.json` rather than waiting for a refresh to maybe catch it.
     "Operations Director." A plain substring keyword would only ever catch one
     ordering.
   - `exclude_title_keywords` - a title containing any of these is rejected
-    outright, before either check above runs. This is what keeps junior titles
-    (Associate, Coordinator, Assistant, Intern) out of the results - tune it
-    based on your own seniority level and what you're seeing come through.
+    outright, before either check above runs. Matched on **whole words**, so
+    `intern` rejects "Operations Intern" but leaves "Chief of Staff,
+    International" and "Head of Internal Operations" alone.
+
+    This list does two jobs. The first few terms (`intern`, `internship`,
+    `co-op`, `coordinator`, `assistant`) filter out junior titles. Everything
+    after that filters out **unrelated operational domains** - `clinical`,
+    `warehouse`, `infrastructure`, `aml`, `recruiting`, and so on. Those are
+    there because the `["operations", <seniority>]` word groups match any title
+    containing both words, which otherwise drags in things like "Cleanroom
+    Operations Manager" and "Manager, BSA/AML Operations - Cases". Removing the
+    domain terms roughly doubles the volume you get.
+
+    **This is the main dial to turn.** If you're seeing a category of role you
+    don't care about, add its distinguishing word here. If you think you're
+    missing roles, remove terms. `data/companies.json` is the only file you need
+    to edit, and `python3 test_parsers.py` will tell you if you've broken
+    anything.
 
 ## Known limitations
 
@@ -134,6 +192,10 @@ to `data/companies.json` rather than waiting for a refresh to maybe catch it.
 - Some ATS endpoints occasionally rate-limit or reject scripted requests. The script
   retries once and logs unreachable companies in `results/latest.json` rather than
   failing the whole run; expect ~80-90% effective coverage per run, not 100%.
-- GitHub's scheduled workflows are "best effort" timing - a `*/15` cron can slip by
-  a few minutes under platform load. This is still far faster than LinkedIn's
-  multi-day lag, just not to-the-second.
+- GitHub's scheduled workflows are "best effort" timing - the hourly cron can slip
+  by several minutes under platform load, and GitHub drops runs entirely if the
+  queue is congested. This is still far faster than LinkedIn's multi-day lag, just
+  not to-the-minute.
+- Scheduled workflows are auto-disabled after 60 days of repository inactivity.
+  This one commits state every hour, so that clock never runs down - but if you
+  ever pause the schedule for a couple of months, re-enable it from the Actions tab.

@@ -38,4 +38,13 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/state.json results/latest.json results/history.jsonl
           git diff --quiet --cached || git commit -m "Update job tracker state [skip ci]"
+          # Both workflows commit to main, so a push can be rejected as
+          # non-fast-forward. Without a rebase-and-retry the job just fails and
+          # this run's state is thrown away - which makes the NEXT run re-report
+          # every posting it already saw. Retry a few times before giving up.
+          for i in 1 2 3; do
+            git push && exit 0
+            echo "push rejected (attempt $i) - rebasing onto latest main"
+            git pull --rebase --autostash origin main || true
+          done
           git push
