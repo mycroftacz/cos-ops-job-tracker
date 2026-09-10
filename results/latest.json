@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-10T09:38:56.985773+00:00",
+ "run_utc": "2026-09-10T14:23:21.711628+00:00",
  "is_seed_run": false,
  "companies_checked": 2182,
  "companies_unreachable": 126,
@@ -17,7 +17,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Aquatic Capital",
+   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -29,26 +29,6 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Atomic Semi",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Ava Labs",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
@@ -57,7 +37,19 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Atomic Semi",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Ava Labs",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Barkley",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Aquatic Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -66,6 +58,10 @@
   },
   {
    "name": "Boom Supersonic",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,42 +77,64 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 1,
+ "companies_empty_state_preserved": 2,
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "FGS Global",
+   "company": "Alo Yoga",
    "platform": "greenhouse",
-   "title": "HR & Operations Manager, Asia (6-month Contract)",
-   "url": "https://job-boards.greenhouse.io/fgsglobal/jobs/5234262007"
+   "title": "Operations Associate (Full-Time) - King of Prussia",
+   "url": "https://boards.greenhouse.io/aloyoga/jobs/6187780004?gh_jid=6187780004"
   },
   {
-   "company": "Fever Up",
-   "platform": "greenhouse",
-   "title": "Revenue Operations Senior Manager",
-   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4972673101"
+   "company": "Bisnow",
+   "platform": "lever",
+   "title": "Chief of Staff",
+   "url": "https://jobs.lever.co/bisnow/bddeaaf5-f915-4668-97d9-9d461d5de14f"
   },
   {
-   "company": "Verkada",
-   "platform": "greenhouse",
-   "title": "Sr. Recruiter, GTM Strategy & Operations",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5234197007"
-  },
-  {
-   "company": "Watney",
+   "company": "Clera",
    "platform": "ashby",
-   "title": "Business Operations Lead",
-   "url": "https://jobs.ashbyhq.com/watney/ef80a47c-3def-4efd-8c48-3ffe17779397"
+   "title": "Founder's Associate (GTM/Sales)",
+   "url": "https://jobs.ashbyhq.com/clera/e2d9e962-5774-4051-9696-34bc4a2aca5f"
   },
   {
-   "company": "Watney",
+   "company": "Clera",
    "platform": "ashby",
-   "title": "Operations Lead",
-   "url": "https://jobs.ashbyhq.com/watney/57d203d6-7893-4747-a922-f0156e87eac0"
+   "title": "Junior Operations Manager",
+   "url": "https://jobs.ashbyhq.com/clera/6b4759a7-aaf5-43c9-9ee5-095b165c25d0"
+  },
+  {
+   "company": "Clera",
+   "platform": "ashby",
+   "title": "Founder's Associate",
+   "url": "https://jobs.ashbyhq.com/clera/753dd76a-3693-4551-8ea5-acef6682aebf"
+  },
+  {
+   "company": "Fanatics",
+   "platform": "greenhouse",
+   "title": "Security Manager - High Security Vault Operations",
+   "url": "https://job-boards.greenhouse.io/fanaticscollectibles/jobs/4399724009"
+  },
+  {
+   "company": "DH Pace",
+   "platform": "greenhouse",
+   "title": "General Manager",
+   "url": "https://job-boards.greenhouse.io/dhpace/jobs/5420519008"
+  },
+  {
+   "company": "Wing Assistant",
+   "platform": "lever",
+   "title": "Shopify Operations Manager Full-time | 20823",
+   "url": "https://jobs.lever.co/getwingapp/d2ea7cf2-7def-4401-9f9e-3b5e5df5a529"
   }
  ]
 }
