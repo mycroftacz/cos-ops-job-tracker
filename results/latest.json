@@ -1,7 +1,7 @@
 {
- "run_utc": "2026-09-10T14:23:21.711628+00:00",
+ "run_utc": "2026-09-10T17:04:17.421909+00:00",
  "is_seed_run": false,
- "companies_checked": 2182,
+ "companies_checked": 2087,
  "companies_unreachable": 126,
  "unreachable_sample": [
   {
@@ -17,7 +17,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
+   "name": "Aquatic Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -29,11 +29,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcade AI",
+   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -41,7 +37,23 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Ava Labs",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade AI",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -49,19 +61,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Aquatic Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "BitGo",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Boom Supersonic",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -77,64 +77,59 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
+   "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Celestial AI",
+   "name": "Cerebras",
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 2,
- "duplicates_collapsed": 0,
- "new_matches": [
+ "companies_empty_state_preserved": 3,
+ "companies_skipped_too_large": 410,
+ "rejected_wrong_location": 5,
+ "largest_skipped": [
   {
-   "company": "Alo Yoga",
-   "platform": "greenhouse",
-   "title": "Operations Associate (Full-Time) - King of Prussia",
-   "url": "https://boards.greenhouse.io/aloyoga/jobs/6187780004?gh_jid=6187780004"
+   "name": "Saalex",
+   "open_roles": 199
   },
   {
-   "company": "Bisnow",
-   "platform": "lever",
-   "title": "Chief of Staff",
-   "url": "https://jobs.lever.co/bisnow/bddeaaf5-f915-4668-97d9-9d461d5de14f"
+   "name": "Genetec",
+   "open_roles": 174
   },
   {
-   "company": "Clera",
-   "platform": "ashby",
-   "title": "Founder's Associate (GTM/Sales)",
-   "url": "https://jobs.ashbyhq.com/clera/e2d9e962-5774-4051-9696-34bc4a2aca5f"
+   "name": "Navion Senior Solutions",
+   "open_roles": 154
   },
   {
-   "company": "Clera",
-   "platform": "ashby",
-   "title": "Junior Operations Manager",
-   "url": "https://jobs.ashbyhq.com/clera/6b4759a7-aaf5-43c9-9ee5-095b165c25d0"
+   "name": "Gotion",
+   "open_roles": 148
   },
   {
-   "company": "Clera",
-   "platform": "ashby",
-   "title": "Founder's Associate",
-   "url": "https://jobs.ashbyhq.com/clera/753dd76a-3693-4551-8ea5-acef6682aebf"
+   "name": "Hadrian",
+   "open_roles": 147
   },
   {
-   "company": "Fanatics",
-   "platform": "greenhouse",
-   "title": "Security Manager - High Security Vault Operations",
-   "url": "https://job-boards.greenhouse.io/fanaticscollectibles/jobs/4399724009"
+   "name": "Mejuri",
+   "open_roles": 145
   },
   {
-   "company": "DH Pace",
-   "platform": "greenhouse",
-   "title": "General Manager",
-   "url": "https://job-boards.greenhouse.io/dhpace/jobs/5420519008"
+   "name": "Theodo",
+   "open_roles": 145
   },
   {
-   "company": "Wing Assistant",
-   "platform": "lever",
-   "title": "Shopify Operations Manager Full-time | 20823",
-   "url": "https://jobs.lever.co/getwingapp/d2ea7cf2-7def-4401-9f9e-3b5e5df5a529"
+   "name": "Extreme Networks",
+   "open_roles": 144
+  },
+  {
+   "name": "Cohere",
+   "open_roles": 142
+  },
+  {
+   "name": "The Trade Desk",
+   "open_roles": 142
   }
- ]
+ ],
+ "duplicates_collapsed": 0,
+ "new_matches": []
 }
