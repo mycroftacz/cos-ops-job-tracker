@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-10T17:04:17.421909+00:00",
+ "run_utc": "2026-09-10T19:35:32.810247+00:00",
  "is_seed_run": false,
  "companies_checked": 2087,
  "companies_unreachable": 126,
@@ -17,6 +17,10 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Aquatic Capital",
    "error": "HTTP Error 404: Not Found"
   },
@@ -25,27 +29,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arine",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Atomic Semi",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Ava Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -57,7 +41,27 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Artefact",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Atomic Semi",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Ava Labs",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Barkley",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arine",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "BitGo",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -66,10 +70,6 @@
   },
   {
    "name": "Brooklinen",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Cadence Solutions",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -87,7 +87,7 @@
  ],
  "companies_empty_state_preserved": 3,
  "companies_skipped_too_large": 410,
- "rejected_wrong_location": 5,
+ "rejected_wrong_location": 3,
  "largest_skipped": [
   {
    "name": "Saalex",
@@ -99,7 +99,7 @@
   },
   {
    "name": "Navion Senior Solutions",
-   "open_roles": 154
+   "open_roles": 155
   },
   {
    "name": "Gotion",
@@ -114,6 +114,10 @@
    "open_roles": 145
   },
   {
+   "name": "Perry Homes",
+   "open_roles": 145
+  },
+  {
    "name": "Theodo",
    "open_roles": 145
   },
@@ -124,12 +128,33 @@
   {
    "name": "Cohere",
    "open_roles": 142
-  },
-  {
-   "name": "The Trade Desk",
-   "open_roles": 142
   }
  ],
  "duplicates_collapsed": 0,
- "new_matches": []
+ "new_matches": [
+  {
+   "company": "Brainbase Labs",
+   "platform": "ashby",
+   "title": "Special Projects Lead, Founder's Office",
+   "url": "https://jobs.ashbyhq.com/brainbaselabs/6ce2589c-dc1a-49aa-9c3e-11e262ca84f4",
+   "location": "San Francisco, Remote",
+   "company_open_roles": 6
+  },
+  {
+   "company": "Clipboard Health",
+   "platform": "ashby",
+   "title": "Forward Deployed Operations Manager",
+   "url": "https://jobs.ashbyhq.com/clipboard/860d0f13-2d27-44ed-a555-4e31e175da80",
+   "location": "Hybrid (San Francisco, CA), Remote",
+   "company_open_roles": 34
+  },
+  {
+   "company": "InstaLILY",
+   "platform": "greenhouse",
+   "title": "Revenue Operations Lead",
+   "url": "https://job-boards.greenhouse.io/instalilyai/jobs/4402415009",
+   "location": "New York, New York, United States",
+   "company_open_roles": 17
+  }
+ ]
 }
