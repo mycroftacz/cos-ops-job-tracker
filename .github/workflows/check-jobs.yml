@@ -2,11 +2,20 @@ name: Check job boards
 
 on:
   schedule:
-    # Hourly, offset 7 minutes past the hour to dodge the congestion GitHub
-    # sees right at :00 (their scheduler explicitly warns runs are more
-    # likely to be delayed at the top of the hour). Comfortably fits a
-    # private repo's free 2,000 Actions-minutes/month budget too.
-    - cron: "7 * * * *"
+    # Twice an hour, at :07 and :37. Offset from :00 because GitHub's scheduler
+    # explicitly warns that runs are most likely to be dropped at the top of the
+    # hour - and "dropped" is literal: GitHub treats schedules as best effort and
+    # silently skips them under load rather than queueing. On this repo's first
+    # day only 1 of 8 expected hourly runs actually fired, so the second slot is
+    # a deliberate second chance at each hour.
+    #
+    # A skipped run costs nothing but latency: state.json is a diff, so whenever
+    # the next run does fire it reports everything new since the last successful
+    # run. Nothing is ever lost, it just arrives later.
+    #
+    # At ~45s per run this is ~1,440 billable minutes/month - still inside a
+    # private repo's free 2,000. Drop back to "7 * * * *" if you want it quieter.
+    - cron: "7,37 * * * *"
   workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
 
 # Needed so the workflow can commit the updated state/results files back to the repo.

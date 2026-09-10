@@ -97,7 +97,14 @@ def main():
         config = json.load(f)
 
     existing_names = {c["name"].lower() for c in config["companies"]}
+    # Companies pruned for being too large (see max_open_roles in
+    # data/companies.json). Without this, every refresh would cheerfully
+    # re-add Accenture and Alo Yoga, and the prune would undo itself twice
+    # a month. checker.py also enforces the size limit at runtime, so this
+    # is belt-and-braces - it just avoids the wasted fetches.
+    excluded_names = {n.lower() for n in config.get("excluded_companies", [])}
     added = []
+    skipped_excluded = 0
 
     for url in DATASET_URLS:
         try:
@@ -112,6 +119,9 @@ def main():
                 continue
             if name in EXCLUDE_NAMES or name.lower() in existing_names:
                 continue
+            if name.lower() in excluded_names:
+                skipped_excluded += 1
+                continue
             parsed = parse_ats(job_url)
             if not parsed:
                 continue
@@ -125,7 +135,8 @@ def main():
     with open(COMPANIES_PATH, "w") as f:
         json.dump(config, f, indent=1)
 
-    print(f"Added {len(added)} new companies.")
+    print(f"Added {len(added)} new companies "
+          f"({skipped_excluded} skipped as previously-pruned large employers).")
     for n in added[:50]:
         print(f"  + {n}")
     if len(added) > 50:

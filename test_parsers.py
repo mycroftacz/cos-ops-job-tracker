@@ -4,7 +4,9 @@ These don't hit the network - they're synthetic fixtures matching each
 platform's published response schema, just to catch typos/field-name bugs
 before this runs unattended in CI.
 """
-from checker import parse_greenhouse, parse_lever, parse_ashby, parse_workable, matches_keywords
+from checker import (parse_greenhouse, parse_lever, parse_ashby, parse_workable,
+                     matches_keywords, location_matches, is_remote,
+                     is_remote_anywhere, company_is_local)
 
 
 def test_greenhouse():
@@ -15,7 +17,7 @@ def test_greenhouse():
         ]
     }
     out = parse_greenhouse(data, "acme")
-    assert out[0] == ("123", "Chief of Staff", "https://job-boards.greenhouse.io/acme/jobs/123"), out[0]
+    assert out[0][:3] == ("123", "Chief of Staff", "https://job-boards.greenhouse.io/acme/jobs/123"), out[0]
     assert out[1][2] == "https://job-boards.greenhouse.io/acme/jobs/456"
     print("greenhouse OK")
 
@@ -26,7 +28,7 @@ def test_lever():
         {"id": "def-456", "text": "Recruiter"},
     ]
     out = parse_lever(data, "acme")
-    assert out[0] == ("abc-123", "Business Operations Lead", "https://jobs.lever.co/acme/abc-123"), out[0]
+    assert out[0][:3] == ("abc-123", "Business Operations Lead", "https://jobs.lever.co/acme/abc-123"), out[0]
     assert out[1][2] == "https://jobs.lever.co/acme/def-456"
     print("lever OK")
 
@@ -39,7 +41,7 @@ def test_ashby():
         ]
     }
     out = parse_ashby(data, "acme")
-    assert out[0] == ("xyz-1", "Founder's Office Associate", "https://jobs.ashbyhq.com/acme/xyz-1"), out[0]
+    assert out[0][:3] == ("xyz-1", "Founder's Office Associate", "https://jobs.ashbyhq.com/acme/xyz-1"), out[0]
     assert out[1][2] == "https://jobs.ashbyhq.com/acme/xyz-2"
     print("ashby OK")
 
@@ -52,7 +54,7 @@ def test_workable():
         ]
     }
     out = parse_workable(data, "acme")
-    assert out[0] == ("ABCD1234", "Operations Manager", "https://apply.workable.com/acme/j/ABCD1234/"), out[0]
+    assert out[0][:3] == ("ABCD1234", "Operations Manager", "https://apply.workable.com/acme/j/ABCD1234/"), out[0]
     assert out[1][2] == "https://apply.workable.com/acme/j/EFGH5678/"
     print("workable OK")
 
@@ -191,6 +193,191 @@ def test_duplicate_postings_collapse():
     print("duplicate collapse OK")
 
 
+def test_oversized_company_is_skipped_but_state_still_recorded():
+    """Companies with hundreds of open reqs are enterprises, not startups
+    hiring a Chief of Staff. They're skipped for matching - but their job ids
+    must still be recorded, or shrinking back under the threshold would dump
+    the whole back catalogue as "new"."""
+    max_open_roles = 150
+    seen = {}
+    jobs = [(str(i), "Chief of Staff", "u") for i in range(400)]
+    name = "BigCo"
+    matched = []
+    if len(jobs) > max_open_roles:
+        seen[name] = sorted({j[0] for j in jobs})
+    else:
+        for jid, title, url in jobs:
+            matched.append(title)
+    assert matched == [], "oversized company must produce no matches"
+    assert len(seen[name]) == 400, "ids must still be memorized"
+    print("oversized-company skip OK")
+
+
+def test_shipped_config_has_size_limit_and_prune_list():
+    import json
+    import os
+    cfg = json.load(open(os.path.join(os.path.dirname(__file__), "data", "companies.json")))
+    assert isinstance(cfg.get("max_open_roles"), int), "max_open_roles must be set"
+    assert cfg["max_open_roles"] > 0
+    pruned = {n.lower() for n in cfg.get("excluded_companies", [])}
+    assert pruned, "excluded_companies must not be empty"
+    # the prune must actually have been applied to the tracked list
+    tracked = {c["name"].lower() for c in cfg["companies"]}
+    assert not (tracked & pruned), "pruned companies are still being tracked"
+    for name in ["alo yoga", "accenture"]:
+        assert name in pruned, f"{name} should be pruned"
+    print("shipped size-limit config OK")
+
+
+def test_parsers_extract_location():
+    """Each ATS reports location in its own shape; all four must surface it."""
+    gh = parse_greenhouse({"jobs": [{"id": 1, "title": "T",
+                                     "location": {"name": "New York, NY (Hybrid)"}}]}, "acme")
+    assert gh[0][3] == "New York, NY (Hybrid)", gh
+
+    lv = parse_lever([{"id": "a", "text": "T",
+                       "categories": {"location": "San Francisco, CA",
+                                      "allLocations": ["San Francisco, CA"]},
+                       "workplaceType": "hybrid"}], "acme")
+    assert "San Francisco, CA" in lv[0][3] and "hybrid" in lv[0][3], lv
+
+    ab = parse_ashby({"jobs": [{"id": "x", "title": "T", "location": "Brooklyn, NY",
+                                "secondaryLocations": [], "isRemote": True}]}, "acme")
+    assert "Brooklyn, NY" in ab[0][3] and "Remote" in ab[0][3], ab
+
+    wk = parse_workable({"jobs": [{"shortcode": "S", "title": "T", "city": "San Francisco",
+                                   "state": "CA", "country": "United States",
+                                   "telecommuting": False}]}, "acme")
+    assert "San Francisco" in wk[0][3], wk
+    print("parser location extraction OK")
+
+
+def test_location_matching_uses_word_boundaries():
+    """Same trap as the title excludes: bare state codes produce false hits."""
+    terms = ["new york", "nyc", "san francisco", "bay area", "brooklyn"]
+    assert location_matches("New York, NY", terms)
+    assert location_matches("NYC (Hybrid)", terms)
+    assert location_matches("San Francisco, CA", terms)
+    assert location_matches("Brooklyn, NY", terms)
+    # must NOT match
+    assert not location_matches("Albany, NY", terms)
+    assert not location_matches("Austin, TX", terms)
+    assert not location_matches("London, UK", terms)
+    assert not location_matches("Germany", terms)
+    print("location word boundaries OK")
+
+
+def test_remote_only_counts_at_companies_with_local_presence():
+    """A remote role is a fit if the company is actually in NYC/SF; the same
+    role at a company with no local footprint is not."""
+    terms = ["new york", "san francisco"]
+    assert is_remote("Remote - US")
+    assert not is_remote("Austin, TX")
+
+    sf_company = [("1", "T", "u", "San Francisco, CA"), ("2", "T", "u", "Remote")]
+    tx_company = [("1", "T", "u", "Austin, TX"), ("2", "T", "u", "Remote")]
+    assert company_is_local(sf_company, terms)
+    assert not company_is_local(tx_company, terms)
+    print("remote-at-local-company OK")
+
+
+def test_remote_must_not_be_pinned_to_another_city():
+    """Regression: a posting listing several non-target cities plus "Remote"
+    was slipping through the remote allowance at locally-based companies,
+    smuggling in e.g. Central Valley roles via an SF company."""
+    terms = ["new york", "san francisco", "bay area"]
+    for loc in ["Remote - US", "Remote, Remote", "United States (Remote)",
+                "San Francisco Bay Area, Remote", "Bay Area or Remote"]:
+        assert is_remote_anywhere(loc, terms), loc
+    for loc in ["Fresno, Modesto, Bakersfield, Stockton, Remote",
+                "Austin, TX (Remote)", "Remote (Europe)", "London, Remote"]:
+        assert not is_remote_anywhere(loc, terms), loc
+    print("remote-anywhere strictness OK")
+
+
+def test_nyc_boroughs_and_lookalike_cities():
+    """All five boroughs count as New York; identically-named cities in other
+    states do not. There is a Brooklyn in Ohio, a Brooklyn Park in Minnesota,
+    and a Queens Park in London."""
+    import json
+    import os
+    cfg = json.load(open(os.path.join(os.path.dirname(__file__), "data", "companies.json")))
+    terms = [t.lower() for t in cfg["location_keywords"]]
+
+    for loc in ["Brooklyn, NY", "Queens, NY", "Bronx, NY", "Staten Island, NY",
+                "Long Island City, NY", "Astoria, Queens", "Williamsburg, Brooklyn",
+                "DUMBO, Brooklyn, NY", "Manhattan, New York", "New York, NY",
+                "Jersey City, NJ", "Hoboken, NJ",
+                "New York, NY / Austin, TX"]:
+        assert location_matches(loc, terms), f"should match: {loc}"
+
+    for loc in ["Brooklyn Park, MN", "Brooklyn, OH", "Queens Park, London",
+                "Berkeley, MO", "Austin, TX", "London, UK", "Boston, MA"]:
+        assert not location_matches(loc, terms), f"should NOT match: {loc}"
+    print("NYC boroughs + lookalikes OK")
+
+
+def test_project_roles_match_but_not_engineering_pm():
+    """"Project Manager" is a generic title dominated by construction, civil
+    engineering and IT. The business-side ones should match; the domain ones
+    should not - and adding those domain excludes must not break the existing
+    ops keywords."""
+    import json
+    import os
+    cfg = json.load(open(os.path.join(os.path.dirname(__file__), "data", "companies.json")))
+    kw = [k.lower() for k in cfg["keywords"]]
+    gr = [[w.lower() for w in g] for g in cfg["keyword_word_groups"]]
+    ex = [k.lower() for k in cfg["exclude_title_keywords"]]
+
+    for title in ["Project Manager", "Project Lead", "Senior Project Manager",
+                  "Project Manager (Remote)", "Enterprise Project Manager",
+                  "Project Lead, Digital Marketing Analytics"]:
+        assert matches_keywords(title, kw, gr, ex), f"expected match: {title}"
+
+    for title in ["Civil Engineering Project Manager", "Technical Project Manager",
+                  "Commercial Project Manager - General Contractor", "Survey Project Manager",
+                  "Sprinkler Project Manager", "Junior Project Manager",
+                  "Project Coordinator", "Project Management Intern",
+                  "Senior Transportation Project Manager", "Cloud Native Technical Project Manager"]:
+        assert not matches_keywords(title, kw, gr, ex), f"expected NO match: {title}"
+
+    # the PM domain excludes must not have collateral damage on the ops keywords
+    for title in ["Chief of Staff", "Business Operations Lead", "Revenue Operations Manager",
+                  "Director of Strategy & Business Operations", "Founder's Associate"]:
+        assert matches_keywords(title, kw, gr, ex), f"regression - should still match: {title}"
+    print("project-role matching OK")
+
+
+def test_generalist_matches_business_roles_not_hr():
+    """"Generalist" in the wild is overwhelmingly "HR Generalist" and AI-trainer
+    gig listings. The startup sense of the word should match; those should not."""
+    import json
+    import os
+    cfg = json.load(open(os.path.join(os.path.dirname(__file__), "data", "companies.json")))
+    kw = [k.lower() for k in cfg["keywords"]]
+    gr = [[w.lower() for w in g] for g in cfg["keyword_word_groups"]]
+    ex = [k.lower() for k in cfg["exclude_title_keywords"]]
+
+    for title in ["Generalist", "Founding Generalist", "Business Generalist",
+                  "Operations Generalist", "GTM Generalist",
+                  "Business Operations Generalist"]:
+        assert matches_keywords(title, kw, gr, ex), f"expected match: {title}"
+
+    for title in ["HR Generalist", "Senior HR Generalist - EMEA",
+                  "Human Resources Generalist", "Graduate HR Generalist - Americas",
+                  "AI Generalist (No Experience Required)",
+                  "AI Training Generalist - Freelance AI Trainer Project",
+                  "SEO Generalist", "Senior Generalist Programmer",
+                  "Generalist/Builder - New Grad", "Underwriter II, USDA Generalist"]:
+        assert not matches_keywords(title, kw, gr, ex), f"expected NO match: {title}"
+
+    # no collateral damage on the rest of the keyword set
+    for title in ["Chief of Staff", "Business Operations Lead", "Project Manager",
+                  "Revenue Operations Manager", "Founder's Associate"]:
+        assert matches_keywords(title, kw, gr, ex), f"regression: {title}"
+    print("generalist matching OK")
+
+
 if __name__ == "__main__":
     test_greenhouse()
     test_lever()
@@ -202,4 +389,13 @@ if __name__ == "__main__":
     test_shipped_config_rejects_unrelated_ops_domains()
     test_empty_response_preserves_prior_state()
     test_duplicate_postings_collapse()
+    test_oversized_company_is_skipped_but_state_still_recorded()
+    test_shipped_config_has_size_limit_and_prune_list()
+    test_parsers_extract_location()
+    test_location_matching_uses_word_boundaries()
+    test_remote_only_counts_at_companies_with_local_presence()
+    test_remote_must_not_be_pinned_to_another_city()
+    test_nyc_boroughs_and_lookalike_cities()
+    test_project_roles_match_but_not_engineering_pm()
+    test_generalist_matches_business_roles_not_hr()
     print("ALL PARSER TESTS PASSED")
