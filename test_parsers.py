@@ -378,6 +378,38 @@ def test_generalist_matches_business_roles_not_hr():
     print("generalist matching OK")
 
 
+def test_ats_slug_parsing_preserves_encoding():
+    """Regression: decoding the slug looked like a cleanup but breaks real
+    boards - some Ashby slugs contain spaces, and a decoded slug raises
+    InvalidURL when interpolated into a request URL."""
+    from refresh_companies import parse_ats
+    assert parse_ats("https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/abc") == \
+        ("ashby", "Superhuman%20Platform%20Inc")
+    assert parse_ats("https://boards.greenhouse.io/verve/jobs/123") == ("greenhouse", "verve")
+    assert parse_ats("https://jobs.lever.co/acme/xyz") == ("lever", "acme")
+    assert parse_ats("https://www.linkedin.com/jobs/view/123") is None
+    assert parse_ats("https://ats.rippling.com/foo") is None
+    print("ats slug parsing OK")
+
+
+def test_company_list_has_no_duplicate_boards():
+    """Acquired companies' apply links point at the acquirer's board, so
+    name-only dedupe would poll the same board under several names and report
+    every match once per alias."""
+    import json
+    import os
+    cfg = json.load(open(os.path.join(os.path.dirname(__file__), "data", "companies.json")))
+    seen = {}
+    dupes = []
+    for c in cfg["companies"]:
+        key = (c["platform"], c["slug"])
+        if key in seen:
+            dupes.append((seen[key], c["name"], key))
+        seen[key] = c["name"]
+    assert not dupes, f"duplicate boards: {dupes[:5]}"
+    print(f"no duplicate boards across {len(cfg['companies'])} companies OK")
+
+
 if __name__ == "__main__":
     test_greenhouse()
     test_lever()
@@ -398,4 +430,6 @@ if __name__ == "__main__":
     test_nyc_boroughs_and_lookalike_cities()
     test_project_roles_match_but_not_engineering_pm()
     test_generalist_matches_business_roles_not_hr()
+    test_ats_slug_parsing_preserves_encoding()
+    test_company_list_has_no_duplicate_boards()
     print("ALL PARSER TESTS PASSED")

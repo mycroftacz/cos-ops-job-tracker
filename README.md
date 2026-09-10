@@ -184,7 +184,7 @@ along with the startups. A hand-maintained blocklist of names can't keep up with
 that, so the filter uses the one reliable size signal actually available: **how many
 roles a company has open at once.**
 
-`max_open_roles` in `data/companies.json` (default **40**) is the threshold. A
+`max_open_roles` in `data/companies.json` (default **100**) is the threshold. A
 board with more simultaneous openings than that is very unlikely to be a small
 company. It's enforced two ways:
 
@@ -205,6 +205,34 @@ deliberate compromise rather than a precise "under 100 people" rule, and every
 notification carries the company's open-role count so you can judge for yourself.
 Raise or lower it as one number; runtime enforcement means it takes effect on the
 next run, and companies drift back in on their own if they shrink.
+
+## Where the company list comes from
+
+Two sources, both feeding `refresh_companies.py`:
+
+1. **Public tech-recruiting datasets** (SimplifyJobs and friends) - the original
+   seed. Their blind spot is structural: they only list companies that post
+   *software internships*, so a company can have an open NYC Chief of Staff role
+   on its own Greenhouse board and never appear here.
+2. **VC portfolio job boards** (`vc_boards.py`) - which cover exactly that gap,
+   since they list small, private, well-funded companies regardless of whether
+   they hire engineering interns.
+
+The VC boards are used for **company discovery only** - the tracker never polls
+them for jobs. A fund's board is a directory that goes stale; a company's own
+ATS feed is the source of truth, and `checker.py` already watches those well.
+So each harvested posting's apply URL is resolved back to a Greenhouse / Lever /
+Ashby / Workable slug, and that board joins the watch list.
+
+Nine funds' boards run on Getro, which embeds its full result set in the page's
+`__NEXT_DATA__` payload - no API key, no HTML scraping, stdlib only. Boards that
+render client-side (First Round, Sequoia, Bessemer, Lightspeed) and a16z's
+bespoke app would each need their own parser and aren't wired up.
+
+Every discovered slug is verified against the live ATS before it's added, because
+harvested links go stale in predictable ways - an acquired company's apply link
+points at the acquirer's board. Entries are deduped on `(platform, slug)` as well
+as name, so one board is never watched under several aliases.
 
 ## Keeping the company list current
 

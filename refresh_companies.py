@@ -16,6 +16,8 @@ import os
 import urllib.request
 from urllib.parse import urlparse
 
+from vc_boards import harvest as harvest_vc_boards
+
 ROOT = os.path.dirname(os.path.abspath(__file__))
 COMPANIES_PATH = os.path.join(ROOT, "data", "companies.json")
 
@@ -74,6 +76,14 @@ ATS_HOSTS = {
 }
 
 
+API_TEMPLATES = {
+    "greenhouse": "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=false",
+    "lever": "https://api.lever.co/v0/postings/{slug}?mode=json",
+    "ashby": "https://api.ashbyhq.com/posting-api/job-board/{slug}",
+    "workable": "https://www.workable.com/api/accounts/{slug}?details=true",
+}
+
+
 def parse_ats(url):
     try:
         netloc = urlparse(url).netloc
@@ -82,8 +92,32 @@ def parse_ats(url):
         return None
     platform = ATS_HOSTS.get(netloc)
     if platform and path and path[0]:
+        # Keep the path segment exactly as it appears, percent-encoding and
+        # all. Some Ashby boards genuinely have spaces in their slug
+        # ("Superhuman%20Platform%20Inc"); decoding it produces a slug that
+        # raises InvalidURL when checker.py interpolates it into a request.
         return platform, path[0]
     return None
+
+
+def slug_is_live(platform, slug):
+    """Confirm a slug actually resolves to a board before we commit to watching it.
+
+    Harvested links go stale in specific ways: an acquired company's board
+    redirects to the acquirer, and some apply URLs carry a job path rather than
+    a board slug. Adding an unverified slug means a company that silently 404s
+    on every run forever, so each one is checked once here instead.
+    """
+    url = API_TEMPLATES[platform].format(slug=slug)
+    try:
+        req = urllib.request.Request(
+            url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode("utf-8", errors="replace"))
+    except Exception:  # noqa: BLE001
+        return False
+    jobs = data if isinstance(data, list) else (data.get("jobs") or [])
+    return bool(jobs)
 
 
 def fetch_json(url):
@@ -97,6 +131,11 @@ def main():
         config = json.load(f)
 
     existing_names = {c["name"].lower() for c in config["companies"]}
+    # Also dedupe on the board itself. Acquired companies' apply links point at
+    # the acquirer's board (Codecov -> sentry, Athelas -> Commure), so matching
+    # on name alone would poll the same board several times under different
+    # names and report every match once per alias.
+    existing_boards = {(c["platform"], c["slug"]) for c in config["companies"]}
     # Companies pruned for being too large (see max_open_roles in
     # data/companies.json). Without this, every refresh would cheerfully
     # re-add Accenture and Alo Yoga, and the prune would undo itself twice
@@ -126,9 +165,49 @@ def main():
             if not parsed:
                 continue
             platform, slug = parsed
+            if (platform, slug) in existing_boards:
+                continue
             config["companies"].append({"name": name, "platform": platform, "slug": slug, "source": "bulk_refresh"})
             existing_names.add(name.lower())
+            existing_boards.add((platform, slug))
             added.append(name)
+
+    # --- second source: VC portfolio job boards ---------------------------
+    # The SimplifyJobs datasets only contain companies that post software
+    # internships, which is why a company like Verve - with an open NYC Chief
+    # of Staff role on its own Greenhouse board - was never being watched.
+    # VC portfolio boards cover exactly the gap: small, private, well-funded.
+    vc_added = 0
+    vc_rejected = 0
+    try:
+        harvested = harvest_vc_boards(verbose=False)
+    except Exception as e:  # noqa: BLE001 - never let this break the primary refresh
+        print(f"VC board harvest failed, continuing with dataset sources only: {e}")
+        harvested = {}
+
+    for name, meta in sorted(harvested.items()):
+        if name in EXCLUDE_NAMES or name.lower() in existing_names:
+            continue
+        if name.lower() in excluded_names:
+            skipped_excluded += 1
+            continue
+        parsed = parse_ats(meta.get("url", ""))
+        if not parsed:
+            continue
+        platform, slug = parsed
+        if (platform, slug) in existing_boards:
+            continue
+        if not slug_is_live(platform, slug):
+            vc_rejected += 1
+            continue
+        config["companies"].append({
+            "name": name, "platform": platform, "slug": slug,
+            "source": "vc_board", "stage": meta.get("stage"),
+        })
+        existing_names.add(name.lower())
+        existing_boards.add((platform, slug))
+        added.append(name)
+        vc_added += 1
 
     config["companies"].sort(key=lambda c: c["name"].lower())
 
@@ -136,7 +215,9 @@ def main():
         json.dump(config, f, indent=1)
 
     print(f"Added {len(added)} new companies "
-          f"({skipped_excluded} skipped as previously-pruned large employers).")
+          f"({vc_added} from VC portfolio boards, {vc_rejected} VC candidates "
+          f"dropped as dead/unverifiable slugs, "
+          f"{skipped_excluded} skipped as previously-pruned large employers).")
     for n in added[:50]:
         print(f"  + {n}")
     if len(added) > 50:
