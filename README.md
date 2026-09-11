@@ -208,7 +208,7 @@ next run, and companies drift back in on their own if they shrink.
 
 ## Job sources
 
-Six platforms, all polled as plain JSON except the last:
+Seven platforms, all polled as plain JSON except the last two:
 
 | Platform | Endpoint |
 |---|---|
@@ -218,6 +218,7 @@ Six platforms, all polled as plain JSON except the last:
 | Workable | `workable.com/api/accounts/{slug}` |
 | Rippling | `api.rippling.com/platform/api/ats/v1/board/{slug}/jobs` |
 | Career Group | `careergroupcompanies.com/find-work` (HTML) |
+| YC company page | `ycombinator.com/companies/{slug}/jobs` (HTML) |
 
 **Rippling** needs the API specifically. Its public board pages (`ats.rippling.com/<slug>/jobs`)
 sit behind a Cloudflare challenge and render client-side - a plain request gets
@@ -280,6 +281,23 @@ target companies resolved (29%)** - but the alternative is a list that looks
 bigger and quietly lies about who is hiring. Of those that resolved, 146 came
 from a link on the company's own site, 103 from a domain match, and 21 from a
 Greenhouse `company_name` check.
+
+### The fallback: a company's own YC page
+
+The 71% that don't resolve aren't lost. Nearly every YC company lists its roles
+on its YC company page (Work at a Startup) - it's YC's default hiring channel -
+and that page embeds a structured `jobPostings` list with a stable id per role.
+It's keyed by YC's own slug, so there is no identity to verify: the page belongs
+to that company by construction. Any YC company without a verifiable ATS board is
+watched this way (`platform: yc`, `verified_via: yc-page`).
+
+This is also the answer to Notion. Scanning the unresolved companies' careers
+pages, only 22 of 651 pointed at a Notion doc - and 21 of those 22 list the same
+roles on their YC page. Notion pages are free-form documents with no job
+structure, so parsing them directly would be fragile for almost no gain.
+
+It's used only as a fallback. A company with both an ATS board and a YC page
+would otherwise have every role reported twice, under two different ids.
 
 The VC boards are used for **company discovery only** - the tracker never polls
 them for jobs. A fund's board is a directory that goes stale; a company's own
@@ -347,6 +365,11 @@ to `data/companies.json` rather than waiting for a refresh to maybe catch it.
     `["operations", "director"]` matches both "Director of Operations" and
     "Operations Director." A plain substring keyword would only ever catch one
     ordering.
+  - **"ops" is expanded to "operations"** before matching - in titles,
+    keywords and excludes alike - so "Head of Ops", "Strategy & Ops Lead" and
+    "Founding Ops" follow the same rules as their spelled-out forms. Before
+    this, none of them matched anything. Word boundaries leave "DevOps",
+    "MLOps" and "BizOps" untouched.
   - `exclude_title_keywords` - a title containing any of these is rejected
     outright, before either check above runs. Matched on **whole words**, so
     `intern` rejects "Operations Intern" but leaves "Chief of Staff,

@@ -17,7 +17,9 @@
   "general manager",
   "project manager",
   "project lead",
-  "generalist"
+  "generalist",
+  "founding operations",
+  "founding operator"
  ],
  "keyword_word_groups": [
   [
@@ -47,6 +49,10 @@
   [
    "operations",
    "strategy"
+  ],
+  [
+   "founding",
+   "operations"
   ]
  ],
  "exclude_title_keywords": [
@@ -164,7 +170,8 @@
   "no experience",
   "no prior experience",
   "freelance",
-  "ai trainer"
+  "ai trainer",
+  "dev operations"
  ],
  "max_open_roles": 100,
  "max_team_size": 100,
@@ -202,7 +209,8 @@
   "ashby": "https://api.ashbyhq.com/posting-api/job-board/{slug}",
   "workable": "https://www.workable.com/api/accounts/{slug}?details=true",
   "rippling": "https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs",
-  "careergroup": "https://www.careergroupcompanies.com/find-work"
+  "careergroup": "https://www.careergroupcompanies.com/find-work",
+  "yc": "https://www.ycombinator.com/companies/{slug}/jobs"
  },
  "job_url_templates": {
   "greenhouse": "https://job-boards.greenhouse.io/{slug}/jobs/{id}",
@@ -324,9 +332,45 @@
    "slug": "10beauty"
   },
   {
+   "name": "10x",
+   "platform": "yc",
+   "slug": "10x",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "10x Science",
+   "platform": "yc",
+   "slug": "10x-science",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "1stCollab",
+   "platform": "yc",
+   "slug": "1stcollab",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "1X",
    "platform": "ashby",
    "slug": "1x"
+  },
+  {
+   "name": "222",
+   "platform": "yc",
+   "slug": "222",
+   "source": "yc",
+   "team_size": 23,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "2K",
@@ -362,6 +406,15 @@
    "name": "60decibelsinc",
    "platform": "greenhouse",
    "slug": "60decibelsinc"
+  },
+  {
+   "name": "83 Sciences",
+   "platform": "yc",
+   "slug": "83-sciences",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "84.51 Degrees",
@@ -406,6 +459,15 @@
    "name": "A-TEK",
    "platform": "greenhouse",
    "slug": "atek"
+  },
+  {
+   "name": "a0.dev",
+   "platform": "yc",
+   "slug": "a0-dev",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "a37",
@@ -458,9 +520,27 @@
    "slug": "accora"
   },
   {
+   "name": "Accord",
+   "platform": "yc",
+   "slug": "accord",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "AccuWeather",
    "platform": "greenhouse",
    "slug": "accuweather"
+  },
+  {
+   "name": "Acely",
+   "platform": "yc",
+   "slug": "acely",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2018",
+   "verified_via": "yc-page"
   },
   {
    "name": "Achievers",
@@ -488,6 +568,15 @@
    "slug": "actian"
   },
   {
+   "name": "Activeloop",
+   "platform": "yc",
+   "slug": "activeloop",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2018",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "AcuityMD",
    "platform": "greenhouse",
    "slug": "acuitymd"
@@ -501,6 +590,15 @@
    "name": "Ada",
    "platform": "greenhouse",
    "slug": "ada18"
+  },
+  {
+   "name": "Adam",
+   "platform": "yc",
+   "slug": "adam",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Adapt API",
@@ -537,6 +635,24 @@
    "slug": "adelphirealworld"
   },
   {
+   "name": "Adentris",
+   "platform": "yc",
+   "slug": "adentris",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Adialante",
+   "platform": "yc",
+   "slug": "adialante",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Aditude",
    "platform": "ashby",
    "slug": "aditude"
@@ -565,6 +681,15 @@
    "name": "Aechelon Technology",
    "platform": "greenhouse",
    "slug": "aechelontechnology"
+  },
+  {
+   "name": "Aemon",
+   "platform": "yc",
+   "slug": "aemon",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Aera Technology",
@@ -609,6 +734,15 @@
    "slug": "afresh",
    "source": "vc_board",
    "stage": "series_unknown"
+  },
+  {
+   "name": "Afriex",
+   "platform": "yc",
+   "slug": "afriex",
+   "source": "yc",
+   "team_size": 55,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "AfterQuery",
@@ -658,6 +792,15 @@
    "verified_via": "site-link"
   },
   {
+   "name": "AgentPhone",
+   "platform": "yc",
+   "slug": "agentphone",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "AGEO Autonomy",
    "platform": "workable",
    "slug": "ageo"
@@ -671,6 +814,15 @@
    "name": "AGILE Space Industries",
    "platform": "greenhouse",
    "slug": "agilespaceindustries"
+  },
+  {
+   "name": "AgileMD",
+   "platform": "yc",
+   "slug": "agilemd",
+   "source": "yc",
+   "team_size": 19,
+   "batch": "Summer 2011",
+   "verified_via": "yc-page"
   },
   {
    "name": "Agility Robotics",
@@ -714,6 +866,15 @@
    "stage": "series_c"
   },
   {
+   "name": "AIOS",
+   "platform": "yc",
+   "slug": "aios",
+   "source": "yc",
+   "team_size": 100,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "AiPrise",
    "platform": "ashby",
    "slug": "aiprise"
@@ -722,6 +883,15 @@
    "name": "Aircall",
    "platform": "lever",
    "slug": "aircall"
+  },
+  {
+   "name": "AirCaps",
+   "platform": "yc",
+   "slug": "aircaps",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "AirCapture",
@@ -736,6 +906,15 @@
    "team_size": 10,
    "batch": "Summer 2023",
    "verified_via": "site-link"
+  },
+  {
+   "name": "AirMyne",
+   "platform": "yc",
+   "slug": "airmyne",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Airspace",
@@ -753,6 +932,33 @@
    "name": "Airtable",
    "platform": "greenhouse",
    "slug": "airtable"
+  },
+  {
+   "name": "Airweave",
+   "platform": "yc",
+   "slug": "airweave",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "AIVideo.com",
+   "platform": "yc",
+   "slug": "aivideo-com",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Aktoria Robotics",
+   "platform": "yc",
+   "slug": "aktoria-robotics",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Al Warren Oil Company",
@@ -823,6 +1029,15 @@
    "stage": "series_b"
   },
   {
+   "name": "Alinea",
+   "platform": "yc",
+   "slug": "alinea",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "ALKU",
    "platform": "greenhouse",
    "slug": "alku"
@@ -887,6 +1102,15 @@
    "name": "Alma",
    "platform": "greenhouse",
    "slug": "alma"
+  },
+  {
+   "name": "Almond",
+   "platform": "yc",
+   "slug": "almond-2",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Alpaca",
@@ -987,6 +1211,15 @@
    "slug": "ambirobotics"
   },
   {
+   "name": "Amboras",
+   "platform": "yc",
+   "slug": "amboras",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Ambral",
    "platform": "ashby",
    "slug": "ambral"
@@ -1049,6 +1282,15 @@
    "slug": "anaplan"
   },
   {
+   "name": "Anara",
+   "platform": "yc",
+   "slug": "anara",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "AnaVation",
    "platform": "lever",
    "slug": "anavationllc"
@@ -1059,9 +1301,36 @@
    "slug": "anchorage"
   },
   {
+   "name": "Andco",
+   "platform": "yc",
+   "slug": "andco",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Ando",
    "platform": "ashby",
    "slug": "ando"
+  },
+  {
+   "name": "Andromeda Surgical",
+   "platform": "yc",
+   "slug": "andromeda-surgical",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Andy AI",
+   "platform": "yc",
+   "slug": "andy-ai",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "AngelList Venture",
@@ -1076,6 +1345,15 @@
    "slug": "anglehealth"
   },
   {
+   "name": "Anglera",
+   "platform": "yc",
+   "slug": "anglera",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Anima",
    "platform": "ashby",
    "slug": "anima"
@@ -1088,6 +1366,15 @@
    "stage": "series_unknown"
   },
   {
+   "name": "Ankr Health",
+   "platform": "yc",
+   "slug": "ankr-health",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Anna Health",
    "platform": "ashby",
    "slug": "annaautismcare",
@@ -1098,6 +1385,15 @@
    "name": "Anomali",
    "platform": "lever",
    "slug": "anomali"
+  },
+  {
+   "name": "ANORIA",
+   "platform": "yc",
+   "slug": "anoria",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Anrok",
@@ -1143,6 +1439,15 @@
    "name": "Anti Capital",
    "platform": "lever",
    "slug": "AntiCapital"
+  },
+  {
+   "name": "Antigen",
+   "platform": "yc",
+   "slug": "antigen",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Antora Energy",
@@ -1196,6 +1501,15 @@
    "slug": "aperiatechnologies"
   },
   {
+   "name": "Apero Health",
+   "platform": "yc",
+   "slug": "apero-health",
+   "source": "yc",
+   "team_size": 24,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Apex",
    "platform": "ashby",
    "slug": "apex-technology-inc"
@@ -1235,14 +1549,41 @@
    "slug": "apron"
   },
   {
+   "name": "Apten",
+   "platform": "yc",
+   "slug": "apten",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Aptura",
    "platform": "ashby",
    "slug": "aptura"
   },
   {
+   "name": "Aqua",
+   "platform": "yc",
+   "slug": "aqua",
+   "source": "yc",
+   "team_size": 23,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Aquabyte",
    "platform": "lever",
    "slug": "aquabyte"
+  },
+  {
+   "name": "AquaShield",
+   "platform": "yc",
+   "slug": "aquashield",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Aquatic",
@@ -1253,6 +1594,15 @@
    "name": "Arable",
    "platform": "lever",
    "slug": "arable"
+  },
+  {
+   "name": "Aravolta",
+   "platform": "yc",
+   "slug": "aravolta",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Arc",
@@ -1304,14 +1654,50 @@
    "slug": "arch-aerial-llc"
   },
   {
+   "name": "ArchForm",
+   "platform": "yc",
+   "slug": "archform",
+   "source": "yc",
+   "team_size": 23,
+   "batch": "Winter 2018",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "ArchiLabs",
+   "platform": "yc",
+   "slug": "archilabs",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Architect Labs",
    "platform": "ashby",
    "slug": "architect"
   },
   {
+   "name": "Archon",
+   "platform": "yc",
+   "slug": "archon",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Archy",
    "platform": "ashby",
    "slug": "archy"
+  },
+  {
+   "name": "Ardent",
+   "platform": "yc",
+   "slug": "ardent",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Arena Club",
@@ -1369,6 +1755,15 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Arlo Industries",
+   "platform": "yc",
+   "slug": "arlo-industries",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Armada",
    "platform": "greenhouse",
    "slug": "armada"
@@ -1386,9 +1781,27 @@
    "stage": "series_unknown"
   },
   {
+   "name": "arnata",
+   "platform": "yc",
+   "slug": "arnata",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Arondite",
    "platform": "workable",
    "slug": "arondite"
+  },
+  {
+   "name": "Arpari",
+   "platform": "yc",
+   "slug": "arpari",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "ARQ",
@@ -1453,9 +1866,45 @@
    "slug": "arvinas"
   },
   {
+   "name": "Arzana",
+   "platform": "yc",
+   "slug": "arzana",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Ascendis Pharma",
    "platform": "workable",
    "slug": "ascendis-pharma"
+  },
+  {
+   "name": "Asendia AI",
+   "platform": "yc",
+   "slug": "asendia-ai",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Aseon Labs",
+   "platform": "yc",
+   "slug": "aseon-labs",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Asha Health",
+   "platform": "yc",
+   "slug": "asha-health",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Ashby",
@@ -1463,11 +1912,29 @@
    "slug": "ashby"
   },
   {
+   "name": "Aside",
+   "platform": "yc",
+   "slug": "aside",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Asimov",
    "platform": "ashby",
    "slug": "asimov",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "Aspect",
+   "platform": "yc",
+   "slug": "aspect-inc",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Assembled",
@@ -1482,6 +1949,15 @@
    "team_size": 25,
    "batch": "Winter 2018",
    "verified_via": "domain-match"
+  },
+  {
+   "name": "Assembly HOA",
+   "platform": "yc",
+   "slug": "assembly-hoa",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "AssemblyAI",
@@ -1536,6 +2012,15 @@
    "stage": "series_unknown"
   },
   {
+   "name": "Astraea",
+   "platform": "yc",
+   "slug": "astraea",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Astranis",
    "platform": "greenhouse",
    "slug": "astranis"
@@ -1583,6 +2068,15 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Atlog",
+   "platform": "yc",
+   "slug": "atlog",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Atlys",
    "platform": "ashby",
    "slug": "atlys",
@@ -1619,6 +2113,24 @@
    "slug": "atominvest"
   },
   {
+   "name": "atopile",
+   "platform": "yc",
+   "slug": "atopile",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Attack Capital",
+   "platform": "yc",
+   "slug": "attack-capital",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Attain",
    "platform": "greenhouse",
    "slug": "attain",
@@ -1643,9 +2155,27 @@
    "slug": "attentive"
   },
   {
+   "name": "attimet",
+   "platform": "yc",
+   "slug": "attimet",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "AttoTude",
    "platform": "greenhouse",
    "slug": "attotude"
+  },
+  {
+   "name": "Attune",
+   "platform": "yc",
+   "slug": "attune",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Auctane",
@@ -1678,6 +2208,15 @@
    "slug": "aureliussystems"
   },
   {
+   "name": "Aurorin CAD",
+   "platform": "yc",
+   "slug": "aurorin-cad",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Authentic",
    "platform": "greenhouse",
    "slug": "authenticbrandsgroup"
@@ -1697,9 +2236,27 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Autonomous Technologies Group",
+   "platform": "yc",
+   "slug": "autonomous-technologies-group",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Autoroboto",
    "platform": "lever",
    "slug": "autoroboto"
+  },
+  {
+   "name": "Autostep",
+   "platform": "yc",
+   "slug": "autostep",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Ava Labs",
@@ -1721,6 +2278,15 @@
    "slug": "avalore"
   },
   {
+   "name": "Avent",
+   "platform": "yc",
+   "slug": "avent",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Avertium",
    "platform": "lever",
    "slug": "avertium"
@@ -1729,6 +2295,15 @@
    "name": "Avia Health",
    "platform": "lever",
    "slug": "aviahealth"
+  },
+  {
+   "name": "Aviator",
+   "platform": "yc",
+   "slug": "aviator",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "AvidXchange",
@@ -1744,6 +2319,15 @@
    "name": "Avoca AI",
    "platform": "ashby",
    "slug": "avoca"
+  },
+  {
+   "name": "Avora",
+   "platform": "yc",
+   "slug": "avora",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Avride",
@@ -1814,6 +2398,15 @@
    "stage": "seed"
   },
   {
+   "name": "b12 Labs",
+   "platform": "yc",
+   "slug": "b12-labs",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Baba",
    "platform": "ashby",
    "slug": "baba",
@@ -1844,6 +2437,15 @@
    "name": "Bandwidth",
    "platform": "greenhouse",
    "slug": "bandwidth"
+  },
+  {
+   "name": "Banner",
+   "platform": "yc",
+   "slug": "banner",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
   },
   {
    "name": "Barkley",
@@ -1905,6 +2507,24 @@
    "slug": "beaconsoftware"
   },
   {
+   "name": "Beacons",
+   "platform": "yc",
+   "slug": "beacons",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Beam",
+   "platform": "yc",
+   "slug": "beam",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Beam Impact",
    "platform": "ashby",
    "slug": "beamimpact",
@@ -1939,6 +2559,15 @@
    "name": "Beghou Consulting",
    "platform": "lever",
    "slug": "beghouconsulting"
+  },
+  {
+   "name": "BeGo",
+   "platform": "yc",
+   "slug": "be-go",
+   "source": "yc",
+   "team_size": 65,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "Behaviour Interactive",
@@ -1980,9 +2609,27 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Berry",
+   "platform": "yc",
+   "slug": "berry",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Bertram Capital Management",
    "platform": "greenhouse",
    "slug": "bertramcapitalmanagement"
+  },
+  {
+   "name": "Besimple AI",
+   "platform": "yc",
+   "slug": "besimple-ai",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Best Egg",
@@ -2005,6 +2652,15 @@
    "name": "Beta Technologies",
    "platform": "lever",
    "slug": "beta"
+  },
+  {
+   "name": "BetterBasket",
+   "platform": "yc",
+   "slug": "betterbasket",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "BetterCloud",
@@ -2045,6 +2701,15 @@
    "stage": "series_unknown"
   },
   {
+   "name": "BIK",
+   "platform": "yc",
+   "slug": "bik",
+   "source": "yc",
+   "team_size": 55,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Bild AI",
    "platform": "ashby",
    "slug": "bild-ai"
@@ -2068,6 +2733,15 @@
    "name": "BioMed Realty",
    "platform": "greenhouse",
    "slug": "biomedrealty"
+  },
+  {
+   "name": "BioStack Platforms",
+   "platform": "yc",
+   "slug": "biostack-platforms",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Birdy Grey",
@@ -2186,9 +2860,27 @@
    "stage": "series_unknown"
   },
   {
+   "name": "Bloom Institute of Technology",
+   "platform": "yc",
+   "slug": "bloom-institute-of-technology",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Summer 2017",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Bloomberg Philanthropies",
    "platform": "greenhouse",
    "slug": "bloombergdotorg"
+  },
+  {
+   "name": "Bloomy",
+   "platform": "yc",
+   "slug": "bloomy",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Blossom Health",
@@ -2203,14 +2895,41 @@
    "slug": "bloxd"
   },
   {
+   "name": "Blue Onion",
+   "platform": "yc",
+   "slug": "blue-onion",
+   "source": "yc",
+   "team_size": 27,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Blue Sky Innovators",
    "platform": "greenhouse",
    "slug": "blueskyinnovators"
   },
   {
+   "name": "Bluejay",
+   "platform": "yc",
+   "slug": "bluejay",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "BlueLabs Analytics",
    "platform": "greenhouse",
    "slug": "bluelabsanalyticsinc"
+  },
+  {
+   "name": "Bluelight",
+   "platform": "yc",
+   "slug": "bluelight",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Blueprint Technologies",
@@ -2235,11 +2954,38 @@
    "stage": "series_a"
   },
   {
+   "name": "BoldVoice",
+   "platform": "yc",
+   "slug": "boldvoice",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Bolster",
    "platform": "lever",
    "slug": "bolster",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "Bond",
+   "platform": "yc",
+   "slug": "bond",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Booko",
+   "platform": "yc",
+   "slug": "booko",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Boom Supersonic",
@@ -2276,6 +3022,15 @@
    "slug": "boulevard",
    "source": "vc_board",
    "stage": "series_d"
+  },
+  {
+   "name": "Bountiful",
+   "platform": "yc",
+   "slug": "bountiful",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2017",
+   "verified_via": "yc-page"
   },
   {
    "name": "Box",
@@ -2354,6 +3109,15 @@
    "slug": "brightai"
   },
   {
+   "name": "Brighterway",
+   "platform": "yc",
+   "slug": "brighterway",
+   "source": "yc",
+   "team_size": 14,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Brilliant",
    "platform": "lever",
    "slug": "brilliant"
@@ -2379,14 +3143,41 @@
    "slug": "brooksrunning"
   },
   {
+   "name": "Browser Use",
+   "platform": "yc",
+   "slug": "browser-use",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "BTI360",
    "platform": "greenhouse",
    "slug": "bti36021"
   },
   {
+   "name": "Bucket Robotics",
+   "platform": "yc",
+   "slug": "bucket-robotics",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Bugcrowd",
    "platform": "greenhouse",
    "slug": "bugcrowd"
+  },
+  {
+   "name": "BuildBuddy",
+   "platform": "yc",
+   "slug": "buildbuddy",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "Built Technologies",
@@ -2406,6 +3197,33 @@
    "team_size": 30,
    "batch": "Winter 2019",
    "verified_via": "site-link"
+  },
+  {
+   "name": "Bunting Labs",
+   "platform": "yc",
+   "slug": "bunting-labs",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Buoyant Aero",
+   "platform": "yc",
+   "slug": "buoyant-aero",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "burnt",
+   "platform": "yc",
+   "slug": "burnt",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "ButcherBox",
@@ -2443,6 +3261,33 @@
    "name": "Cadwell",
    "platform": "greenhouse",
    "slug": "cadwell"
+  },
+  {
+   "name": "Cair Health",
+   "platform": "yc",
+   "slug": "cair-health",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Callab AI",
+   "platform": "yc",
+   "slug": "callab-ai",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Calltree",
+   "platform": "yc",
+   "slug": "calltree",
+   "source": "yc",
+   "team_size": 14,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "CALSTART",
@@ -2490,6 +3335,33 @@
    "slug": "candidate.fyi"
   },
   {
+   "name": "Candle",
+   "platform": "yc",
+   "slug": "candle",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Candor",
+   "platform": "yc",
+   "slug": "candor-security",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Canix",
+   "platform": "yc",
+   "slug": "canix",
+   "source": "yc",
+   "team_size": 22,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Cantina",
    "platform": "ashby",
    "slug": "cantina"
@@ -2515,6 +3387,15 @@
    "slug": "capitalize",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "Capix",
+   "platform": "yc",
+   "slug": "capix",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Capricor Therapeutics",
@@ -2570,6 +3451,15 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Cardinal Gray",
+   "platform": "yc",
+   "slug": "cardinal-gray",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Career Group Companies",
    "platform": "careergroup",
    "slug": "find-work",
@@ -2582,6 +3472,15 @@
    "slug": "carefeed"
   },
   {
+   "name": "Careforce",
+   "platform": "yc",
+   "slug": "careforce",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "CareSwift",
    "platform": "ashby",
    "slug": "careswift",
@@ -2591,11 +3490,29 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Cargo",
+   "platform": "yc",
+   "slug": "cargo",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Cargomatic",
    "platform": "greenhouse",
    "slug": "cargomatic",
    "source": "vc_board",
    "stage": "series_unknown"
+  },
+  {
+   "name": "Carma",
+   "platform": "yc",
+   "slug": "carma",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Carrot Fertility",
@@ -2608,6 +3525,15 @@
    "name": "Carta",
    "platform": "greenhouse",
    "slug": "carta"
+  },
+  {
+   "name": "Cartage",
+   "platform": "yc",
+   "slug": "cartage",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Cartesia",
@@ -2639,6 +3565,15 @@
    "slug": "cascademgt"
   },
   {
+   "name": "Cascade Space",
+   "platform": "yc",
+   "slug": "cascade-space",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "CaseGuard",
    "platform": "greenhouse",
    "slug": "caseguard"
@@ -2659,9 +3594,36 @@
    "slug": "catapultsports"
   },
   {
+   "name": "CatchBack Cards",
+   "platform": "yc",
+   "slug": "catchback-cards",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "CCT",
    "platform": "lever",
    "slug": "casino-cash-trac"
+  },
+  {
+   "name": "Cedana",
+   "platform": "yc",
+   "slug": "cedana",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Cekura",
+   "platform": "yc",
+   "slug": "cekura-ai",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Celestial AI",
@@ -2686,6 +3648,15 @@
    "stage": "series_b"
   },
   {
+   "name": "CellType",
+   "platform": "yc",
+   "slug": "celltype",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Censys",
    "platform": "greenhouse",
    "slug": "censys"
@@ -2708,6 +3679,15 @@
    "slug": "centerfield"
   },
   {
+   "name": "Centralize",
+   "platform": "yc",
+   "slug": "centralize",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Cents",
    "platform": "lever",
    "slug": "cents",
@@ -2725,6 +3705,15 @@
    "name": "Certik",
    "platform": "lever",
    "slug": "certik"
+  },
+  {
+   "name": "Cerulion",
+   "platform": "yc",
+   "slug": "cerulion",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "CGS Immersive",
@@ -2761,14 +3750,41 @@
    "slug": "chanzuckerberginitiative"
   },
   {
+   "name": "Channel3",
+   "platform": "yc",
+   "slug": "channel3",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "CHAOS Industries",
    "platform": "greenhouse",
    "slug": "chaosindustries"
   },
   {
+   "name": "CharacterQuilt",
+   "platform": "yc",
+   "slug": "characterquilt",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Charge Robotics",
    "platform": "ashby",
    "slug": "charge-robotics"
+  },
+  {
+   "name": "Chariot",
+   "platform": "yc",
+   "slug": "chariot-2",
+   "source": "yc",
+   "team_size": 24,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Charles River Associates (CRA)",
@@ -2786,6 +3802,15 @@
    "slug": "charterup"
   },
   {
+   "name": "Chasi",
+   "platform": "yc",
+   "slug": "chasi",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Chatham Financial",
    "platform": "greenhouse",
    "slug": "chathamfinancial"
@@ -2799,6 +3824,24 @@
    "name": "Cheiron",
    "platform": "ashby",
    "slug": "cheiron"
+  },
+  {
+   "name": "Chestnut",
+   "platform": "yc",
+   "slug": "chestnut",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Chima",
+   "platform": "yc",
+   "slug": "chima",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "ChipStack",
@@ -2854,6 +3897,15 @@
    "slug": "circuithub"
   },
   {
+   "name": "Ciro",
+   "platform": "yc",
+   "slug": "ciro",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Cirque du Soleil",
    "platform": "lever",
    "slug": "cirquedusoleil"
@@ -2896,6 +3948,15 @@
    "slug": "civitech"
   },
   {
+   "name": "Clad",
+   "platform": "yc",
+   "slug": "clad",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Claim Health",
    "platform": "ashby",
    "slug": "claim-health",
@@ -2922,6 +3983,15 @@
    "slug": "clara",
    "source": "vc_board",
    "stage": "other"
+  },
+  {
+   "name": "Clarion",
+   "platform": "yc",
+   "slug": "clarion",
+   "source": "yc",
+   "team_size": 16,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Clarity Innovations",
@@ -2958,6 +4028,15 @@
    "slug": "Clearer"
   },
   {
+   "name": "Clearest Health",
+   "platform": "yc",
+   "slug": "clearest-health",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "ClearGov",
    "platform": "greenhouse",
    "slug": "cleargov",
@@ -2968,6 +4047,15 @@
    "name": "Clearway Energy",
    "platform": "greenhouse",
    "slug": "clearwayjobs"
+  },
+  {
+   "name": "Clicks Health",
+   "platform": "yc",
+   "slug": "clicks-health",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Climate Corps",
@@ -3017,6 +4105,24 @@
    "slug": "Close"
   },
   {
+   "name": "Closure",
+   "platform": "yc",
+   "slug": "closure",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "CloudCruise",
+   "platform": "yc",
+   "slug": "cloudcruise",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "CloudFactory",
    "platform": "workable",
    "slug": "cloudfactory"
@@ -3025,6 +4131,15 @@
    "name": "Cloudforce",
    "platform": "lever",
    "slug": "go-cloudforce"
+  },
+  {
+   "name": "Cloudglue",
+   "platform": "yc",
+   "slug": "cloudglue",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "CloudKitchens",
@@ -3073,6 +4188,15 @@
    "slug": "cmt"
   },
   {
+   "name": "cmux",
+   "platform": "yc",
+   "slug": "cmux",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Coast",
    "platform": "greenhouse",
    "slug": "coast",
@@ -3107,9 +4231,36 @@
    "slug": "codalinc"
   },
   {
+   "name": "Code Four",
+   "platform": "yc",
+   "slug": "code-four",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "CodeAnt AI",
+   "platform": "yc",
+   "slug": "codeant-ai",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Coder",
    "platform": "ashby",
    "slug": "Coder"
+  },
+  {
+   "name": "Codes Health",
+   "platform": "yc",
+   "slug": "codes-health",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Cofactr",
@@ -3138,6 +4289,15 @@
    "slug": "cognitiv"
   },
   {
+   "name": "Cogram",
+   "platform": "yc",
+   "slug": "cogram",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Cohere",
    "platform": "ashby",
    "slug": "cohere"
@@ -3153,6 +4313,15 @@
    "slug": "cohort"
   },
   {
+   "name": "CoinTracker",
+   "platform": "yc",
+   "slug": "cointracker",
+   "source": "yc",
+   "team_size": 70,
+   "batch": "Winter 2018",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "CoLab Software",
    "platform": "greenhouse",
    "slug": "colabsoftware"
@@ -3166,6 +4335,15 @@
    "name": "Collective",
    "platform": "ashby",
    "slug": "collective"
+  },
+  {
+   "name": "CollectWise",
+   "platform": "yc",
+   "slug": "collectwise",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Cologix",
@@ -3236,6 +4414,15 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Compose.ai",
+   "platform": "yc",
+   "slug": "compose-ai",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Composio",
    "platform": "ashby",
    "slug": "composio"
@@ -3270,6 +4457,15 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Conductor Quantum",
+   "platform": "yc",
+   "slug": "conductor-quantum",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "ConductorAI",
    "platform": "ashby",
    "slug": "conductorai"
@@ -3287,6 +4483,15 @@
    "team_size": 15,
    "batch": "Winter 2024",
    "verified_via": "domain-match"
+  },
+  {
+   "name": "Confident AI",
+   "platform": "yc",
+   "slug": "confident-ai",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Confido",
@@ -3307,6 +4512,15 @@
    "name": "Conner Strong & Buckelew",
    "platform": "greenhouse",
    "slug": "connerstrongbuckelew"
+  },
+  {
+   "name": "Constant",
+   "platform": "yc",
+   "slug": "constant",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Constant Contact",
@@ -3341,6 +4555,15 @@
    "slug": "consumerreports"
   },
   {
+   "name": "Consus",
+   "platform": "yc",
+   "slug": "consus",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Context",
    "platform": "ashby",
    "slug": "context"
@@ -3351,14 +4574,41 @@
    "slug": "contoro"
   },
   {
+   "name": "Contrario",
+   "platform": "yc",
+   "slug": "contrario",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Convene",
    "platform": "greenhouse",
    "slug": "convene"
   },
   {
+   "name": "Converge",
+   "platform": "yc",
+   "slug": "converge",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Conversica",
    "platform": "lever",
    "slug": "conversica"
+  },
+  {
+   "name": "Conviction",
+   "platform": "yc",
+   "slug": "conviction",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Cook Systems",
@@ -3399,6 +4649,24 @@
    "slug": "coretek-services"
   },
   {
+   "name": "Corgea",
+   "platform": "yc",
+   "slug": "corgea",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Coris",
+   "platform": "yc",
+   "slug": "coris",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Correlation One",
    "platform": "greenhouse",
    "slug": "expertnetwork"
@@ -3426,6 +4694,15 @@
    "slug": "corvus-robotics"
   },
   {
+   "name": "Cotera",
+   "platform": "yc",
+   "slug": "cotera",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Coupa Software",
    "platform": "lever",
    "slug": "coupa"
@@ -3441,14 +4718,50 @@
    "slug": "coursera"
   },
   {
+   "name": "Coval",
+   "platform": "yc",
+   "slug": "coval",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "CoVar",
    "platform": "greenhouse",
    "slug": "covar"
   },
   {
+   "name": "Covera",
+   "platform": "yc",
+   "slug": "covera",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Coverage Cat",
+   "platform": "yc",
+   "slug": "coverage-cat",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Coverdash",
    "platform": "ashby",
    "slug": "coverdash"
+  },
+  {
+   "name": "Cozmo AI",
+   "platform": "yc",
+   "slug": "cozmo-ai",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "CPI Security",
@@ -3461,6 +4774,15 @@
    "slug": "crafty",
    "source": "vc_board",
    "stage": "other"
+  },
+  {
+   "name": "Craniometrix",
+   "platform": "yc",
+   "slug": "craniometrix",
+   "source": "yc",
+   "team_size": 64,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Cranston AI",
@@ -3480,6 +4802,15 @@
    "name": "Creatify Lab",
    "platform": "ashby",
    "slug": "creatify"
+  },
+  {
+   "name": "CreativeMode",
+   "platform": "yc",
+   "slug": "creativemode",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Credal.ai",
@@ -3561,6 +4892,15 @@
    "slug": "cti"
   },
   {
+   "name": "Cua",
+   "platform": "yc",
+   "slug": "cua",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Culdesac",
    "platform": "lever",
    "slug": "culdesac",
@@ -3580,6 +4920,24 @@
    "slug": "cultureamp",
    "source": "vc_board",
    "stage": "series_f"
+  },
+  {
+   "name": "Cumulus Labs",
+   "platform": "yc",
+   "slug": "cumulus-labs",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Curo",
+   "platform": "yc",
+   "slug": "curo",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Currier Plastics",
@@ -3622,6 +4980,15 @@
    "slug": "dailypay"
   },
   {
+   "name": "Dalus",
+   "platform": "yc",
+   "slug": "dalus",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Dandy",
    "platform": "ashby",
    "slug": "dandy"
@@ -3640,6 +5007,15 @@
    "name": "Darkhiv",
    "platform": "workable",
    "slug": "darkhive"
+  },
+  {
+   "name": "Dart",
+   "platform": "yc",
+   "slug": "dart",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Data Systems Analysts",
@@ -3683,6 +5059,15 @@
    "slug": "datalabusa"
   },
   {
+   "name": "Dataland",
+   "platform": "yc",
+   "slug": "dataland",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Dataleap",
    "platform": "ashby",
    "slug": "dataleap",
@@ -3700,6 +5085,15 @@
    "name": "DatologyAI",
    "platform": "ashby",
    "slug": "DatologyAI"
+  },
+  {
+   "name": "Datrics",
+   "platform": "yc",
+   "slug": "datrics",
+   "source": "yc",
+   "team_size": 22,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "David AI",
@@ -3751,9 +5145,54 @@
    "slug": "deepgenomics"
   },
   {
+   "name": "Deep24",
+   "platform": "yc",
+   "slug": "deep24",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "DeepAware AI (Robotics Center of Silicon Valley)",
+   "platform": "yc",
+   "slug": "deepaware-ai-robotics-center-of-silicon-valley",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Deepgram",
    "platform": "ashby",
    "slug": "deepgram"
+  },
+  {
+   "name": "DeepGrove",
+   "platform": "yc",
+   "slug": "deepgrove",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Deepnight",
+   "platform": "yc",
+   "slug": "deepnight",
+   "source": "yc",
+   "team_size": 16,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Deeptrace",
+   "platform": "yc",
+   "slug": "deeptrace",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Deeter Analytics",
@@ -3769,6 +5208,15 @@
    "name": "Deft AI",
    "platform": "ashby",
    "slug": "deft-ai"
+  },
+  {
+   "name": "Delfino AI",
+   "platform": "yc",
+   "slug": "delfino-ai",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Delinea",
@@ -3796,6 +5244,15 @@
    "name": "Democratic National Committee",
    "platform": "lever",
    "slug": "dnc"
+  },
+  {
+   "name": "Dench.com",
+   "platform": "yc",
+   "slug": "dench-com",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Descript",
@@ -3830,6 +5287,15 @@
    "slug": "devrev"
   },
   {
+   "name": "Dex",
+   "platform": "yc",
+   "slug": "dex",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Dexmate",
    "platform": "ashby",
    "slug": "dexmate"
@@ -3850,9 +5316,36 @@
    "slug": "didi"
   },
   {
+   "name": "Diffuse Bio",
+   "platform": "yc",
+   "slug": "diffuse-bio",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Digipals",
+   "platform": "yc",
+   "slug": "digipals",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Digs",
    "platform": "greenhouse",
    "slug": "digs"
+  },
+  {
+   "name": "dili",
+   "platform": "yc",
+   "slug": "dili",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "DiligenceSquared",
@@ -3874,9 +5367,54 @@
    "slug": "diligentrobotics"
   },
   {
+   "name": "Dime",
+   "platform": "yc",
+   "slug": "dime-2",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Dimely",
+   "platform": "yc",
+   "slug": "dimely",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Diode Computers, Inc.",
+   "platform": "yc",
+   "slug": "diode-computers-inc",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Dipper",
    "platform": "ashby",
    "slug": "dipper"
+  },
+  {
+   "name": "DirectShifts",
+   "platform": "yc",
+   "slug": "directshifts",
+   "source": "yc",
+   "team_size": 72,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Discovered Materials",
+   "platform": "yc",
+   "slug": "discovered-materials",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Dispatch",
@@ -3947,6 +5485,24 @@
    "slug": "docugami"
   },
   {
+   "name": "Docura Health",
+   "platform": "yc",
+   "slug": "docura-health",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Dodo",
+   "platform": "yc",
+   "slug": "dodo",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Dome Systems Inc",
    "platform": "ashby",
    "slug": "dome-systems-inc"
@@ -3994,6 +5550,15 @@
    "verified_via": "name+company_name"
   },
   {
+   "name": "Double",
+   "platform": "yc",
+   "slug": "doublehq",
+   "source": "yc",
+   "team_size": 80,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Double Eleven",
    "platform": "workable",
    "slug": "double-eleven"
@@ -4009,9 +5574,36 @@
    "slug": "doubleverify"
   },
   {
+   "name": "Dover",
+   "platform": "yc",
+   "slug": "dover",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Doximity",
    "platform": "greenhouse",
    "slug": "doximity"
+  },
+  {
+   "name": "Draft The Record",
+   "platform": "yc",
+   "slug": "draft-the-record",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Draftwise",
+   "platform": "yc",
+   "slug": "draftwise",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "Dragos",
@@ -4019,6 +5611,15 @@
    "slug": "dragos",
    "source": "vc_board",
    "stage": "acquisition"
+  },
+  {
+   "name": "DreamCraft Entertainment, Inc.",
+   "platform": "yc",
+   "slug": "dreamcraft-entertainment-inc",
+   "source": "yc",
+   "team_size": 23,
+   "batch": "Summer 2018",
+   "verified_via": "yc-page"
   },
   {
    "name": "Drivemode",
@@ -4051,11 +5652,29 @@
    "slug": "dryft"
   },
   {
+   "name": "DryMerge",
+   "platform": "yc",
+   "slug": "drymerge",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Dualentry",
    "platform": "ashby",
    "slug": "dualentry",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "Duckie",
+   "platform": "yc",
+   "slug": "duckie",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Duet",
@@ -4182,14 +5801,59 @@
    "slug": "echodynecorp"
   },
   {
+   "name": "Eden",
+   "platform": "yc",
+   "slug": "eden-2",
+   "source": "yc",
+   "team_size": 100,
+   "batch": "Summer 2018",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Eden Robotics",
+   "platform": "yc",
+   "slug": "eden-robotics",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "edmentum",
    "platform": "greenhouse",
    "slug": "edmentum"
   },
   {
+   "name": "Educato",
+   "platform": "yc",
+   "slug": "educato",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Efficient Computer",
    "platform": "greenhouse",
    "slug": "efficientcomputer"
+  },
+  {
+   "name": "EffiGov",
+   "platform": "yc",
+   "slug": "effigov",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "ego",
+   "platform": "yc",
+   "slug": "ego",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Egra",
@@ -4241,6 +5905,15 @@
    "slug": "ekohealth"
   },
   {
+   "name": "Elayne",
+   "platform": "yc",
+   "slug": "elayne",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Electric Air",
    "platform": "ashby",
    "slug": "electricair",
@@ -4253,6 +5926,15 @@
    "name": "Element Biosciences",
    "platform": "greenhouse",
    "slug": "elementbiosciences"
+  },
+  {
+   "name": "Elevate",
+   "platform": "yc",
+   "slug": "elevate-2",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Elevate Semiconductor",
@@ -4288,6 +5970,15 @@
    "name": "Elk Valley Resources",
    "platform": "lever",
    "slug": "evr"
+  },
+  {
+   "name": "Ellipsis",
+   "platform": "yc",
+   "slug": "ellipsis",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Ellipsis Labs",
@@ -4339,6 +6030,15 @@
    "name": "Emerald AI",
    "platform": "ashby",
    "slug": "emerald-ai"
+  },
+  {
+   "name": "Emerge Career",
+   "platform": "yc",
+   "slug": "emerge-career",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Emidat",
@@ -4436,6 +6136,15 @@
    "slug": "engineersgate"
   },
   {
+   "name": "Enhanced Radar",
+   "platform": "yc",
+   "slug": "enhanced-radar",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Enigma",
    "platform": "greenhouse",
    "slug": "enigmaio"
@@ -4454,6 +6163,15 @@
    "name": "Ensemble",
    "platform": "greenhouse",
    "slug": "ensemble"
+  },
+  {
+   "name": "Entangl",
+   "platform": "yc",
+   "slug": "entangl",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Enveda Biosciences",
@@ -4491,6 +6209,15 @@
    "name": "Epic Kids",
    "platform": "greenhouse",
    "slug": "epickids"
+  },
+  {
+   "name": "Epinoma",
+   "platform": "yc",
+   "slug": "epinoma",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "EQ Bank",
@@ -4560,6 +6287,15 @@
    "slug": "ethglobal"
   },
   {
+   "name": "Etleap",
+   "platform": "yc",
+   "slug": "etleap",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Winter 2013",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Eudia",
    "platform": "greenhouse",
    "slug": "eudia"
@@ -4573,6 +6309,15 @@
    "name": "EV Realty",
    "platform": "lever",
    "slug": "evrealty-us"
+  },
+  {
+   "name": "Event Horizon Labs",
+   "platform": "yc",
+   "slug": "event-horizon-labs",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Eventual",
@@ -4655,6 +6400,15 @@
    "slug": "exoduspoint"
   },
   {
+   "name": "Exonic",
+   "platform": "yc",
+   "slug": "exonic",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Exowatt",
    "platform": "lever",
    "slug": "exowatt"
@@ -4694,9 +6448,27 @@
    "slug": "ezcaterinc"
   },
   {
+   "name": "Eze",
+   "platform": "yc",
+   "slug": "eze",
+   "source": "yc",
+   "team_size": 32,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "F. Schumacher & Co.",
    "platform": "greenhouse",
    "slug": "fschumacherco"
+  },
+  {
+   "name": "F2",
+   "platform": "yc",
+   "slug": "f2",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Fab2",
@@ -4823,6 +6595,15 @@
    "slug": "felicity"
   },
   {
+   "name": "Fenrock AI",
+   "platform": "yc",
+   "slug": "fenrock-ai",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "FGS Global",
    "platform": "greenhouse",
    "slug": "fgsglobal"
@@ -4850,6 +6631,15 @@
    "name": "Field AI",
    "platform": "lever",
    "slug": "field-ai"
+  },
+  {
+   "name": "Fifth Door",
+   "platform": "yc",
+   "slug": "fifth-door",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Fifty-Five",
@@ -4882,6 +6672,15 @@
    "slug": "financialtimes33"
   },
   {
+   "name": "Finch",
+   "platform": "yc",
+   "slug": "finch",
+   "source": "yc",
+   "team_size": 73,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Findhelp, A Public Benefit Corporation",
    "platform": "lever",
    "slug": "findhelp"
@@ -4892,6 +6691,15 @@
    "slug": "fingerprint",
    "source": "vc_board",
    "stage": "series_c"
+  },
+  {
+   "name": "Finn",
+   "platform": "yc",
+   "slug": "finn",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Finni Health",
@@ -4910,6 +6718,15 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Finosu",
+   "platform": "yc",
+   "slug": "finosu",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Finout",
    "platform": "ashby",
    "slug": "finout",
@@ -4920,6 +6737,24 @@
    "name": "FinQuery",
    "platform": "lever",
    "slug": "finquery"
+  },
+  {
+   "name": "Finta",
+   "platform": "yc",
+   "slug": "finta",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Firebender",
+   "platform": "yc",
+   "slug": "firebender",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Firecrawl",
@@ -4956,6 +6791,15 @@
    "slug": "first-resonance",
    "source": "vc_board",
    "stage": "series_unknown"
+  },
+  {
+   "name": "Firstbase.io",
+   "platform": "yc",
+   "slug": "firstbase-io",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Firsthand",
@@ -5020,6 +6864,15 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Flair Labs",
+   "platform": "yc",
+   "slug": "flair-labs",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Flashpoint",
    "platform": "ashby",
    "slug": "flashpoint.io"
@@ -5058,14 +6911,41 @@
    "slug": "flexcompute"
   },
   {
+   "name": "FlexDesk",
+   "platform": "yc",
+   "slug": "flexdesk",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Flexion Robotics",
    "platform": "workable",
    "slug": "flexion-robotics"
   },
   {
+   "name": "Flick",
+   "platform": "yc",
+   "slug": "flick",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "FlightHub",
    "platform": "greenhouse",
    "slug": "flighthub"
+  },
+  {
+   "name": "Flint",
+   "platform": "yc",
+   "slug": "flint-2",
+   "source": "yc",
+   "team_size": 18,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Flip",
@@ -5076,6 +6956,24 @@
    "name": "Flock Safety",
    "platform": "ashby",
    "slug": "Flock%20Safety"
+  },
+  {
+   "name": "Flockjay",
+   "platform": "yc",
+   "slug": "flockjay",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2019",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Floot",
+   "platform": "yc",
+   "slug": "floot",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "FloQast",
@@ -5165,6 +7063,24 @@
    "slug": "foleyhoag"
   },
   {
+   "name": "Fondo",
+   "platform": "yc",
+   "slug": "fondo",
+   "source": "yc",
+   "team_size": 80,
+   "batch": "Winter 2018",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Forage",
+   "platform": "yc",
+   "slug": "forage-2",
+   "source": "yc",
+   "team_size": 66,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Forbes",
    "platform": "greenhouse",
    "slug": "forbes"
@@ -5197,6 +7113,15 @@
    "name": "Formstack",
    "platform": "lever",
    "slug": "formstack"
+  },
+  {
+   "name": "Fort",
+   "platform": "yc",
+   "slug": "fort",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Fortanix",
@@ -5258,6 +7183,15 @@
    "slug": "foundationhealthcareers"
   },
   {
+   "name": "Foundation Industries",
+   "platform": "yc",
+   "slug": "foundation-industries",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Four Hands",
    "platform": "greenhouse",
    "slug": "fourhands"
@@ -5271,6 +7205,15 @@
    "name": "Foxglove",
    "platform": "ashby",
    "slug": "foxglove"
+  },
+  {
+   "name": "Fractional",
+   "platform": "yc",
+   "slug": "fractional",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Fractional AI",
@@ -5298,6 +7241,24 @@
    "slug": "freenome",
    "source": "vc_board",
    "stage": "other"
+  },
+  {
+   "name": "Fresco",
+   "platform": "yc",
+   "slug": "fresco",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Freya",
+   "platform": "yc",
+   "slug": "freya",
+   "source": "yc",
+   "team_size": 14,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Front",
@@ -5368,6 +7329,15 @@
    "team_size": 36,
    "batch": "Winter 2024",
    "verified_via": "domain-match"
+  },
+  {
+   "name": "Fuse AI",
+   "platform": "yc",
+   "slug": "fuse-ai",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Fuse Energy",
@@ -5466,6 +7436,15 @@
    "verified_via": "domain+company_name"
   },
   {
+   "name": "Gauge",
+   "platform": "yc",
+   "slug": "gauge",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "GCM Grosvenor",
    "platform": "greenhouse",
    "slug": "gcmgrosvenor"
@@ -5493,6 +7472,15 @@
    "stage": "ipo"
   },
   {
+   "name": "Gemnote",
+   "platform": "yc",
+   "slug": "gemnote",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Summer 2015",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Gen Digital",
    "platform": "ashby",
    "slug": "gen-digital"
@@ -5508,6 +7496,15 @@
    "slug": "BreezeBio",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "General Astronautics",
+   "platform": "yc",
+   "slug": "generalastro",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "General Atlantic",
@@ -5599,6 +7596,33 @@
    "slug": "internshiplist2000"
   },
   {
+   "name": "GETASAP",
+   "platform": "yc",
+   "slug": "getasap",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "GetCrux",
+   "platform": "yc",
+   "slug": "getcrux",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "GhostEye",
+   "platform": "yc",
+   "slug": "ghosteye",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Giga AI",
    "platform": "ashby",
    "slug": "gigaml"
@@ -5622,6 +7646,15 @@
    "name": "Glean",
    "platform": "greenhouse",
    "slug": "gleanwork"
+  },
+  {
+   "name": "Glen",
+   "platform": "yc",
+   "slug": "glen",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Glia",
@@ -5690,9 +7723,36 @@
    "slug": "eventsandinterns"
   },
   {
+   "name": "Godela",
+   "platform": "yc",
+   "slug": "godela",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "GoFundMe",
    "platform": "greenhouse",
    "slug": "gofundme"
+  },
+  {
+   "name": "GoGoGrandparent",
+   "platform": "yc",
+   "slug": "gogograndparent",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Summer 2016",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Gojiberry AI",
+   "platform": "yc",
+   "slug": "gojiberry-ai",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Golden Pet Brands",
@@ -5718,6 +7778,15 @@
    "name": "Goodway Group",
    "platform": "greenhouse",
    "slug": "goodwaygroup"
+  },
+  {
+   "name": "Gooseworks",
+   "platform": "yc",
+   "slug": "gooseworks",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Gore Mutual Insurance",
@@ -5899,6 +7968,15 @@
    "slug": "groupon"
   },
   {
+   "name": "GrowthBook",
+   "platform": "yc",
+   "slug": "growthbook",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "GrowthLoop",
    "platform": "greenhouse",
    "slug": "growthloop"
@@ -5907,6 +7985,15 @@
    "name": "GSD&M",
    "platform": "greenhouse",
    "slug": "gsdm"
+  },
+  {
+   "name": "Guac",
+   "platform": "yc",
+   "slug": "guac",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Guidepoint",
@@ -5943,6 +8030,15 @@
    "slug": "gusto"
   },
   {
+   "name": "Gym Class",
+   "platform": "yc",
+   "slug": "gym-class",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Gynger",
    "platform": "lever",
    "slug": "gynger"
@@ -5966,6 +8062,15 @@
    "name": "Hadrian",
    "platform": "ashby",
    "slug": "hadrian-automation"
+  },
+  {
+   "name": "Hadrius",
+   "platform": "yc",
+   "slug": "hadrius",
+   "source": "yc",
+   "team_size": 80,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Haize Labs",
@@ -5998,6 +8103,15 @@
    "stage": "series_e"
   },
   {
+   "name": "Hammr",
+   "platform": "yc",
+   "slug": "hammr",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Handle",
    "platform": "rippling",
    "slug": "handle",
@@ -6027,6 +8141,33 @@
    "slug": "hanover-park",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "Hapi",
+   "platform": "yc",
+   "slug": "hapi",
+   "source": "yc",
+   "team_size": 45,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Haplotype Labs",
+   "platform": "yc",
+   "slug": "haplotype-labs",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "HappyRobot",
+   "platform": "yc",
+   "slug": "happyrobot",
+   "source": "yc",
+   "team_size": 80,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Harbinger Motors",
@@ -6086,6 +8227,15 @@
    "slug": "haydenai"
   },
   {
+   "name": "Haystack",
+   "platform": "yc",
+   "slug": "haystack",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "HCompany",
    "platform": "ashby",
    "slug": "hcompany"
@@ -6099,6 +8249,15 @@
    "name": "Healf",
    "platform": "ashby",
    "slug": "healf"
+  },
+  {
+   "name": "Health Harbor",
+   "platform": "yc",
+   "slug": "health-harbor",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Health Services Advisory Group",
@@ -6149,6 +8308,15 @@
    "slug": "heidihealth.com.au"
   },
   {
+   "name": "Helium",
+   "platform": "yc",
+   "slug": "helium",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Heliux",
    "platform": "ashby",
    "slug": "heliux"
@@ -6157,6 +8325,24 @@
    "name": "HELLBENDER",
    "platform": "greenhouse",
    "slug": "hellbenderinc"
+  },
+  {
+   "name": "Hemlock",
+   "platform": "yc",
+   "slug": "hemlock",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Fall 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "HERA",
+   "platform": "yc",
+   "slug": "manufacturingintelligence",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Herald",
@@ -6177,6 +8363,15 @@
    "name": "Heron Power",
    "platform": "ashby",
    "slug": "heron-power"
+  },
+  {
+   "name": "Hestus, Inc.",
+   "platform": "yc",
+   "slug": "hestus-inc",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Hevo Data",
@@ -6245,6 +8440,15 @@
    "name": "Hilbert",
    "platform": "ashby",
    "slug": "hilberts"
+  },
+  {
+   "name": "hillclimb",
+   "platform": "yc",
+   "slug": "hillclimb",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Hinge Health",
@@ -6333,6 +8537,15 @@
    "slug": "homey"
   },
   {
+   "name": "HOMLI",
+   "platform": "yc",
+   "slug": "homli",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Hone Health",
    "platform": "greenhouse",
    "slug": "honehealth"
@@ -6400,6 +8613,15 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Housewarming",
+   "platform": "yc",
+   "slug": "housewarming",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "HP IQ",
    "platform": "greenhouse",
    "slug": "hpiq"
@@ -6413,6 +8635,15 @@
    "name": "HRL Laboratories",
    "platform": "lever",
    "slug": "dodmg"
+  },
+  {
+   "name": "Hub",
+   "platform": "yc",
+   "slug": "hub",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Hubs.is",
@@ -6455,6 +8686,15 @@
    "slug": "human-computer-lab"
   },
   {
+   "name": "HumanLayer",
+   "platform": "yc",
+   "slug": "humanlayer",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Humanoid",
    "platform": "ashby",
    "slug": "humanoid"
@@ -6470,10 +8710,37 @@
    "slug": "humble-robotics"
   },
   {
+   "name": "Humwork",
+   "platform": "yc",
+   "slug": "humwork",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Huntress",
    "platform": "greenhouse",
    "slug": "huntress",
    "source": "manual"
+  },
+  {
+   "name": "Huscarl",
+   "platform": "yc",
+   "slug": "huscarl",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Hype",
+   "platform": "yc",
+   "slug": "hype",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Hyperbound",
@@ -6483,6 +8750,15 @@
    "team_size": 30,
    "batch": "Summer 2023",
    "verified_via": "site-link"
+  },
+  {
+   "name": "Hyperbrowser",
+   "platform": "yc",
+   "slug": "hyperbrowser",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Hypercubic",
@@ -6507,6 +8783,15 @@
    "team_size": 8,
    "batch": "Fall 2025",
    "verified_via": "domain-match"
+  },
+  {
+   "name": "Hypotenuse AI",
+   "platform": "yc",
+   "slug": "hypotenuse-ai",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "IA Collaborative",
@@ -6588,6 +8873,15 @@
    "slug": "illumio"
   },
   {
+   "name": "Imagine AI",
+   "platform": "yc",
+   "slug": "imagine-ai",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Immiland Canada",
    "platform": "lever",
    "slug": "immiland-canada-inc"
@@ -6618,9 +8912,27 @@
    "slug": "impiricus"
   },
   {
+   "name": "Imprezia",
+   "platform": "yc",
+   "slug": "imprezia",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Imprint",
    "platform": "ashby",
    "slug": "imprint"
+  },
+  {
+   "name": "inBuild",
+   "platform": "yc",
+   "slug": "inbuild",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Incident IQ",
@@ -6660,6 +8972,15 @@
    "slug": "inertia",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "Infinite",
+   "platform": "yc",
+   "slug": "infinite",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Infisical",
@@ -6703,6 +9024,15 @@
    "team_size": 18,
    "batch": "Winter 2023",
    "verified_via": "site-link"
+  },
+  {
+   "name": "Inlet",
+   "platform": "yc",
+   "slug": "inlet-2",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Innate",
@@ -6804,6 +9134,15 @@
    "slug": "integra"
   },
   {
+   "name": "Intelligence Factory",
+   "platform": "yc",
+   "slug": "intelligence-factory",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Intellistack",
    "platform": "ashby",
    "slug": "Intellistack"
@@ -6817,6 +9156,15 @@
    "name": "interface.ai",
    "platform": "ashby",
    "slug": "interface-ai"
+  },
+  {
+   "name": "Interfaze",
+   "platform": "yc",
+   "slug": "interfaze",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Interfere",
@@ -6875,9 +9223,36 @@
    "slug": "intropic"
   },
   {
+   "name": "Intryc",
+   "platform": "yc",
+   "slug": "intryc",
+   "source": "yc",
+   "team_size": 14,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Inversion Space",
    "platform": "greenhouse",
    "slug": "inversionspace"
+  },
+  {
+   "name": "Invert",
+   "platform": "yc",
+   "slug": "invert",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "IOMETE",
+   "platform": "yc",
+   "slug": "iomete",
+   "source": "yc",
+   "team_size": 21,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "ION Group",
@@ -6929,6 +9304,15 @@
    "slug": "istaridigital.ai"
   },
   {
+   "name": "item",
+   "platform": "yc",
+   "slug": "item",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Iterative Scopes",
    "platform": "greenhouse",
    "slug": "iterativehealth",
@@ -6969,6 +9353,15 @@
    "name": "Jam City",
    "platform": "lever",
    "slug": "jamcity"
+  },
+  {
+   "name": "Jarmin",
+   "platform": "yc",
+   "slug": "jarmin",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "JCC Greater Boston",
@@ -7029,6 +9422,15 @@
    "stage": "series_b"
   },
   {
+   "name": "Joy",
+   "platform": "yc",
+   "slug": "joy",
+   "source": "yc",
+   "team_size": 100,
+   "batch": "Summer 2016",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Jukebox Health",
    "platform": "greenhouse",
    "slug": "jukeboxhealth",
@@ -7086,6 +9488,15 @@
    "verified_via": "site-link"
   },
   {
+   "name": "JustAI",
+   "platform": "yc",
+   "slug": "justai",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Juvare",
    "platform": "greenhouse",
    "slug": "juvare"
@@ -7114,6 +9525,24 @@
    "name": "Kalepa",
    "platform": "greenhouse",
    "slug": "kalepa"
+  },
+  {
+   "name": "Kalinda",
+   "platform": "yc",
+   "slug": "kalinda",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Kalpa Labs",
+   "platform": "yc",
+   "slug": "kalpa-labs",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Kanbrick",
@@ -7165,6 +9594,24 @@
    "slug": "kcftechnologies"
   },
   {
+   "name": "Keeper",
+   "platform": "yc",
+   "slug": "keeper-2",
+   "source": "yc",
+   "team_size": 16,
+   "batch": "Winter 2019",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "KelAI",
+   "platform": "yc",
+   "slug": "kelai",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Kensington",
    "platform": "greenhouse",
    "slug": "kensingtontours"
@@ -7187,6 +9634,15 @@
    "stage": "series_a"
   },
   {
+   "name": "Keye",
+   "platform": "yc",
+   "slug": "keye",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Keyrock",
    "platform": "ashby",
    "slug": "keyrock"
@@ -7207,6 +9663,15 @@
    "slug": "kikoff"
   },
   {
+   "name": "Kilvin",
+   "platform": "yc",
+   "slug": "kilvin",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Kinetic Systems",
    "platform": "ashby",
    "slug": "kineticsystems"
@@ -7219,6 +9684,24 @@
    "team_size": 21,
    "batch": "Summer 2020",
    "verified_via": "site-link"
+  },
+  {
+   "name": "Kino AI",
+   "platform": "yc",
+   "slug": "kino-ai",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Kinro",
+   "platform": "yc",
+   "slug": "kinro",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Kinter",
@@ -7245,11 +9728,29 @@
    "slug": "kitware"
   },
   {
+   "name": "Kivo Health",
+   "platform": "yc",
+   "slug": "kivo-health",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "KiwiCo",
    "platform": "greenhouse",
    "slug": "kiwicoinc",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "Klaimee",
+   "platform": "yc",
+   "slug": "klaimee",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Klarity",
@@ -7314,6 +9815,15 @@
    "slug": "kong"
   },
   {
+   "name": "Kontigo",
+   "platform": "yc",
+   "slug": "kontigo",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "kos.ai",
    "platform": "ashby",
    "slug": "kos.ai"
@@ -7322,6 +9832,15 @@
    "name": "Kouper Health",
    "platform": "lever",
    "slug": "kouperhealth"
+  },
+  {
+   "name": "Koyal",
+   "platform": "yc",
+   "slug": "koyal",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Kpler",
@@ -7339,9 +9858,27 @@
    "slug": "krollbondratingagency"
   },
   {
+   "name": "Kuli",
+   "platform": "yc",
+   "slug": "kuli",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Kustomer",
    "platform": "ashby",
    "slug": "kustomer"
+  },
+  {
+   "name": "Kyber",
+   "platform": "yc",
+   "slug": "kyber",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Kyowa Kirin",
@@ -7349,14 +9886,59 @@
    "slug": "kyowakirinusa90"
   },
   {
+   "name": "Lab0",
+   "platform": "yc",
+   "slug": "lab0",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Labelbox",
    "platform": "greenhouse",
    "slug": "labelbox"
   },
   {
+   "name": "Lago",
+   "platform": "yc",
+   "slug": "lago",
+   "source": "yc",
+   "team_size": 45,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Lamar Health",
+   "platform": "yc",
+   "slug": "lamar-health",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Lambda",
    "platform": "ashby",
    "slug": "lambda"
+  },
+  {
+   "name": "Lambda Robotics",
+   "platform": "yc",
+   "slug": "lambda-robotics",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Fall 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Laminar",
+   "platform": "yc",
+   "slug": "laminar-com",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Lance",
@@ -7368,9 +9950,27 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Landed",
+   "platform": "yc",
+   "slug": "landed-2",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Winter 2019",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Landscape Forms",
    "platform": "greenhouse",
    "slug": "landscapeforms"
+  },
+  {
+   "name": "Lanesurf",
+   "platform": "yc",
+   "slug": "lanesurf",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Larian Studios",
@@ -7426,6 +10026,15 @@
    "stage": "series_c"
   },
   {
+   "name": "Laurence",
+   "platform": "yc",
+   "slug": "laurence",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "LawDepot",
    "platform": "ashby",
    "slug": "lawdepot"
@@ -7441,6 +10050,24 @@
    "slug": "layerhealth"
   },
   {
+   "name": "Layers",
+   "platform": "yc",
+   "slug": "layers",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Layerup",
+   "platform": "yc",
+   "slug": "layerup",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "LayerZero Labs",
    "platform": "greenhouse",
    "slug": "layerzerolabs"
@@ -7454,6 +10081,15 @@
    "name": "LCBC Church",
    "platform": "lever",
    "slug": "lcbcchurch"
+  },
+  {
+   "name": "Leadbay",
+   "platform": "yc",
+   "slug": "leadbay",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "League",
@@ -7480,6 +10116,15 @@
    "slug": "leap-legal-software"
   },
   {
+   "name": "Leaping AI",
+   "platform": "yc",
+   "slug": "leaping-ai",
+   "source": "yc",
+   "team_size": 13,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Leapsome",
    "platform": "ashby",
    "slug": "leapsome",
@@ -7501,6 +10146,15 @@
    "verified_via": "domain+company_name"
   },
   {
+   "name": "LegalOS",
+   "platform": "yc",
+   "slug": "legalos",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Legend Biotech",
    "platform": "greenhouse",
    "slug": "legendcareers"
@@ -7518,6 +10172,15 @@
    "name": "Legis1",
    "platform": "lever",
    "slug": "sunwatercapital"
+  },
+  {
+   "name": "Lemma",
+   "platform": "yc",
+   "slug": "uselemma",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Lendable",
@@ -7538,6 +10201,15 @@
    "name": "LetsGetChecked",
    "platform": "greenhouse",
    "slug": "letsgetchecked"
+  },
+  {
+   "name": "Letterdrop",
+   "platform": "yc",
+   "slug": "letterdrop",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "Level AI",
@@ -7597,6 +10269,15 @@
    "slug": "life"
   },
   {
+   "name": "Lightberry",
+   "platform": "yc",
+   "slug": "lightberry",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Lightfield",
    "platform": "ashby",
    "slug": "Lightfield"
@@ -7620,6 +10301,15 @@
    "name": "Lightspeed Systems",
    "platform": "greenhouse",
    "slug": "lightspeedsystems"
+  },
+  {
+   "name": "LightSprint",
+   "platform": "yc",
+   "slug": "lightsprint",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Lila Sciences",
@@ -7670,6 +10360,15 @@
    "slug": "liquid"
   },
   {
+   "name": "Liquid Compute",
+   "platform": "yc",
+   "slug": "liquid-compute",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "LiteLLM",
    "platform": "ashby",
    "slug": "litellm"
@@ -7718,6 +10417,24 @@
    "stage": "series_c"
   },
   {
+   "name": "Locata",
+   "platform": "yc",
+   "slug": "locata",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Locke",
+   "platform": "yc",
+   "slug": "locke",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Locus Robotics",
    "platform": "greenhouse",
    "slug": "locusrobotics"
@@ -7758,6 +10475,15 @@
    "name": "Loop",
    "platform": "greenhouse",
    "slug": "loop"
+  },
+  {
+   "name": "loopfour",
+   "platform": "yc",
+   "slug": "loopfour",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Lotus Health Ai",
@@ -7807,6 +10533,15 @@
    "slug": "ludorobotics"
   },
   {
+   "name": "Lugg",
+   "platform": "yc",
+   "slug": "lugg",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Summer 2015",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Luma AI",
    "platform": "ashby",
    "slug": "lumaai",
@@ -7817,6 +10552,15 @@
    "name": "Lumafield",
    "platform": "lever",
    "slug": "lumafield"
+  },
+  {
+   "name": "Lumari",
+   "platform": "yc",
+   "slug": "lumari",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Lumin Digital",
@@ -7831,6 +10575,15 @@
    "team_size": 50,
    "batch": "Summer 2020",
    "verified_via": "site-link"
+  },
+  {
+   "name": "Luminal",
+   "platform": "yc",
+   "slug": "luminal",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Luminance",
@@ -7856,6 +10609,15 @@
    "name": "Lunon",
    "platform": "ashby",
    "slug": "Lunon"
+  },
+  {
+   "name": "Luthor",
+   "platform": "yc",
+   "slug": "luthor",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Luxium Solutions",
@@ -7917,6 +10679,15 @@
    "slug": "MachinaLabs"
   },
   {
+   "name": "MadeThis",
+   "platform": "yc",
+   "slug": "madethis",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Madhive",
    "platform": "ashby",
    "slug": "madhive"
@@ -7925,6 +10696,15 @@
    "name": "Madison Energy Infrastructure",
    "platform": "greenhouse",
    "slug": "madisonenergyinfrastructure"
+  },
+  {
+   "name": "Mage Legal",
+   "platform": "yc",
+   "slug": "mage-legal",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Magic Patterns",
@@ -7939,6 +10719,15 @@
    "name": "Magnet Forensics",
    "platform": "lever",
    "slug": "magnetforensics"
+  },
+  {
+   "name": "Magnetic",
+   "platform": "yc",
+   "slug": "magnetic",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Maigrate",
@@ -7958,6 +10747,24 @@
    "slug": "maintainx"
   },
   {
+   "name": "Maintouch",
+   "platform": "yc",
+   "slug": "maintouch",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Maitai",
+   "platform": "yc",
+   "slug": "maitai",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Major League Baseball",
    "platform": "greenhouse",
    "slug": "philliesbaseballoperations"
@@ -7966,6 +10773,15 @@
    "name": "Makai Labs",
    "platform": "ashby",
    "slug": "makai-labs"
+  },
+  {
+   "name": "Malama Health",
+   "platform": "yc",
+   "slug": "malama-health",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Mammoth Brands",
@@ -7992,6 +10808,15 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Manicule",
+   "platform": "yc",
+   "slug": "manicule",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Manifold AI",
    "platform": "greenhouse",
    "slug": "manifoldai"
@@ -8004,6 +10829,15 @@
    "team_size": 3,
    "batch": "Winter 2026",
    "verified_via": "name+company_name"
+  },
+  {
+   "name": "Manufact",
+   "platform": "yc",
+   "slug": "manufact",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Maple AI",
@@ -8021,6 +10855,15 @@
    "slug": "Marathon%20Fusion"
   },
   {
+   "name": "Margin",
+   "platform": "yc",
+   "slug": "margin",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "MARGO",
    "platform": "lever",
    "slug": "margo-group"
@@ -8029,6 +10872,15 @@
    "name": "Mariana Minerals",
    "platform": "ashby",
    "slug": "marianaminerals"
+  },
+  {
+   "name": "Maritime Fusion",
+   "platform": "yc",
+   "slug": "maritime-fusion",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Markforged",
@@ -8083,6 +10935,15 @@
    "name": "Matillion",
    "platform": "lever",
    "slug": "matillion"
+  },
+  {
+   "name": "Matter",
+   "platform": "yc",
+   "slug": "matter",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "Matter Intelligence",
@@ -8147,6 +11008,24 @@
    "slug": "maybellquantum"
   },
   {
+   "name": "Maywood",
+   "platform": "yc",
+   "slug": "maywood",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Mbodi AI",
+   "platform": "yc",
+   "slug": "mbodi-ai",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "McAdams",
    "platform": "greenhouse",
    "slug": "mcadams"
@@ -8167,6 +11046,24 @@
    "slug": "mcmastercarr"
   },
   {
+   "name": "mdhub",
+   "platform": "yc",
+   "slug": "mdhub",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Measured",
+   "platform": "yc",
+   "slug": "measured",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Mechanical Licensing Collective",
    "platform": "greenhouse",
    "slug": "mechanicallicensingcollective"
@@ -8180,6 +11077,24 @@
    "name": "Medical Informatics Engineering",
    "platform": "greenhouse",
    "slug": "medicalinformaticsengineering"
+  },
+  {
+   "name": "Mednet",
+   "platform": "yc",
+   "slug": "mednet",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Winter 2017",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Medplum",
+   "platform": "yc",
+   "slug": "medplum",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Medra",
@@ -8241,6 +11156,15 @@
    "slug": "mentis"
   },
   {
+   "name": "Mentra",
+   "platform": "yc",
+   "slug": "mentra",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Mercedes-Benz",
    "platform": "lever",
    "slug": "MBRDNA"
@@ -8249,6 +11173,15 @@
    "name": "Mercer Advisors",
    "platform": "greenhouse",
    "slug": "merceradvisors"
+  },
+  {
+   "name": "Mercoa",
+   "platform": "yc",
+   "slug": "mercoa",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Mercor",
@@ -8264,6 +11197,15 @@
    "name": "MERGE",
    "platform": "greenhouse",
    "slug": "mergeworld"
+  },
+  {
+   "name": "Meridian Industries",
+   "platform": "yc",
+   "slug": "meridian-industries",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
   },
   {
    "name": "Meridian Link",
@@ -8330,9 +11272,27 @@
    "stage": "acquisition"
   },
   {
+   "name": "Metal",
+   "platform": "yc",
+   "slug": "metal",
+   "source": "yc",
+   "team_size": 17,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Metalenz",
    "platform": "ashby",
    "slug": "metalenz"
+  },
+  {
+   "name": "Metalware",
+   "platform": "yc",
+   "slug": "metalware",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Metaview",
@@ -8348,6 +11308,15 @@
    "name": "Method",
    "platform": "ashby",
    "slug": "method"
+  },
+  {
+   "name": "Meticulate",
+   "platform": "yc",
+   "slug": "meticulate",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Meticulous",
@@ -8384,6 +11353,15 @@
    "slug": "mettel"
   },
   {
+   "name": "Middleware",
+   "platform": "yc",
+   "slug": "middleware",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Midpoint Markets",
    "platform": "greenhouse",
    "slug": "midpointmarkets"
@@ -8399,6 +11377,15 @@
    "slug": "mindrobotics"
   },
   {
+   "name": "Mindbase",
+   "platform": "yc",
+   "slug": "tradex",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Mindtickle",
    "platform": "lever",
    "slug": "mindtickle",
@@ -8406,9 +11393,45 @@
    "stage": "series_e"
   },
   {
+   "name": "Mineflow",
+   "platform": "yc",
+   "slug": "mineflow",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Minerva",
+   "platform": "yc",
+   "slug": "minerva",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Minicor",
+   "platform": "yc",
+   "slug": "minicor",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Minitab",
    "platform": "greenhouse",
    "slug": "minitab"
+  },
+  {
+   "name": "Mino Games",
+   "platform": "yc",
+   "slug": "mino-games",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Winter 2011",
+   "verified_via": "yc-page"
   },
   {
    "name": "Mintlify",
@@ -8452,6 +11475,15 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Misprint",
+   "platform": "yc",
+   "slug": "misprint",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Mitratech",
    "platform": "greenhouse",
    "slug": "mitratech"
@@ -8484,6 +11516,15 @@
    "slug": "mobilityware"
   },
   {
+   "name": "MochaCare",
+   "platform": "yc",
+   "slug": "mochacare",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Modal",
    "platform": "ashby",
    "slug": "modal"
@@ -8492,6 +11533,15 @@
    "name": "Modernizing Medicine",
    "platform": "greenhouse",
    "slug": "modernizingmedicineinc"
+  },
+  {
+   "name": "ModernLoop",
+   "platform": "yc",
+   "slug": "modernloop",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Moloco",
@@ -8562,6 +11612,15 @@
    "slug": "mila-2"
   },
   {
+   "name": "Monumint",
+   "platform": "yc",
+   "slug": "monumint",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Monzo",
    "platform": "greenhouse",
    "slug": "monzo"
@@ -8582,6 +11641,15 @@
    "name": "Moonpig",
    "platform": "lever",
    "slug": "moonpig"
+  },
+  {
+   "name": "Morph",
+   "platform": "yc",
+   "slug": "morph",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "MorphoAI",
@@ -8617,6 +11685,15 @@
    "slug": "moss"
   },
   {
+   "name": "Motion",
+   "platform": "yc",
+   "slug": "motion",
+   "source": "yc",
+   "team_size": 65,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Motional AD",
    "platform": "greenhouse",
    "slug": "motional"
@@ -8635,6 +11712,15 @@
    "name": "Mozilla",
    "platform": "greenhouse",
    "slug": "mozilla"
+  },
+  {
+   "name": "MSPilot",
+   "platform": "yc",
+   "slug": "mspilot",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "MSR-FSR",
@@ -8660,6 +11746,15 @@
    "name": "Mulligan Funding",
    "platform": "lever",
    "slug": "mulliganfunding"
+  },
+  {
+   "name": "Multifactor",
+   "platform": "yc",
+   "slug": "multifactor",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Multiply Labs",
@@ -8748,6 +11843,15 @@
    "stage": "private_equity"
   },
   {
+   "name": "Narrative",
+   "platform": "yc",
+   "slug": "narrative",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Nascent",
    "platform": "ashby",
    "slug": "nascent"
@@ -8778,6 +11882,15 @@
    "slug": "nationgraph"
   },
   {
+   "name": "Nautilus",
+   "platform": "yc",
+   "slug": "nautilus",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Navi AI",
    "platform": "ashby",
    "slug": "navi"
@@ -8797,11 +11910,29 @@
    "slug": "navionsl"
   },
   {
+   "name": "Na\u00efve",
+   "platform": "yc",
+   "slug": "naive",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Nebius",
    "platform": "greenhouse",
    "slug": "nebius",
    "source": "vc_board",
    "stage": "other"
+  },
+  {
+   "name": "Nectar",
+   "platform": "yc",
+   "slug": "nectar",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Nectar Social",
@@ -8846,11 +11977,38 @@
    "slug": "nerostechnologies"
   },
   {
+   "name": "Nessie",
+   "platform": "yc",
+   "slug": "nessie",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Nest Genomics",
+   "platform": "yc",
+   "slug": "nest-genomics",
+   "source": "yc",
+   "team_size": 14,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Nest Health",
    "platform": "ashby",
    "slug": "nest-health",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "Nestor",
+   "platform": "yc",
+   "slug": "nestor",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Summer 2018",
+   "verified_via": "yc-page"
   },
   {
    "name": "NetBox Labs",
@@ -8930,6 +12088,15 @@
    "slug": "newsela"
   },
   {
+   "name": "Newton",
+   "platform": "yc",
+   "slug": "newton",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Newton Research",
    "platform": "greenhouse",
    "slug": "newtonresearch"
@@ -9004,6 +12171,15 @@
    "slug": "nimblerx"
   },
   {
+   "name": "Nine Fives",
+   "platform": "yc",
+   "slug": "nine-fives",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "NinjaTrader",
    "platform": "greenhouse",
    "slug": "ninjatrader"
@@ -9016,9 +12192,27 @@
    "stage": "series_d"
   },
   {
+   "name": "Nitrode",
+   "platform": "yc",
+   "slug": "nitrode",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Niural",
    "platform": "ashby",
    "slug": "niural"
+  },
+  {
+   "name": "Nivara",
+   "platform": "yc",
+   "slug": "nivara",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Nivoda",
@@ -9028,9 +12222,27 @@
    "stage": "series_c"
   },
   {
+   "name": "Nixo",
+   "platform": "yc",
+   "slug": "nixo",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "NMI",
    "platform": "greenhouse",
    "slug": "nmi"
+  },
+  {
+   "name": "No Logo",
+   "platform": "yc",
+   "slug": "no-logo",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Nobull",
@@ -9095,6 +12307,15 @@
    "slug": "nory-co"
   },
   {
+   "name": "NOSO LABS",
+   "platform": "yc",
+   "slug": "noso-labs",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Notabene",
    "platform": "ashby",
    "slug": "notabene",
@@ -9123,6 +12344,15 @@
    "slug": "nova-talent"
   },
   {
+   "name": "Novaflow",
+   "platform": "yc",
+   "slug": "novaflow",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Novellia",
    "platform": "ashby",
    "slug": "novellia",
@@ -9144,6 +12374,15 @@
    "stage": "private_equity"
   },
   {
+   "name": "Novoflow",
+   "platform": "yc",
+   "slug": "novoflow",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Nowadays",
    "platform": "ashby",
    "slug": "nowadays",
@@ -9161,6 +12400,15 @@
    "name": "Nozomi Networks",
    "platform": "greenhouse",
    "slug": "nozominetworks"
+  },
+  {
+   "name": "Nozomio",
+   "platform": "yc",
+   "slug": "nozomio",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "NPR",
@@ -9190,6 +12438,15 @@
    "stage": "series_c"
   },
   {
+   "name": "Numen",
+   "platform": "yc",
+   "slug": "numen",
+   "source": "yc",
+   "team_size": 18,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Numeral",
    "platform": "ashby",
    "slug": "numeral"
@@ -9208,6 +12465,15 @@
    "name": "NumerixS Quant",
    "platform": "ashby",
    "slug": "numerixs-quant"
+  },
+  {
+   "name": "Numero",
+   "platform": "yc",
+   "slug": "numero",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2019",
+   "verified_via": "yc-page"
   },
   {
    "name": "OakNorth Bank",
@@ -9274,6 +12540,15 @@
    "slug": "octaura"
   },
   {
+   "name": "Ocular AI",
+   "platform": "yc",
+   "slug": "ocular-ai",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Odin Dynamics, Inc",
    "platform": "ashby",
    "slug": "odin-dynamics"
@@ -9304,6 +12579,24 @@
    "slug": "ohio"
   },
   {
+   "name": "Ohm",
+   "platform": "yc",
+   "slug": "ohm-2",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Okteto",
+   "platform": "yc",
+   "slug": "okteto",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2019",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Oleria Security",
    "platform": "lever",
    "slug": "oleria-security"
@@ -9322,6 +12615,15 @@
    "name": "Olo",
    "platform": "lever",
    "slug": "olo"
+  },
+  {
+   "name": "Olympian Motors",
+   "platform": "yc",
+   "slug": "olympian-motors",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Omada Health",
@@ -9349,6 +12651,15 @@
    "name": "Omnicom Media Group",
    "platform": "greenhouse",
    "slug": "omguk"
+  },
+  {
+   "name": "Omnistrate",
+   "platform": "yc",
+   "slug": "omnistrate",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Onapsis",
@@ -9398,9 +12709,27 @@
    "verified_via": "site-link"
   },
   {
+   "name": "OneStop",
+   "platform": "yc",
+   "slug": "onestop",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "OnLogic",
    "platform": "workable",
    "slug": "onlogic-inc"
+  },
+  {
+   "name": "Onlook",
+   "platform": "yc",
+   "slug": "onlook",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "OnShift",
@@ -9425,6 +12754,15 @@
    "slug": "onyx-capital-group"
   },
   {
+   "name": "Ooak Data",
+   "platform": "yc",
+   "slug": "ooak-data",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Oodle Financial Services",
    "platform": "greenhouse",
    "slug": "oodlefinance"
@@ -9435,9 +12773,36 @@
    "slug": "ooma"
   },
   {
+   "name": "Opalite Health",
+   "platform": "yc",
+   "slug": "opalite-health",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Open",
+   "platform": "yc",
+   "slug": "open",
+   "source": "yc",
+   "team_size": 21,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Open Farm Pet",
    "platform": "greenhouse",
    "slug": "openfarminc"
+  },
+  {
+   "name": "Openbenchmarks",
+   "platform": "yc",
+   "slug": "openbenchmarks",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "OpenEye",
@@ -9453,6 +12818,15 @@
    "name": "OpenLoop",
    "platform": "ashby",
    "slug": "openloophealth"
+  },
+  {
+   "name": "Openmart",
+   "platform": "yc",
+   "slug": "openmart",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "OpenSesame",
@@ -9526,6 +12900,24 @@
    "slug": "opusclip"
   },
   {
+   "name": "Orange Slice",
+   "platform": "yc",
+   "slug": "orange-slice",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Orangewood Labs",
+   "platform": "yc",
+   "slug": "orangewood-labs",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2018",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "OraSure Technologies",
    "platform": "lever",
    "slug": "dnagenotek"
@@ -9560,6 +12952,15 @@
    "stage": "series_b"
   },
   {
+   "name": "Orca Aerospace",
+   "platform": "yc",
+   "slug": "orca-aerospace",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Orca Bio",
    "platform": "lever",
    "slug": "orcabiosystems",
@@ -9572,14 +12973,41 @@
    "slug": "orchard"
   },
   {
+   "name": "Orchid",
+   "platform": "yc",
+   "slug": "orchid",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Orennia",
    "platform": "greenhouse",
    "slug": "orennia"
   },
   {
+   "name": "Origami",
+   "platform": "yc",
+   "slug": "origami-2",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Origis Energy",
    "platform": "greenhouse",
    "slug": "origisenergy"
+  },
+  {
+   "name": "OS3",
+   "platform": "yc",
+   "slug": "os3",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Osmind",
@@ -9644,6 +13072,15 @@
    "stage": "series_d"
   },
   {
+   "name": "Outerport",
+   "platform": "yc",
+   "slug": "outerport",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Outmarket AI",
    "platform": "ashby",
    "slug": "outmarket"
@@ -9682,6 +13119,15 @@
    "stage": "series_b"
   },
   {
+   "name": "Overlap",
+   "platform": "yc",
+   "slug": "overlap",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Oversee (Formerly Fairfly)",
    "platform": "workable",
    "slug": "oversee-1",
@@ -9708,11 +13154,38 @@
    "slug": "oxford-quantum-circuits-8"
   },
   {
+   "name": "Oxus",
+   "platform": "yc",
+   "slug": "oxus",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Oxygen",
+   "platform": "yc",
+   "slug": "oxygen",
+   "source": "yc",
+   "team_size": 68,
+   "batch": "Summer 2018",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Ozow",
    "platform": "greenhouse",
    "slug": "ozow",
    "source": "vc_board",
    "stage": "series_unknown"
+  },
+  {
+   "name": "Paces",
+   "platform": "yc",
+   "slug": "paces",
+   "source": "yc",
+   "team_size": 48,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Pacific Fusion",
@@ -9749,6 +13222,15 @@
    "slug": "pagerduty"
   },
   {
+   "name": "Pair AI",
+   "platform": "yc",
+   "slug": "pair-ai",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Pair Eyewear",
    "platform": "ashby",
    "slug": "paireyewear",
@@ -9771,6 +13253,33 @@
    "name": "Palmetto Clean Technology",
    "platform": "greenhouse",
    "slug": "palmettocleantech"
+  },
+  {
+   "name": "Panels",
+   "platform": "yc",
+   "slug": "panels",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Pangea.app",
+   "platform": "yc",
+   "slug": "pangea-app",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Pangolin",
+   "platform": "yc",
+   "slug": "pangolin",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Pantheon",
@@ -9802,6 +13311,15 @@
    "stage": "series_c"
   },
   {
+   "name": "ParadeDB",
+   "platform": "yc",
+   "slug": "paradedb",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Paradigm",
    "platform": "ashby",
    "slug": "paradigm"
@@ -9812,6 +13330,15 @@
    "slug": "parafin",
    "source": "vc_board",
    "stage": "other"
+  },
+  {
+   "name": "Paragon",
+   "platform": "yc",
+   "slug": "deployparagon",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Paragon AI",
@@ -9843,6 +13370,33 @@
    "name": "Parallel Wireless",
    "platform": "lever",
    "slug": "parallelwireless"
+  },
+  {
+   "name": "Parameter",
+   "platform": "yc",
+   "slug": "parameter",
+   "source": "yc",
+   "team_size": 14,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Parametric",
+   "platform": "yc",
+   "slug": "parametric",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Parasma",
+   "platform": "yc",
+   "slug": "parasma",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "ParetoHealth",
@@ -9877,6 +13431,15 @@
    "slug": "partnerize",
    "source": "vc_board",
    "stage": "private_equity"
+  },
+  {
+   "name": "Pasito",
+   "platform": "yc",
+   "slug": "pasito",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Passport",
@@ -9918,6 +13481,42 @@
    "stage": "series_c"
   },
   {
+   "name": "Pave Robotics",
+   "platform": "yc",
+   "slug": "pave-robotics",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Pax",
+   "platform": "yc",
+   "slug": "pax",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Pax Historia",
+   "platform": "yc",
+   "slug": "pax-historia",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "PAX Markets",
+   "platform": "yc",
+   "slug": "pax-markets",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Paxton Access",
    "platform": "workable",
    "slug": "paxton-access"
@@ -9928,6 +13527,15 @@
    "slug": "payit",
    "source": "vc_board",
    "stage": "series_unknown"
+  },
+  {
+   "name": "Payna",
+   "platform": "yc",
+   "slug": "payna",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "PayStand",
@@ -10015,11 +13623,29 @@
    "stage": "acquisition"
   },
   {
+   "name": "Peppr AI",
+   "platform": "yc",
+   "slug": "peppr-ai",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Pepr",
    "platform": "ashby",
    "slug": "pepr-ai",
    "source": "vc_board",
    "stage": "seed"
+  },
+  {
+   "name": "Per Diem",
+   "platform": "yc",
+   "slug": "per-diem",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Per Scholas",
@@ -10037,6 +13663,15 @@
    "slug": "peregrinetechnologies"
   },
   {
+   "name": "PerfectBit, Inc.",
+   "platform": "yc",
+   "slug": "perfectbit-inc",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Perforce",
    "platform": "lever",
    "slug": "perforce"
@@ -10050,6 +13685,15 @@
    "name": "PermitFlow",
    "platform": "ashby",
    "slug": "permitflow"
+  },
+  {
+   "name": "PermitPortal",
+   "platform": "yc",
+   "slug": "permitportal",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Perpay",
@@ -10085,6 +13729,24 @@
    "name": "Personalis",
    "platform": "greenhouse",
    "slug": "personalisinc"
+  },
+  {
+   "name": "Pesto",
+   "platform": "yc",
+   "slug": "pesto",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "PgDog",
+   "platform": "yc",
+   "slug": "pgdog",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Phaidra",
@@ -10137,6 +13799,15 @@
    "slug": "phonic"
   },
   {
+   "name": "Photonium",
+   "platform": "yc",
+   "slug": "photonium",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Physical Intelligence",
    "platform": "ashby",
    "slug": "physicalintelligence"
@@ -10157,6 +13828,15 @@
    "slug": "picklerobot"
   },
   {
+   "name": "PicnicAI",
+   "platform": "yc",
+   "slug": "picnicai",
+   "source": "yc",
+   "team_size": 100,
+   "batch": "Summer 2014",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Pico",
    "platform": "greenhouse",
    "slug": "picoquantitativetrading"
@@ -10174,6 +13854,15 @@
    "stage": "series_unknown"
   },
   {
+   "name": "Pier",
+   "platform": "yc",
+   "slug": "pier",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Pigment",
    "platform": "lever",
    "slug": "pigment"
@@ -10182,6 +13871,15 @@
    "name": "Pika",
    "platform": "ashby",
    "slug": "pika"
+  },
+  {
+   "name": "Pillar",
+   "platform": "yc",
+   "slug": "pillar-2",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
   },
   {
    "name": "Pine Park Health",
@@ -10213,6 +13911,24 @@
    "slug": "pipe17",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "Piramidal",
+   "platform": "yc",
+   "slug": "piramidal",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Piris Labs",
+   "platform": "yc",
+   "slug": "pirislabs",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Pivot Energy",
@@ -10257,6 +13973,15 @@
    "slug": "planetscale"
   },
   {
+   "name": "Players' Lounge",
+   "platform": "yc",
+   "slug": "players-lounge",
+   "source": "yc",
+   "team_size": 13,
+   "batch": "Winter 2018",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Playground Global",
    "platform": "ashby",
    "slug": "Playground%20Global",
@@ -10298,6 +14023,15 @@
    "slug": "pmg"
   },
   {
+   "name": "Pocket",
+   "platform": "yc",
+   "slug": "pocket",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Podium",
    "platform": "greenhouse",
    "slug": "podium81"
@@ -10323,6 +14057,24 @@
    "slug": "PointOne"
   },
   {
+   "name": "Poka Labs",
+   "platform": "yc",
+   "slug": "poka-labs",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Poly",
+   "platform": "yc",
+   "slug": "poly",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "PolyAI",
    "platform": "greenhouse",
    "slug": "polyai"
@@ -10336,6 +14088,15 @@
    "name": "Polymath",
    "platform": "ashby",
    "slug": "polymath"
+  },
+  {
+   "name": "Polymath Robotics",
+   "platform": "yc",
+   "slug": "polymath-robotics",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Polymer",
@@ -10373,6 +14134,15 @@
    "slug": "poshmark"
   },
   {
+   "name": "Postal",
+   "platform": "yc",
+   "slug": "postal",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Postman",
    "platform": "greenhouse",
    "slug": "postman"
@@ -10381,6 +14151,15 @@
    "name": "Postscript",
    "platform": "greenhouse",
    "slug": "postscript"
+  },
+  {
+   "name": "Powder",
+   "platform": "yc",
+   "slug": "powder",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Practising Law Institute",
@@ -10437,6 +14216,24 @@
    "stage": "other"
   },
   {
+   "name": "Prequel",
+   "platform": "yc",
+   "slug": "prequel",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Prescience, Inc.",
+   "platform": "yc",
+   "slug": "prescience-inc",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Presence",
    "platform": "greenhouse",
    "slug": "presencelearning"
@@ -10450,6 +14247,24 @@
    "name": "Primer",
    "platform": "ashby",
    "slug": "primer"
+  },
+  {
+   "name": "PrimeVault",
+   "platform": "yc",
+   "slug": "primevault",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "primitive",
+   "platform": "yc",
+   "slug": "primitive",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Prior Labs",
@@ -10476,6 +14291,15 @@
    "slug": "probook"
   },
   {
+   "name": "ProcIndex",
+   "platform": "yc",
+   "slug": "procindex",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Proconex",
    "platform": "greenhouse",
    "slug": "proconex"
@@ -10500,6 +14324,15 @@
    "slug": "Profound"
   },
   {
+   "name": "ProhostAI",
+   "platform": "yc",
+   "slug": "prohostai",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Prolaio",
    "platform": "greenhouse",
    "slug": "prolaio"
@@ -10519,6 +14352,15 @@
    "slug": "promiserobotics"
   },
   {
+   "name": "Promptless",
+   "platform": "yc",
+   "slug": "promptless",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "ProNexus",
    "platform": "workable",
    "slug": "pronexus-1"
@@ -10531,6 +14373,24 @@
    "stage": "seed"
   },
   {
+   "name": "Proof of Human",
+   "platform": "yc",
+   "slug": "proof-of-human",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "PropelAuth",
+   "platform": "yc",
+   "slug": "propelauth",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Prophecy.io",
    "platform": "greenhouse",
    "slug": "prophecysimpledatalabs",
@@ -10541,6 +14401,24 @@
    "name": "Prophet",
    "platform": "greenhouse",
    "slug": "prophet"
+  },
+  {
+   "name": "ProSights",
+   "platform": "yc",
+   "slug": "prosights",
+   "source": "yc",
+   "team_size": 14,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Prosper",
+   "platform": "yc",
+   "slug": "prosper",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Prosper Funding",
@@ -10558,9 +14436,36 @@
    "slug": "protolabs"
   },
   {
+   "name": "Proven Group",
+   "platform": "yc",
+   "slug": "proven-group",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2018",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Prox",
+   "platform": "yc",
+   "slug": "prox",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Proxima",
    "platform": "ashby",
    "slug": "proxima"
+  },
+  {
+   "name": "Proximitty",
+   "platform": "yc",
+   "slug": "proximitty",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Pryzm",
@@ -10573,6 +14478,15 @@
    "slug": "psiquantum",
    "source": "vc_board",
    "stage": "pre_seed"
+  },
+  {
+   "name": "Pulley",
+   "platform": "yc",
+   "slug": "pulley",
+   "source": "yc",
+   "team_size": 68,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "Pulse",
@@ -10629,6 +14543,15 @@
    "slug": "qrypt"
   },
   {
+   "name": "Quadrant Health",
+   "platform": "yc",
+   "slug": "quadrant-health",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Quadrature Capital",
    "platform": "greenhouse",
    "slug": "quadraturecapital"
@@ -10642,6 +14565,15 @@
    "name": "Quadrillion",
    "platform": "ashby",
    "slug": "quadrillion-labs"
+  },
+  {
+   "name": "QualGent",
+   "platform": "yc",
+   "slug": "qualgent",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Qualified Health",
@@ -10710,6 +14642,24 @@
    "slug": "questanalytics"
   },
   {
+   "name": "Quill",
+   "platform": "yc",
+   "slug": "quill",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Quill Bills",
+   "platform": "yc",
+   "slug": "quill-bills",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Quilt",
    "platform": "greenhouse",
    "slug": "quilt",
@@ -10727,6 +14677,15 @@
    "slug": "quindar",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "Quinn",
+   "platform": "yc",
+   "slug": "quinn",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "quip",
@@ -10816,6 +14775,33 @@
    "stage": "series_e"
   },
   {
+   "name": "Rally",
+   "platform": "yc",
+   "slug": "rallyuxr",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Ralo",
+   "platform": "yc",
+   "slug": "ralo",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "RamAIn",
+   "platform": "yc",
+   "slug": "ramain",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Ramiel Capital",
    "platform": "ashby",
    "slug": "ramielcapital"
@@ -10838,6 +14824,15 @@
    "slug": "rapp"
   },
   {
+   "name": "Rational",
+   "platform": "yc",
+   "slug": "rational",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "RAVE Aerospace",
    "platform": "workable",
    "slug": "raveaerospace"
@@ -10846,6 +14841,15 @@
    "name": "RAVL",
    "platform": "lever",
    "slug": "ravl_io"
+  },
+  {
+   "name": "Raycaster",
+   "platform": "yc",
+   "slug": "raycaster",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Re:Build Manufacturing",
@@ -10870,6 +14874,15 @@
    "name": "Reacher",
    "platform": "ashby",
    "slug": "reacher"
+  },
+  {
+   "name": "Readily",
+   "platform": "yc",
+   "slug": "readily",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Ready",
@@ -10906,9 +14919,27 @@
    "slug": "rdccareers"
   },
   {
+   "name": "Reason Machines",
+   "platform": "yc",
+   "slug": "reason-machines",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Rebellion",
    "platform": "workable",
    "slug": "rebellion"
+  },
+  {
+   "name": "Rebolt",
+   "platform": "yc",
+   "slug": "rebolt",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Rec",
@@ -10925,6 +14956,15 @@
    "team_size": 30,
    "batch": "Winter 2020",
    "verified_via": "site-link"
+  },
+  {
+   "name": "Recurrency",
+   "platform": "yc",
+   "slug": "recurrency",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "Red Rabbit Robotics",
@@ -10968,6 +15008,15 @@
    "stage": "series_a"
   },
   {
+   "name": "Refactor",
+   "platform": "yc",
+   "slug": "refactor",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Reflect Orbital",
    "platform": "ashby",
    "slug": "reflect-orbital"
@@ -10989,6 +15038,15 @@
    "verified_via": "domain+company_name"
   },
   {
+   "name": "Reform",
+   "platform": "yc",
+   "slug": "reform",
+   "source": "yc",
+   "team_size": 13,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Reframe Systems",
    "platform": "ashby",
    "slug": "reframesystems"
@@ -10997,6 +15055,15 @@
    "name": "Regal",
    "platform": "lever",
    "slug": "regalvoice"
+  },
+  {
+   "name": "Regbase",
+   "platform": "yc",
+   "slug": "regbase",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "REGENT",
@@ -11011,6 +15078,15 @@
    "team_size": 7,
    "batch": "Winter 2023",
    "verified_via": "domain-match"
+  },
+  {
+   "name": "Relari",
+   "platform": "yc",
+   "slug": "relari",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Relation Therapeutics",
@@ -11085,11 +15161,38 @@
    "slug": "rendezvousrobotics"
   },
   {
+   "name": "RentFlow",
+   "platform": "yc",
+   "slug": "rentflow",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "RentHop",
+   "platform": "yc",
+   "slug": "renthop",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Summer 2009",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "RentSpree",
    "platform": "rippling",
    "slug": "rentspree",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "Replicas",
+   "platform": "yc",
+   "slug": "replicas",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Replit",
@@ -11111,6 +15214,24 @@
    "slug": "reply"
   },
   {
+   "name": "Repool",
+   "platform": "yc",
+   "slug": "repool",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Reprompt",
+   "platform": "yc",
+   "slug": "reprompt",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Research Innovations",
    "platform": "lever",
    "slug": "researchinnovations.com"
@@ -11121,14 +15242,59 @@
    "slug": "resonate"
   },
   {
+   "name": "Respan",
+   "platform": "yc",
+   "slug": "respan",
+   "source": "yc",
+   "team_size": 23,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "ResponsiveAds",
    "platform": "workable",
    "slug": "responsiveads-inc"
   },
   {
+   "name": "RetailReady",
+   "platform": "yc",
+   "slug": "retailready",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Retell AI",
    "platform": "ashby",
    "slug": "retell-ai"
+  },
+  {
+   "name": "RetroFix",
+   "platform": "yc",
+   "slug": "retrofix",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Rev Genomics",
+   "platform": "yc",
+   "slug": "rev-genomics",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Summer 2017",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Revamp",
+   "platform": "yc",
+   "slug": "revamp",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Revefi",
@@ -11151,9 +15317,36 @@
    "slug": "revenuecat"
   },
   {
+   "name": "Revion",
+   "platform": "yc",
+   "slug": "revion",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Revise Robotics",
    "platform": "ashby",
    "slug": "reviserobotics"
+  },
+  {
+   "name": "Reviving Mind",
+   "platform": "yc",
+   "slug": "reviving-mind",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Revyl",
+   "platform": "yc",
+   "slug": "revyl",
+   "source": "yc",
+   "team_size": 16,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Rexford Industrial",
@@ -11164,6 +15357,15 @@
    "name": "RF-SMART",
    "platform": "greenhouse",
    "slug": "rfsmart"
+  },
+  {
+   "name": "Rhizome AI",
+   "platform": "yc",
+   "slug": "rhizome-ai",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Rho",
@@ -11186,6 +15388,15 @@
    "slug": "rhombuspower"
   },
   {
+   "name": "Ridecell",
+   "platform": "yc",
+   "slug": "ridecell",
+   "source": "yc",
+   "team_size": 88,
+   "batch": "Winter 2012",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Ridwell",
    "platform": "lever",
    "slug": "Ridwell",
@@ -11203,6 +15414,15 @@
    "slug": "rilla"
   },
   {
+   "name": "Rinse",
+   "platform": "yc",
+   "slug": "rinse",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Ripjar",
    "platform": "workable",
    "slug": "ripjar"
@@ -11218,6 +15438,15 @@
    "slug": "ritual",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "River Markets",
+   "platform": "yc",
+   "slug": "river-markets",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Riveron",
@@ -11267,6 +15496,24 @@
    "slug": "tryroam"
   },
   {
+   "name": "Roame",
+   "platform": "yc",
+   "slug": "roame",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Robby",
+   "platform": "yc",
+   "slug": "robby",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "RobCo",
    "platform": "ashby",
    "slug": "robco",
@@ -11311,6 +15558,15 @@
    "slug": "rockstargames"
   },
   {
+   "name": "ROE",
+   "platform": "yc",
+   "slug": "roe",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Roger Healthcare",
    "platform": "ashby",
    "slug": "rogerhealthcare",
@@ -11349,9 +15605,36 @@
    "slug": "root-access"
   },
   {
+   "name": "Rootly",
+   "platform": "yc",
+   "slug": "rootly",
+   "source": "yc",
+   "team_size": 75,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Rove",
+   "platform": "yc",
+   "slug": "rove",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Rovex Technologies",
    "platform": "workable",
    "slug": "rovex-technologies-corporation"
+  },
+  {
+   "name": "Rovi Health",
+   "platform": "yc",
+   "slug": "rovi-health",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Rsi Paper Mill",
@@ -11366,14 +15649,68 @@
    "slug": "rtwinvestments"
   },
   {
+   "name": "Rubbrband",
+   "platform": "yc",
+   "slug": "rubbrband",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Rubie",
    "platform": "ashby",
    "slug": "rubie"
   },
   {
+   "name": "Rudus",
+   "platform": "yc",
+   "slug": "rudus",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Rugged Robotics",
    "platform": "greenhouse",
    "slug": "ruggedrobotics"
+  },
+  {
+   "name": "Rulebase",
+   "platform": "yc",
+   "slug": "rulebase",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Rulebricks",
+   "platform": "yc",
+   "slug": "rulebricks",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Ruma Care",
+   "platform": "yc",
+   "slug": "ruma-care",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "RunAnywhere",
+   "platform": "yc",
+   "slug": "runanywhere",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Rundoo",
@@ -11389,6 +15726,15 @@
    "name": "RunSybil",
    "platform": "ashby",
    "slug": "runsybil-jobs"
+  },
+  {
+   "name": "Runtime",
+   "platform": "yc",
+   "slug": "runtime",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Runway",
@@ -11443,6 +15789,33 @@
    "name": "Safari AI",
    "platform": "greenhouse",
    "slug": "safariai"
+  },
+  {
+   "name": "SafeBeat",
+   "platform": "yc",
+   "slug": "safebeat",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "SafeButler",
+   "platform": "yc",
+   "slug": "safebutler",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2017",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Safepay",
+   "platform": "yc",
+   "slug": "safepay",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "SafetyKit",
@@ -11503,6 +15876,15 @@
    "stage": "series_c"
   },
   {
+   "name": "Salus",
+   "platform": "yc",
+   "slug": "salus",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Salvo Health",
    "platform": "lever",
    "slug": "salvohealth"
@@ -11560,6 +15942,24 @@
    "slug": "sanmar"
   },
   {
+   "name": "Sant\u00e9",
+   "platform": "yc",
+   "slug": "sante",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Saphira AI",
+   "platform": "yc",
+   "slug": "saphira-ai",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Sapien",
    "platform": "ashby",
    "slug": "sapien",
@@ -11594,6 +15994,15 @@
    "name": "Sauna",
    "platform": "ashby",
    "slug": "sauna.ai"
+  },
+  {
+   "name": "Sava",
+   "platform": "yc",
+   "slug": "savahq",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Saviynt",
@@ -11653,9 +16062,27 @@
    "slug": "scotch"
   },
   {
+   "name": "Scott AI",
+   "platform": "yc",
+   "slug": "scott-ai",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Scott Logic",
    "platform": "lever",
    "slug": "scottlogic"
+  },
+  {
+   "name": "Scout",
+   "platform": "yc",
+   "slug": "thedailyscout",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Scout AI",
@@ -11666,6 +16093,24 @@
    "name": "Scout Space",
    "platform": "greenhouse",
    "slug": "scoutspace"
+  },
+  {
+   "name": "screenpipe",
+   "platform": "yc",
+   "slug": "screenpipe",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Seam",
+   "platform": "yc",
+   "slug": "seam",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "Seamless.AI",
@@ -11736,9 +16181,27 @@
    "slug": "selffinancial"
   },
   {
+   "name": "Semble",
+   "platform": "yc",
+   "slug": "semble",
+   "source": "yc",
+   "team_size": 14,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Semgrep",
    "platform": "ashby",
    "slug": "semgrep"
+  },
+  {
+   "name": "Sendblue",
+   "platform": "yc",
+   "slug": "sendblue",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "SentiLink",
@@ -11827,6 +16290,15 @@
    "slug": "sharpelectronics"
   },
   {
+   "name": "Shasta Health",
+   "platform": "yc",
+   "slug": "shasta-health",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "SHEIN",
    "platform": "greenhouse",
    "slug": "shein"
@@ -11835,6 +16307,15 @@
    "name": "Shepherd",
    "platform": "ashby",
    "slug": "shepherd"
+  },
+  {
+   "name": "Shiboleth",
+   "platform": "yc",
+   "slug": "shiboleth",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Shift",
@@ -11849,11 +16330,29 @@
    "stage": "series_c"
   },
   {
+   "name": "Shimmer",
+   "platform": "yc",
+   "slug": "shimmer",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Shopmonkey",
    "platform": "greenhouse",
    "slug": "shopmonkey",
    "source": "vc_board",
    "stage": "series_c"
+  },
+  {
+   "name": "ShortLoop",
+   "platform": "yc",
+   "slug": "shortloop",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Shyft Solutions",
@@ -11864,6 +16363,15 @@
    "name": "ShyftLabs",
    "platform": "lever",
    "slug": "shyftlabs"
+  },
+  {
+   "name": "SID",
+   "platform": "yc",
+   "slug": "sid",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Side",
@@ -11889,6 +16397,24 @@
    "name": "Sigma Defense",
    "platform": "workable",
    "slug": "sigmadefense"
+  },
+  {
+   "name": "SigmaOS",
+   "platform": "yc",
+   "slug": "sigmaos",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Signadot",
+   "platform": "yc",
+   "slug": "signadot",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "Signal Advisors",
@@ -11917,6 +16443,24 @@
    "slug": "silananotechnologies"
   },
   {
+   "name": "Silimate",
+   "platform": "yc",
+   "slug": "silimate",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "SilkChart",
+   "platform": "yc",
+   "slug": "silkchart",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Silna Health",
    "platform": "ashby",
    "slug": "silnahealth.com"
@@ -11941,6 +16485,15 @@
    "slug": "SimbeRobotics"
   },
   {
+   "name": "Simbie AI",
+   "platform": "yc",
+   "slug": "simbie-ai",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Simile",
    "platform": "ashby",
    "slug": "simile"
@@ -11961,6 +16514,15 @@
    "slug": "simplisafe"
   },
   {
+   "name": "SimplyInsured",
+   "platform": "yc",
+   "slug": "simplyinsured",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Winter 2013",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Simular",
    "platform": "ashby",
    "slug": "Simular"
@@ -11974,6 +16536,15 @@
    "name": "SingleStore",
    "platform": "greenhouse",
    "slug": "singlestore"
+  },
+  {
+   "name": "Sira",
+   "platform": "yc",
+   "slug": "sira",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Sisense",
@@ -12008,6 +16579,15 @@
    "name": "Sixth Street",
    "platform": "greenhouse",
    "slug": "sixthstreet"
+  },
+  {
+   "name": "Sixtyfour",
+   "platform": "yc",
+   "slug": "sixtyfour",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "SK hynix",
@@ -12052,9 +16632,27 @@
    "slug": "skygig"
   },
   {
+   "name": "Skypher",
+   "platform": "yc",
+   "slug": "skypher",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Skyryse",
    "platform": "greenhouse",
    "slug": "skyryse"
+  },
+  {
+   "name": "Skyvern",
+   "platform": "yc",
+   "slug": "skyvern",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Skyways",
@@ -12096,6 +16694,15 @@
    "name": "Smarkets",
    "platform": "ashby",
    "slug": "smarkets"
+  },
+  {
+   "name": "Smartcuts",
+   "platform": "yc",
+   "slug": "smartcuts",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Smartly.io",
@@ -12151,9 +16758,27 @@
    "slug": "socket"
   },
   {
+   "name": "Socratix AI",
+   "platform": "yc",
+   "slug": "socratix-ai",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Socure",
    "platform": "ashby",
    "slug": "socure"
+  },
+  {
+   "name": "Soff",
+   "platform": "yc",
+   "slug": "soff",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Softheon",
@@ -12211,6 +16836,15 @@
    "slug": "solopulseco"
   },
   {
+   "name": "Solum Health",
+   "platform": "yc",
+   "slug": "solum-health",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Solva",
    "platform": "ashby",
    "slug": "solva",
@@ -12233,6 +16867,24 @@
    "name": "Sonatus",
    "platform": "greenhouse",
    "slug": "sonatus"
+  },
+  {
+   "name": "Sonauto",
+   "platform": "yc",
+   "slug": "sonauto",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Sonia",
+   "platform": "yc",
+   "slug": "sonia",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Sono Bello",
@@ -12260,6 +16912,24 @@
    "slug": "Sorare"
   },
   {
+   "name": "Sorce",
+   "platform": "yc",
+   "slug": "sorce",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Soria",
+   "platform": "yc",
+   "slug": "soria",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Sorting Robotics",
    "platform": "workable",
    "slug": "sorting-robotics"
@@ -12270,6 +16940,15 @@
    "slug": "Soulside%20AI",
    "source": "vc_board",
    "stage": "seed"
+  },
+  {
+   "name": "Sourcebot",
+   "platform": "yc",
+   "slug": "sourcebot",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Sourcegraph",
@@ -12363,6 +17042,15 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Sphere",
+   "platform": "yc",
+   "slug": "sphere",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Sphinx Defense",
    "platform": "greenhouse",
    "slug": "sphinxdefense"
@@ -12429,6 +17117,15 @@
    "slug": "srsacquiom"
   },
   {
+   "name": "Stable",
+   "platform": "yc",
+   "slug": "stable",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "StackAdapt",
    "platform": "greenhouse",
    "slug": "stackadapt"
@@ -12442,6 +17139,15 @@
    "name": "Stackline",
    "platform": "greenhouse",
    "slug": "stackline"
+  },
+  {
+   "name": "Stacksync",
+   "platform": "yc",
+   "slug": "stacksync",
+   "source": "yc",
+   "team_size": 34,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Stand Insurance",
@@ -12459,6 +17165,15 @@
    "slug": "standardfleet"
   },
   {
+   "name": "Standout",
+   "platform": "yc",
+   "slug": "standout",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Starbridge",
    "platform": "ashby",
    "slug": "starbridge"
@@ -12472,6 +17187,24 @@
    "name": "StarCompliance",
    "platform": "lever",
    "slug": "starcompliance"
+  },
+  {
+   "name": "Stardex",
+   "platform": "yc",
+   "slug": "stardex",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Stardrift",
+   "platform": "yc",
+   "slug": "stardrift",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Starface",
@@ -12499,6 +17232,15 @@
    "name": "SteerBridge",
    "platform": "lever",
    "slug": "steerbridge"
+  },
+  {
+   "name": "Steinmetz",
+   "platform": "yc",
+   "slug": "steinmetz",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "STEM Healthcare",
@@ -12537,6 +17279,24 @@
    "stage": "series_unknown"
   },
   {
+   "name": "Storyboarder",
+   "platform": "yc",
+   "slug": "storyboarder",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Storylane",
+   "platform": "yc",
+   "slug": "storylane",
+   "source": "yc",
+   "team_size": 55,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "STR",
    "platform": "greenhouse",
    "slug": "systemstechnologyresearch"
@@ -12572,6 +17332,15 @@
    "slug": "stratolaunch"
   },
   {
+   "name": "Streak",
+   "platform": "yc",
+   "slug": "streak",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Summer 2011",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Stream",
    "platform": "ashby",
    "slug": "stream",
@@ -12581,14 +17350,41 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Streamable",
+   "platform": "yc",
+   "slug": "streamable",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Striim",
    "platform": "greenhouse",
    "slug": "striiminc"
   },
   {
+   "name": "Structured AI",
+   "platform": "yc",
+   "slug": "structured-ai",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "StubHub",
    "platform": "greenhouse",
    "slug": "stubhubinc"
+  },
+  {
+   "name": "SubImage",
+   "platform": "yc",
+   "slug": "subimage",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Sublime Systems",
@@ -12636,6 +17432,15 @@
    "stage": "series_unknown"
   },
   {
+   "name": "Sully.ai",
+   "platform": "yc",
+   "slug": "sully-ai",
+   "source": "yc",
+   "team_size": 49,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Summit Partners",
    "platform": "greenhouse",
    "slug": "summitpartnerslp"
@@ -12649,6 +17454,15 @@
    "name": "Sunday Robotics",
    "platform": "ashby",
    "slug": "sunday"
+  },
+  {
+   "name": "Sunflower",
+   "platform": "yc",
+   "slug": "sunflower",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Suno",
@@ -12696,9 +17510,36 @@
    "verified_via": "domain+company_name"
   },
   {
+   "name": "SuperTokens",
+   "platform": "yc",
+   "slug": "supertokens",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Superwall",
+   "platform": "yc",
+   "slug": "staffbar",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "SupplyHouse.com",
    "platform": "greenhouse",
    "slug": "supplyhouse"
+  },
+  {
+   "name": "Surface Labs",
+   "platform": "yc",
+   "slug": "surface-labs",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Surge AI",
@@ -12727,6 +17568,15 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Swadesh",
+   "platform": "yc",
+   "slug": "swadesh",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Swayable",
    "platform": "greenhouse",
    "slug": "swayable",
@@ -12748,6 +17598,33 @@
    "team_size": 4,
    "batch": "Summer 2023",
    "verified_via": "domain-match"
+  },
+  {
+   "name": "Sweetspot",
+   "platform": "yc",
+   "slug": "sweetspot",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Swif.ai",
+   "platform": "yc",
+   "slug": "swif-ai",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Summer 2020",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "SwiftSku",
+   "platform": "yc",
+   "slug": "swiftsku",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Swoon Editions",
@@ -12775,6 +17652,24 @@
    "slug": "synack"
   },
   {
+   "name": "sync.",
+   "platform": "yc",
+   "slug": "sync-2",
+   "source": "yc",
+   "team_size": 13,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Syncly",
+   "platform": "yc",
+   "slug": "syncly",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Synergy ECP",
    "platform": "lever",
    "slug": "synergyecp"
@@ -12797,9 +17692,45 @@
    "stage": "series_e"
   },
   {
+   "name": "Synthetic Society",
+   "platform": "yc",
+   "slug": "synthetic-society",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "SyntheticFi",
+   "platform": "yc",
+   "slug": "syntheticfi",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Synthio Labs",
+   "platform": "yc",
+   "slug": "synthio-labs",
+   "source": "yc",
+   "team_size": 29,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Syntiant",
    "platform": "workable",
    "slug": "syntiant"
+  },
+  {
+   "name": "Syntra",
+   "platform": "yc",
+   "slug": "syntra",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "SZNS Solutions",
@@ -12894,9 +17825,36 @@
    "stage": "series_b"
   },
   {
+   "name": "Tara AI",
+   "platform": "yc",
+   "slug": "tara-ai",
+   "source": "yc",
+   "team_size": 13,
+   "batch": "Winter 2015",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "tarte cosmetics",
    "platform": "workable",
    "slug": "tarte-inc"
+  },
+  {
+   "name": "Taskade",
+   "platform": "yc",
+   "slug": "taskade",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Tasklet",
+   "platform": "yc",
+   "slug": "tasklet-2",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Tastylive",
@@ -12929,6 +17887,15 @@
    "name": "Tax Relief Advocates",
    "platform": "greenhouse",
    "slug": "taxreliefadvocates"
+  },
+  {
+   "name": "TaxGPT",
+   "platform": "yc",
+   "slug": "taxgpt",
+   "source": "yc",
+   "team_size": 45,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Teal Health",
@@ -13005,6 +17972,15 @@
    "slug": "tellius"
   },
   {
+   "name": "Telmai",
+   "platform": "yc",
+   "slug": "telmai",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "TELUS Digital",
    "platform": "ashby",
    "slug": "telus-digital"
@@ -13059,6 +18035,15 @@
    "stage": "series_a"
   },
   {
+   "name": "Terra API",
+   "platform": "yc",
+   "slug": "terra-api",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Terran Orbital",
    "platform": "greenhouse",
    "slug": "terranorbitalcorporation"
@@ -13069,9 +18054,27 @@
    "slug": "terranova"
   },
   {
+   "name": "Terranox AI",
+   "platform": "yc",
+   "slug": "terranox-ai",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Teserac",
    "platform": "workable",
    "slug": "teserac-inc"
+  },
+  {
+   "name": "Tesora",
+   "platform": "yc",
+   "slug": "tesora",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Tessera Labs",
@@ -13082,6 +18085,15 @@
    "name": "Testlio",
    "platform": "greenhouse",
    "slug": "testlio"
+  },
+  {
+   "name": "testRigor",
+   "platform": "yc",
+   "slug": "testrigor",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "TetraScience",
@@ -13099,6 +18111,15 @@
    "name": "Texas Sports Academy",
    "platform": "workable",
    "slug": "texas-sports-academy-main"
+  },
+  {
+   "name": "Text Blaze",
+   "platform": "yc",
+   "slug": "text-blaze",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Text.ai",
@@ -13155,6 +18176,15 @@
    "slug": "thehealthmanagementacademy"
   },
   {
+   "name": "The Hog",
+   "platform": "yc",
+   "slug": "the-hog",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "The Hotels Network",
    "platform": "greenhouse",
    "slug": "lighthouse",
@@ -13165,6 +18195,15 @@
    "name": "The Information Lab",
    "platform": "lever",
    "slug": "theinformationlab"
+  },
+  {
+   "name": "The Juggernaut",
+   "platform": "yc",
+   "slug": "the-juggernaut",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2019",
+   "verified_via": "yc-page"
   },
   {
    "name": "The MJ Companies",
@@ -13185,6 +18224,24 @@
    "name": "The Nuclear Company",
    "platform": "greenhouse",
    "slug": "thenuclearcompany"
+  },
+  {
+   "name": "The Prompting Company",
+   "platform": "yc",
+   "slug": "the-prompting-company",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "The Subvocal Company",
+   "platform": "yc",
+   "slug": "the-subvocal-company",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "The Trade Desk",
@@ -13222,9 +18279,45 @@
    "slug": "theodo"
   },
   {
+   "name": "Theorem",
+   "platform": "yc",
+   "slug": "theorem-2",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Thera",
+   "platform": "yc",
+   "slug": "thera",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "theScore",
    "platform": "greenhouse",
    "slug": "coop"
+  },
+  {
+   "name": "Theseus",
+   "platform": "yc",
+   "slug": "theseus",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Thesis",
+   "platform": "yc",
+   "slug": "thesis",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Thingtrax",
@@ -13242,11 +18335,29 @@
    "slug": "thinkcellsoftware"
   },
   {
+   "name": "Third Chair",
+   "platform": "yc",
+   "slug": "third-chair",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Third Space",
    "platform": "ashby",
    "slug": "third-space-therapy",
    "source": "vc_board",
    "stage": "seed"
+  },
+  {
+   "name": "Thirdlayer",
+   "platform": "yc",
+   "slug": "thirdlayer",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Thomas & Hutton",
@@ -13333,9 +18444,27 @@
    "slug": "matchgroup"
   },
   {
+   "name": "Tint",
+   "platform": "yc",
+   "slug": "tint",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Titan",
    "platform": "ashby",
    "slug": "titan-msp"
+  },
+  {
+   "name": "Tivara",
+   "platform": "yc",
+   "slug": "tivara",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "tldraw",
@@ -13378,6 +18507,15 @@
    "slug": "Tools%20for%20Humanity"
   },
   {
+   "name": "Toothy AI",
+   "platform": "yc",
+   "slug": "toothy-ai",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Top Hat",
    "platform": "ashby",
    "slug": "top-hat",
@@ -13388,6 +18526,15 @@
    "name": "Topanga",
    "platform": "lever",
    "slug": "topanga"
+  },
+  {
+   "name": "Topkey",
+   "platform": "yc",
+   "slug": "topkey",
+   "source": "yc",
+   "team_size": 17,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Topline Pro",
@@ -13405,6 +18552,15 @@
    "name": "Torc Robotics",
    "platform": "greenhouse",
    "slug": "torcrobotics"
+  },
+  {
+   "name": "Torus",
+   "platform": "yc",
+   "slug": "torus",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Toshiba Global Commerce",
@@ -13450,6 +18606,15 @@
    "name": "Tracer Cloud",
    "platform": "ashby",
    "slug": "tracer"
+  },
+  {
+   "name": "TraceRoot.AI",
+   "platform": "yc",
+   "slug": "traceroot-ai",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Trackforce",
@@ -13501,6 +18666,15 @@
    "stage": "acquisition"
   },
   {
+   "name": "Trata",
+   "platform": "yc",
+   "slug": "trata",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Travel Edge Network",
    "platform": "greenhouse",
    "slug": "traveledge"
@@ -13518,6 +18692,15 @@
    "stage": "series_a"
   },
   {
+   "name": "Trayd",
+   "platform": "yc",
+   "slug": "trayd",
+   "source": "yc",
+   "team_size": 34,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Treefera",
    "platform": "ashby",
    "slug": "treefera"
@@ -13526,6 +18709,24 @@
    "name": "Treeswift",
    "platform": "ashby",
    "slug": "treeswift"
+  },
+  {
+   "name": "Trelium",
+   "platform": "yc",
+   "slug": "trelium",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Trellis AI",
+   "platform": "yc",
+   "slug": "trellis-ai",
+   "source": "yc",
+   "team_size": 34,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Trend Health Partners",
@@ -13602,9 +18803,36 @@
    "slug": "trueplatform"
   },
   {
+   "name": "TrueBiz",
+   "platform": "yc",
+   "slug": "truebiz",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "TrueClaim",
+   "platform": "yc",
+   "slug": "trueclaim",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "TrueTandem",
    "platform": "lever",
    "slug": "truetandem"
+  },
+  {
+   "name": "Truewind",
+   "platform": "yc",
+   "slug": "truewind",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Trulioo",
@@ -13622,6 +18850,24 @@
    "slug": "Trunk%20Tools",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "Truss",
+   "platform": "yc",
+   "slug": "truss",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "truthsystems",
+   "platform": "yc",
+   "slug": "truthsystems",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Truveta",
@@ -13648,6 +18894,15 @@
    "slug": "tuesday-lab"
   },
   {
+   "name": "Tuesday Labs",
+   "platform": "yc",
+   "slug": "tuesday-labs",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Tulip Interfaces",
    "platform": "greenhouse",
    "slug": "tulip",
@@ -13663,6 +18918,15 @@
    "name": "Turabify",
    "platform": "workable",
    "slug": "turabify-co"
+  },
+  {
+   "name": "Turing Labs Inc.",
+   "platform": "yc",
+   "slug": "turing-labs-inc",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2020",
+   "verified_via": "yc-page"
   },
   {
    "name": "Turion Space",
@@ -13717,6 +18981,15 @@
    "slug": "twosixtechnologies"
   },
   {
+   "name": "Type",
+   "platform": "yc",
+   "slug": "type",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Typeface",
    "platform": "greenhouse",
    "slug": "typeface"
@@ -13735,6 +19008,15 @@
    "name": "Uber Freight",
    "platform": "greenhouse",
    "slug": "uberfreight"
+  },
+  {
+   "name": "Ubicloud",
+   "platform": "yc",
+   "slug": "ubicloud",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Udemy",
@@ -13766,6 +19048,15 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Unbound",
+   "platform": "yc",
+   "slug": "unbound",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Unconventional AI",
    "platform": "greenhouse",
    "slug": "unconventionalinc",
@@ -13786,6 +19077,15 @@
    "name": "Unify",
    "platform": "ashby",
    "slug": "unify"
+  },
+  {
+   "name": "UNISON",
+   "platform": "yc",
+   "slug": "unison",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Unison Infrastructure",
@@ -13833,6 +19133,42 @@
    "slug": "unlimitedtechnology"
   },
   {
+   "name": "Uno Wallet",
+   "platform": "yc",
+   "slug": "uno-wallet",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Unsiloed AI",
+   "platform": "yc",
+   "slug": "unsiloed-ai",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Unsloth AI",
+   "platform": "yc",
+   "slug": "unsloth-ai",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Untether Labs",
+   "platform": "yc",
+   "slug": "untether-labs",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "UntilLabs",
    "platform": "lever",
    "slug": "until"
@@ -13861,6 +19197,15 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Uplift AI",
+   "platform": "yc",
+   "slug": "uplift-ai",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Uplifter",
    "platform": "greenhouse",
    "slug": "uplifter"
@@ -13869,6 +19214,15 @@
    "name": "Upscale AI",
    "platform": "lever",
    "slug": "upscale-ai"
+  },
+  {
+   "name": "Upsolve",
+   "platform": "yc",
+   "slug": "upsolve",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2019",
+   "verified_via": "yc-page"
   },
   {
    "name": "Upstream USA",
@@ -13976,9 +19330,27 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Variant",
+   "platform": "yc",
+   "slug": "variant",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Varick Agents",
    "platform": "ashby",
    "slug": "varick-agents"
+  },
+  {
+   "name": "Varos",
+   "platform": "yc",
+   "slug": "varos",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Vatic Investments",
@@ -14003,6 +19375,24 @@
    "slug": "vectoratomic"
   },
   {
+   "name": "Vector Legal",
+   "platform": "yc",
+   "slug": "vector-legal",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "VectorShift",
+   "platform": "yc",
+   "slug": "vectorshift",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Veeda AI",
    "platform": "ashby",
    "slug": "veeda-labs"
@@ -14025,6 +19415,15 @@
    "stage": "series_b"
   },
   {
+   "name": "Vela",
+   "platform": "yc",
+   "slug": "vela",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Velo3D",
    "platform": "lever",
    "slug": "velo3d",
@@ -14032,9 +19431,63 @@
    "stage": "ipo"
   },
   {
+   "name": "Velt",
+   "platform": "yc",
+   "slug": "velt",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Velvet",
+   "platform": "yc",
+   "slug": "velvet",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Vendelux",
    "platform": "ashby",
    "slug": "vendelux"
+  },
+  {
+   "name": "Vendora",
+   "platform": "yc",
+   "slug": "vendora",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Vendra",
+   "platform": "yc",
+   "slug": "vendra",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Ventura",
+   "platform": "yc",
+   "slug": "ventura",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Venu AI",
+   "platform": "yc",
+   "slug": "venu-ai",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Venus Aerospace",
@@ -14061,6 +19514,15 @@
    "team_size": 50,
    "batch": "Summer 2015",
    "verified_via": "site-link"
+  },
+  {
+   "name": "VergeSense",
+   "platform": "yc",
+   "slug": "vergesense",
+   "source": "yc",
+   "team_size": 70,
+   "batch": "Summer 2017",
+   "verified_via": "yc-page"
   },
   {
    "name": "Verifiable",
@@ -14099,6 +19561,15 @@
    "slug": "Verne%20Robotics"
   },
   {
+   "name": "Versable",
+   "platform": "yc",
+   "slug": "versable",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Versana",
    "platform": "lever",
    "slug": "Versana"
@@ -14132,6 +19603,15 @@
    "slug": "verygoodsecurity"
   },
   {
+   "name": "Veryfi, Inc.",
+   "platform": "yc",
+   "slug": "veryfi-inc",
+   "source": "yc",
+   "team_size": 70,
+   "batch": "Winter 2017",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Vestmark",
    "platform": "greenhouse",
    "slug": "vestmark"
@@ -14152,6 +19632,15 @@
    "slug": "viamrobotics"
   },
   {
+   "name": "VideoGen",
+   "platform": "yc",
+   "slug": "videogen",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Viewline Ventures",
    "platform": "workable",
    "slug": "viewline-ventures"
@@ -14165,6 +19654,15 @@
    "name": "Viking Global",
    "platform": "greenhouse",
    "slug": "vikingglobalinvestors"
+  },
+  {
+   "name": "Vinci Games",
+   "platform": "yc",
+   "slug": "vinci-games",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Virta Health",
@@ -14263,6 +19761,24 @@
    "slug": "vmax"
   },
   {
+   "name": "Voiceops",
+   "platform": "yc",
+   "slug": "voiceops",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2017",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "VoiceOS",
+   "platform": "yc",
+   "slug": "voiceos",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Voldex",
    "platform": "ashby",
    "slug": "Voldex"
@@ -14271,6 +19787,24 @@
    "name": "Voloridge",
    "platform": "greenhouse",
    "slug": "voloridgeinvestmentmanagement"
+  },
+  {
+   "name": "Voltair",
+   "platform": "yc",
+   "slug": "voltair",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Voltic",
+   "platform": "yc",
+   "slug": "voltic",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Voltus",
@@ -14368,9 +19902,27 @@
    "slug": "warp"
   },
   {
+   "name": "WarpBuild",
+   "platform": "yc",
+   "slug": "warpbuild",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Wasabi",
    "platform": "greenhouse",
    "slug": "wasabi"
+  },
+  {
+   "name": "Wasmer",
+   "platform": "yc",
+   "slug": "wasmer",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Summer 2019",
+   "verified_via": "yc-page"
   },
   {
    "name": "Waterfall",
@@ -14381,6 +19933,33 @@
    "name": "Watney",
    "platform": "ashby",
    "slug": "watney"
+  },
+  {
+   "name": "Wavelength",
+   "platform": "yc",
+   "slug": "wavelength",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Wayco",
+   "platform": "yc",
+   "slug": "wayco",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2026",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Wayline",
+   "platform": "yc",
+   "slug": "wayline",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Waymark",
@@ -14415,6 +19994,15 @@
    "stage": "series_unknown"
   },
   {
+   "name": "Weave Robotics",
+   "platform": "yc",
+   "slug": "weave-robotics",
+   "source": "yc",
+   "team_size": 26,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "WebAI",
    "platform": "ashby",
    "slug": "webai"
@@ -14423,6 +20011,15 @@
    "name": "WebFX",
    "platform": "lever",
    "slug": "webfx"
+  },
+  {
+   "name": "Wedge",
+   "platform": "yc",
+   "slug": "wedge",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Weedmaps",
@@ -14435,6 +20032,24 @@
    "slug": "weee",
    "source": "vc_board",
    "stage": "series_e"
+  },
+  {
+   "name": "Weekend (fmr. Volley)",
+   "platform": "yc",
+   "slug": "weekend-fmr-volley",
+   "source": "yc",
+   "team_size": 80,
+   "batch": "Winter 2018",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Wefunder",
+   "platform": "yc",
+   "slug": "wefunder",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Winter 2013",
+   "verified_via": "yc-page"
   },
   {
    "name": "Weiss Asset Management",
@@ -14509,6 +20124,15 @@
    "name": "Willis Aviation",
    "platform": "workable",
    "slug": "willis-aviation"
+  },
+  {
+   "name": "Willow",
+   "platform": "yc",
+   "slug": "willow",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Willow Health",
@@ -14590,6 +20214,15 @@
    "slug": "woolpert"
   },
   {
+   "name": "Wordware",
+   "platform": "yc",
+   "slug": "wordware",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Workato",
    "platform": "greenhouse",
    "slug": "workato"
@@ -14651,6 +20284,15 @@
    "slug": "world4822stri986des"
   },
   {
+   "name": "Woz",
+   "platform": "yc",
+   "slug": "woz",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Wpromote",
    "platform": "lever",
    "slug": "wpromote"
@@ -14661,6 +20303,15 @@
    "slug": "wrapbook",
    "source": "vc_board",
    "stage": "series_unknown"
+  },
+  {
+   "name": "Writesonic",
+   "platform": "yc",
+   "slug": "writesonic",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Wurl",
@@ -14715,6 +20366,24 @@
    "slug": "xtxmarketstechnologies"
   },
   {
+   "name": "Y/n",
+   "platform": "yc",
+   "slug": "yn",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2023",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Yarn",
+   "platform": "yc",
+   "slug": "yarn-2",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Yes Energy",
    "platform": "greenhouse",
    "slug": "yesenergy"
@@ -14749,6 +20418,15 @@
    "stage": "seed"
   },
   {
+   "name": "YouShift",
+   "platform": "yc",
+   "slug": "youshift",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "YugaByte",
    "platform": "greenhouse",
    "slug": "yugabyte"
@@ -14772,6 +20450,15 @@
    "name": "Zaizi",
    "platform": "workable",
    "slug": "zaizi"
+  },
+  {
+   "name": "Zarna",
+   "platform": "yc",
+   "slug": "zarna",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Zego",
@@ -14805,6 +20492,24 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Zenysis",
+   "platform": "yc",
+   "slug": "zenysis",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Winter 2016",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Zep AI",
+   "platform": "yc",
+   "slug": "zep-ai",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "ZeroMark",
    "platform": "ashby",
    "slug": "zeromark"
@@ -14813,6 +20518,15 @@
    "name": "Zettabyte",
    "platform": "ashby",
    "slug": "zettabyte-space"
+  },
+  {
+   "name": "Zettascale",
+   "platform": "yc",
+   "slug": "zettascale",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Zilch",
@@ -14869,6 +20583,15 @@
    "slug": "dnsfilter",
    "source": "vc_board",
    "stage": "acquisition"
+  },
+  {
+   "name": "zudo.work",
+   "platform": "yc",
+   "slug": "zudowork",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2023",
+   "verified_via": "yc-page"
   },
   {
    "name": "Zum",

@@ -232,10 +232,18 @@ def main():
             skipped_excluded += 1
             continue
         resolved = resolve_ats(c)
-        if not resolved:
+        if resolved:
+            platform, slug, via = resolved
+        elif c.get("slug"):
+            # No verifiable ATS board - typically a Notion or custom careers
+            # page. Watch the company's own YC page instead: it's keyed by YC's
+            # slug, so identity is guaranteed, and it's where YC companies list
+            # roles by default. Only used as a fallback, because a company with
+            # both would otherwise have every role reported twice under two ids.
+            platform, slug, via = "yc", c["slug"], "yc-page"
             yc_unresolved += 1
+        else:
             continue
-        platform, slug, via = resolved
         if (platform, slug) in existing_boards:
             continue
         config["companies"].append({
@@ -256,8 +264,8 @@ def main():
     print(f"Added {len(added)} new companies "
           f"({vc_added} from VC portfolio boards, {vc_rejected} VC candidates "
           f"dropped as dead/unverifiable slugs, "
-          f"{yc_added} from Y Combinator ({yc_unresolved} YC companies had no "
-          f"resolvable ATS board), "
+          f"{yc_added} from Y Combinator ({yc_unresolved} of them watched via "
+          f"their YC page, having no resolvable ATS board), "
           f"{skipped_excluded} skipped as previously-pruned large employers).")
     for n in added[:50]:
         print(f"  + {n}")

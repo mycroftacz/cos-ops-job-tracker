@@ -5,7 +5,7 @@ platform's published response schema, just to catch typos/field-name bugs
 before this runs unattended in CI.
 """
 from checker import (parse_greenhouse, parse_lever, parse_ashby, parse_workable,
-                     parse_rippling, parse_careergroup,
+                     parse_rippling, parse_careergroup, parse_yc,
                      matches_keywords, location_matches, is_remote,
                      is_remote_anywhere, company_is_local)
 
@@ -519,9 +519,51 @@ def test_yc_company_entries_are_verified():
         return
     for c in yc:
         assert c.get("verified_via"), f"{c['name']} has no verification record"
-        assert c["verified_via"] in ("site-link", "domain-match") or \
+        assert c["verified_via"] in ("site-link", "domain-match", "yc-page") or \
             "company_name" in c["verified_via"], f"{c['name']}: weak proof {c['verified_via']}"
     print(f"all {len(yc)} YC entries carry verification OK")
+
+
+def test_ops_abbreviation_and_founding_roles():
+    """Regression: "ops" as a standalone abbreviation matched nothing, so
+    "Head of Ops", "Strategy & Ops Lead" and "Founding Ops" were all missed -
+    and startups write it that way far more than the spelled-out form."""
+    import json
+    import os
+    cfg = json.load(open(os.path.join(os.path.dirname(__file__), "data", "companies.json")))
+    kw = [k.lower() for k in cfg["keywords"]]
+    gr = [[w.lower() for w in g] for g in cfg["keyword_word_groups"]]
+    ex = [k.lower() for k in cfg["exclude_title_keywords"]]
+    for title in ["Head of Ops", "Ops Lead", "Strategy & Ops Lead, Office of the CEO",
+                  "GTM Strategy & Ops", "Founding Ops", "Founding Ops Lead",
+                  "Founding Operations", "Founding Operator", "Founding Team - Operations",
+                  "Biz Ops Lead", "Head of GTM Strategy & Ops"]:
+        assert matches_keywords(title, kw, gr, ex), f"expected match: {title}"
+    # expanding "ops" must not smuggle in the technical/specialist kinds
+    for title in ["DevOps Engineer", "Dev Ops Manager", "MLOps Lead", "IT Ops Manager",
+                  "Security Ops Lead", "Clinical Ops Manager", "Warehouse Ops Lead"]:
+        assert not matches_keywords(title, kw, gr, ex), f"expected NO match: {title}"
+    print("ops abbreviation + founding roles OK")
+
+
+def test_yc_page_parser():
+    """YC's company page embeds its postings as an HTML-escaped Inertia JSON
+    attribute; relative URLs must come back absolute."""
+    import html as h
+    import json
+    page = {"props": {"jobPostings": [
+        {"id": 87164, "title": "Founding Operations Lead", "location": "San Francisco, CA",
+         "url": "/companies/acme/jobs/qjSr3um-founding-operations-lead"},
+        {"id": 87165, "title": "Chief of Staff", "location": "New York, NY / Remote"},
+    ]}}
+    html = f'<div id="app" data-page="{h.escape(json.dumps(page), quote=True)}"></div>'
+    out = parse_yc(html, "acme")
+    assert out[0] == ("87164", "Founding Operations Lead",
+                      "https://www.ycombinator.com/companies/acme/jobs/qjSr3um-founding-operations-lead",
+                      "San Francisco, CA"), out[0]
+    assert out[1][2] == "https://www.ycombinator.com/companies/acme/jobs", out[1]
+    assert parse_yc("<html>no data</html>", "acme") == []
+    print("yc page parser OK")
 
 
 if __name__ == "__main__":
@@ -552,4 +594,6 @@ if __name__ == "__main__":
     test_yc_ats_link_extraction()
     test_yc_size_filter_uses_real_headcount()
     test_yc_company_entries_are_verified()
+    test_ops_abbreviation_and_founding_roles()
+    test_yc_page_parser()
     print("ALL PARSER TESTS PASSED")

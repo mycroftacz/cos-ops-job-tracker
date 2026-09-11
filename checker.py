@@ -13,6 +13,7 @@ State (data/state.json) is committed back to the repo each run so nothing gets
 re-reported. results/latest.json always reflects the most recent run's findings
 (read by anything downstream that wants to relay a notification).
 """
+import html as html_lib
 import json
 import os
 import re
@@ -170,6 +171,34 @@ def parse_careergroup(html, slug):
     return out
 
 
+def parse_yc(html, slug):
+    """YC's own company page (Work at a Startup).
+
+    Many YC companies never set up a Greenhouse/Ashby/Lever board - their
+    careers page is a Notion doc or a custom site - but nearly all of them list
+    roles here, because it's YC's default hiring channel. The page embeds its
+    data as an Inertia `data-page` JSON attribute with a stable id per posting.
+
+    It's keyed by YC's own company slug, so unlike every other YC resolution
+    path there is no identity to verify: this page belongs to that company by
+    construction.
+    """
+    m = re.search(r'data-page="([^"]+)"', html if isinstance(html, str) else "")
+    if not m:
+        return []
+    data = json.loads(html_lib.unescape(m.group(1)))
+    out = []
+    for j in (data.get("props") or {}).get("jobPostings") or []:
+        jid = str(j.get("id") or "")
+        title = j.get("title") or ""
+        url = j.get("url") or f"/companies/{slug}/jobs"
+        if url.startswith("/"):
+            url = "https://www.ycombinator.com" + url
+        if jid:
+            out.append((jid, title, url, j.get("location") or ""))
+    return out
+
+
 PARSERS = {
     "greenhouse": parse_greenhouse,
     "lever": parse_lever,
@@ -177,10 +206,11 @@ PARSERS = {
     "workable": parse_workable,
     "rippling": parse_rippling,
     "careergroup": parse_careergroup,
+    "yc": parse_yc,
 }
 
 # Platforms served as HTML rather than JSON.
-HTML_PLATFORMS = {"careergroup"}
+HTML_PLATFORMS = {"careergroup", "yc"}
 
 
 def check_company(company, url_templates):
@@ -200,6 +230,26 @@ def check_company(company, url_templates):
     except Exception as e:  # noqa: BLE001
         return name, platform, slug, [], f"parse error: {e}"
     return name, platform, slug, jobs, None
+
+
+_OPS_RE = re.compile(r"\bops\b")
+
+
+def normalize_title(text):
+    """Lowercase, and expand the standalone abbreviation "ops" to "operations".
+
+    Startups write "Head of Ops", "Strategy & Ops" and "Founding Ops" far more
+    often than the spelled-out form, and none of those matched any keyword or
+    word group before this. Keywords and excludes go through the same function,
+    so "biz ops" and "it ops" keep working. Word boundaries leave "DevOps",
+    "MLOps" and "BizOps" untouched.
+    """
+    return _OPS_RE.sub("operations", (text or "").lower())
+
+
+@lru_cache(maxsize=16)
+def _normalized(terms):
+    return tuple(normalize_title(t) for t in terms)
 
 
 @lru_cache(maxsize=8)
@@ -230,14 +280,14 @@ def matches_keywords(title, keywords, keyword_word_groups, exclude_keywords):
     clinical, ...) out of the results. Exclude terms are matched on word
     boundaries, not as bare substrings - see _exclude_regex.
     """
-    t = title.lower()
-    rx = _exclude_regex(tuple(exclude_keywords))
+    t = normalize_title(title)
+    rx = _exclude_regex(_normalized(tuple(exclude_keywords)))
     if rx is not None and rx.search(t):
         return False
-    if any(k in t for k in keywords):
+    if any(k in t for k in _normalized(tuple(keywords))):
         return True
     for group in keyword_word_groups:
-        if all(word in t for word in group):
+        if all(normalize_title(word) in t for word in group):
             return True
     return False
 
