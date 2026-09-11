@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-11T04:26:32.464641+00:00",
+ "run_utc": "2026-09-11T09:05:15.159891+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 112,
@@ -21,6 +21,14 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Arine",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Artefact",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
@@ -29,15 +37,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Atomic Semi",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -46,10 +50,6 @@
   },
   {
    "name": "Barkley",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arine",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -85,9 +85,9 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 3,
- "companies_skipped_too_large": 106,
- "rejected_wrong_location": 0,
+ "companies_empty_state_preserved": 4,
+ "companies_skipped_too_large": 108,
+ "rejected_wrong_location": 4,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,11 +95,11 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 531
+   "open_roles": 532
   },
   {
    "name": "Nebius",
-   "open_roles": 380
+   "open_roles": 379
   },
   {
    "name": "Carbon Health",
@@ -107,7 +107,7 @@
   },
   {
    "name": "Halter",
-   "open_roles": 238
+   "open_roles": 237
   },
   {
    "name": "AST SpaceMobile",
