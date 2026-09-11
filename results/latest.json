@@ -1,8 +1,8 @@
 {
- "run_utc": "2026-09-10T21:50:47.642389+00:00",
+ "run_utc": "2026-09-11T00:00:46.379794+00:00",
  "is_seed_run": false,
  "companies_checked": 2087,
- "companies_unreachable": 126,
+ "companies_unreachable": 127,
  "unreachable_sample": [
   {
    "name": "AGILE Space Industries",
@@ -17,23 +17,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcellx",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Aquatic Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arine",
+   "name": "Arcellx",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -45,19 +33,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Arcade AI",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Ava Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Barkley",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "BitGo",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Boom Supersonic",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -69,11 +53,19 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Barkley",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Capital Rx",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade AI",
+   "name": "Arine",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,13 +73,21 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Celestial AI",
+   "name": "ChipStack",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Boom Supersonic",
    "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 3,
  "companies_skipped_too_large": 411,
- "rejected_wrong_location": 1,
+ "rejected_wrong_location": 0,
  "largest_skipped": [
   {
    "name": "Saalex",
@@ -99,7 +99,7 @@
   },
   {
    "name": "Navion Senior Solutions",
-   "open_roles": 155
+   "open_roles": 154
   },
   {
    "name": "Gotion",
@@ -126,27 +126,27 @@
    "open_roles": 144
   },
   {
-   "name": "Cohere",
+   "name": "CHAOS Industries",
    "open_roles": 142
   }
  ],
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "UJET",
-   "platform": "greenhouse",
-   "title": "GTM Chief of Staff - Revenue Operations",
-   "url": "https://job-boards.greenhouse.io/ujet/jobs/4732582005",
-   "location": "Remote, US",
-   "company_open_roles": 7
+   "company": "Empire State Realty Trust",
+   "platform": "lever",
+   "title": "Sr. Project Manager",
+   "url": "https://jobs.lever.co/esrtreit/df93ac89-9752-41a5-80c3-50b6dbc7b1a5",
+   "location": "New York, New York, United States, New York, New York, United States, hybrid",
+   "company_open_roles": 11
   },
   {
-   "company": "Watney",
+   "company": "Persona",
    "platform": "ashby",
-   "title": "Program Manager, Teleoperations",
-   "url": "https://jobs.ashbyhq.com/watney/2fd3879c-4418-43ef-a8ca-831ab0ab948a",
-   "location": "San Francisco",
-   "company_open_roles": 23
+   "title": "GTM Systems & Operations Manager",
+   "url": "https://jobs.ashbyhq.com/persona/2ae91b4a-797d-446c-8179-c22780aff75e",
+   "location": "San Francisco, Remote",
+   "company_open_roles": 19
   }
  ]
 }
