@@ -470,6 +470,60 @@ def test_every_platform_has_a_parser_and_template():
     print(f"all {len(used)} platforms wired: {', '.join(sorted(used))}")
 
 
+def test_yc_ats_link_extraction():
+    """The authoritative resolution path: an ATS link found on the company's
+    own site is theirs by definition, no name-matching guesswork."""
+    from yc_companies import ATS_LINK_RE, HOST_PLATFORM
+    html = """
+      <a href="https://jobs.ashbyhq.com/hyperbound/abc">Careers</a>
+      <a href="https://boards.greenhouse.io/reflex">Jobs</a>
+      <a href="https://jobs.lever.co/doola/xyz">Open roles</a>
+      <a href="https://ats.rippling.com/pineparkhealth/jobs">Work here</a>
+      <a href="https://twitter.com/example">Twitter</a>
+    """
+    found = [(HOST_PLATFORM[h.lower()], sl) for h, sl in ATS_LINK_RE.findall(html)]
+    assert ("ashby", "hyperbound") in found, found
+    assert ("greenhouse", "reflex") in found, found
+    assert ("lever", "doola") in found, found
+    assert ("rippling", "pineparkhealth") in found, found
+    assert len(found) == 4, found
+    print("yc ats link extraction OK")
+
+
+def test_yc_size_filter_uses_real_headcount():
+    """YC is the only source with an integer headcount, so the size rule is
+    exact here rather than inferred from how many roles happen to be open."""
+    from yc_companies import load_yc
+    import inspect
+    src = inspect.getsource(load_yc)
+    assert "team_size" in src and "max_team_size" in src
+    # the shipped config must carry the ceiling the importer reads
+    import json
+    import os
+    cfg = json.load(open(os.path.join(os.path.dirname(__file__), "data", "companies.json")))
+    assert isinstance(cfg.get("max_team_size"), int) and cfg["max_team_size"] > 0
+    print("yc size filter OK")
+
+
+def test_yc_company_entries_are_verified():
+    """Every YC-sourced company must record how its board was verified - an
+    unverified name guess attaches the wrong company's jobs (there are real YC
+    companies called Handle, Glimpse and Sola whose names collide with
+    unrelated boards)."""
+    import json
+    import os
+    cfg = json.load(open(os.path.join(os.path.dirname(__file__), "data", "companies.json")))
+    yc = [c for c in cfg["companies"] if c.get("source") == "yc"]
+    if not yc:
+        print("yc entries not yet imported - skipping")
+        return
+    for c in yc:
+        assert c.get("verified_via"), f"{c['name']} has no verification record"
+        assert c["verified_via"] in ("site-link", "domain-match") or \
+            "company_name" in c["verified_via"], f"{c['name']}: weak proof {c['verified_via']}"
+    print(f"all {len(yc)} YC entries carry verification OK")
+
+
 if __name__ == "__main__":
     test_greenhouse()
     test_lever()
@@ -495,4 +549,7 @@ if __name__ == "__main__":
     test_ats_slug_parsing_preserves_encoding()
     test_company_list_has_no_duplicate_boards()
     test_every_platform_has_a_parser_and_template()
+    test_yc_ats_link_extraction()
+    test_yc_size_filter_uses_real_headcount()
+    test_yc_company_entries_are_verified()
     print("ALL PARSER TESTS PASSED")

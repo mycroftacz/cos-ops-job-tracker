@@ -167,6 +167,7 @@
   "ai trainer"
  ],
  "max_open_roles": 100,
+ "max_team_size": 100,
  "location_keywords": [
   "new york",
   "nyc",
@@ -620,14 +621,41 @@
    "slug": "agatesoftware"
   },
   {
+   "name": "Agave",
+   "platform": "ashby",
+   "slug": "Agave",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Winter 2022",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Age of Learning",
    "platform": "lever",
    "slug": "aofl"
   },
   {
+   "name": "Agency",
+   "platform": "rippling",
+   "slug": "agencycyber",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Winter 2022",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Agentis Capital",
    "platform": "ashby",
    "slug": "Agentis-Capital-Advisors"
+  },
+  {
+   "name": "AgentMail",
+   "platform": "ashby",
+   "slug": "agentmail",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2025",
+   "verified_via": "site-link"
   },
   {
    "name": "AGEO Autonomy",
@@ -701,6 +729,15 @@
    "slug": "aircapture"
   },
   {
+   "name": "Airgoods",
+   "platform": "ashby",
+   "slug": "airgoods",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Airspace",
    "platform": "greenhouse",
    "slug": "airspace",
@@ -748,6 +785,15 @@
    "name": "Aledade",
    "platform": "lever",
    "slug": "aledade"
+  },
+  {
+   "name": "Aleph",
+   "platform": "ashby",
+   "slug": "aleph",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Summer 2021",
+   "verified_via": "site-link"
   },
   {
    "name": "Alertus Technologies",
@@ -1061,6 +1107,15 @@
    "stage": "series_c"
   },
   {
+   "name": "AnswerThis",
+   "platform": "ashby",
+   "slug": "answerthis",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Fall 2025",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Antares Nuclear",
    "platform": "ashby",
    "slug": "Antares"
@@ -1074,6 +1129,15 @@
    "name": "Anthelion Capital",
    "platform": "ashby",
    "slug": "anthelioncap"
+  },
+  {
+   "name": "Anthrogen",
+   "platform": "ashby",
+   "slug": "anthrogen",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2024",
+   "verified_via": "domain-match"
   },
   {
    "name": "Anti Capital",
@@ -1140,6 +1204,15 @@
    "name": "Apiphany",
    "platform": "ashby",
    "slug": "apiphany"
+  },
+  {
+   "name": "Apolink",
+   "platform": "ashby",
+   "slug": "apolink",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Fall 2024",
+   "verified_via": "site-link"
   },
   {
    "name": "Appen",
@@ -1266,6 +1339,15 @@
    "slug": "arine"
   },
   {
+   "name": "Arini",
+   "platform": "ashby",
+   "slug": "arini",
+   "source": "yc",
+   "team_size": 17,
+   "batch": "Winter 2024",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Arize AI",
    "platform": "greenhouse",
    "slug": "arizeai"
@@ -1276,6 +1358,15 @@
    "slug": "arkestroinc",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "Arketa",
+   "platform": "ashby",
+   "slug": "arketa",
+   "source": "yc",
+   "team_size": 55,
+   "batch": "Summer 2020",
+   "verified_via": "domain-match"
   },
   {
    "name": "Armada",
@@ -1330,6 +1421,33 @@
    "slug": "artera"
   },
   {
+   "name": "Artie",
+   "platform": "ashby",
+   "slug": "artie",
+   "source": "yc",
+   "team_size": 16,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
+  },
+  {
+   "name": "Artisan",
+   "platform": "ashby",
+   "slug": "artisan",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Winter 2024",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "Artos",
+   "platform": "ashby",
+   "slug": "artosai",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2024",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Arvinas",
    "platform": "greenhouse",
    "slug": "arvinas"
@@ -1355,6 +1473,24 @@
    "name": "Assembled",
    "platform": "ashby",
    "slug": "assembledhq"
+  },
+  {
+   "name": "Assembly",
+   "platform": "ashby",
+   "slug": "assembly",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Winter 2018",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "AssemblyAI",
+   "platform": "greenhouse",
+   "slug": "assemblyai",
+   "source": "yc",
+   "team_size": 65,
+   "batch": "Summer 2017",
+   "verified_via": "site-link"
   },
   {
    "name": "AssetWatch",
@@ -1415,9 +1551,36 @@
    "slug": "astronomer"
   },
   {
+   "name": "AthenaHQ",
+   "platform": "ashby",
+   "slug": "athena-hq",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2025",
+   "verified_via": "site-link"
+  },
+  {
+   "name": "Atlas",
+   "platform": "ashby",
+   "slug": "atlas",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Winter 2019",
+   "verified_via": "site-link"
+  },
+  {
    "name": "ATLAS SP",
    "platform": "greenhouse",
    "slug": "atlassp"
+  },
+  {
+   "name": "AtlasGrid",
+   "platform": "rippling",
+   "slug": "atlasgrid",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Fall 2025",
+   "verified_via": "domain-match"
   },
   {
    "name": "Atlys",
@@ -1425,6 +1588,15 @@
    "slug": "atlys",
    "source": "vc_board",
    "stage": "series_c"
+  },
+  {
+   "name": "AtoB",
+   "platform": "ashby",
+   "slug": "atob",
+   "source": "yc",
+   "team_size": 75,
+   "batch": "Summer 2020",
+   "verified_via": "site-link"
   },
   {
    "name": "Atomic Invest (AtomicVest)",
@@ -1445,6 +1617,15 @@
    "name": "Atominvest",
    "platform": "ashby",
    "slug": "atominvest"
+  },
+  {
+   "name": "Attain",
+   "platform": "greenhouse",
+   "slug": "attain",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2022",
+   "verified_via": "name+company_name"
   },
   {
    "name": "Attain Partners",
@@ -1507,6 +1688,15 @@
    "slug": "Authorium"
   },
   {
+   "name": "authzed",
+   "platform": "ashby",
+   "slug": "authzed",
+   "source": "yc",
+   "team_size": 31,
+   "batch": "Winter 2021",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Autoroboto",
    "platform": "lever",
    "slug": "autoroboto"
@@ -1515,6 +1705,15 @@
    "name": "Ava Labs",
    "platform": "greenhouse",
    "slug": "avalabs"
+  },
+  {
+   "name": "Avallon AI",
+   "platform": "ashby",
+   "slug": "avallon",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Spring 2025",
+   "verified_via": "domain-match"
   },
   {
    "name": "Avalore",
@@ -1555,6 +1754,15 @@
    "name": "Awetomaton",
    "platform": "greenhouse",
    "slug": "awetomaton"
+  },
+  {
+   "name": "Axiom",
+   "platform": "greenhouse",
+   "slug": "axiom",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2025",
+   "verified_via": "domain+company_name"
   },
   {
    "name": "Axiomatic AI",
@@ -1763,6 +1971,15 @@
    "slug": "benchsci"
   },
   {
+   "name": "Benepass",
+   "platform": "ashby",
+   "slug": "benepass",
+   "source": "yc",
+   "team_size": 45,
+   "batch": "Winter 2020",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Bertram Capital Management",
    "platform": "greenhouse",
    "slug": "bertramcapitalmanagement"
@@ -1805,6 +2022,15 @@
    "name": "Bevi",
    "platform": "greenhouse",
    "slug": "bevicareers"
+  },
+  {
+   "name": "Beyond Reach Labs",
+   "platform": "ashby",
+   "slug": "beyondreachlabs",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2026",
+   "verified_via": "domain-match"
   },
   {
    "name": "BGE",
@@ -1910,6 +2136,24 @@
    "stage": "series_unknown"
   },
   {
+   "name": "Blaxel",
+   "platform": "ashby",
+   "slug": "blaxel",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Spring 2025",
+   "verified_via": "site-link"
+  },
+  {
+   "name": "Blee",
+   "platform": "ashby",
+   "slug": "Blee",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2022",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Blink",
    "platform": "workable",
    "slug": "joinblink"
@@ -2003,6 +2247,15 @@
    "slug": "boomsupersonic"
   },
   {
+   "name": "BootLoop",
+   "platform": "ashby",
+   "slug": "bootloop",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2025",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Boson Ai",
    "platform": "lever",
    "slug": "bosonai"
@@ -2072,6 +2325,15 @@
    "slug": "breezecash"
   },
   {
+   "name": "Bretton AI",
+   "platform": "ashby",
+   "slug": "brettonai",
+   "source": "yc",
+   "team_size": 34,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Brevium",
    "platform": "greenhouse",
    "slug": "brevium"
@@ -2137,6 +2399,15 @@
    "slug": "bumbleinc"
   },
   {
+   "name": "Bunkerhill Health",
+   "platform": "ashby",
+   "slug": "bunkerhillhealth",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2019",
+   "verified_via": "site-link"
+  },
+  {
    "name": "ButcherBox",
    "platform": "lever",
    "slug": "butcherbox"
@@ -2182,6 +2453,15 @@
    "name": "Calyxo",
    "platform": "greenhouse",
    "slug": "calyxo"
+  },
+  {
+   "name": "Cambio",
+   "platform": "ashby",
+   "slug": "cambio",
+   "source": "yc",
+   "team_size": 60,
+   "batch": "Summer 2022",
+   "verified_via": "site-link"
   },
   {
    "name": "Cambium",
@@ -2281,6 +2561,15 @@
    "slug": "carbonchain"
   },
   {
+   "name": "Cardboard",
+   "platform": "ashby",
+   "slug": "cardboard",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Winter 2026",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Career Group Companies",
    "platform": "careergroup",
    "slug": "find-work",
@@ -2291,6 +2580,15 @@
    "name": "Carefeed",
    "platform": "greenhouse",
    "slug": "carefeed"
+  },
+  {
+   "name": "CareSwift",
+   "platform": "ashby",
+   "slug": "careswift",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2025",
+   "verified_via": "domain-match"
   },
   {
    "name": "Cargomatic",
@@ -2325,6 +2623,15 @@
    "name": "Carwow",
    "platform": "ashby",
    "slug": "Carwow"
+  },
+  {
+   "name": "Casca",
+   "platform": "ashby",
+   "slug": "casca",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
   },
   {
    "name": "Cascade Asset Management Company",
@@ -2521,6 +2828,15 @@
    "slug": "cimgroup"
   },
   {
+   "name": "Cinder",
+   "platform": "ashby",
+   "slug": "cinder",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2022",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Circleback",
    "platform": "ashby",
    "slug": "circleback"
@@ -2580,6 +2896,15 @@
    "slug": "civitech"
   },
   {
+   "name": "Claim Health",
+   "platform": "ashby",
+   "slug": "claim-health",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Spring 2025",
+   "verified_via": "site-link"
+  },
+  {
    "name": "ClaimSorted",
    "platform": "ashby",
    "slug": "claimsorted"
@@ -2612,6 +2937,15 @@
    "name": "Clasp",
    "platform": "ashby",
    "slug": "clasp-group"
+  },
+  {
+   "name": "ClassDojo",
+   "platform": "ashby",
+   "slug": "classdojo",
+   "source": "yc",
+   "team_size": 100,
+   "batch": "Summer 2012",
+   "verified_via": "domain-match"
   },
   {
    "name": "Clay",
@@ -2778,6 +3112,15 @@
    "slug": "Coder"
   },
   {
+   "name": "Cofactr",
+   "platform": "lever",
+   "slug": "Cofactr",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2022",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Cogent Security",
    "platform": "ashby",
    "slug": "cogent-security"
@@ -2850,6 +3193,15 @@
    "slug": "commerceiq"
   },
   {
+   "name": "CommodityAI",
+   "platform": "ashby",
+   "slug": "commodityai",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2024",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Commonwealth Fusion Systems",
    "platform": "lever",
    "slug": "cfsenergy"
@@ -2873,6 +3225,15 @@
    "name": "Compeer Financial",
    "platform": "greenhouse",
    "slug": "compeerfinancial"
+  },
+  {
+   "name": "Complete",
+   "platform": "ashby",
+   "slug": "complete",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2022",
+   "verified_via": "site-link"
   },
   {
    "name": "Composio",
@@ -2900,6 +3261,15 @@
    "slug": "concourse"
   },
   {
+   "name": "Conductor",
+   "platform": "ashby",
+   "slug": "conductor",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Summer 2024",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "ConductorAI",
    "platform": "ashby",
    "slug": "conductorai"
@@ -2908,6 +3278,15 @@
    "name": "ConductorOne",
    "platform": "ashby",
    "slug": "conductorone"
+  },
+  {
+   "name": "Conduit",
+   "platform": "ashby",
+   "slug": "conduit",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2024",
+   "verified_via": "domain-match"
   },
   {
    "name": "Confido",
@@ -2985,6 +3364,15 @@
    "name": "Cook Systems",
    "platform": "greenhouse",
    "slug": "cooksys"
+  },
+  {
+   "name": "Coperniq",
+   "platform": "ashby",
+   "slug": "coperniq",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2023",
+   "verified_via": "domain-match"
   },
   {
    "name": "Coram AI",
@@ -3075,6 +3463,15 @@
    "stage": "other"
   },
   {
+   "name": "Cranston AI",
+   "platform": "ashby",
+   "slug": "cranston",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2025",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Creatify",
    "platform": "ashby",
    "slug": "embedding-vc"
@@ -3083,6 +3480,15 @@
    "name": "Creatify Lab",
    "platform": "ashby",
    "slug": "creatify"
+  },
+  {
+   "name": "Credal.ai",
+   "platform": "ashby",
+   "slug": "credal",
+   "source": "yc",
+   "team_size": 14,
+   "batch": "Winter 2023",
+   "verified_via": "site-link"
   },
   {
    "name": "Credence",
@@ -3153,6 +3559,15 @@
    "name": "CTI",
    "platform": "greenhouse",
    "slug": "cti"
+  },
+  {
+   "name": "Culdesac",
+   "platform": "lever",
+   "slug": "culdesac",
+   "source": "yc",
+   "team_size": 100,
+   "batch": "Summer 2018",
+   "verified_via": "site-link"
   },
   {
    "name": "Cultivarium",
@@ -3249,6 +3664,15 @@
    "slug": "ddome"
   },
   {
+   "name": "Datafold",
+   "platform": "ashby",
+   "slug": "datafold",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Summer 2020",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Dataiku",
    "platform": "greenhouse",
    "slug": "dataiku"
@@ -3259,6 +3683,15 @@
    "slug": "datalabusa"
   },
   {
+   "name": "Dataleap",
+   "platform": "ashby",
+   "slug": "dataleap",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2024",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "DataVisor",
    "platform": "workable",
    "slug": "datavisor-jobs"
@@ -3267,6 +3700,15 @@
    "name": "DatologyAI",
    "platform": "ashby",
    "slug": "DatologyAI"
+  },
+  {
+   "name": "David AI",
+   "platform": "ashby",
+   "slug": "david-ai",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2024",
+   "verified_via": "site-link"
   },
   {
    "name": "Dayshape",
@@ -3413,6 +3855,15 @@
    "slug": "digs"
   },
   {
+   "name": "DiligenceSquared",
+   "platform": "ashby",
+   "slug": "diligencesquared",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2025",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Diligent Corporation",
    "platform": "greenhouse",
    "slug": "diligentcorporation"
@@ -3426,6 +3877,15 @@
    "name": "Dipper",
    "platform": "ashby",
    "slug": "dipper"
+  },
+  {
+   "name": "Dispatch",
+   "platform": "greenhouse",
+   "slug": "dispatch",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "domain+company_name"
   },
   {
    "name": "DISQO",
@@ -3497,6 +3957,24 @@
    "slug": "domo"
   },
   {
+   "name": "Domu Technology Inc.",
+   "platform": "ashby",
+   "slug": "domu",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Summer 2024",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "doola",
+   "platform": "lever",
+   "slug": "doola",
+   "source": "yc",
+   "team_size": 43,
+   "batch": "Summer 2020",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Dorsia",
    "platform": "greenhouse",
    "slug": "dorsia"
@@ -3505,6 +3983,15 @@
    "name": "DoseSpot",
    "platform": "ashby",
    "slug": "dosespot"
+  },
+  {
+   "name": "Dots \ud83d\udcb8",
+   "platform": "greenhouse",
+   "slug": "dots",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2021",
+   "verified_via": "name+company_name"
   },
   {
    "name": "Double Eleven",
@@ -3635,6 +4122,24 @@
    "slug": "dynamiccatholic"
   },
   {
+   "name": "Dynamo AI",
+   "platform": "rippling",
+   "slug": "dynamo-ai",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2022",
+   "verified_via": "site-link"
+  },
+  {
+   "name": "Dyneti Technologies",
+   "platform": "ashby",
+   "slug": "dyneti",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2019",
+   "verified_via": "site-link"
+  },
+  {
    "name": "E Source Companies",
    "platform": "ashby",
    "slug": "e-source"
@@ -3736,6 +4241,15 @@
    "slug": "ekohealth"
   },
   {
+   "name": "Electric Air",
+   "platform": "ashby",
+   "slug": "electricair",
+   "source": "yc",
+   "team_size": 18,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Element Biosciences",
    "platform": "greenhouse",
    "slug": "elementbiosciences"
@@ -3808,6 +4322,15 @@
    "slug": "ema"
   },
   {
+   "name": "Ember",
+   "platform": "ashby",
+   "slug": "emberai",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Fall 2024",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Embrace",
    "platform": "greenhouse",
    "slug": "embrace"
@@ -3828,6 +4351,15 @@
    "name": "Empire State Realty Trust",
    "platform": "lever",
    "slug": "esrtreit"
+  },
+  {
+   "name": "Empirical Health",
+   "platform": "ashby",
+   "slug": "empirical",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2023",
+   "verified_via": "domain-match"
   },
   {
    "name": "Employ",
@@ -4077,6 +4609,15 @@
    "stage": "other"
   },
   {
+   "name": "Every",
+   "platform": "ashby",
+   "slug": "every-io",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Evolve Technology",
    "platform": "workable",
    "slug": "evolv-technology"
@@ -4205,6 +4746,15 @@
    "slug": "faralloncapitalmanagementllc"
   },
   {
+   "name": "Farcast",
+   "platform": "lever",
+   "slug": "Farcast",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2020",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Farfetch",
    "platform": "lever",
    "slug": "farfetch"
@@ -4228,6 +4778,15 @@
    "name": "Fashion Nova",
    "platform": "greenhouse",
    "slug": "fashionnova"
+  },
+  {
+   "name": "Fathom",
+   "platform": "ashby",
+   "slug": "fathom.video",
+   "source": "yc",
+   "team_size": 95,
+   "batch": "Winter 2021",
+   "verified_via": "site-link"
   },
   {
    "name": "Fazz",
@@ -4342,6 +4901,15 @@
    "stage": "series_a"
   },
   {
+   "name": "FINNY AI",
+   "platform": "ashby",
+   "slug": "FINNY",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Summer 2024",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Finout",
    "platform": "ashby",
    "slug": "finout",
@@ -4352,6 +4920,15 @@
    "name": "FinQuery",
    "platform": "lever",
    "slug": "finquery"
+  },
+  {
+   "name": "Firecrawl",
+   "platform": "ashby",
+   "slug": "firecrawl",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2022",
+   "verified_via": "site-link"
   },
   {
    "name": "Firemon",
@@ -4393,6 +4970,15 @@
    "slug": "firstprinciples"
   },
   {
+   "name": "FirstWork",
+   "platform": "ashby",
+   "slug": "firstwork",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Summer 2024",
+   "verified_via": "site-link"
+  },
+  {
    "name": "FiscalNote",
    "platform": "lever",
    "slug": "fiscalnote"
@@ -4425,14 +5011,41 @@
    "slug": "flagshippioneeringinc"
   },
   {
+   "name": "Flai",
+   "platform": "ashby",
+   "slug": "flai",
+   "source": "yc",
+   "team_size": 23,
+   "batch": "Summer 2025",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Flashpoint",
    "platform": "ashby",
    "slug": "flashpoint.io"
   },
   {
+   "name": "Fleetline",
+   "platform": "ashby",
+   "slug": "fleetline",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Summer 2025",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "FleetPulse",
    "platform": "ashby",
    "slug": "fleetpulse"
+  },
+  {
+   "name": "FleetWorks",
+   "platform": "ashby",
+   "slug": "fleetworks",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Summer 2023",
+   "verified_via": "domain-match"
   },
   {
    "name": "Flex",
@@ -4494,9 +5107,27 @@
    "slug": "flowtraders"
   },
   {
+   "name": "Flowtel",
+   "platform": "ashby",
+   "slug": "flowtel",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2025",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Fluency",
    "platform": "ashby",
    "slug": "fluency"
+  },
+  {
+   "name": "FlutterFlow",
+   "platform": "ashby",
+   "slug": "flutterflow",
+   "source": "yc",
+   "team_size": 55,
+   "batch": "Winter 2021",
+   "verified_via": "domain-match"
   },
   {
    "name": "Fluxergy",
@@ -4730,6 +5361,15 @@
    "slug": "furtherearlycareer"
   },
   {
+   "name": "FurtherAI",
+   "platform": "ashby",
+   "slug": "furtherai",
+   "source": "yc",
+   "team_size": 36,
+   "batch": "Winter 2024",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Fuse Energy",
    "platform": "ashby",
    "slug": "Fuse"
@@ -4817,6 +5457,15 @@
    "slug": "gassouth"
   },
   {
+   "name": "Gather",
+   "platform": "greenhouse",
+   "slug": "gather",
+   "source": "yc",
+   "team_size": 60,
+   "batch": "Summer 2019",
+   "verified_via": "domain+company_name"
+  },
+  {
    "name": "GCM Grosvenor",
    "platform": "greenhouse",
    "slug": "gcmgrosvenor"
@@ -4874,6 +5523,15 @@
    "name": "General Matter",
    "platform": "greenhouse",
    "slug": "generalmatter"
+  },
+  {
+   "name": "General Proximity",
+   "platform": "greenhouse",
+   "slug": "generalproximity",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2020",
+   "verified_via": "domain+company_name"
   },
   {
    "name": "Generalist",
@@ -4976,6 +5634,15 @@
    "slug": "glide"
   },
   {
+   "name": "Glimpse",
+   "platform": "ashby",
+   "slug": "glimpse",
+   "source": "yc",
+   "team_size": 27,
+   "batch": "Summer 2020",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Glimpse Engineering",
    "platform": "ashby",
    "slug": "glimp-se"
@@ -5066,6 +5733,33 @@
    "name": "Gotion",
    "platform": "greenhouse",
    "slug": "gotion"
+  },
+  {
+   "name": "GovDash",
+   "platform": "ashby",
+   "slug": "govdash",
+   "source": "yc",
+   "team_size": 56,
+   "batch": "Winter 2022",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "GovEagle",
+   "platform": "ashby",
+   "slug": "GovEagle",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Winter 2023",
+   "verified_via": "site-link"
+  },
+  {
+   "name": "Govly",
+   "platform": "rippling",
+   "slug": "govly-inc",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Summer 2021",
+   "verified_via": "site-link"
   },
   {
    "name": "GovSignals",
@@ -5279,11 +5973,38 @@
    "slug": "haizelabs"
   },
   {
+   "name": "Haladir",
+   "platform": "ashby",
+   "slug": "haladir",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Winter 2026",
+   "verified_via": "site-link"
+  },
+  {
+   "name": "Halluminate",
+   "platform": "ashby",
+   "slug": "halluminate",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2025",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Halter",
    "platform": "ashby",
    "slug": "halter",
    "source": "vc_board",
    "stage": "series_e"
+  },
+  {
+   "name": "Handle",
+   "platform": "rippling",
+   "slug": "handle",
+   "source": "yc",
+   "team_size": 55,
+   "batch": "Winter 2019",
+   "verified_via": "domain-match"
   },
   {
    "name": "Handshake",
@@ -5405,6 +6126,15 @@
    "name": "HeartFlow",
    "platform": "greenhouse",
    "slug": "heartflowinc"
+  },
+  {
+   "name": "Hedge",
+   "platform": "ashby",
+   "slug": "hedge",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "site-link"
   },
   {
    "name": "Heetch",
@@ -5557,6 +6287,15 @@
    "slug": "hivewatch"
   },
   {
+   "name": "HockeyStack",
+   "platform": "ashby",
+   "slug": "hockeystack",
+   "source": "yc",
+   "team_size": 65,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "HOKALI",
    "platform": "workable",
    "slug": "hokali"
@@ -5652,6 +6391,15 @@
    "slug": "hottopic"
   },
   {
+   "name": "Hotplate",
+   "platform": "ashby",
+   "slug": "hotplate",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Summer 2020",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "HP IQ",
    "platform": "greenhouse",
    "slug": "hpiq"
@@ -5672,6 +6420,15 @@
    "slug": "hubs.is"
   },
   {
+   "name": "HUD",
+   "platform": "ashby",
+   "slug": "hud",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2025",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Hudl",
    "platform": "greenhouse",
    "slug": "hudl"
@@ -5682,6 +6439,15 @@
    "slug": "HUMAN",
    "source": "vc_board",
    "stage": "series_unknown"
+  },
+  {
+   "name": "Human Archive",
+   "platform": "ashby",
+   "slug": "humanarchive",
+   "source": "yc",
+   "team_size": 100,
+   "batch": "Winter 2026",
+   "verified_via": "domain-match"
   },
   {
    "name": "Human Computer Lab",
@@ -5710,6 +6476,15 @@
    "source": "manual"
   },
   {
+   "name": "Hyperbound",
+   "platform": "ashby",
+   "slug": "Hyperbound",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Hypercubic",
    "platform": "ashby",
    "slug": "hypercubic"
@@ -5723,6 +6498,15 @@
    "name": "HyperLight",
    "platform": "workable",
    "slug": "hyperlight"
+  },
+  {
+   "name": "Hyperspell",
+   "platform": "ashby",
+   "slug": "hyperspell",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Fall 2025",
+   "verified_via": "domain-match"
   },
   {
    "name": "IA Collaborative",
@@ -5878,6 +6662,15 @@
    "stage": "series_a"
   },
   {
+   "name": "Infisical",
+   "platform": "ashby",
+   "slug": "infisical",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Winter 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Inflection",
    "platform": "greenhouse",
    "slug": "inflectionai"
@@ -5903,6 +6696,24 @@
    "slug": "inizio"
   },
   {
+   "name": "Inkeep",
+   "platform": "ashby",
+   "slug": "inkeep",
+   "source": "yc",
+   "team_size": 18,
+   "batch": "Winter 2023",
+   "verified_via": "site-link"
+  },
+  {
+   "name": "Innate",
+   "platform": "ashby",
+   "slug": "innate",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Fall 2024",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Innodata",
    "platform": "greenhouse",
    "slug": "innodatainc"
@@ -5911,6 +6722,15 @@
    "name": "Innovaccer",
    "platform": "workable",
    "slug": "innovaccer-analytics"
+  },
+  {
+   "name": "Inscribe",
+   "platform": "ashby",
+   "slug": "InscribeAI",
+   "source": "yc",
+   "team_size": 35,
+   "batch": "Summer 2018",
+   "verified_via": "site-link"
   },
   {
    "name": "Insitro",
@@ -5965,6 +6785,15 @@
    "stage": "series_c"
   },
   {
+   "name": "Instrumentl",
+   "platform": "lever",
+   "slug": "Instrumentl",
+   "source": "yc",
+   "team_size": 60,
+   "batch": "Summer 2016",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Insurify",
    "platform": "greenhouse",
    "slug": "insurify"
@@ -5988,6 +6817,15 @@
    "name": "interface.ai",
    "platform": "ashby",
    "slug": "interface-ai"
+  },
+  {
+   "name": "Interfere",
+   "platform": "ashby",
+   "slug": "interfere",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Summer 2025",
+   "verified_via": "site-link"
   },
   {
    "name": "InterImage",
@@ -6065,6 +6903,15 @@
    "name": "Ironclad",
    "platform": "ashby",
    "slug": "ironcladhq"
+  },
+  {
+   "name": "iSono Health",
+   "platform": "rippling",
+   "slug": "isonohealth",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Winter 2016",
+   "verified_via": "domain-match"
   },
   {
    "name": "ispace",
@@ -6156,6 +7003,15 @@
    "stage": "series_a"
   },
   {
+   "name": "JITX",
+   "platform": "lever",
+   "slug": "jitxinc",
+   "source": "yc",
+   "team_size": 18,
+   "batch": "Summer 2018",
+   "verified_via": "site-link"
+  },
+  {
    "name": "JMA Wireless",
    "platform": "lever",
    "slug": "jmawireless"
@@ -6210,6 +7066,24 @@
    "name": "Juniper Square",
    "platform": "ashby",
    "slug": "junipersquare"
+  },
+  {
+   "name": "Juno",
+   "platform": "greenhouse",
+   "slug": "juno",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Spring 2026",
+   "verified_via": "name+company_name"
+  },
+  {
+   "name": "Just Appraised",
+   "platform": "rippling",
+   "slug": "just-appraised-jobs",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Summer 2017",
+   "verified_via": "site-link"
   },
   {
    "name": "Juvare",
@@ -6336,6 +7210,24 @@
    "name": "Kinetic Systems",
    "platform": "ashby",
    "slug": "kineticsystems"
+  },
+  {
+   "name": "Kingdom",
+   "platform": "ashby",
+   "slug": "Kingdom",
+   "source": "yc",
+   "team_size": 21,
+   "batch": "Summer 2020",
+   "verified_via": "site-link"
+  },
+  {
+   "name": "Kinter",
+   "platform": "lever",
+   "slug": "kinter",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2020",
+   "verified_via": "domain-match"
   },
   {
    "name": "Kira",
@@ -6467,6 +7359,15 @@
    "slug": "lambda"
   },
   {
+   "name": "Lance",
+   "platform": "ashby",
+   "slug": "lance",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2026",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Landscape Forms",
    "platform": "greenhouse",
    "slug": "landscapeforms"
@@ -6487,6 +7388,15 @@
    "slug": "last-energy",
    "source": "vc_board",
    "stage": "series_c"
+  },
+  {
+   "name": "Latent",
+   "platform": "ashby",
+   "slug": "latent",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Winter 2023",
+   "verified_via": "site-link"
   },
   {
    "name": "Later",
@@ -6582,9 +7492,27 @@
    "slug": "leavitt"
   },
   {
+   "name": "Legalist",
+   "platform": "greenhouse",
+   "slug": "legalist",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Summer 2016",
+   "verified_via": "domain+company_name"
+  },
+  {
    "name": "Legend Biotech",
    "platform": "greenhouse",
    "slug": "legendcareers"
+  },
+  {
+   "name": "Legion Health",
+   "platform": "ashby",
+   "slug": "legionhealth",
+   "source": "yc",
+   "team_size": 11,
+   "batch": "Summer 2021",
+   "verified_via": "site-link"
   },
   {
    "name": "Legis1",
@@ -6709,6 +7637,15 @@
    "slug": "lindy"
   },
   {
+   "name": "LineLeap",
+   "platform": "rippling",
+   "slug": "lineleap",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Summer 2019",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Linero",
    "platform": "ashby",
    "slug": "linero",
@@ -6763,6 +7700,15 @@
    "name": "LiveView Technologies",
    "platform": "ashby",
    "slug": "liveview-technologies"
+  },
+  {
+   "name": "Living Carbon",
+   "platform": "lever",
+   "slug": "livingcarbon",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2020",
+   "verified_via": "domain-match"
   },
   {
    "name": "Lob",
@@ -6878,6 +7824,15 @@
    "slug": "LuminDigital"
   },
   {
+   "name": "Luminai",
+   "platform": "ashby",
+   "slug": "luminai",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Summer 2020",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Luminance",
    "platform": "workable",
    "slug": "luminance-1"
@@ -6972,6 +7927,15 @@
    "slug": "madisonenergyinfrastructure"
   },
   {
+   "name": "Magic Patterns",
+   "platform": "ashby",
+   "slug": "magicpatterns",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2023",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Magnet Forensics",
    "platform": "lever",
    "slug": "magnetforensics"
@@ -7019,9 +7983,27 @@
    "slug": "mandolin"
   },
   {
+   "name": "MangoDesk",
+   "platform": "ashby",
+   "slug": "mangodesk",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2025",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Manifold AI",
    "platform": "greenhouse",
    "slug": "manifoldai"
+  },
+  {
+   "name": "Mantis",
+   "platform": "greenhouse",
+   "slug": "mantis",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2026",
+   "verified_via": "name+company_name"
   },
   {
    "name": "Maple AI",
@@ -7225,6 +8207,15 @@
    "slug": "melotech"
   },
   {
+   "name": "Mem0",
+   "platform": "ashby",
+   "slug": "mem0",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2024",
+   "verified_via": "site-link"
+  },
+  {
    "name": "MEMIC",
    "platform": "greenhouse",
    "slug": "memic"
@@ -7302,6 +8293,24 @@
    "slug": "merqube"
   },
   {
+   "name": "Meru Health",
+   "platform": "greenhouse",
+   "slug": "meruhealth",
+   "source": "yc",
+   "team_size": 55,
+   "batch": "Summer 2018",
+   "verified_via": "domain+company_name"
+  },
+  {
+   "name": "Mesh",
+   "platform": "greenhouse",
+   "slug": "mesh",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2025",
+   "verified_via": "name+company_name"
+  },
+  {
    "name": "Meshy",
    "platform": "ashby",
    "slug": "meshy"
@@ -7349,6 +8358,15 @@
    "name": "MetOx International",
    "platform": "greenhouse",
    "slug": "metoxinternationalinc"
+  },
+  {
+   "name": "Metriport",
+   "platform": "ashby",
+   "slug": "metriport",
+   "source": "yc",
+   "team_size": 29,
+   "batch": "Summer 2022",
+   "verified_via": "domain-match"
   },
   {
    "name": "Metron",
@@ -7425,6 +8443,15 @@
    "stage": "series_unknown"
   },
   {
+   "name": "Miso Labs",
+   "platform": "ashby",
+   "slug": "misolabs",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Mitratech",
    "platform": "greenhouse",
    "slug": "mitratech"
@@ -7480,6 +8507,15 @@
    "name": "Moment Energy",
    "platform": "greenhouse",
    "slug": "momentenergy"
+  },
+  {
+   "name": "Momentic",
+   "platform": "ashby",
+   "slug": "momentic",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2024",
+   "verified_via": "site-link"
   },
   {
    "name": "Momentum",
@@ -7548,6 +8584,15 @@
    "slug": "moonpig"
   },
   {
+   "name": "MorphoAI",
+   "platform": "ashby",
+   "slug": "morpho",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Spring 2025",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Morris Health Technologies Inc.",
    "platform": "ashby",
    "slug": "morrishealthtech"
@@ -7556,6 +8601,15 @@
    "name": "MORSE Corp",
    "platform": "greenhouse",
    "slug": "morsecorp"
+  },
+  {
+   "name": "Mosaic",
+   "platform": "ashby",
+   "slug": "mosaic",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Winter 2025",
+   "verified_via": "domain-match"
   },
   {
    "name": "Moss",
@@ -7640,6 +8694,15 @@
    "stage": "series_b"
   },
   {
+   "name": "Mux",
+   "platform": "ashby",
+   "slug": "mux",
+   "source": "yc",
+   "team_size": 95,
+   "batch": "Winter 2016",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "MyHealthTeam",
    "platform": "rippling",
    "slug": "swoopishiring",
@@ -7667,6 +8730,15 @@
    "name": "n8n",
    "platform": "ashby",
    "slug": "n8n"
+  },
+  {
+   "name": "Nango",
+   "platform": "ashby",
+   "slug": "Nango",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2023",
+   "verified_via": "site-link"
   },
   {
    "name": "Nanit",
@@ -7709,6 +8781,15 @@
    "name": "Navi AI",
    "platform": "ashby",
    "slug": "navi"
+  },
+  {
+   "name": "Navier AI",
+   "platform": "greenhouse",
+   "slug": "navierai",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2024",
+   "verified_via": "site-link"
   },
   {
    "name": "Navion Senior Solutions",
@@ -7782,6 +8863,15 @@
    "name": "Netic",
    "platform": "ashby",
    "slug": "netic"
+  },
+  {
+   "name": "Netomi",
+   "platform": "lever",
+   "slug": "netomi",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Winter 2016",
+   "verified_via": "domain-match"
   },
   {
    "name": "Neura Health",
@@ -8005,9 +9095,27 @@
    "slug": "nory-co"
   },
   {
+   "name": "Notabene",
+   "platform": "ashby",
+   "slug": "notabene",
+   "source": "yc",
+   "team_size": 47,
+   "batch": "Summer 2020",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Notability",
    "platform": "greenhouse",
    "slug": "gingerlabsinc"
+  },
+  {
+   "name": "Nova Credit",
+   "platform": "greenhouse",
+   "slug": "novacredit",
+   "source": "yc",
+   "team_size": 100,
+   "batch": "Summer 2016",
+   "verified_via": "site-link"
   },
   {
    "name": "Nova Talent",
@@ -8034,6 +9142,15 @@
    "slug": "novoed",
    "source": "vc_board",
    "stage": "private_equity"
+  },
+  {
+   "name": "Nowadays",
+   "platform": "ashby",
+   "slug": "nowadays",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Summer 2023",
+   "verified_via": "domain-match"
   },
   {
    "name": "NOX METALS",
@@ -8254,6 +9371,33 @@
    "slug": "oneapp"
   },
   {
+   "name": "One Robot",
+   "platform": "ashby",
+   "slug": "onerobot",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Winter 2026",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "OneChronos",
+   "platform": "ashby",
+   "slug": "onechronos",
+   "source": "yc",
+   "team_size": 75,
+   "batch": "Summer 2016",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "OneSchema",
+   "platform": "ashby",
+   "slug": "oneschema",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Summer 2021",
+   "verified_via": "site-link"
+  },
+  {
    "name": "OnLogic",
    "platform": "workable",
    "slug": "onlogic-inc"
@@ -8319,6 +9463,15 @@
    "name": "OpenTable",
    "platform": "greenhouse",
    "slug": "opentable"
+  },
+  {
+   "name": "OpenWork",
+   "platform": "greenhouse",
+   "slug": "openwork",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Spring 2026",
+   "verified_via": "name+company_name"
   },
   {
    "name": "OpenWorks Engineering",
@@ -8441,6 +9594,15 @@
    "slug": "osmo"
   },
   {
+   "name": "Osmosis",
+   "platform": "greenhouse",
+   "slug": "osmosis",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2025",
+   "verified_via": "domain+company_name"
+  },
+  {
    "name": "OTI Lumionics",
    "platform": "lever",
    "slug": "otilumionics"
@@ -8504,6 +9666,15 @@
    "slug": "output"
   },
   {
+   "name": "Outset",
+   "platform": "ashby",
+   "slug": "outset",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Overland AI",
    "platform": "rippling",
    "slug": "overland-ai",
@@ -8516,6 +9687,15 @@
    "slug": "oversee-1",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "Overview",
+   "platform": "ashby",
+   "slug": "overview",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2019",
+   "verified_via": "domain-match"
   },
   {
    "name": "Overview Energy",
@@ -8548,6 +9728,15 @@
    "name": "Pacvue",
    "platform": "greenhouse",
    "slug": "pacvue"
+  },
+  {
+   "name": "Padlet",
+   "platform": "ashby",
+   "slug": "padlet",
+   "source": "yc",
+   "team_size": 65,
+   "batch": "Winter 2013",
+   "verified_via": "domain-match"
   },
   {
    "name": "Pagaya Investments",
@@ -8623,6 +9812,15 @@
    "slug": "parafin",
    "source": "vc_board",
    "stage": "other"
+  },
+  {
+   "name": "Paragon AI",
+   "platform": "ashby",
+   "slug": "paragon",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2022",
+   "verified_via": "domain-match"
   },
   {
    "name": "Parallel Bio",
@@ -8986,6 +10184,15 @@
    "slug": "pika"
   },
   {
+   "name": "Pine Park Health",
+   "platform": "rippling",
+   "slug": "pineparkhealth",
+   "source": "yc",
+   "team_size": 75,
+   "batch": "Summer 2018",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Ping Identity",
    "platform": "greenhouse",
    "slug": "pingidentity"
@@ -9062,6 +10269,15 @@
    "slug": "waterloocoop"
   },
   {
+   "name": "Ploy",
+   "platform": "ashby",
+   "slug": "ployai",
+   "source": "yc",
+   "team_size": 14,
+   "batch": "Spring 2026",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Pluralis Research",
    "platform": "ashby",
    "slug": "pluralis-research"
@@ -9132,6 +10348,24 @@
    "name": "pony.ai",
    "platform": "workable",
    "slug": "pony-dot-ai"
+  },
+  {
+   "name": "Popl",
+   "platform": "ashby",
+   "slug": "popl",
+   "source": "yc",
+   "team_size": 60,
+   "batch": "Winter 2021",
+   "verified_via": "site-link"
+  },
+  {
+   "name": "Porter",
+   "platform": "greenhouse",
+   "slug": "porter",
+   "source": "yc",
+   "team_size": 18,
+   "batch": "Summer 2020",
+   "verified_via": "domain+company_name"
   },
   {
    "name": "Poshmark",
@@ -9228,6 +10462,15 @@
    "slug": "prizeout"
   },
   {
+   "name": "Probably Genetic",
+   "platform": "ashby",
+   "slug": "probablygenetic",
+   "source": "yc",
+   "team_size": 17,
+   "batch": "Winter 2019",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Probook",
    "platform": "ashby",
    "slug": "probook"
@@ -9236,6 +10479,15 @@
    "name": "Proconex",
    "platform": "greenhouse",
    "slug": "proconex"
+  },
+  {
+   "name": "Prodigal",
+   "platform": "greenhouse",
+   "slug": "prodigal",
+   "source": "yc",
+   "team_size": 99,
+   "batch": "Summer 2018",
+   "verified_via": "site-link"
   },
   {
    "name": "Profluent",
@@ -9251,6 +10503,15 @@
    "name": "Prolaio",
    "platform": "greenhouse",
    "slug": "prolaio"
+  },
+  {
+   "name": "Promise",
+   "platform": "ashby",
+   "slug": "Promise",
+   "source": "yc",
+   "team_size": 80,
+   "batch": "Winter 2018",
+   "verified_via": "site-link"
   },
   {
    "name": "Promise Robotics",
@@ -9317,6 +10578,15 @@
    "name": "Pulse",
    "platform": "ashby",
    "slug": "pulse"
+  },
+  {
+   "name": "Pump.co",
+   "platform": "greenhouse",
+   "slug": "pumpcareers",
+   "source": "yc",
+   "team_size": 75,
+   "batch": "Summer 2022",
+   "verified_via": "site-link"
   },
   {
    "name": "Purvis Systems",
@@ -9421,6 +10691,15 @@
    "slug": "QuantumWorkplace"
   },
   {
+   "name": "Quartzy",
+   "platform": "lever",
+   "slug": "quartzy",
+   "source": "yc",
+   "team_size": 100,
+   "batch": "Summer 2011",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "QuEra Computing",
    "platform": "greenhouse",
    "slug": "queracomputinginc"
@@ -9516,6 +10795,15 @@
    "slug": "rain"
   },
   {
+   "name": "Raindrop",
+   "platform": "ashby",
+   "slug": "raindrop",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Winter 2024",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Rainmaker",
    "platform": "lever",
    "slug": "make-rain"
@@ -9565,6 +10853,15 @@
    "slug": "rebuildmanufacturing"
   },
   {
+   "name": "Reach",
+   "platform": "lever",
+   "slug": "reachpower",
+   "source": "yc",
+   "team_size": 45,
+   "batch": "Summer 2015",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Reach Financial",
    "platform": "greenhouse",
    "slug": "reach"
@@ -9573,6 +10870,15 @@
    "name": "Reacher",
    "platform": "ashby",
    "slug": "reacher"
+  },
+  {
+   "name": "Ready",
+   "platform": "ashby",
+   "slug": "ready",
+   "source": "yc",
+   "team_size": 60,
+   "batch": "Summer 2020",
+   "verified_via": "site-link"
   },
   {
    "name": "Readystate Asset Management",
@@ -9612,6 +10918,15 @@
    "stage": "series_a"
   },
   {
+   "name": "Recall.ai",
+   "platform": "ashby",
+   "slug": "Recall",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2020",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Red Rabbit Robotics",
    "platform": "workable",
    "slug": "red-rabbit-robotics"
@@ -9625,6 +10940,15 @@
    "name": "Redis",
    "platform": "greenhouse",
    "slug": "redis"
+  },
+  {
+   "name": "Reducto",
+   "platform": "ashby",
+   "slug": "reducto",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2024",
+   "verified_via": "domain-match"
   },
   {
    "name": "Redwood Credit Union",
@@ -9656,6 +10980,15 @@
    "stage": "series_b"
   },
   {
+   "name": "Reflex",
+   "platform": "greenhouse",
+   "slug": "reflex",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2023",
+   "verified_via": "domain+company_name"
+  },
+  {
    "name": "Reframe Systems",
    "platform": "ashby",
    "slug": "reframesystems"
@@ -9669,6 +11002,15 @@
    "name": "REGENT",
    "platform": "ashby",
    "slug": "regent"
+  },
+  {
+   "name": "Relace",
+   "platform": "ashby",
+   "slug": "relace",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2023",
+   "verified_via": "domain-match"
   },
   {
    "name": "Relation Therapeutics",
@@ -9753,6 +11095,15 @@
    "name": "Replit",
    "platform": "ashby",
    "slug": "replit"
+  },
+  {
+   "name": "Replo",
+   "platform": "ashby",
+   "slug": "replo",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Summer 2021",
+   "verified_via": "site-link"
   },
   {
    "name": "Reply",
@@ -9977,6 +11328,15 @@
    "slug": "rollout"
   },
   {
+   "name": "Rollstack",
+   "platform": "ashby",
+   "slug": "rollstack",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Roofr",
    "platform": "greenhouse",
    "slug": "roofr",
@@ -10031,6 +11391,24 @@
    "slug": "runsybil-jobs"
   },
   {
+   "name": "Runway",
+   "platform": "ashby",
+   "slug": "runway",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Winter 2021",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "Rutter",
+   "platform": "ashby",
+   "slug": "rutter",
+   "source": "yc",
+   "team_size": 24,
+   "batch": "Summer 2019",
+   "verified_via": "site-link"
+  },
+  {
    "name": "RWS",
    "platform": "lever",
    "slug": "rws"
@@ -10048,6 +11426,15 @@
    "slug": "rystad-energy"
   },
   {
+   "name": "Ryvn",
+   "platform": "ashby",
+   "slug": "ryvn",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Fall 2024",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Saalex",
    "platform": "workable",
    "slug": "saalex"
@@ -10058,9 +11445,45 @@
    "slug": "safariai"
   },
   {
+   "name": "SafetyKit",
+   "platform": "ashby",
+   "slug": "safetykit",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Sage",
    "platform": "greenhouse",
    "slug": "sage49"
+  },
+  {
+   "name": "Sage Care",
+   "platform": "ashby",
+   "slug": "sagecare",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Summer 2024",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "SalesPatriot",
+   "platform": "ashby",
+   "slug": "salespatriot",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Winter 2025",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "Salient",
+   "platform": "ashby",
+   "slug": "salient",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2023",
+   "verified_via": "site-link"
   },
   {
    "name": "Salient Motion",
@@ -10390,6 +11813,15 @@
    "slug": "sfgiants"
   },
   {
+   "name": "Shape (ShapeScale)",
+   "platform": "ashby",
+   "slug": "shapescale",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Summer 2015",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Sharp Electronics",
    "platform": "greenhouse",
    "slug": "sharpelectronics"
@@ -10471,6 +11903,15 @@
    "slug": "signifyd95"
   },
   {
+   "name": "SigNoz",
+   "platform": "ashby",
+   "slug": "signoz",
+   "source": "yc",
+   "team_size": 38,
+   "batch": "Winter 2021",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Sila Nanotechnologies",
    "platform": "greenhouse",
    "slug": "silananotechnologies"
@@ -10484,6 +11925,15 @@
    "name": "Silvus Technologies",
    "platform": "greenhouse",
    "slug": "silvus"
+  },
+  {
+   "name": "Sim",
+   "platform": "ashby",
+   "slug": "sim",
+   "source": "yc",
+   "team_size": 8,
+   "batch": "Spring 2025",
+   "verified_via": "site-link"
   },
   {
    "name": "Simbe Robotics",
@@ -10612,6 +12062,15 @@
    "slug": "skyways"
   },
   {
+   "name": "Slash",
+   "platform": "ashby",
+   "slug": "slash-financial",
+   "source": "yc",
+   "team_size": 70,
+   "batch": "Summer 2021",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Sleep Doctor",
    "platform": "greenhouse",
    "slug": "sleepdoctor"
@@ -10668,6 +12127,15 @@
    "stage": "series_h"
   },
   {
+   "name": "SnapMagic",
+   "platform": "ashby",
+   "slug": "snapmagic",
+   "source": "yc",
+   "team_size": 23,
+   "batch": "Summer 2015",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Snorkel AI",
    "platform": "greenhouse",
    "slug": "snorkelai"
@@ -10693,6 +12161,15 @@
    "slug": "softheon"
   },
   {
+   "name": "Sola",
+   "platform": "ashby",
+   "slug": "sola",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Solace Health",
    "platform": "ashby",
    "slug": "solace"
@@ -10701,6 +12178,15 @@
    "name": "Solid Power",
    "platform": "greenhouse",
    "slug": "solidpower"
+  },
+  {
+   "name": "Solidroad",
+   "platform": "ashby",
+   "slug": "solidroad",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Winter 2025",
+   "verified_via": "site-link"
   },
   {
    "name": "Solink",
@@ -10723,6 +12209,15 @@
    "name": "SoloPulse",
    "platform": "lever",
    "slug": "solopulseco"
+  },
+  {
+   "name": "Solva",
+   "platform": "ashby",
+   "slug": "solva",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2025",
+   "verified_via": "site-link"
   },
   {
    "name": "Somerce",
@@ -10794,6 +12289,15 @@
    "slug": "spacial"
   },
   {
+   "name": "Spade",
+   "platform": "ashby",
+   "slug": "spade",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2022",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "SPAICE Technology",
    "platform": "ashby",
    "slug": "spaice-tech"
@@ -10819,6 +12323,15 @@
    "slug": "spawglass"
   },
   {
+   "name": "Speak",
+   "platform": "ashby",
+   "slug": "speak",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2017",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Specter",
    "platform": "ashby",
    "slug": "specter"
@@ -10839,6 +12352,15 @@
    "slug": "spekit",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "Spellbrush",
+   "platform": "ashby",
+   "slug": "spellbrush",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2018",
+   "verified_via": "site-link"
   },
   {
    "name": "Sphinx Defense",
@@ -10866,6 +12388,15 @@
    "name": "SprintRay",
    "platform": "greenhouse",
    "slug": "sprintray"
+  },
+  {
+   "name": "SpruceID",
+   "platform": "ashby",
+   "slug": "spruceid",
+   "source": "yc",
+   "team_size": 25,
+   "batch": "Winter 2021",
+   "verified_via": "domain-match"
   },
   {
    "name": "Spry Methods",
@@ -10975,6 +12506,15 @@
    "slug": "stemhealthcare"
   },
   {
+   "name": "Stepful",
+   "platform": "ashby",
+   "slug": "Stepful",
+   "source": "yc",
+   "team_size": 100,
+   "batch": "Summer 2021",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Stevens Capital Management",
    "platform": "greenhouse",
    "slug": "scm"
@@ -11032,6 +12572,15 @@
    "slug": "stratolaunch"
   },
   {
+   "name": "Stream",
+   "platform": "ashby",
+   "slug": "stream",
+   "source": "yc",
+   "team_size": 15,
+   "batch": "Summer 2022",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Striim",
    "platform": "greenhouse",
    "slug": "striiminc"
@@ -11052,6 +12601,15 @@
    "slug": "subsplash"
   },
   {
+   "name": "Substrate",
+   "platform": "ashby",
+   "slug": "substrate",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2024",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "SuccessKPI",
    "platform": "greenhouse",
    "slug": "successkpiinc"
@@ -11060,6 +12618,15 @@
    "name": "SugarCRM",
    "platform": "lever",
    "slug": "sugarcrm"
+  },
+  {
+   "name": "Suger",
+   "platform": "lever",
+   "slug": "suger",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Winter 2023",
+   "verified_via": "domain-match"
   },
   {
    "name": "Suite Studios",
@@ -11120,6 +12687,15 @@
    "stage": "series_a"
   },
   {
+   "name": "Superset",
+   "platform": "greenhouse",
+   "slug": "superset",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Spring 2026",
+   "verified_via": "domain+company_name"
+  },
+  {
    "name": "SupplyHouse.com",
    "platform": "greenhouse",
    "slug": "supplyhouse"
@@ -11142,9 +12718,36 @@
    "slug": "sustainabletalent"
   },
   {
+   "name": "Svix",
+   "platform": "ashby",
+   "slug": "svix",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2021",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "Swayable",
+   "platform": "greenhouse",
+   "slug": "swayable",
+   "source": "yc",
+   "team_size": 30,
+   "batch": "Winter 2018",
+   "verified_via": "domain+company_name"
+  },
+  {
    "name": "Sweatpals",
    "platform": "ashby",
    "slug": "sweatpals"
+  },
+  {
+   "name": "Sweep",
+   "platform": "ashby",
+   "slug": "sweep",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2023",
+   "verified_via": "domain-match"
   },
   {
    "name": "Swoon Editions",
@@ -11253,6 +12856,15 @@
    "name": "Talos",
    "platform": "ashby",
    "slug": "Talos-Trading"
+  },
+  {
+   "name": "Tamarind Bio",
+   "platform": "ashby",
+   "slug": "tamarindbio",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Winter 2024",
+   "verified_via": "site-link"
   },
   {
    "name": "Tamr",
@@ -11489,6 +13101,15 @@
    "slug": "texas-sports-academy-main"
   },
   {
+   "name": "Text.ai",
+   "platform": "lever",
+   "slug": "text",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Spring 2025",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Teya",
    "platform": "ashby",
    "slug": "teya"
@@ -11670,6 +13291,24 @@
    "name": "Thumbtack",
    "platform": "greenhouse",
    "slug": "thumbtack"
+  },
+  {
+   "name": "Thunder Compute",
+   "platform": "ashby",
+   "slug": "thundercompute",
+   "source": "yc",
+   "team_size": 9,
+   "batch": "Summer 2024",
+   "verified_via": "domain-match"
+  },
+  {
+   "name": "Thunkable",
+   "platform": "lever",
+   "slug": "thunkable",
+   "source": "yc",
+   "team_size": 40,
+   "batch": "Winter 2016",
+   "verified_via": "domain-match"
   },
   {
    "name": "Tia",
@@ -11924,6 +13563,15 @@
    "slug": "trio"
   },
   {
+   "name": "Triomics",
+   "platform": "ashby",
+   "slug": "triomics",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Winter 2021",
+   "verified_via": "site-link"
+  },
+  {
    "name": "TripAdvisor",
    "platform": "greenhouse",
    "slug": "tripadvisor"
@@ -11979,6 +13627,15 @@
    "name": "Truveta",
    "platform": "greenhouse",
    "slug": "truveta"
+  },
+  {
+   "name": "Tsenta",
+   "platform": "ashby",
+   "slug": "tsenta",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2026",
+   "verified_via": "domain-match"
   },
   {
    "name": "Tubi",
@@ -12100,6 +13757,15 @@
    "slug": "ultimagenomics"
   },
   {
+   "name": "Ultra",
+   "platform": "ashby",
+   "slug": "ultra",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2024",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Unconventional AI",
    "platform": "greenhouse",
    "slug": "unconventionalinc",
@@ -12172,9 +13838,27 @@
    "slug": "until"
   },
   {
+   "name": "Unusual",
+   "platform": "lever",
+   "slug": "unusual",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Fall 2024",
+   "verified_via": "domain-match"
+  },
+  {
    "name": "Unwrap",
    "platform": "ashby",
    "slug": "Unwrap"
+  },
+  {
+   "name": "Uplane",
+   "platform": "ashby",
+   "slug": "uplane",
+   "source": "yc",
+   "team_size": 22,
+   "batch": "Fall 2025",
+   "verified_via": "domain-match"
   },
   {
    "name": "Uplifter",
@@ -12269,9 +13953,27 @@
    "slug": "vantage"
   },
   {
+   "name": "Vapi",
+   "platform": "ashby",
+   "slug": "vapi",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Winter 2021",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Varda",
    "platform": "greenhouse",
    "slug": "vardaspace"
+  },
+  {
+   "name": "Variance",
+   "platform": "ashby",
+   "slug": "intrinsic-safety",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Winter 2023",
+   "verified_via": "site-link"
   },
   {
    "name": "Varick Agents",
@@ -12352,6 +14054,15 @@
    "slug": "vercel"
   },
   {
+   "name": "Verge Genomics",
+   "platform": "ashby",
+   "slug": "verge-genomics",
+   "source": "yc",
+   "team_size": 50,
+   "batch": "Summer 2015",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Verifiable",
    "platform": "lever",
    "slug": "verifiable",
@@ -12367,6 +14078,15 @@
    "name": "Verisign",
    "platform": "greenhouse",
    "slug": "verisign"
+  },
+  {
+   "name": "Veritus",
+   "platform": "ashby",
+   "slug": "veritus",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2025",
+   "verified_via": "domain-match"
   },
   {
    "name": "Vermont Information Processing",
@@ -12486,6 +14206,15 @@
    "slug": "vital-lyfe"
   },
   {
+   "name": "Vitalize",
+   "platform": "ashby",
+   "slug": "vitalize",
+   "source": "yc",
+   "team_size": 28,
+   "batch": "Winter 2023",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Vitana Pediatric & Orthodontic Partners",
    "platform": "lever",
    "slug": "vitana-pediatric"
@@ -12556,9 +14285,27 @@
    "stage": "series_a"
   },
   {
+   "name": "Vori",
+   "platform": "ashby",
+   "slug": "Vori",
+   "source": "yc",
+   "team_size": 29,
+   "batch": "Winter 2020",
+   "verified_via": "site-link"
+  },
+  {
    "name": "Vortexa",
    "platform": "workable",
    "slug": "vortexa"
+  },
+  {
+   "name": "Vorticity",
+   "platform": "ashby",
+   "slug": "vorticity",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Summer 2019",
+   "verified_via": "domain-match"
   },
   {
    "name": "Voxel",
@@ -13047,6 +14794,15 @@
    "name": "Zen Educate",
    "platform": "lever",
    "slug": "zeneducate"
+  },
+  {
+   "name": "Zensors",
+   "platform": "ashby",
+   "slug": "Zensors",
+   "source": "yc",
+   "team_size": 12,
+   "batch": "Summer 2021",
+   "verified_via": "site-link"
   },
   {
    "name": "ZeroMark",

@@ -240,7 +240,7 @@ employers, which it isn't.
 
 ## Where the company list comes from
 
-Two sources, both feeding `refresh_companies.py`:
+Three sources, all feeding `refresh_companies.py`:
 
 1. **Public tech-recruiting datasets** (SimplifyJobs and friends) - the original
    seed. Their blind spot is structural: they only list companies that post
@@ -249,6 +249,37 @@ Two sources, both feeding `refresh_companies.py`:
 2. **VC portfolio job boards** (`vc_boards.py`) - which cover exactly that gap,
    since they list small, private, well-funded companies regardless of whether
    they hire engineering interns.
+3. **Y Combinator** (`yc_companies.py`) - the largest single pool of the
+   companies this tracker targets. Before it was added, only ~8% of YC companies
+   matching the target profile (NYC/SF, actively hiring, under 100 people) were
+   being watched.
+
+### Why YC is worth its own module
+
+It carries the one field no other source does: **`team_size`, a real integer
+headcount**. Everywhere else this tool infers company size from how many roles
+are open at once, which is a weak proxy - a 2,000-person firm in a hiring freeze
+posts three jobs and looks tiny. For YC companies the size rule is exact, set by
+`max_team_size` (default 100) rather than `max_open_roles`.
+
+The catch is that YC publishes a company's website, not its ATS board, so each
+one has to be resolved - and **a slug guessed from the company name is not safe**.
+There are real YC companies called Handle, Glimpse and Sola whose names resolve
+to boards belonging to entirely unrelated companies. Accepting those would
+silently attach the wrong employer's jobs to a name you trust. So every candidate
+is verified, and the method used is recorded in `verified_via`:
+
+- `site-link` - an ATS link found on the company's own careers page. Authoritative.
+- `<kind>+company_name` - Greenhouse returns `company_name` on each posting,
+  matched against the YC name.
+- `domain-match` - the slug equals the company's own domain label, for platforms
+  that expose no identity field at all.
+
+A bare name-derived guess is never accepted. That costs coverage - **270 of 922
+target companies resolved (29%)** - but the alternative is a list that looks
+bigger and quietly lies about who is hiring. Of those that resolved, 146 came
+from a link on the company's own site, 103 from a domain match, and 21 from a
+Greenhouse `company_name` check.
 
 The VC boards are used for **company discovery only** - the tracker never polls
 them for jobs. A fund's board is a directory that goes stale; a company's own

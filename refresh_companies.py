@@ -17,6 +17,7 @@ import urllib.request
 from urllib.parse import urlparse
 
 from vc_boards import harvest as harvest_vc_boards
+from yc_companies import load_yc, resolve_ats
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 COMPANIES_PATH = os.path.join(ROOT, "data", "companies.json")
@@ -211,6 +212,42 @@ def main():
         added.append(name)
         vc_added += 1
 
+    # --- third source: Y Combinator ---------------------------------------
+    # The largest single pool of the companies this tracker targets, and the
+    # only source with a real integer headcount, so the size filter here is
+    # exact rather than inferred from open-req count.
+    yc_added = 0
+    yc_unresolved = 0
+    try:
+        yc = load_yc(max_team_size=config.get("max_team_size", 100))
+    except Exception as e:  # noqa: BLE001
+        print(f"YC fetch failed, continuing without it: {e}")
+        yc = []
+
+    for c in yc:
+        name = c["name"].strip()
+        if not name or name in EXCLUDE_NAMES or name.lower() in existing_names:
+            continue
+        if name.lower() in excluded_names:
+            skipped_excluded += 1
+            continue
+        resolved = resolve_ats(c)
+        if not resolved:
+            yc_unresolved += 1
+            continue
+        platform, slug, via = resolved
+        if (platform, slug) in existing_boards:
+            continue
+        config["companies"].append({
+            "name": name, "platform": platform, "slug": slug,
+            "source": "yc", "team_size": c.get("team_size"),
+            "batch": c.get("batch"), "verified_via": via,
+        })
+        existing_names.add(name.lower())
+        existing_boards.add((platform, slug))
+        added.append(name)
+        yc_added += 1
+
     config["companies"].sort(key=lambda c: c["name"].lower())
 
     with open(COMPANIES_PATH, "w") as f:
@@ -219,6 +256,8 @@ def main():
     print(f"Added {len(added)} new companies "
           f"({vc_added} from VC portfolio boards, {vc_rejected} VC candidates "
           f"dropped as dead/unverifiable slugs, "
+          f"{yc_added} from Y Combinator ({yc_unresolved} YC companies had no "
+          f"resolvable ATS board), "
           f"{skipped_excluded} skipped as previously-pruned large employers).")
     for n in added[:50]:
         print(f"  + {n}")
