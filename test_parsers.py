@@ -5,6 +5,7 @@ platform's published response schema, just to catch typos/field-name bugs
 before this runs unattended in CI.
 """
 from checker import (parse_greenhouse, parse_lever, parse_ashby, parse_workable,
+                     parse_rippling, parse_careergroup,
                      matches_keywords, location_matches, is_remote,
                      is_remote_anywhere, company_is_local)
 
@@ -387,8 +388,9 @@ def test_ats_slug_parsing_preserves_encoding():
         ("ashby", "Superhuman%20Platform%20Inc")
     assert parse_ats("https://boards.greenhouse.io/verve/jobs/123") == ("greenhouse", "verve")
     assert parse_ats("https://jobs.lever.co/acme/xyz") == ("lever", "acme")
+    assert parse_ats("https://ats.rippling.com/sanas/jobs/abc") == ("rippling", "sanas")
     assert parse_ats("https://www.linkedin.com/jobs/view/123") is None
-    assert parse_ats("https://ats.rippling.com/foo") is None
+    assert parse_ats("https://jobs.smartrecruiters.com/foo") is None
     print("ats slug parsing OK")
 
 
@@ -410,11 +412,71 @@ def test_company_list_has_no_duplicate_boards():
     print(f"no duplicate boards across {len(cfg['companies'])} companies OK")
 
 
+def test_rippling():
+    """Rippling's board pages are Cloudflare-challenged and client-rendered;
+    the public board API returns the same postings as plain JSON."""
+    data = [
+        {"uuid": "d9e1cbed", "name": "Revenue Operations Manager",
+         "url": "https://ats.rippling.com/sanas/jobs/d9e1cbed",
+         "workLocation": {"label": "Palo Alto, CA", "id": "Palo Alto, CA"}},
+        {"uuid": "abc123", "name": "Software Engineer", "workLocation": {}},
+    ]
+    out = parse_rippling(data, "sanas")
+    assert out[0] == ("d9e1cbed", "Revenue Operations Manager",
+                      "https://ats.rippling.com/sanas/jobs/d9e1cbed", "Palo Alto, CA"), out[0]
+    # falls back to a constructed URL and tolerates a missing location
+    assert out[1][2] == "https://ats.rippling.com/sanas/jobs/abc123"
+    assert out[1][3] == ""
+    print("rippling OK")
+
+
+def test_careergroup():
+    """Career Group is a staffing agency on Webflow, not an ATS - the whole
+    board is one HTML page. The division is appended to the title because the
+    hiring employer is deliberately anonymous."""
+    html = """
+    <div role="listitem"><a href="/job-posting/185798" class="jobs-card">
+      <h4 fs-cmsfilter-field="title" class="h4-serif">Chief of Staff</h4>
+      <p fs-cmsfilter-field="division" class="chip-text">Career Group</p>
+      <p fs-cmsfilter-field="location">New York, NY</p>
+    </a></div>
+    <div role="listitem"><a href="/job-posting/185799" class="jobs-card">
+      <h4 fs-cmsfilter-field="title" class="h4-serif">Packaging Designer</h4>
+      <p fs-cmsfilter-field="division" class="chip-text">Syndicatebleu</p>
+      <p fs-cmsfilter-field="location">Los Angeles, CA</p>
+    </a></div>
+    """
+    out = parse_careergroup(html, "find-work")
+    assert len(out) == 2, out
+    assert out[0] == ("185798", "Chief of Staff (Career Group)",
+                      "https://www.careergroupcompanies.com/job-posting/185798",
+                      "New York, NY"), out[0]
+    assert out[1][3] == "Los Angeles, CA"
+    assert parse_careergroup("", "find-work") == []
+    print("careergroup OK")
+
+
+def test_every_platform_has_a_parser_and_template():
+    """A company whose platform has no template is silently skipped every run."""
+    import json
+    import os
+    from checker import PARSERS
+    cfg = json.load(open(os.path.join(os.path.dirname(__file__), "data", "companies.json")))
+    templates = cfg["api_url_templates"]
+    used = {c["platform"] for c in cfg["companies"]}
+    for p in sorted(used):
+        assert p in PARSERS, f"no parser for platform {p}"
+        assert p in templates, f"no api_url_template for platform {p}"
+    print(f"all {len(used)} platforms wired: {', '.join(sorted(used))}")
+
+
 if __name__ == "__main__":
     test_greenhouse()
     test_lever()
     test_ashby()
     test_workable()
+    test_rippling()
+    test_careergroup()
     test_matches_keywords()
     test_shipped_config_allows_associate_titles()
     test_exclude_terms_match_on_word_boundaries()
@@ -432,4 +494,5 @@ if __name__ == "__main__":
     test_generalist_matches_business_roles_not_hr()
     test_ats_slug_parsing_preserves_encoding()
     test_company_list_has_no_duplicate_boards()
+    test_every_platform_has_a_parser_and_template()
     print("ALL PARSER TESTS PASSED")

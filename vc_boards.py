@@ -23,19 +23,59 @@ import urllib.parse
 import urllib.request
 from urllib.parse import urlparse
 
-# Verified Getro-powered boards. Others (First Round, Sequoia, Bessemer,
-# Lightspeed) render client-side with no embedded payload, and a16z runs a
-# bespoke Next.js app - both would need their own parser, so they're out for now.
+# Verified Getro-powered boards. The first nine were found by hand; the rest come
+# from probing every fund in an OpenVC export of NYC/California investors for a
+# job board at jobs.<domain> or careers.<domain>. Only ~9% of funds had one -
+# solo angels, family offices and small seed funds generally don't - but the ones
+# that do skew early-stage and local, which is exactly the target profile.
+#
+# Others (First Round, Sequoia, Bessemer, Lightspeed) render client-side with no
+# embedded payload, and a16z runs a bespoke Next.js app - both would need their
+# own parser, so they're out for now.
 GETRO_BOARDS = [
-    "jobs.accel.com",
-    "jobs.craftventures.com",
-    "jobs.khoslaventures.com",
-    "jobs.uncorkcapital.com",
-    "jobs.generalcatalyst.com",
-    "jobs.insightpartners.com",
+    "careers.blumbergcapital.com",
+    "careers.canaan.com",
+    "careers.greymattercapital.com",
+    "careers.h-l.vc",
+    "careers.playground.global",
+    "careers.quiet.com",
+    "careers.sierraventures.com",
+    "jobs.645ventures.com",
+    "jobs.alphapartners.com",
+    "jobs.bbgventures.com",
+    "jobs.blackjays.vc",
+    "jobs.bonfirevc.com",
+    "jobs.breakout.vc",
+    "jobs.btv.vc",
+    "jobs.cervinventures.com",
+    "jobs.correlationvc.com",
+    "jobs.dcvc.com",
+    "jobs.energyimpactpartners.com",
+    "jobs.framework.ventures",
+    "jobs.g2vp.com",
+    "jobs.greycroft.com",
+    "jobs.gritventures.com",
+    "jobs.group11.vc",
+    "jobs.headline.com",
+    "jobs.hivemind.capital",
+    "jobs.joulevc.com",
+    "jobs.moneta.vc",
+    "jobs.nfx.com",
+    "jobs.ngpcap.com",
+    "jobs.outsidersfund.com",
+    "jobs.praxislabs.org",
+    "jobs.reachcapital.com",
+    "jobs.riverparkvc.com",
+    "jobs.sapphireventures.com",
     "jobs.scalevp.com",
-    "jobs.thrivecap.com",
-    "jobs.8vc.com",
+    "jobs.signalfire.com",
+    "jobs.sogalventures.com",
+    "jobs.spacecapital.com",
+    "jobs.thehelm.co",
+    "jobs.uluventures.com",
+    "jobs.upfront.com",
+    "jobs.vmgpartners.com",
+    "jobs.westlygroup.com",
 ]
 
 # Getro reports company size as a bucket index, not a headcount. Observed

@@ -73,6 +73,7 @@ ATS_HOSTS = {
     "jobs.lever.co": "lever",
     "jobs.ashbyhq.com": "ashby",
     "apply.workable.com": "workable",
+    "ats.rippling.com": "rippling",
 }
 
 
@@ -81,6 +82,7 @@ API_TEMPLATES = {
     "lever": "https://api.lever.co/v0/postings/{slug}?mode=json",
     "ashby": "https://api.ashbyhq.com/posting-api/job-board/{slug}",
     "workable": "https://www.workable.com/api/accounts/{slug}?details=true",
+    "rippling": "https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs",
 }
 
 

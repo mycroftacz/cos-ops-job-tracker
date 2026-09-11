@@ -206,6 +206,38 @@ notification carries the company's open-role count so you can judge for yourself
 Raise or lower it as one number; runtime enforcement means it takes effect on the
 next run, and companies drift back in on their own if they shrink.
 
+## Job sources
+
+Six platforms, all polled as plain JSON except the last:
+
+| Platform | Endpoint |
+|---|---|
+| Greenhouse | `boards-api.greenhouse.io/v1/boards/{slug}/jobs` |
+| Lever | `api.lever.co/v0/postings/{slug}` |
+| Ashby | `api.ashbyhq.com/posting-api/job-board/{slug}` |
+| Workable | `workable.com/api/accounts/{slug}` |
+| Rippling | `api.rippling.com/platform/api/ats/v1/board/{slug}/jobs` |
+| Career Group | `careergroupcompanies.com/find-work` (HTML) |
+
+**Rippling** needs the API specifically. Its public board pages (`ats.rippling.com/<slug>/jobs`)
+sit behind a Cloudflare challenge and render client-side - a plain request gets
+200 and an app shell containing no postings, which would look like an empty board
+rather than a failure. The board API returns the same data with no challenge.
+
+**Career Group Companies** is a staffing agency, not an ATS - one Webflow page
+lists every open role across its divisions (Career Group, Syndicatebleu, Fourth
+Floor). Two things make it different from every other source:
+
+- It's parsed from **HTML**, not JSON, so `checker.py` fetches it as text. The
+  whole board is in the initial page; the infinite scroll is client-side only.
+- **The hiring employer is anonymous** ("our client, a luxury home organization
+  company"). A match tells you a role exists and who to contact, not where you'd
+  be working - so the division is appended to the title as a hint.
+
+It also carries `ignore_size_limit`, because an agency listing roles across many
+clients is *supposed* to have a big board; `max_open_roles` exists to spot large
+employers, which it isn't.
+
 ## Where the company list comes from
 
 Two sources, both feeding `refresh_companies.py`:
@@ -224,10 +256,22 @@ ATS feed is the source of truth, and `checker.py` already watches those well.
 So each harvested posting's apply URL is resolved back to a Greenhouse / Lever /
 Ashby / Workable slug, and that board joins the watch list.
 
-Nine funds' boards run on Getro, which embeds its full result set in the page's
-`__NEXT_DATA__` payload - no API key, no HTML scraping, stdlib only. Boards that
-render client-side (First Round, Sequoia, Bessemer, Lightspeed) and a16z's
-bespoke app would each need their own parser and aren't wired up.
+43 funds' boards run on Getro, which embeds its full result set in the page's
+`__NEXT_DATA__` payload - no API key, no HTML scraping, stdlib only. That list was
+built by probing every fund in an OpenVC export of NYC/California investors for a
+board at `jobs.<domain>` or `careers.<domain>`. Only about **9%** had one - solo
+angels, family offices and small seed funds generally don't - but the funds that
+do skew early-stage and local, which is the profile worth watching.
+
+Yield from those 43 boards: 568 companies surfaced, of which ~18% were already
+tracked, ~39% use an ATS this tool can't read (Rippling, SmartRecruiters, iCIMS,
+Eightfold, or a bare LinkedIn link), and the remaining **349 became new watched
+companies**. That last category is the real limit of this approach - a company
+whose careers page runs on an unsupported ATS is invisible here no matter how
+many VC boards list it.
+
+Boards that render client-side (First Round, Sequoia, Bessemer, Lightspeed) and
+a16z's bespoke app would each need their own parser and aren't wired up.
 
 Every discovered slug is verified against the live ATS before it's added, because
 harvested links go stale in predictable ways - an acquired company's apply link

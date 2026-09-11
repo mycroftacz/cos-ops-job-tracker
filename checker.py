@@ -44,17 +44,19 @@ def load_json(path, default):
         return json.load(f)
 
 
-def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+def fetch(url, as_json=True):
+    accept = "application/json" if as_json else "text/html"
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": accept})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-        return json.loads(resp.read().decode("utf-8", errors="replace"))
+        body = resp.read().decode("utf-8", errors="replace")
+    return json.loads(body) if as_json else body
 
 
-def fetch_with_retry(url, retries=1):
+def fetch_with_retry(url, retries=1, as_json=True):
     last_err = None
     for attempt in range(retries + 1):
         try:
-            return fetch(url), None
+            return fetch(url, as_json=as_json), None
         except Exception as e:  # noqa: BLE001 - we want to catch and report, not crash the run
             last_err = e
             time.sleep(0.5)
@@ -124,12 +126,61 @@ def parse_workable(data, slug):
     return out
 
 
+def parse_rippling(data, slug):
+    """Rippling's own board pages sit behind a Cloudflare challenge and render
+    client-side, so they can't be fetched directly. This public board API
+    returns the same postings as plain JSON with no challenge."""
+    out = []
+    jobs = data if isinstance(data, list) else (data.get("jobs") or [])
+    for j in jobs or []:
+        jid = str(j.get("uuid") or j.get("id") or "")
+        title = j.get("name") or j.get("title") or ""
+        url = j.get("url") or f"https://ats.rippling.com/{slug}/jobs/{jid}"
+        wl = j.get("workLocation") or {}
+        loc = (wl.get("label") or wl.get("id") or "") if isinstance(wl, dict) else str(wl)
+        if jid:
+            out.append((jid, title, url, loc))
+    return out
+
+
+# Career Group Companies is a staffing agency, not an ATS: one Webflow page
+# lists every open role across its divisions. Unlike the ATS feeds, the hiring
+# employer is deliberately anonymous ("our client, a luxury home organization
+# company"), so a match here tells you a role exists and who to talk to, not
+# where you'd be working. All postings are in the initial HTML - the infinite
+# scroll is client-side only - so one request gets the whole list.
+_CG_ITEM_RE = re.compile(
+    r'href="/job-posting/(?P<id>\d+)".*?'
+    r'fs-cmsfilter-field="title"[^>]*>(?P<title>[^<]+)<.*?'
+    r'fs-cmsfilter-field="division"[^>]*>(?P<division>[^<]*)<.*?'
+    r'fs-cmsfilter-field="location"[^>]*>(?P<location>[^<]*)<',
+    re.S)
+
+
+def parse_careergroup(html, slug):
+    out = []
+    for m in _CG_ITEM_RE.finditer(html if isinstance(html, str) else ""):
+        jid = m.group("id")
+        title = m.group("title").strip()
+        div = m.group("division").strip()
+        loc = m.group("location").strip()
+        url = f"https://www.careergroupcompanies.com/job-posting/{jid}"
+        if jid and title:
+            out.append((jid, f"{title} ({div})" if div else title, url, loc))
+    return out
+
+
 PARSERS = {
     "greenhouse": parse_greenhouse,
     "lever": parse_lever,
     "ashby": parse_ashby,
     "workable": parse_workable,
+    "rippling": parse_rippling,
+    "careergroup": parse_careergroup,
 }
+
+# Platforms served as HTML rather than JSON.
+HTML_PLATFORMS = {"careergroup"}
 
 
 def check_company(company, url_templates):
@@ -140,7 +191,7 @@ def check_company(company, url_templates):
     if not template:
         return name, platform, slug, [], f"no url template for platform {platform}"
     url = template.format(slug=slug)
-    data, err = fetch_with_retry(url)
+    data, err = fetch_with_retry(url, as_json=platform not in HTML_PLATFORMS)
     if err:
         return name, platform, slug, [], err
     parser = PARSERS.get(platform)
@@ -374,6 +425,7 @@ def main():
         futures = {pool.submit(check_company, c, url_templates): c for c in companies}
         for fut in as_completed(futures):
             name, platform, slug, jobs, err = fut.result()
+            company = futures[fut]
             checked += 1
             if err:
                 unreachable.append({"name": name, "error": err})
@@ -390,7 +442,10 @@ def main():
                 if company_seen:
                     emptied.append(name)
                 continue
-            if len(jobs) > max_open_roles:
+            # A staffing agency's board is meant to be large - it lists roles
+            # across every client - so the size heuristic, which exists to spot
+            # big *employers*, doesn't apply to it.
+            if len(jobs) > max_open_roles and not company.get("ignore_size_limit"):
                 # Still record the ids, so that if this company later shrinks
                 # below the threshold we don't dump its entire back catalogue
                 # as "new" the first time it becomes eligible again.
