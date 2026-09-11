@@ -30,9 +30,17 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+        with:
+          # Check out the latest main, not the commit that triggered the run.
+          # checkout defaults to the triggering SHA, so a run that waited in
+          # the concurrency queue started from the *previous* state.json,
+          # re-sent every alert the run ahead of it had just sent, then failed
+          # its push on a state-file conflict. Happened 2026-09-11 with two
+          # manual triggers 15s apart; a late scheduled run can do the same.
+          ref: main
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -54,6 +62,9 @@ jobs:
           for i in 1 2 3; do
             git push && exit 0
             echo "push rejected (attempt $i) - rebasing onto latest main"
-            git pull --rebase --autostash origin main || true
+            # On a conflict, abort instead of leaving git stuck mid-rebase -
+            # every later attempt then fails with "unmerged files" and the
+            # log hides the real cause.
+            git pull --rebase --autostash origin main || git rebase --abort || true
           done
           git push
