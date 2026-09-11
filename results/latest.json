@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-11T17:08:52.849791+00:00",
+ "run_utc": "2026-09-11T19:59:53.417930+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 112,
@@ -9,11 +9,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Altera Digital Health",
+   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
+   "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -21,11 +21,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arine",
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
+   "name": "Arine",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -33,11 +33,23 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Alma",
+   "name": "Ava Labs",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Barkley",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -49,23 +61,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Brooklinen",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Ava Labs",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Capital Rx",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Barkley",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -85,17 +85,17 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 7,
- "companies_skipped_too_large": 108,
- "rejected_wrong_location": 9,
+ "companies_empty_state_preserved": 8,
+ "companies_skipped_too_large": 109,
+ "rejected_wrong_location": 10,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 903
+   "open_roles": 904
   },
   {
    "name": "Prepared",
-   "open_roles": 534
+   "open_roles": 541
   },
   {
    "name": "Nebius",
@@ -103,7 +103,7 @@
   },
   {
    "name": "Carbon Health",
-   "open_roles": 361
+   "open_roles": 357
   },
   {
    "name": "Halter",
@@ -118,11 +118,11 @@
    "open_roles": 206
   },
   {
-   "name": "Saronic Technologies",
-   "open_roles": 202
+   "name": "Saalex",
+   "open_roles": 201
   },
   {
-   "name": "Saalex",
+   "name": "Saronic Technologies",
    "open_roles": 200
   },
   {
@@ -133,20 +133,12 @@
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Basis",
+   "company": "SuperDial",
    "platform": "ashby",
-   "title": "Finance Generalist",
-   "url": "https://jobs.ashbyhq.com/basis-ai/8a485920-ebc6-460e-a10e-b76e83c5c182",
-   "location": "New York Office",
-   "company_open_roles": 40
-  },
-  {
-   "company": "Madhive",
-   "platform": "ashby",
-   "title": "Business Operations Analyst",
-   "url": "https://jobs.ashbyhq.com/madhive/319ce3d7-c2b7-4963-a31b-5d8d73293745",
-   "location": "Madhive HQ (New York, NY), Remote",
-   "company_open_roles": 12
+   "title": "Operations Lead",
+   "url": "https://jobs.ashbyhq.com/superdial/b092cb25-712f-4287-8f24-232ba2e4ea4d",
+   "location": "New York City",
+   "company_open_roles": 8
   }
  ]
 }
