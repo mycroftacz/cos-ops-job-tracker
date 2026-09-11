@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-11T13:30:01.373668+00:00",
+ "run_utc": "2026-09-11T17:08:52.849791+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 112,
@@ -9,7 +9,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
+   "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -37,19 +37,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Ava Labs",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Barkley",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Alma",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -61,11 +49,23 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Brooklinen",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Cadence Solutions",
+   "name": "Ava Labs",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Capital Rx",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Barkley",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -85,21 +85,21 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 6,
- "companies_skipped_too_large": 109,
- "rejected_wrong_location": 3,
+ "companies_empty_state_preserved": 7,
+ "companies_skipped_too_large": 108,
+ "rejected_wrong_location": 9,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 898
+   "open_roles": 903
   },
   {
    "name": "Prepared",
-   "open_roles": 529
+   "open_roles": 534
   },
   {
    "name": "Nebius",
-   "open_roles": 379
+   "open_roles": 378
   },
   {
    "name": "Carbon Health",
@@ -111,7 +111,7 @@
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 225
+   "open_roles": 224
   },
   {
    "name": "Allara",
@@ -119,26 +119,34 @@
   },
   {
    "name": "Saronic Technologies",
-   "open_roles": 201
+   "open_roles": 202
   },
   {
    "name": "Saalex",
-   "open_roles": 199
+   "open_roles": 200
   },
   {
    "name": "Form Energy",
-   "open_roles": 197
+   "open_roles": 196
   }
  ],
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "ENSCO",
-   "platform": "greenhouse",
-   "title": "Project Manager",
-   "url": "https://job-boards.greenhouse.io/ensco/jobs/5415468008",
-   "location": "Hauppauge, New York, United States",
+   "company": "Basis",
+   "platform": "ashby",
+   "title": "Finance Generalist",
+   "url": "https://jobs.ashbyhq.com/basis-ai/8a485920-ebc6-460e-a10e-b76e83c5c182",
+   "location": "New York Office",
    "company_open_roles": 40
+  },
+  {
+   "company": "Madhive",
+   "platform": "ashby",
+   "title": "Business Operations Analyst",
+   "url": "https://jobs.ashbyhq.com/madhive/319ce3d7-c2b7-4963-a31b-5d8d73293745",
+   "location": "Madhive HQ (New York, NY), Remote",
+   "company_open_roles": 12
   }
  ]
 }
