@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-12T00:34:07.983833+00:00",
+ "run_utc": "2026-09-12T04:57:27.078289+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
@@ -9,11 +9,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Altera Digital Health",
+   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Alma",
+   "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -29,6 +29,10 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
@@ -38,10 +42,6 @@
   },
   {
    "name": "Arcade",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,13 +81,13 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Chatham Financial",
+   "name": "ChipStack",
    "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 11,
  "companies_skipped_too_large": 109,
- "rejected_wrong_location": 1,
+ "rejected_wrong_location": 0,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,7 +95,7 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 540
+   "open_roles": 541
   },
   {
    "name": "Nebius",
@@ -103,7 +103,7 @@
   },
   {
    "name": "Carbon Health",
-   "open_roles": 356
+   "open_roles": 355
   },
   {
    "name": "Halter",
@@ -127,18 +127,9 @@
   },
   {
    "name": "Form Energy",
-   "open_roles": 196
+   "open_roles": 198
   }
  ],
  "duplicates_collapsed": 0,
- "new_matches": [
-  {
-   "company": "LeoLabs",
-   "platform": "greenhouse",
-   "title": "Engineering Project Manager, Radar Hardware",
-   "url": "https://job-boards.greenhouse.io/leolabsinc/jobs/4403461009",
-   "location": "Remote",
-   "company_open_roles": 32
-  }
- ]
+ "new_matches": []
 }
