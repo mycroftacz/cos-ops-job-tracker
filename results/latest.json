@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-12T09:12:02.316967+00:00",
+ "run_utc": "2026-09-12T13:04:30.217348+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
@@ -37,15 +37,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Ava Labs",
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -82,6 +78,10 @@
   },
   {
    "name": "ChipStack",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Chatham Financial",
    "error": "HTTP Error 404: Not Found"
   }
  ],
