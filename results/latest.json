@@ -1,8 +1,8 @@
 {
- "run_utc": "2026-09-12T21:23:13.842206+00:00",
+ "run_utc": "2026-09-12T23:14:46.678317+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
- "companies_unreachable": 111,
+ "companies_unreachable": 114,
  "unreachable_sample": [
   {
    "name": "AGILE Space Industries",
@@ -25,23 +25,19 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Atomic Semi",
+   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -50,6 +46,10 @@
   },
   {
    "name": "Barkley",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,8 +81,8 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "ChipStack",
-   "error": "HTTP Error 404: Not Found"
+   "name": "Chatham Financial",
+   "error": "<urlopen error [Errno 104] Connection reset by peer>"
   }
  ],
  "companies_empty_state_preserved": 12,
