@@ -1,15 +1,31 @@
 {
- "run_utc": "2026-09-12T18:41:05.307578+00:00",
+ "run_utc": "2026-09-12T21:23:13.842206+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
  "unreachable_sample": [
+  {
+   "name": "AGILE Space Industries",
+   "error": "HTTP Error 404: Not Found"
+  },
   {
    "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Altera Digital Health",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcellx",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arine",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -21,11 +37,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arine",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcellx",
+   "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -33,11 +45,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Atomic Semi",
+   "name": "Ava Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -46,6 +54,10 @@
   },
   {
    "name": "BitGo",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Boom Supersonic",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -69,19 +81,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Chatham Financial",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "ChipStack",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Boom Supersonic",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "ClimateAI",
    "error": "HTTP Error 404: Not Found"
   }
  ],
@@ -107,7 +107,7 @@
   },
   {
    "name": "Halter",
-   "open_roles": 237
+   "open_roles": 236
   },
   {
    "name": "AST SpaceMobile",
