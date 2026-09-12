@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-11T22:28:47.723072+00:00",
+ "run_utc": "2026-09-12T00:34:07.983833+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
@@ -13,15 +13,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Alma",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Arcellx",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcade",
+   "name": "Arine",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -29,15 +29,23 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Ava Labs",
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Ava Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -65,29 +73,21 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Celestial AI",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Chainlink Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Chatham Financial",
    "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "ChipStack",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Celestial AI",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "ClimateAI",
-   "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 10,
+ "companies_empty_state_preserved": 11,
  "companies_skipped_too_large": 109,
- "rejected_wrong_location": 3,
+ "rejected_wrong_location": 1,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,7 +95,7 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 541
+   "open_roles": 540
   },
   {
    "name": "Nebius",
@@ -103,7 +103,7 @@
   },
   {
    "name": "Carbon Health",
-   "open_roles": 357
+   "open_roles": 356
   },
   {
    "name": "Halter",
@@ -131,5 +131,14 @@
   }
  ],
  "duplicates_collapsed": 0,
- "new_matches": []
+ "new_matches": [
+  {
+   "company": "LeoLabs",
+   "platform": "greenhouse",
+   "title": "Engineering Project Manager, Radar Hardware",
+   "url": "https://job-boards.greenhouse.io/leolabsinc/jobs/4403461009",
+   "location": "Remote",
+   "company_open_roles": 32
+  }
+ ]
 }
