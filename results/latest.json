@@ -1,15 +1,11 @@
 {
- "run_utc": "2026-09-12T23:14:46.678317+00:00",
+ "run_utc": "2026-09-13T01:22:41.920807+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
- "companies_unreachable": 114,
+ "companies_unreachable": 111,
  "unreachable_sample": [
   {
    "name": "AGILE Space Industries",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -17,7 +13,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcellx",
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -25,15 +25,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -49,23 +45,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "BitGo",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Boom Supersonic",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Brooklinen",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Cadence Solutions",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Boom Supersonic",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -77,12 +65,24 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "BitGo",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Chainlink Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Chatham Financial",
-   "error": "<urlopen error [Errno 104] Connection reset by peer>"
+   "name": "Alma",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "ChipStack",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "ClimateAI",
+   "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 12,
