@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-13T21:37:21.473703+00:00",
+ "run_utc": "2026-09-13T23:28:50.245619+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
@@ -9,11 +9,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Altera Digital Health",
+   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Alma",
+   "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -29,6 +29,10 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
@@ -37,11 +41,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Ava Labs",
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
+   "name": "Ava Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -69,19 +73,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Chainlink Labs",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "ChipStack",
+   "name": "Chainlink Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Chatham Financial",
+   "name": "ChipStack",
    "error": "HTTP Error 404: Not Found"
   }
  ],
@@ -107,7 +107,7 @@
   },
   {
    "name": "Halter",
-   "open_roles": 235
+   "open_roles": 236
   },
   {
    "name": "AST SpaceMobile",
@@ -131,22 +131,5 @@
   }
  ],
  "duplicates_collapsed": 0,
- "new_matches": [
-  {
-   "company": "Anthrogen",
-   "platform": "ashby",
-   "title": "Founding Operator",
-   "url": "https://jobs.ashbyhq.com/anthrogen/2628e8f6-3cc2-4650-9359-36c486035ba7",
-   "location": "San Francisco",
-   "company_open_roles": 8
-  },
-  {
-   "company": "Triumph",
-   "platform": "ashby",
-   "title": "Operations Associate (Day Shift)",
-   "url": "https://jobs.ashbyhq.com/triumph-arcade/89f66367-caee-4394-8183-db77ba114e72",
-   "location": "Mountain View",
-   "company_open_roles": 20
-  }
- ]
+ "new_matches": []
 }
