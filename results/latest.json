@@ -1,13 +1,9 @@
 {
- "run_utc": "2026-09-13T19:20:17.713265+00:00",
+ "run_utc": "2026-09-13T21:37:21.473703+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
  "unreachable_sample": [
-  {
-   "name": "Alma",
-   "error": "HTTP Error 404: Not Found"
-  },
   {
    "name": "AGILE Space Industries",
    "error": "HTTP Error 404: Not Found"
@@ -17,11 +13,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcellx",
+   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
+   "name": "Arcellx",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -29,15 +25,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
+   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -46,6 +38,10 @@
   },
   {
    "name": "Ava Labs",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -73,19 +69,23 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Celestial AI",
+   "name": "Chainlink Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Chainlink Labs",
+   "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "ChipStack",
    "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Chatham Financial",
+   "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 12,
+ "companies_empty_state_preserved": 13,
  "companies_skipped_too_large": 110,
  "rejected_wrong_location": 0,
  "largest_skipped": [
@@ -131,5 +131,22 @@
   }
  ],
  "duplicates_collapsed": 0,
- "new_matches": []
+ "new_matches": [
+  {
+   "company": "Anthrogen",
+   "platform": "ashby",
+   "title": "Founding Operator",
+   "url": "https://jobs.ashbyhq.com/anthrogen/2628e8f6-3cc2-4650-9359-36c486035ba7",
+   "location": "San Francisco",
+   "company_open_roles": 8
+  },
+  {
+   "company": "Triumph",
+   "platform": "ashby",
+   "title": "Operations Associate (Day Shift)",
+   "url": "https://jobs.ashbyhq.com/triumph-arcade/89f66367-caee-4394-8183-db77ba114e72",
+   "location": "Mountain View",
+   "company_open_roles": 20
+  }
+ ]
 }
