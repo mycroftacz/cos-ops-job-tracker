@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-13T12:41:10.509048+00:00",
+ "run_utc": "2026-09-13T16:56:56.604278+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
@@ -9,11 +9,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Alma",
+   "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Altera Digital Health",
+   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -21,11 +21,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Artefact",
+   "name": "Arine",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arine",
+   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,13 +81,13 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "ChipStack",
+   "name": "Chatham Financial",
    "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 12,
  "companies_skipped_too_large": 110,
- "rejected_wrong_location": 0,
+ "rejected_wrong_location": 1,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -111,7 +111,7 @@
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 225
+   "open_roles": 224
   },
   {
    "name": "Allara",
