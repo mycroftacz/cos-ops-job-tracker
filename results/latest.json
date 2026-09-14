@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-14T06:56:59.573570+00:00",
+ "run_utc": "2026-09-14T13:53:41.140984+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
@@ -21,6 +21,10 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Arine",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
@@ -29,23 +33,19 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Atomic Semi",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arine",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Ava Labs",
+   "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Ava Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -85,9 +85,9 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 14,
+ "companies_empty_state_preserved": 15,
  "companies_skipped_too_large": 110,
- "rejected_wrong_location": 0,
+ "rejected_wrong_location": 5,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,15 +95,15 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 541
+   "open_roles": 542
   },
   {
    "name": "Nebius",
-   "open_roles": 378
+   "open_roles": 377
   },
   {
    "name": "Carbon Health",
-   "open_roles": 354
+   "open_roles": 350
   },
   {
    "name": "Halter",
@@ -123,7 +123,7 @@
   },
   {
    "name": "Saalex",
-   "open_roles": 201
+   "open_roles": 202
   },
   {
    "name": "Form Energy",
