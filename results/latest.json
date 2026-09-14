@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-14T01:32:37.208609+00:00",
+ "run_utc": "2026-09-14T06:56:59.573570+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
@@ -17,23 +17,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Arcellx",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arine",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Artefact",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -45,7 +37,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Arine",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Ava Labs",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,17 +81,17 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Chatham Financial",
+   "name": "ChipStack",
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 13,
+ "companies_empty_state_preserved": 14,
  "companies_skipped_too_large": 110,
  "rejected_wrong_location": 0,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 906
+   "open_roles": 905
   },
   {
    "name": "Prepared",
@@ -107,11 +107,11 @@
   },
   {
    "name": "Halter",
-   "open_roles": 236
+   "open_roles": 235
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 224
+   "open_roles": 225
   },
   {
    "name": "Allara",
