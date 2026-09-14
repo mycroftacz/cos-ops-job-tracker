@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-14T13:53:41.140984+00:00",
+ "run_utc": "2026-09-14T19:15:53.496740+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
@@ -17,6 +17,10 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Arcellx",
    "error": "HTTP Error 404: Not Found"
   },
@@ -25,15 +29,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -41,15 +41,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Ava Labs",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Barkley",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -73,6 +65,10 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Barkley",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   },
@@ -83,27 +79,31 @@
   {
    "name": "ChipStack",
    "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Chatham Financial",
+   "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 15,
+ "companies_empty_state_preserved": 17,
  "companies_skipped_too_large": 110,
- "rejected_wrong_location": 5,
+ "rejected_wrong_location": 14,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 905
+   "open_roles": 907
   },
   {
    "name": "Prepared",
-   "open_roles": 542
+   "open_roles": 540
   },
   {
    "name": "Nebius",
-   "open_roles": 377
+   "open_roles": 379
   },
   {
    "name": "Carbon Health",
-   "open_roles": 350
+   "open_roles": 353
   },
   {
    "name": "Halter",
@@ -111,25 +111,98 @@
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 225
+   "open_roles": 224
   },
   {
    "name": "Allara",
-   "open_roles": 205
+   "open_roles": 206
   },
   {
    "name": "Saronic Technologies",
-   "open_roles": 203
+   "open_roles": 206
   },
   {
    "name": "Saalex",
-   "open_roles": 202
+   "open_roles": 203
   },
   {
    "name": "Form Energy",
-   "open_roles": 198
+   "open_roles": 196
   }
  ],
- "duplicates_collapsed": 0,
- "new_matches": []
+ "duplicates_collapsed": 1,
+ "new_matches": [
+  {
+   "company": "Blank Street",
+   "platform": "greenhouse",
+   "title": "General Manager | Manhattan",
+   "url": "https://job-boards.greenhouse.io/blankstreet/jobs/7994565003",
+   "location": "New York City, US",
+   "company_open_roles": 91
+  },
+  {
+   "company": "Blank Street",
+   "platform": "greenhouse",
+   "title": "Operations Manager | NYC",
+   "url": "https://job-boards.greenhouse.io/blankstreet/jobs/7994567003",
+   "location": "New York City",
+   "company_open_roles": 91
+  },
+  {
+   "company": "Evvy",
+   "platform": "ashby",
+   "title": "Sr. Manager, BizOps",
+   "url": "https://jobs.ashbyhq.com/Evvy/87fb8be7-2591-4dcb-9788-4035a6f8622a",
+   "location": "New York City",
+   "company_open_roles": 17
+  },
+  {
+   "company": "Jerry",
+   "platform": "ashby",
+   "title": "Associate, BizOps & Analytics",
+   "url": "https://jobs.ashbyhq.com/jerry.ai/7f9e3d53-ebcf-490f-a097-b2aafae662f4",
+   "location": "New York, New York, Chicago, Illinois, Boston, Massachusetts, San Francisco Bay Area, Remote",
+   "company_open_roles": 43
+  },
+  {
+   "company": "Jerry",
+   "platform": "ashby",
+   "title": "Senior Manager, BizOps & Analytics",
+   "url": "https://jobs.ashbyhq.com/jerry.ai/5b877d5d-dead-4693-b39f-c4886c6cc12d",
+   "location": "Remote, Remote",
+   "company_open_roles": 43
+  },
+  {
+   "company": "Jerry",
+   "platform": "ashby",
+   "title": "Manager, BizOps & Analytics",
+   "url": "https://jobs.ashbyhq.com/jerry.ai/ffad965f-d19e-4ef9-b4e0-c782224c11db",
+   "location": "New York, New York, Chicago, Illinois, Boston, Massachusetts, San Francisco Bay Area, Remote",
+   "company_open_roles": 43
+  },
+  {
+   "company": "Jerry",
+   "platform": "ashby",
+   "title": "Senior Associate, BizOps & Analytics",
+   "url": "https://jobs.ashbyhq.com/jerry.ai/2adc87f8-f494-4551-98ae-3194ae01f2fc",
+   "location": "New York, New York, Chicago, Illinois, Boston, Massachusetts, San Francisco Bay Area, Remote",
+   "company_open_roles": 43
+  },
+  {
+   "company": "Sieve",
+   "platform": "ashby",
+   "title": "Business Operations",
+   "url": "https://jobs.ashbyhq.com/sieve/531ff7f5-18d5-4c0a-8c8c-4bcc18537865",
+   "location": "San Francisco",
+   "company_open_roles": 11
+  },
+  {
+   "company": "Tubi",
+   "platform": "greenhouse",
+   "title": "Director, Product Support Operations",
+   "url": "https://job-boards.greenhouse.io/tubitv/jobs/8197676",
+   "location": "Los Angeles, CA (Hybrid); San Francisco, CA; Remote",
+   "company_open_roles": 26
+  }
+ ]
 }
