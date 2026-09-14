@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-14T19:15:53.496740+00:00",
+ "run_utc": "2026-09-14T22:43:20.238158+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
  "companies_unreachable": 111,
@@ -17,7 +17,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -25,15 +25,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arine",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcade",
+   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Artefact",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -45,11 +45,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "BitGo",
+   "name": "Barkley",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Boom Supersonic",
+   "name": "BitGo",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -61,11 +61,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Capital Rx",
+   "name": "Boom Supersonic",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Barkley",
+   "name": "Capital Rx",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -77,17 +77,17 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "ChipStack",
+   "name": "Chatham Financial",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Chatham Financial",
+   "name": "ChipStack",
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 17,
- "companies_skipped_too_large": 110,
- "rejected_wrong_location": 14,
+ "companies_empty_state_preserved": 18,
+ "companies_skipped_too_large": 109,
+ "rejected_wrong_location": 5,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -99,15 +99,15 @@
   },
   {
    "name": "Nebius",
-   "open_roles": 379
+   "open_roles": 378
   },
   {
    "name": "Carbon Health",
-   "open_roles": 353
+   "open_roles": 354
   },
   {
    "name": "Halter",
-   "open_roles": 235
+   "open_roles": 237
   },
   {
    "name": "AST SpaceMobile",
@@ -115,11 +115,11 @@
   },
   {
    "name": "Allara",
-   "open_roles": 206
+   "open_roles": 209
   },
   {
    "name": "Saronic Technologies",
-   "open_roles": 206
+   "open_roles": 209
   },
   {
    "name": "Saalex",
@@ -127,82 +127,50 @@
   },
   {
    "name": "Form Energy",
-   "open_roles": 196
+   "open_roles": 194
   }
  ],
- "duplicates_collapsed": 1,
+ "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Blank Street",
-   "platform": "greenhouse",
-   "title": "General Manager | Manhattan",
-   "url": "https://job-boards.greenhouse.io/blankstreet/jobs/7994565003",
-   "location": "New York City, US",
-   "company_open_roles": 91
+   "company": "Career Group Companies",
+   "platform": "careergroup",
+   "title": "Publishing Operations Manager (Syndicatebleu)",
+   "url": "https://www.careergroupcompanies.com/job-posting/186843",
+   "location": "New York, NY",
+   "company_open_roles": 94
   },
   {
-   "company": "Blank Street",
+   "company": "Chamber Cardio",
+   "platform": "ashby",
+   "title": "Senior People Operations Manager",
+   "url": "https://jobs.ashbyhq.com/chambercardio/8f8f2183-6eb5-494f-be13-b82c84036ffa",
+   "location": "Remote, New York, NY, Boston, MA, Washington, DC, Nashville, TN, Remote",
+   "company_open_roles": 7
+  },
+  {
+   "company": "GuidePoint Security",
    "platform": "greenhouse",
-   "title": "Operations Manager | NYC",
-   "url": "https://job-boards.greenhouse.io/blankstreet/jobs/7994567003",
+   "title": "Sales Operations Lead (Northeast)",
+   "url": "https://boards.greenhouse.io/guidepointsecurity/jobs/6191945004?gh_jid=6191945004",
+   "location": "Remote",
+   "company_open_roles": 61
+  },
+  {
+   "company": "Handshake",
+   "platform": "ashby",
+   "title": "Director, Central Operations",
+   "url": "https://jobs.ashbyhq.com/handshake/d16ea7e8-805b-4595-a025-85196c205413",
+   "location": "San Francisco, CA",
+   "company_open_roles": 70
+  },
+  {
+   "company": "Verse Medical",
+   "platform": "ashby",
+   "title": "Chief of Staff",
+   "url": "https://jobs.ashbyhq.com/versemedical/d799d2da-2187-456d-8102-c812c04a22c3",
    "location": "New York City",
-   "company_open_roles": 91
-  },
-  {
-   "company": "Evvy",
-   "platform": "ashby",
-   "title": "Sr. Manager, BizOps",
-   "url": "https://jobs.ashbyhq.com/Evvy/87fb8be7-2591-4dcb-9788-4035a6f8622a",
-   "location": "New York City",
-   "company_open_roles": 17
-  },
-  {
-   "company": "Jerry",
-   "platform": "ashby",
-   "title": "Associate, BizOps & Analytics",
-   "url": "https://jobs.ashbyhq.com/jerry.ai/7f9e3d53-ebcf-490f-a097-b2aafae662f4",
-   "location": "New York, New York, Chicago, Illinois, Boston, Massachusetts, San Francisco Bay Area, Remote",
-   "company_open_roles": 43
-  },
-  {
-   "company": "Jerry",
-   "platform": "ashby",
-   "title": "Senior Manager, BizOps & Analytics",
-   "url": "https://jobs.ashbyhq.com/jerry.ai/5b877d5d-dead-4693-b39f-c4886c6cc12d",
-   "location": "Remote, Remote",
-   "company_open_roles": 43
-  },
-  {
-   "company": "Jerry",
-   "platform": "ashby",
-   "title": "Manager, BizOps & Analytics",
-   "url": "https://jobs.ashbyhq.com/jerry.ai/ffad965f-d19e-4ef9-b4e0-c782224c11db",
-   "location": "New York, New York, Chicago, Illinois, Boston, Massachusetts, San Francisco Bay Area, Remote",
-   "company_open_roles": 43
-  },
-  {
-   "company": "Jerry",
-   "platform": "ashby",
-   "title": "Senior Associate, BizOps & Analytics",
-   "url": "https://jobs.ashbyhq.com/jerry.ai/2adc87f8-f494-4551-98ae-3194ae01f2fc",
-   "location": "New York, New York, Chicago, Illinois, Boston, Massachusetts, San Francisco Bay Area, Remote",
-   "company_open_roles": 43
-  },
-  {
-   "company": "Sieve",
-   "platform": "ashby",
-   "title": "Business Operations",
-   "url": "https://jobs.ashbyhq.com/sieve/531ff7f5-18d5-4c0a-8c8c-4bcc18537865",
-   "location": "San Francisco",
-   "company_open_roles": 11
-  },
-  {
-   "company": "Tubi",
-   "platform": "greenhouse",
-   "title": "Director, Product Support Operations",
-   "url": "https://job-boards.greenhouse.io/tubitv/jobs/8197676",
-   "location": "Los Angeles, CA (Hybrid); San Francisco, CA; Remote",
-   "company_open_roles": 26
+   "company_open_roles": 28
   }
  ]
 }
