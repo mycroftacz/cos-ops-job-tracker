@@ -1,9 +1,13 @@
 {
- "run_utc": "2026-09-15T01:22:45.462193+00:00",
+ "run_utc": "2026-09-15T06:37:38.216478+00:00",
  "is_seed_run": false,
  "companies_checked": 3244,
- "companies_unreachable": 111,
+ "companies_unreachable": 112,
  "unreachable_sample": [
+  {
+   "name": "AGILE Space Industries",
+   "error": "HTTP Error 404: Not Found"
+  },
   {
    "name": "Alma",
    "error": "HTTP Error 404: Not Found"
@@ -21,11 +25,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
+   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Artefact",
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -42,10 +46,6 @@
   },
   {
    "name": "Ava Labs",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Barkley",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -69,25 +69,25 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Chainlink Labs",
+   "name": "Capitalize",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Chatham Financial",
+   "name": "Celestial AI",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Chainlink Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "ChipStack",
    "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "ClimateAI",
-   "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 18,
  "companies_skipped_too_large": 109,
- "rejected_wrong_location": 1,
+ "rejected_wrong_location": 0,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -107,7 +107,7 @@
   },
   {
    "name": "Halter",
-   "open_roles": 237
+   "open_roles": 242
   },
   {
    "name": "AST SpaceMobile",
@@ -126,35 +126,27 @@
    "open_roles": 203
   },
   {
-   "name": "Form Energy",
+   "name": "Base Power Company",
    "open_roles": 193
   }
  ],
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Atomic Invest (AtomicVest)",
+   "company": "Handshake",
    "platform": "ashby",
-   "title": "Operations Associate, Self-Clearing & Corporate Actions",
-   "url": "https://jobs.ashbyhq.com/atomic-invest/acbc4395-213c-44ad-9290-e132cb7f321c",
-   "location": "New York, Remote",
-   "company_open_roles": 4
+   "title": "AI Red Teamer (LLM Generalist) - Remote",
+   "url": "https://jobs.ashbyhq.com/handshake/7788a34b-f112-467a-ba9a-b8245f8fccfb",
+   "location": "Remote (USA), Remote",
+   "company_open_roles": 71
   },
   {
-   "company": "Commure",
-   "platform": "ashby",
-   "title": "Head of Revenue Operations",
-   "url": "https://jobs.ashbyhq.com/Commure/62a8b47b-ca9b-4bfc-9da0-fa5ab07e598f",
-   "location": "San Francisco Bay Area or Remote",
-   "company_open_roles": 80
-  },
-  {
-   "company": "Latent",
-   "platform": "ashby",
-   "title": "Finance & Business Operations Manager",
-   "url": "https://jobs.ashbyhq.com/latent/64cf6901-e0f3-494e-8651-a92893f67e3a",
-   "location": "San Francisco or New York City or Remote, Remote",
-   "company_open_roles": 20
+   "company": "VectorShift",
+   "platform": "yc",
+   "title": "Chief of Staff",
+   "url": "https://www.ycombinator.com/companies/vectorshift/jobs/QMJPMr2-chief-of-staff",
+   "location": "New York, NY, US",
+   "company_open_roles": 9
   }
  ]
 }
