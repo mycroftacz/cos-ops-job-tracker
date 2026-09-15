@@ -398,6 +398,12 @@
    "slug": "3redpartners"
   },
   {
+   "name": "42dot",
+   "platform": "ashby",
+   "slug": "42dot",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "540",
    "platform": "greenhouse",
    "slug": "540"
@@ -461,6 +467,13 @@
    "slug": "atek"
   },
   {
+   "name": "A.Team",
+   "platform": "ashby",
+   "slug": "a-team",
+   "source": "vc_board",
+   "stage": "series_a"
+  },
+  {
    "name": "a0.dev",
    "platform": "yc",
    "slug": "a0-dev",
@@ -473,6 +486,12 @@
    "name": "a37",
    "platform": "ashby",
    "slug": "a37"
+  },
+  {
+   "name": "Aalyria",
+   "platform": "rippling",
+   "slug": "aalyria-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "Abacus Insights",
@@ -558,6 +577,12 @@
    "slug": "Acorns"
   },
   {
+   "name": "AcreTrader",
+   "platform": "rippling",
+   "slug": "acretrader-jobs",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Acron Aviation",
    "platform": "lever",
    "slug": "acronaviation"
@@ -630,6 +655,12 @@
    "stage": "pre_seed"
   },
   {
+   "name": "Adelaide Metrics",
+   "platform": "rippling",
+   "slug": "adelaide",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Adelphi Real World",
    "platform": "greenhouse",
    "slug": "adelphirealworld"
@@ -658,6 +689,13 @@
    "slug": "aditude"
   },
   {
+   "name": "Adonis",
+   "platform": "ashby",
+   "slug": "adonis",
+   "source": "vc_board",
+   "stage": "series_b"
+  },
+  {
    "name": "Adswerve",
    "platform": "greenhouse",
    "slug": "adswerveinc"
@@ -676,6 +714,12 @@
    "name": "Advantmed",
    "platform": "workable",
    "slug": "advantmed"
+  },
+  {
+   "name": "Advocate Technologies Inc.",
+   "platform": "rippling",
+   "slug": "advocate-technologies-inc",
+   "source": "bulk_refresh"
   },
   {
    "name": "Aechelon Technology",
@@ -823,6 +867,12 @@
    "team_size": 19,
    "batch": "Summer 2011",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Agility PR Solutions",
+   "platform": "rippling",
+   "slug": "agilitypr",
+   "source": "bulk_refresh"
   },
   {
    "name": "Agility Robotics",
@@ -1005,6 +1055,15 @@
    "name": "Alertus Technologies",
    "platform": "lever",
    "slug": "alertus"
+  },
+  {
+   "name": "Alex",
+   "platform": "yc",
+   "slug": "alex",
+   "source": "yc",
+   "team_size": 3,
+   "batch": "Fall 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Alexander Dennis",
@@ -1230,9 +1289,21 @@
    "slug": "ambrook"
   },
   {
+   "name": "American Association of People With Disabilities",
+   "platform": "rippling",
+   "slug": "aapd-jobs",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "American Institutes for Research",
    "platform": "greenhouse",
    "slug": "americaninstitutesforresearch"
+  },
+  {
+   "name": "American Rare Earths",
+   "platform": "rippling",
+   "slug": "usare",
+   "source": "bulk_refresh"
   },
   {
    "name": "AMI",
@@ -1243,6 +1314,12 @@
    "name": "Amigo AI",
    "platform": "ashby",
    "slug": "amigo"
+  },
+  {
+   "name": "amika",
+   "platform": "rippling",
+   "slug": "amika-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "Amp Robotics",
@@ -1262,6 +1339,12 @@
    "stage": "series_d"
   },
   {
+   "name": "Ampersand",
+   "platform": "rippling",
+   "slug": "ampersand-biomedicines",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Amplify",
    "platform": "ashby",
    "slug": "amplify"
@@ -1270,6 +1353,18 @@
    "name": "Amplitude",
    "platform": "greenhouse",
    "slug": "amplitude"
+  },
+  {
+   "name": "Ampliwork, Inc",
+   "platform": "rippling",
+   "slug": "ampliwork-inc",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "Analog Bits",
+   "platform": "rippling",
+   "slug": "analog-bits-inc",
+   "source": "bulk_refresh"
   },
   {
    "name": "Analytic Partners",
@@ -1515,6 +1610,19 @@
    "slug": "apex-technology-inc"
   },
   {
+   "name": "APEX Analytix",
+   "platform": "rippling",
+   "slug": "apexanalytix-careers",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "Apex.AI",
+   "platform": "lever",
+   "slug": "apex-ai",
+   "source": "vc_board",
+   "stage": "series_b"
+  },
+  {
    "name": "Apiphany",
    "platform": "ashby",
    "slug": "apiphany"
@@ -1755,6 +1863,13 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Arlo",
+   "platform": "ashby",
+   "slug": "Arlo",
+   "source": "vc_board",
+   "stage": "seed"
+  },
+  {
    "name": "Arlo Industries",
    "platform": "yc",
    "slug": "arlo-industries",
@@ -1843,6 +1958,12 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Artificial.Agency",
+   "platform": "ashby",
+   "slug": "artificial.agency",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Artisan",
    "platform": "ashby",
    "slug": "artisan",
@@ -1859,6 +1980,15 @@
    "team_size": 7,
    "batch": "Winter 2024",
    "verified_via": "site-link"
+  },
+  {
+   "name": "Arva AI",
+   "platform": "yc",
+   "slug": "arva-ai",
+   "source": "yc",
+   "team_size": 20,
+   "batch": "Summer 2024",
+   "verified_via": "yc-page"
   },
   {
    "name": "Arvinas",
@@ -1878,6 +2008,12 @@
    "name": "Ascendis Pharma",
    "platform": "workable",
    "slug": "ascendis-pharma"
+  },
+  {
+   "name": "Ascentt",
+   "platform": "rippling",
+   "slug": "ascentt",
+   "source": "bulk_refresh"
   },
   {
    "name": "Asendia AI",
@@ -2054,6 +2190,12 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Atlas Data Storage",
+   "platform": "rippling",
+   "slug": "atlas-data-storage",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "ATLAS SP",
    "platform": "greenhouse",
    "slug": "atlassp"
@@ -2082,6 +2224,13 @@
    "slug": "atlys",
    "source": "vc_board",
    "stage": "series_c"
+  },
+  {
+   "name": "AtmosZero",
+   "platform": "rippling",
+   "slug": "atmoszero-careers",
+   "source": "vc_board",
+   "stage": "pre_seed"
   },
   {
    "name": "AtoB",
@@ -2306,6 +2455,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "AvicenaTech",
+   "platform": "rippling",
+   "slug": "general",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "AvidXchange",
    "platform": "greenhouse",
    "slug": "avidxchangeinc"
@@ -2424,6 +2579,12 @@
    "slug": "backbone"
   },
   {
+   "name": "Baidu USA",
+   "platform": "greenhouse",
+   "slug": "baidu",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "BakerHicks",
    "platform": "greenhouse",
    "slug": "bakerhicks"
@@ -2456,6 +2617,12 @@
    "name": "Barnes & Thornburg",
    "platform": "ashby",
    "slug": "barnes"
+  },
+  {
+   "name": "Barry's",
+   "platform": "rippling",
+   "slug": "barrys-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "Base Power Company",
@@ -2860,6 +3027,12 @@
    "stage": "series_unknown"
   },
   {
+   "name": "Bloom Growth",
+   "platform": "rippling",
+   "slug": "bloomgrowth",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Bloom Institute of Technology",
    "platform": "yc",
    "slug": "bloom-institute-of-technology",
@@ -2902,6 +3075,12 @@
    "team_size": 27,
    "batch": "Summer 2020",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Blue Robotics",
+   "platform": "rippling",
+   "slug": "blue-robotics",
+   "source": "bulk_refresh"
   },
   {
    "name": "Blue Sky Innovators",
@@ -3089,6 +3268,12 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Brevian",
+   "platform": "rippling",
+   "slug": "brevian-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Brevium",
    "platform": "greenhouse",
    "slug": "brevium"
@@ -3126,6 +3311,12 @@
    "name": "BRINC Drones",
    "platform": "ashby",
    "slug": "brinc"
+  },
+  {
+   "name": "Brio Water Technology",
+   "platform": "rippling",
+   "slug": "briowt",
+   "source": "bulk_refresh"
   },
   {
    "name": "Broccoli AI",
@@ -3243,9 +3434,22 @@
    "slug": "butternutbox"
   },
   {
+   "name": "Buxton",
+   "platform": "rippling",
+   "slug": "buxtoncocareers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Buyers Edge Platform",
    "platform": "greenhouse",
    "slug": "buyersedgeplatformrecruiting"
+  },
+  {
+   "name": "Buzz Solutions",
+   "platform": "greenhouse",
+   "slug": "buzzsolutions",
+   "source": "vc_board",
+   "stage": "series_unknown"
   },
   {
    "name": "Caddi Workflow Automation",
@@ -3281,6 +3485,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Callan",
+   "platform": "lever",
+   "slug": "callan",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Calltree",
    "platform": "yc",
    "slug": "calltree",
@@ -3314,6 +3524,12 @@
    "slug": "cambium",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "Camlin",
+   "platform": "rippling",
+   "slug": "camlin-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "Campus",
@@ -3370,6 +3586,12 @@
    "name": "Canvas Worldwide",
    "platform": "lever",
    "slug": "canvasww"
+  },
+  {
+   "name": "Capacity",
+   "platform": "rippling",
+   "slug": "capacity",
+   "source": "bulk_refresh"
   },
   {
    "name": "Capital Rx",
@@ -3442,6 +3664,12 @@
    "slug": "carbonchain"
   },
   {
+   "name": "Cardamom Health",
+   "platform": "rippling",
+   "slug": "cardamom",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Cardboard",
    "platform": "ashby",
    "slug": "cardboard",
@@ -3488,6 +3716,13 @@
    "team_size": 2,
    "batch": "Summer 2025",
    "verified_via": "domain-match"
+  },
+  {
+   "name": "Carewell",
+   "platform": "workable",
+   "slug": "carewell",
+   "source": "vc_board",
+   "stage": "series_b"
   },
   {
    "name": "Cargo",
@@ -3695,6 +3930,12 @@
    "stage": "other"
   },
   {
+   "name": "Cerebras",
+   "platform": "ashby",
+   "slug": "cerebras",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "CertifyOS",
    "platform": "ashby",
    "slug": "certifyos",
@@ -3733,6 +3974,13 @@
    "slug": "chainalysis-careers",
    "source": "vc_board",
    "stage": "series_unknown"
+  },
+  {
+   "name": "Chainguard",
+   "platform": "greenhouse",
+   "slug": "chainguard",
+   "source": "vc_board",
+   "stage": "other"
   },
   {
    "name": "Chainlink Labs",
@@ -3826,6 +4074,12 @@
    "slug": "cheiron"
   },
   {
+   "name": "Chess",
+   "platform": "rippling",
+   "slug": "chess",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Chestnut",
    "platform": "yc",
    "slug": "chestnut",
@@ -3880,6 +4134,12 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Cintal",
+   "platform": "rippling",
+   "slug": "cintal",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Circleback",
    "platform": "ashby",
    "slug": "circleback"
@@ -3923,9 +4183,22 @@
    "stage": "undisclosed"
   },
   {
+   "name": "Citizen",
+   "platform": "ashby",
+   "slug": "Citizen",
+   "source": "vc_board",
+   "stage": "other"
+  },
+  {
    "name": "City Electrical Factors",
    "platform": "lever",
    "slug": "cef"
+  },
+  {
+   "name": "Citylogix Inc.",
+   "platform": "rippling",
+   "slug": "citylogix",
+   "source": "bulk_refresh"
   },
   {
    "name": "Civica",
@@ -4049,6 +4322,13 @@
    "slug": "clearwayjobs"
   },
   {
+   "name": "Clever",
+   "platform": "greenhouse",
+   "slug": "clever",
+   "source": "vc_board",
+   "stage": "acquisition"
+  },
+  {
    "name": "Clicks Health",
    "platform": "yc",
    "slug": "clicks-health",
@@ -4105,6 +4385,12 @@
    "slug": "Close"
   },
   {
+   "name": "Closinglock",
+   "platform": "rippling",
+   "slug": "closinglock",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Closure",
    "platform": "yc",
    "slug": "closure",
@@ -4112,6 +4398,12 @@
    "team_size": 11,
    "batch": "Winter 2025",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Cloud SynApps",
+   "platform": "rippling",
+   "slug": "cloud-synapps-inc",
+   "source": "bulk_refresh"
   },
   {
    "name": "CloudCruise",
@@ -4346,6 +4638,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Collier Aerospace",
+   "platform": "rippling",
+   "slug": "collieraerospace",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Cologix",
    "platform": "lever",
    "slug": "cologix"
@@ -4359,6 +4657,12 @@
    "name": "Color",
    "platform": "lever",
    "slug": "color"
+  },
+  {
+   "name": "Columbia Helicopters",
+   "platform": "rippling",
+   "slug": "colheli",
+   "source": "bulk_refresh"
   },
   {
    "name": "Commerce Undergraduate Society",
@@ -4441,6 +4745,12 @@
    "name": "Concentric",
    "platform": "greenhouse",
    "slug": "concentric"
+  },
+  {
+   "name": "Concept Plus",
+   "platform": "rippling",
+   "slug": "conceptplus",
+   "source": "bulk_refresh"
   },
   {
    "name": "Concourse",
@@ -4755,6 +5065,12 @@
    "slug": "coverdash"
   },
   {
+   "name": "Cozey",
+   "platform": "rippling",
+   "slug": "cozey-internships",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Cozmo AI",
    "platform": "yc",
    "slug": "cozmo-ai",
@@ -4857,6 +5173,12 @@
    "slug": "criticalmass"
   },
   {
+   "name": "Critical Response Group",
+   "platform": "rippling",
+   "slug": "critical-response-group",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Crosby",
    "platform": "ashby",
    "slug": "crosby"
@@ -4865,6 +5187,18 @@
    "name": "CrowdGen by Appen",
    "platform": "lever",
    "slug": "appen"
+  },
+  {
+   "name": "CrucialLogics",
+   "platform": "rippling",
+   "slug": "cruciallogics",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "Cruise Planners",
+   "platform": "rippling",
+   "slug": "cruiseplanners",
+   "source": "bulk_refresh"
   },
   {
    "name": "Crumbl",
@@ -4945,6 +5279,12 @@
    "slug": "currier-plastics"
   },
   {
+   "name": "Curve Dental",
+   "platform": "rippling",
+   "slug": "curve-dental",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "CuspAI",
    "platform": "ashby",
    "slug": "cuspai"
@@ -4973,6 +5313,12 @@
    "name": "d-Matrix",
    "platform": "ashby",
    "slug": "d-Matrix"
+  },
+  {
+   "name": "Da Vinci",
+   "platform": "greenhouse",
+   "slug": "davinciderivatives",
+   "source": "bulk_refresh"
   },
   {
    "name": "DailyPay",
@@ -5125,6 +5471,13 @@
    "slug": "debenhamsgroup"
   },
   {
+   "name": "Deblock",
+   "platform": "workable",
+   "slug": "deblock",
+   "source": "vc_board",
+   "stage": "series_a"
+  },
+  {
    "name": "DebtBook",
    "platform": "greenhouse",
    "slug": "debtbook"
@@ -5246,12 +5599,27 @@
    "slug": "dnc"
   },
   {
+   "name": "Denari",
+   "platform": "rippling",
+   "slug": "denari",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Dench.com",
    "platform": "yc",
    "slug": "dench-com",
    "source": "yc",
    "team_size": 6,
    "batch": "Summer 2024",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "Denta",
+   "platform": "yc",
+   "slug": "denta",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Summer 2026",
    "verified_via": "yc-page"
   },
   {
@@ -5263,6 +5631,12 @@
    "name": "DESIGNME Hair",
    "platform": "greenhouse",
    "slug": "designmehair"
+  },
+  {
+   "name": "DESRI",
+   "platform": "rippling",
+   "slug": "desri-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "Destinus",
@@ -5304,6 +5678,24 @@
    "name": "Dexterity",
    "platform": "lever",
    "slug": "dexterity"
+  },
+  {
+   "name": "DGR Systems",
+   "platform": "rippling",
+   "slug": "dgrsystems",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "Dialogue",
+   "platform": "rippling",
+   "slug": "dialogue-fr",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "Dialogue Health Technologies",
+   "platform": "rippling",
+   "slug": "dialogue-en",
+   "source": "bulk_refresh"
   },
   {
    "name": "Dialpad",
@@ -5458,9 +5850,21 @@
    "slug": "diversified-automation"
   },
   {
+   "name": "DLB Associates",
+   "platform": "rippling",
+   "slug": "dlb-associates",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "DLH",
    "platform": "greenhouse",
    "slug": "dlhcorporation"
+  },
+  {
+   "name": "DLS Engineering Associates, Inc.",
+   "platform": "rippling",
+   "slug": "dlsengineering",
+   "source": "bulk_refresh"
   },
   {
    "name": "DMS",
@@ -5503,6 +5907,13 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Dolls Kill",
+   "platform": "lever",
+   "slug": "dollskill",
+   "source": "vc_board",
+   "stage": "series_b"
+  },
+  {
    "name": "Dome Systems Inc",
    "platform": "ashby",
    "slug": "dome-systems-inc"
@@ -5529,6 +5940,18 @@
    "team_size": 43,
    "batch": "Summer 2020",
    "verified_via": "site-link"
+  },
+  {
+   "name": "DOOR",
+   "platform": "rippling",
+   "slug": "door",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "Door Controls",
+   "platform": "rippling",
+   "slug": "door-controls-usa",
+   "source": "bulk_refresh"
   },
   {
    "name": "Dorsia",
@@ -5689,6 +6112,12 @@
    "slug": "duettoresearch"
   },
   {
+   "name": "Duku AI",
+   "platform": "rippling",
+   "slug": "duku-ai",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Dun & Bradstreet",
    "platform": "lever",
    "slug": "dnb"
@@ -5779,6 +6208,12 @@
    "slug": "earnin"
   },
   {
+   "name": "Eastern Glass and Aluminum",
+   "platform": "rippling",
+   "slug": "ega-job-board",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Eastern Research Group",
    "platform": "lever",
    "slug": "erg"
@@ -5817,6 +6252,12 @@
    "team_size": 4,
    "batch": "Spring 2026",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Edgehog Trading",
+   "platform": "rippling",
+   "slug": "edgehog-trading",
+   "source": "bulk_refresh"
   },
   {
    "name": "edmentum",
@@ -5923,6 +6364,12 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Electrosonic",
+   "platform": "rippling",
+   "slug": "electrosonic-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Element Biosciences",
    "platform": "greenhouse",
    "slug": "elementbiosciences"
@@ -5940,6 +6387,12 @@
    "name": "Elevate Semiconductor",
    "platform": "workable",
    "slug": "elevate-semiconductor"
+  },
+  {
+   "name": "Elevation Capital",
+   "platform": "rippling",
+   "slug": "elevationcapital",
+   "source": "bulk_refresh"
   },
   {
    "name": "Elevations Credit Union",
@@ -6077,9 +6530,22 @@
    "slug": "economicmodeling"
   },
   {
+   "name": "Enboarder",
+   "platform": "greenhouse",
+   "slug": "enboarder",
+   "source": "vc_board",
+   "stage": "series_b"
+  },
+  {
    "name": "Encord",
    "platform": "lever",
    "slug": "CordTechnologies"
+  },
+  {
+   "name": "Encore Auctions",
+   "platform": "rippling",
+   "slug": "encore-auctions",
+   "source": "bulk_refresh"
   },
   {
    "name": "endeavorai.com",
@@ -6121,6 +6587,12 @@
    "slug": "EnergyVault"
   },
   {
+   "name": "EnergyCap",
+   "platform": "rippling",
+   "slug": "energycap-external-career-page",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "EnergyHub",
    "platform": "greenhouse",
    "slug": "energyhub"
@@ -6150,6 +6622,12 @@
    "slug": "enigmaio"
   },
   {
+   "name": "Enludio",
+   "platform": "rippling",
+   "slug": "enludio-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Enova",
    "platform": "greenhouse",
    "slug": "enova"
@@ -6172,6 +6650,13 @@
    "team_size": 15,
    "batch": "Summer 2024",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Enter",
+   "platform": "lever",
+   "slug": "enter-rcm-llc",
+   "source": "vc_board",
+   "stage": "seed"
   },
   {
    "name": "Enveda Biosciences",
@@ -6245,6 +6730,12 @@
    "slug": "eragon"
   },
   {
+   "name": "Eridu AI",
+   "platform": "rippling",
+   "slug": "eridu-ai",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "ESG - USA",
    "platform": "workable",
    "slug": "esgusa"
@@ -6265,6 +6756,18 @@
    "name": "Etched",
    "platform": "ashby",
    "slug": "Etched"
+  },
+  {
+   "name": "Etched.ai",
+   "platform": "ashby",
+   "slug": "etched",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "eternal.ag",
+   "platform": "rippling",
+   "slug": "eternal",
+   "source": "bulk_refresh"
   },
   {
    "name": "Ethena",
@@ -6421,6 +6924,12 @@
    "stage": "series_e"
   },
   {
+   "name": "Exploration Technology Corp.",
+   "platform": "rippling",
+   "slug": "etg",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Extreme Networks",
    "platform": "lever",
    "slug": "extremenetworks"
@@ -6488,6 +6997,12 @@
    "stage": "series_c"
   },
   {
+   "name": "Face Reality",
+   "platform": "rippling",
+   "slug": "facereality",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Faculte",
    "platform": "ashby",
    "slug": "faculty-fellowship"
@@ -6511,6 +7026,12 @@
    "name": "Falcomm",
    "platform": "workable",
    "slug": "falcomm"
+  },
+  {
+   "name": "Fanvue",
+   "platform": "ashby",
+   "slug": "fanvue.com",
+   "source": "bulk_refresh"
   },
   {
    "name": "Farallon Capital Management",
@@ -6631,6 +7152,12 @@
    "name": "Field AI",
    "platform": "lever",
    "slug": "field-ai"
+  },
+  {
+   "name": "FieldPulse",
+   "platform": "rippling",
+   "slug": "fieldpulse",
+   "source": "bulk_refresh"
   },
   {
    "name": "Fifth Door",
@@ -6906,6 +7433,12 @@
    "slug": "flex"
   },
   {
+   "name": "FlexAI",
+   "platform": "rippling",
+   "slug": "flexai",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Flexcompute",
    "platform": "workable",
    "slug": "flexcompute"
@@ -6918,6 +7451,12 @@
    "team_size": 8,
    "batch": "Winter 2023",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "FlexGen",
+   "platform": "rippling",
+   "slug": "external-job-board",
+   "source": "bulk_refresh"
   },
   {
    "name": "Flexion Robotics",
@@ -7091,6 +7630,15 @@
    "slug": "forerunner"
   },
   {
+   "name": "Forge",
+   "platform": "yc",
+   "slug": "forge",
+   "source": "yc",
+   "team_size": 7,
+   "batch": "Winter 2024",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Form Energy",
    "platform": "ashby",
    "slug": "formenergy",
@@ -7143,6 +7691,12 @@
    "slug": "forteracorporation"
   },
   {
+   "name": "Forterra",
+   "platform": "rippling",
+   "slug": "forterra",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Fortra",
    "platform": "greenhouse",
    "slug": "fortra"
@@ -7176,6 +7730,12 @@
    "name": "Found Energy",
    "platform": "greenhouse",
    "slug": "foundenergy"
+  },
+  {
+   "name": "Foundation",
+   "platform": "rippling",
+   "slug": "foundation-robotics",
+   "source": "bulk_refresh"
   },
   {
    "name": "Foundation Health",
@@ -7221,9 +7781,21 @@
    "slug": "fractional-ai"
   },
   {
+   "name": "Fragile",
+   "platform": "rippling",
+   "slug": "fragile",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Frec Markets, Inc.",
    "platform": "ashby",
    "slug": "frec"
+  },
+  {
+   "name": "Free Market Health",
+   "platform": "rippling",
+   "slug": "free-market-health",
+   "source": "bulk_refresh"
   },
   {
    "name": "Freedom Technology Solutions Group",
@@ -7363,6 +7935,12 @@
    "name": "G2",
    "platform": "ashby",
    "slug": "G2"
+  },
+  {
+   "name": "Gaiia",
+   "platform": "rippling",
+   "slug": "gaiias-open-positions",
+   "source": "bulk_refresh"
   },
   {
    "name": "Gain Theory",
@@ -7566,6 +8144,12 @@
    "slug": "genies"
   },
   {
+   "name": "GenLogs",
+   "platform": "rippling",
+   "slug": "genlogs-corporation",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "GenMD",
    "platform": "ashby",
    "slug": "genmd"
@@ -7614,6 +8198,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "GetHearth.com",
+   "platform": "rippling",
+   "slug": "hearth-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "GhostEye",
    "platform": "yc",
    "slug": "ghosteye",
@@ -7641,6 +8231,18 @@
    "name": "Girls Who Code",
    "platform": "lever",
    "slug": "girlswhocode"
+  },
+  {
+   "name": "Gitar, Inc.",
+   "platform": "rippling",
+   "slug": "gitar-careers",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "Glass Roots Construction, LLC",
+   "platform": "rippling",
+   "slug": "glass-roots-construction-llc",
+   "source": "bulk_refresh"
   },
   {
    "name": "Glean",
@@ -7711,6 +8313,12 @@
    "name": "GMO",
    "platform": "lever",
    "slug": "gmo"
+  },
+  {
+   "name": "Go Fish Digital",
+   "platform": "rippling",
+   "slug": "gofishdigital",
+   "source": "bulk_refresh"
   },
   {
    "name": "GO Media",
@@ -8197,6 +8805,12 @@
    "stage": "series_a"
   },
   {
+   "name": "Harness",
+   "platform": "rippling",
+   "slug": "harness-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Harper Group",
    "platform": "ashby",
    "slug": "harperinsure"
@@ -8379,6 +8993,12 @@
    "slug": "hevodata",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "Hex Technologies",
+   "platform": "greenhouse",
+   "slug": "embed",
+   "source": "bulk_refresh"
   },
   {
    "name": "Hey Rowan",
@@ -8719,6 +9339,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Hunter Strategy",
+   "platform": "rippling",
+   "slug": "hunterstrategy",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Huntress",
    "platform": "greenhouse",
    "slug": "huntress",
@@ -8974,6 +9600,12 @@
    "stage": "series_a"
   },
   {
+   "name": "Inferact",
+   "platform": "ashby",
+   "slug": "inferact",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Infinite",
    "platform": "yc",
    "slug": "infinite",
@@ -9143,6 +9775,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Intelliguard",
+   "platform": "rippling",
+   "slug": "intelliguard",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Intellistack",
    "platform": "ashby",
    "slug": "Intellistack"
@@ -9196,6 +9834,12 @@
    "name": "Interpublic Group",
    "platform": "greenhouse",
    "slug": "interpublicgroup"
+  },
+  {
+   "name": "Intersection",
+   "platform": "rippling",
+   "slug": "intersection",
+   "source": "bulk_refresh"
   },
   {
    "name": "InterSystems",
@@ -9268,6 +9912,12 @@
    "name": "Iovance Biotherapeutics",
    "platform": "greenhouse",
    "slug": "iovancebiotherapeutics"
+  },
+  {
+   "name": "IP House",
+   "platform": "rippling",
+   "slug": "ip-house",
+   "source": "bulk_refresh"
   },
   {
    "name": "IPG DXTRA",
@@ -9369,6 +10019,12 @@
    "slug": "jcc-greater-boston"
   },
   {
+   "name": "JeffreyM Consulting",
+   "platform": "workable",
+   "slug": "jeffreym-consulting",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Jencap",
    "platform": "greenhouse",
    "slug": "jencapinc"
@@ -9422,6 +10078,12 @@
    "stage": "series_b"
   },
   {
+   "name": "Journal Technologies",
+   "platform": "rippling",
+   "slug": "journaltech",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Joy",
    "platform": "yc",
    "slug": "joy",
@@ -9429,6 +10091,15 @@
    "team_size": 100,
    "batch": "Summer 2016",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Juicebox",
+   "platform": "ashby",
+   "slug": "juicebox",
+   "source": "yc",
+   "team_size": 65,
+   "batch": "Summer 2022",
+   "verified_via": "domain-match"
   },
   {
    "name": "Jukebox Health",
@@ -9520,6 +10191,15 @@
    "name": "Kairos Power",
    "platform": "greenhouse",
    "slug": "kairospower"
+  },
+  {
+   "name": "Kaizen",
+   "platform": "yc",
+   "slug": "kaizen",
+   "source": "yc",
+   "team_size": 6,
+   "batch": "Spring 2025",
+   "verified_via": "yc-page"
   },
   {
    "name": "Kalepa",
@@ -9653,6 +10333,18 @@
    "slug": "khanacademy"
   },
   {
+   "name": "Kids Alive",
+   "platform": "rippling",
+   "slug": "kids-alive-international",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "Kielo Research",
+   "platform": "rippling",
+   "slug": "kielo",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "KIHOMAC",
    "platform": "workable",
    "slug": "kihomac"
@@ -9768,6 +10460,12 @@
    "slug": "klue"
   },
   {
+   "name": "Knexus AI",
+   "platform": "rippling",
+   "slug": "knexus",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Knit Health",
    "platform": "greenhouse",
    "slug": "knithealth",
@@ -9778,6 +10476,13 @@
    "name": "KnowBe4",
    "platform": "greenhouse",
    "slug": "knowbe4"
+  },
+  {
+   "name": "Known",
+   "platform": "ashby",
+   "slug": "Known",
+   "source": "vc_board",
+   "stage": "seed"
   },
   {
    "name": "Koah",
@@ -9851,6 +10556,12 @@
    "name": "KRAFTON",
    "platform": "greenhouse",
    "slug": "studiokraftonboard"
+  },
+  {
+   "name": "Kraken Robotics",
+   "platform": "rippling",
+   "slug": "kraken-robotics-inc",
+   "source": "bulk_refresh"
   },
   {
    "name": "Kroll Bond Rating Agency",
@@ -10174,12 +10885,27 @@
    "slug": "sunwatercapital"
   },
   {
+   "name": "Legit Script",
+   "platform": "rippling",
+   "slug": "legitscript-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Lemma",
    "platform": "yc",
    "slug": "uselemma",
    "source": "yc",
    "team_size": 2,
    "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "LemonLime",
+   "platform": "yc",
+   "slug": "lemonlime",
+   "source": "yc",
+   "team_size": 5,
+   "batch": "Summer 2026",
    "verified_via": "yc-page"
   },
   {
@@ -10196,6 +10922,12 @@
    "name": "LeoLabs",
    "platform": "greenhouse",
    "slug": "leolabsinc"
+  },
+  {
+   "name": "Les Olson IT",
+   "platform": "rippling",
+   "slug": "les-olson-it",
+   "source": "bulk_refresh"
   },
   {
    "name": "LetsGetChecked",
@@ -10283,6 +11015,12 @@
    "slug": "Lightfield"
   },
   {
+   "name": "LightGuide, Inc.",
+   "platform": "rippling",
+   "slug": "lightguide",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Lightmatter",
    "platform": "greenhouse",
    "slug": "lightmatter"
@@ -10334,6 +11072,12 @@
    "team_size": 50,
    "batch": "Summer 2019",
    "verified_via": "site-link"
+  },
+  {
+   "name": "LinenMaster",
+   "platform": "rippling",
+   "slug": "linenmaster",
+   "source": "bulk_refresh"
   },
   {
    "name": "Linero",
@@ -10447,6 +11191,12 @@
    "stage": "other"
   },
   {
+   "name": "Logicbroker, Inc.",
+   "platform": "rippling",
+   "slug": "logicbroker-inc",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "LogicGate",
    "platform": "greenhouse",
    "slug": "logicgate"
@@ -10467,6 +11217,12 @@
    "slug": "longwall"
   },
   {
+   "name": "Longevity Holdings",
+   "platform": "rippling",
+   "slug": "longevity-holdings",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Longshot Systems",
    "platform": "workable",
    "slug": "longshot-systems-ltd"
@@ -10475,6 +11231,13 @@
    "name": "Loop",
    "platform": "greenhouse",
    "slug": "loop"
+  },
+  {
+   "name": "Loop Returns",
+   "platform": "lever",
+   "slug": "loopreturns",
+   "source": "vc_board",
+   "stage": "series_b"
   },
   {
    "name": "loopfour",
@@ -10516,6 +11279,15 @@
    "name": "LTA Research",
    "platform": "lever",
    "slug": "ltaresearch"
+  },
+  {
+   "name": "Luca IQ",
+   "platform": "yc",
+   "slug": "luca-iq",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Lucid",
@@ -10601,6 +11373,13 @@
    "slug": "lumotive"
   },
   {
+   "name": "Lunar",
+   "platform": "ashby",
+   "slug": "lunar",
+   "source": "vc_board",
+   "stage": "seed"
+  },
+  {
    "name": "Lunar Energy",
    "platform": "greenhouse",
    "slug": "lunarenergy"
@@ -10647,11 +11426,23 @@
    "slug": "Lynk"
   },
   {
+   "name": "Lynx Software Technologies, Inc.",
+   "platform": "rippling",
+   "slug": "lynx-software-technologies",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Lyric",
    "platform": "ashby",
    "slug": "lyric",
    "source": "vc_board",
    "stage": "series_b"
+  },
+  {
+   "name": "Lyte AI",
+   "platform": "rippling",
+   "slug": "lyte",
+   "source": "bulk_refresh"
   },
   {
    "name": "m13",
@@ -10853,6 +11644,15 @@
    "name": "Marathon Fusion",
    "platform": "ashby",
    "slug": "Marathon%20Fusion"
+  },
+  {
+   "name": "Marble",
+   "platform": "yc",
+   "slug": "joinmarble",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Summer 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Margin",
@@ -11079,6 +11879,12 @@
    "slug": "medicalinformaticsengineering"
   },
   {
+   "name": "Medicom",
+   "platform": "rippling",
+   "slug": "medicom-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Mednet",
    "platform": "yc",
    "slug": "mednet",
@@ -11105,6 +11911,12 @@
    "name": "Meds",
    "platform": "lever",
    "slug": "meds"
+  },
+  {
+   "name": "MegazoneCloud",
+   "platform": "ashby",
+   "slug": "megazone",
+   "source": "bulk_refresh"
   },
   {
    "name": "Mejuri",
@@ -11139,6 +11951,12 @@
    "name": "Memphis Meats",
    "platform": "greenhouse",
    "slug": "memphismeats"
+  },
+  {
+   "name": "MemryX",
+   "platform": "rippling",
+   "slug": "memryx",
+   "source": "bulk_refresh"
   },
   {
    "name": "MEMX",
@@ -11353,6 +12171,12 @@
    "slug": "mettel"
   },
   {
+   "name": "Middle East Institute",
+   "platform": "rippling",
+   "slug": "mei-employment",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Middleware",
    "platform": "yc",
    "slug": "middleware",
@@ -11365,6 +12189,18 @@
    "name": "Midpoint Markets",
    "platform": "greenhouse",
    "slug": "midpointmarkets"
+  },
+  {
+   "name": "Mikata Health",
+   "platform": "rippling",
+   "slug": "mikata",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "MILE MARKER",
+   "platform": "rippling",
+   "slug": "mile-marker",
+   "source": "bulk_refresh"
   },
   {
    "name": "Mill",
@@ -11516,6 +12352,12 @@
    "slug": "mobilityware"
   },
   {
+   "name": "Mobius Renewables",
+   "platform": "rippling",
+   "slug": "greengas",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "MochaCare",
    "platform": "yc",
    "slug": "mochacare",
@@ -11528,6 +12370,13 @@
    "name": "Modal",
    "platform": "ashby",
    "slug": "modal"
+  },
+  {
+   "name": "Modern Treasury",
+   "platform": "ashby",
+   "slug": "moderntreasury",
+   "source": "vc_board",
+   "stage": "series_c"
   },
   {
    "name": "Modernizing Medicine",
@@ -11571,6 +12420,12 @@
    "name": "Momentum",
    "platform": "greenhouse",
    "slug": "momentumcompany3"
+  },
+  {
+   "name": "Momentum Engineering",
+   "platform": "rippling",
+   "slug": "momentumcareers",
+   "source": "bulk_refresh"
   },
   {
    "name": "Momentus Space",
@@ -11631,6 +12486,12 @@
    "slug": "moo"
   },
   {
+   "name": "Moon",
+   "platform": "rippling",
+   "slug": "moon",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "MoonPay",
    "platform": "lever",
    "slug": "moonpay",
@@ -11685,6 +12546,12 @@
    "slug": "moss"
   },
   {
+   "name": "Motia",
+   "platform": "workable",
+   "slug": "motia",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Motion",
    "platform": "yc",
    "slug": "motion",
@@ -11709,9 +12576,22 @@
    "slug": "motorway"
   },
   {
+   "name": "Moxie",
+   "platform": "ashby",
+   "slug": "Moxie",
+   "source": "vc_board",
+   "stage": "series_c"
+  },
+  {
    "name": "Mozilla",
    "platform": "greenhouse",
    "slug": "mozilla"
+  },
+  {
+   "name": "MSM Inc.",
+   "platform": "rippling",
+   "slug": "msm",
+   "source": "bulk_refresh"
   },
   {
    "name": "MSPilot",
@@ -11798,6 +12678,13 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "MX Technologies",
+   "platform": "greenhouse",
+   "slug": "mxtechnologiesinc",
+   "source": "vc_board",
+   "stage": "series_c"
+  },
+  {
    "name": "MyHealthTeam",
    "platform": "rippling",
    "slug": "swoopishiring",
@@ -11810,6 +12697,12 @@
    "slug": "roofstock",
    "source": "vc_board",
    "stage": "acquisition"
+  },
+  {
+   "name": "Mytra",
+   "platform": "rippling",
+   "slug": "mytra",
+   "source": "bulk_refresh"
   },
   {
    "name": "N-Power Medicine",
@@ -11877,6 +12770,12 @@
    "slug": "nationallifeinsurancecompany"
   },
   {
+   "name": "National Water Services",
+   "platform": "rippling",
+   "slug": "nws",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "NationGraph",
    "platform": "ashby",
    "slug": "nationgraph"
@@ -11908,6 +12807,12 @@
    "name": "Navion Senior Solutions",
    "platform": "workable",
    "slug": "navionsl"
+  },
+  {
+   "name": "NAXO",
+   "platform": "rippling",
+   "slug": "naxo",
+   "source": "bulk_refresh"
   },
   {
    "name": "Na\u00efve",
@@ -11967,14 +12872,32 @@
    "slug": "neon-health"
   },
   {
+   "name": "NeoSigma",
+   "platform": "rippling",
+   "slug": "neosigma",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Neptune Medical",
    "platform": "greenhouse",
    "slug": "neptunemedical"
   },
   {
+   "name": "Nerdio",
+   "platform": "rippling",
+   "slug": "nerdio-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Neros Technologies",
    "platform": "greenhouse",
    "slug": "nerostechnologies"
+  },
+  {
+   "name": "NERv Technology Inc. D.B.A. FluidAI Medical",
+   "platform": "rippling",
+   "slug": "fluidai-medical-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "Nessie",
@@ -12000,6 +12923,18 @@
    "slug": "nest-health",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "nesto",
+   "platform": "rippling",
+   "slug": "nesto",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "Nesto Cloud",
+   "platform": "rippling",
+   "slug": "nestocloud",
+   "source": "bulk_refresh"
   },
   {
    "name": "Nestor",
@@ -12032,11 +12967,24 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "Netwrix",
+   "platform": "rippling",
+   "slug": "netwrix-corporation",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Neura Health",
    "platform": "greenhouse",
    "slug": "neurahealth",
    "source": "vc_board",
    "stage": "series_a"
+  },
+  {
+   "name": "Neural Concept",
+   "platform": "ashby",
+   "slug": "neuralconcept",
+   "source": "vc_board",
+   "stage": "series_c"
   },
   {
    "name": "Neuralink",
@@ -12142,6 +13090,13 @@
    "name": "ngrok",
    "platform": "greenhouse",
    "slug": "ngrokinc"
+  },
+  {
+   "name": "Niantic",
+   "platform": "greenhouse",
+   "slug": "scopely",
+   "source": "vc_board",
+   "stage": "series_d"
   },
   {
    "name": "Niantic Spatial",
@@ -12282,6 +13237,12 @@
    "slug": "normalcomputing"
   },
   {
+   "name": "North Cloud",
+   "platform": "rippling",
+   "slug": "north-cloud",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Northmarq",
    "platform": "greenhouse",
    "slug": "northmarq"
@@ -12360,6 +13321,12 @@
    "stage": "other"
   },
   {
+   "name": "Noviam Inc.",
+   "platform": "rippling",
+   "slug": "noviam",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Novig",
    "platform": "ashby",
    "slug": "novig",
@@ -12429,6 +13396,12 @@
    "name": "Nuclear Promise X",
    "platform": "ashby",
    "slug": "NPX"
+  },
+  {
+   "name": "Nucleus Biologics",
+   "platform": "rippling",
+   "slug": "nucleus-biologics-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "NUMA Group (formerly COSI Group)",
@@ -12653,6 +13626,12 @@
    "slug": "omguk"
   },
   {
+   "name": "Omnis",
+   "platform": "rippling",
+   "slug": "omnis-corporation",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Omnistrate",
    "platform": "yc",
    "slug": "omnistrate",
@@ -12700,6 +13679,12 @@
    "verified_via": "domain-match"
   },
   {
+   "name": "OneImaging",
+   "platform": "greenhouse",
+   "slug": "oneimaging",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "OneSchema",
    "platform": "ashby",
    "slug": "oneschema",
@@ -12742,6 +13727,12 @@
    "name": "Ontic",
    "platform": "ashby",
    "slug": "Ontic"
+  },
+  {
+   "name": "Onware",
+   "platform": "rippling",
+   "slug": "onware",
+   "source": "bulk_refresh"
   },
   {
    "name": "onXmaps",
@@ -12863,6 +13854,12 @@
    "slug": "ophelia"
   },
   {
+   "name": "Opiniion",
+   "platform": "rippling",
+   "slug": "opiniion",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Optimal Dynamics",
    "platform": "greenhouse",
    "slug": "optimaldynamics",
@@ -12982,6 +13979,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Order.co",
+   "platform": "rippling",
+   "slug": "orderco",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Orennia",
    "platform": "greenhouse",
    "slug": "orennia"
@@ -13086,6 +14089,13 @@
    "slug": "outmarket"
   },
   {
+   "name": "Outmarket.AI",
+   "platform": "ashby",
+   "slug": "Outmarket",
+   "source": "vc_board",
+   "stage": "seed"
+  },
+  {
    "name": "Outpost",
    "platform": "ashby",
    "slug": "Outpostnow",
@@ -13172,11 +14182,23 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Ozmo",
+   "platform": "rippling",
+   "slug": "ozmocareers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Ozow",
    "platform": "greenhouse",
    "slug": "ozow",
    "source": "vc_board",
    "stage": "series_unknown"
+  },
+  {
+   "name": "Pace",
+   "platform": "ashby",
+   "slug": "withpace",
+   "source": "bulk_refresh"
   },
   {
    "name": "Paces",
@@ -13454,14 +14476,33 @@
    "slug": "pathrobotics"
   },
   {
+   "name": "Pathos",
+   "platform": "rippling",
+   "slug": "pathos",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Pathward",
    "platform": "greenhouse",
    "slug": "pathward"
   },
   {
+   "name": "PatientNow",
+   "platform": "rippling",
+   "slug": "patientnow",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "PatientPoint",
    "platform": "greenhouse",
    "slug": "patientpoint"
+  },
+  {
+   "name": "Patlytics",
+   "platform": "ashby",
+   "slug": "patlytics",
+   "source": "vc_board",
+   "stage": "series_b"
   },
   {
    "name": "Patreon",
@@ -13545,9 +14586,21 @@
    "stage": "series_unknown"
   },
   {
+   "name": "PCMI",
+   "platform": "rippling",
+   "slug": "pcmi",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "PDT Partners",
    "platform": "greenhouse",
    "slug": "pdtpartners"
+  },
+  {
+   "name": "Peakhealth AI Inc",
+   "platform": "rippling",
+   "slug": "peakhealth-ai",
+   "source": "bulk_refresh"
   },
   {
    "name": "Pearl",
@@ -13587,6 +14640,12 @@
    "name": "Pendo",
    "platform": "greenhouse",
    "slug": "pendo"
+  },
+  {
+   "name": "Pendulum Intelligence",
+   "platform": "rippling",
+   "slug": "pendulum-intelligence-jobs",
+   "source": "bulk_refresh"
   },
   {
    "name": "Penn Interactive",
@@ -13680,6 +14739,12 @@
    "name": "Periodic Labs",
    "platform": "ashby",
    "slug": "periodic-labs"
+  },
+  {
+   "name": "Perle",
+   "platform": "rippling",
+   "slug": "perle",
+   "source": "bulk_refresh"
   },
   {
    "name": "PermitFlow",
@@ -14120,6 +15185,12 @@
    "verified_via": "site-link"
   },
   {
+   "name": "PopStroke Holdings LLC",
+   "platform": "rippling",
+   "slug": "popstroke-job-board-1924",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Porter",
    "platform": "greenhouse",
    "slug": "porter",
@@ -14127,6 +15198,15 @@
    "team_size": 18,
    "batch": "Summer 2020",
    "verified_via": "domain+company_name"
+  },
+  {
+   "name": "Posh",
+   "platform": "yc",
+   "slug": "posh",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2022",
+   "verified_via": "yc-page"
   },
   {
    "name": "Poshmark",
@@ -14162,9 +15242,28 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Power TakeOff",
+   "platform": "rippling",
+   "slug": "power-takeoff-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Practising Law Institute",
    "platform": "greenhouse",
    "slug": "practisinglawinstitute"
+  },
+  {
+   "name": "Pragma",
+   "platform": "rippling",
+   "slug": "pragma",
+   "source": "vc_board",
+   "stage": "other"
+  },
+  {
+   "name": "Praos Smart Security",
+   "platform": "rippling",
+   "slug": "praos-smart-security",
+   "source": "bulk_refresh"
   },
   {
    "name": "Praxent",
@@ -14249,6 +15348,12 @@
    "slug": "primer"
   },
   {
+   "name": "PrimeRx",
+   "platform": "rippling",
+   "slug": "primerx",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "PrimeVault",
    "platform": "yc",
    "slug": "primevault",
@@ -14289,6 +15394,22 @@
    "name": "Probook",
    "platform": "ashby",
    "slug": "probook"
+  },
+  {
+   "name": "Proception Inc",
+   "platform": "yc",
+   "slug": "proception-inc",
+   "source": "yc",
+   "team_size": 10,
+   "batch": "Winter 2025",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "ProcessUnity",
+   "platform": "rippling",
+   "slug": "processunity",
+   "source": "vc_board",
+   "stage": "private_equity"
   },
   {
    "name": "ProcIndex",
@@ -14391,6 +15512,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Proper Voltage",
+   "platform": "rippling",
+   "slug": "proper-voltage",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Prophecy.io",
    "platform": "greenhouse",
    "slug": "prophecysimpledatalabs",
@@ -14442,6 +15569,15 @@
    "source": "yc",
    "team_size": 40,
    "batch": "Winter 2018",
+   "verified_via": "yc-page"
+  },
+  {
+   "name": "ProvenMetal",
+   "platform": "yc",
+   "slug": "provenmetal",
+   "source": "yc",
+   "team_size": 4,
+   "batch": "Summer 2026",
    "verified_via": "yc-page"
   },
   {
@@ -14501,6 +15637,12 @@
    "team_size": 75,
    "batch": "Summer 2022",
    "verified_via": "site-link"
+  },
+  {
+   "name": "PureFacts Financial Solutions",
+   "platform": "rippling",
+   "slug": "purefacts_jobs",
+   "source": "bulk_refresh"
   },
   {
    "name": "Purvis Systems",
@@ -14642,6 +15784,12 @@
    "slug": "questanalytics"
   },
   {
+   "name": "Quick Release",
+   "platform": "greenhouse",
+   "slug": "quick-release",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Quill",
    "platform": "yc",
    "slug": "quill",
@@ -14703,6 +15851,13 @@
    "name": "Quora",
    "platform": "ashby",
    "slug": "quora"
+  },
+  {
+   "name": "Qurrent",
+   "platform": "rippling",
+   "slug": "qurrent",
+   "source": "vc_board",
+   "stage": null
   },
   {
    "name": "RA Capital Management",
@@ -14970,6 +16125,13 @@
    "name": "Red Rabbit Robotics",
    "platform": "workable",
    "slug": "red-rabbit-robotics"
+  },
+  {
+   "name": "RedCircle",
+   "platform": "greenhouse",
+   "slug": "redcircle",
+   "source": "vc_board",
+   "stage": "series_a"
   },
   {
    "name": "Redhorse",
@@ -15317,6 +16479,12 @@
    "slug": "revenuecat"
   },
   {
+   "name": "Reverb",
+   "platform": "rippling",
+   "slug": "reverb-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Revion",
    "platform": "yc",
    "slug": "revion",
@@ -15397,6 +16565,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Ridgeline",
+   "platform": "greenhouse",
+   "slug": "ridgeline",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Ridwell",
    "platform": "lever",
    "slug": "Ridwell",
@@ -15421,6 +16595,12 @@
    "team_size": 6,
    "batch": "Summer 2021",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Riot Platforms",
+   "platform": "rippling",
+   "slug": "riot-platforms-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "Ripjar",
@@ -15605,6 +16785,12 @@
    "slug": "root-access"
   },
   {
+   "name": "Root Insurance",
+   "platform": "rippling",
+   "slug": "joinroot",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Rootly",
    "platform": "yc",
    "slug": "rootly",
@@ -15614,6 +16800,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Routeware",
+   "platform": "rippling",
+   "slug": "routeware-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Rove",
    "platform": "yc",
    "slug": "rove",
@@ -15621,6 +16813,12 @@
    "team_size": 4,
    "batch": "Winter 2024",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Rover",
+   "platform": "lever",
+   "slug": "rover",
+   "source": "bulk_refresh"
   },
   {
    "name": "Rovex Technologies",
@@ -15675,6 +16873,12 @@
    "name": "Rugged Robotics",
    "platform": "greenhouse",
    "slug": "ruggedrobotics"
+  },
+  {
+   "name": "RugsUSA",
+   "platform": "rippling",
+   "slug": "rugsusa",
+   "source": "bulk_refresh"
   },
   {
    "name": "Rulebase",
@@ -16204,6 +17408,21 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Sennos",
+   "platform": "rippling",
+   "slug": "sennos",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "Sentient OS",
+   "platform": "yc",
+   "slug": "sentient-os",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2026",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "SentiLink",
    "platform": "ashby",
    "slug": "sentilink"
@@ -16276,6 +17495,13 @@
    "slug": "sfgiants"
   },
   {
+   "name": "Shade Inc.",
+   "platform": "ashby",
+   "slug": "shade-inc",
+   "source": "vc_board",
+   "stage": "series_unknown"
+  },
+  {
    "name": "Shape (ShapeScale)",
    "platform": "ashby",
    "slug": "shapescale",
@@ -16283,6 +17509,13 @@
    "team_size": 7,
    "batch": "Summer 2015",
    "verified_via": "site-link"
+  },
+  {
+   "name": "Sharebite",
+   "platform": "greenhouse",
+   "slug": "sharebite",
+   "source": "vc_board",
+   "stage": "series_unknown"
   },
   {
    "name": "Sharp Electronics",
@@ -16363,6 +17596,12 @@
    "name": "ShyftLabs",
    "platform": "lever",
    "slug": "shyftlabs"
+  },
+  {
+   "name": "Sibros",
+   "platform": "rippling",
+   "slug": "sibros-technologies",
+   "source": "bulk_refresh"
   },
   {
    "name": "SID",
@@ -16547,6 +17786,13 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Siro",
+   "platform": "ashby",
+   "slug": "Siro",
+   "source": "vc_board",
+   "stage": "series_b"
+  },
+  {
    "name": "Sisense",
    "platform": "ashby",
    "slug": "sisense",
@@ -16644,6 +17890,12 @@
    "name": "Skyryse",
    "platform": "greenhouse",
    "slug": "skyryse"
+  },
+  {
+   "name": "SKYTRAC",
+   "platform": "rippling",
+   "slug": "skytrac",
+   "source": "bulk_refresh"
   },
   {
    "name": "Skyvern",
@@ -16921,6 +18173,15 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Soren",
+   "platform": "yc",
+   "slug": "soren",
+   "source": "yc",
+   "team_size": 1,
+   "batch": "Fall 2025",
+   "verified_via": "yc-page"
+  },
+  {
    "name": "Soria",
    "platform": "yc",
    "slug": "soria",
@@ -17068,6 +18329,12 @@
    "slug": "spotonproduct"
   },
   {
+   "name": "SpreeAI",
+   "platform": "rippling",
+   "slug": "spreeai",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Sprinter Health",
    "platform": "lever",
    "slug": "SprinterHealth"
@@ -17148,6 +18415,19 @@
    "team_size": 34,
    "batch": "Winter 2024",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Staffbase",
+   "platform": "greenhouse",
+   "slug": "staffbase",
+   "source": "vc_board",
+   "stage": "series_e"
+  },
+  {
+   "name": "STAG",
+   "platform": "rippling",
+   "slug": "stag-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "Stand Insurance",
@@ -17378,6 +18658,18 @@
    "slug": "stubhubinc"
   },
   {
+   "name": "Studycast",
+   "platform": "rippling",
+   "slug": "core-sound-imaging",
+   "source": "bulk_refresh"
+  },
+  {
+   "name": "StudyFetch",
+   "platform": "rippling",
+   "slug": "studyfetch",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "SubImage",
    "platform": "yc",
    "slug": "subimage",
@@ -17430,6 +18722,15 @@
    "slug": "Suite-Studios",
    "source": "vc_board",
    "stage": "series_unknown"
+  },
+  {
+   "name": "Sully",
+   "platform": "yc",
+   "slug": "sully",
+   "source": "yc",
+   "team_size": 44,
+   "batch": "Summer 2021",
+   "verified_via": "yc-page"
   },
   {
    "name": "Sully.ai",
@@ -17494,6 +18795,12 @@
    "stage": "series_a"
   },
   {
+   "name": "Supernova Technology",
+   "platform": "rippling",
+   "slug": "supernova-technology",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Superpower",
    "platform": "ashby",
    "slug": "superpower",
@@ -17526,6 +18833,12 @@
    "team_size": 25,
    "batch": "Summer 2021",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Supper",
+   "platform": "rippling",
+   "slug": "supper",
+   "source": "bulk_refresh"
   },
   {
    "name": "SupplyHouse.com",
@@ -17575,6 +18888,12 @@
    "team_size": 10,
    "batch": "Summer 2019",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Swarm Aero",
+   "platform": "ashby",
+   "slug": "swarmaero",
+   "source": "bulk_refresh"
   },
   {
    "name": "Swayable",
@@ -17738,6 +19057,12 @@
    "slug": "szns"
   },
   {
+   "name": "T1D Exchange",
+   "platform": "rippling",
+   "slug": "t1d-exchange-career-center",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Taara",
    "platform": "ashby",
    "slug": "taaraconnect"
@@ -17770,6 +19095,12 @@
    "name": "Take Two",
    "platform": "greenhouse",
    "slug": "taketwo"
+  },
+  {
+   "name": "Talent 101 Inc",
+   "platform": "rippling",
+   "slug": "talent-101-inc",
+   "source": "bulk_refresh"
   },
   {
    "name": "TalentWerx",
@@ -17811,6 +19142,12 @@
    "name": "Tangram Interiors",
    "platform": "lever",
    "slug": "tangraminteriors"
+  },
+  {
+   "name": "Tanium",
+   "platform": "greenhouse",
+   "slug": "tanium",
+   "source": "bulk_refresh"
   },
   {
    "name": "Tapcart",
@@ -17872,6 +19209,12 @@
    "slug": "tatari"
   },
   {
+   "name": "Tavern Research",
+   "platform": "rippling",
+   "slug": "tavernresearch",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Tavily",
    "platform": "ashby",
    "slug": "tavily"
@@ -17923,6 +19266,12 @@
    "name": "Tecovas",
    "platform": "greenhouse",
    "slug": "tecovas"
+  },
+  {
+   "name": "Tecsa",
+   "platform": "workable",
+   "slug": "tecsa",
+   "source": "bulk_refresh"
   },
   {
    "name": "Teguar",
@@ -18021,6 +19370,13 @@
    "name": "Terabase",
    "platform": "workable",
    "slug": "terabase-energy"
+  },
+  {
+   "name": "Terac",
+   "platform": "ashby",
+   "slug": "terac",
+   "source": "vc_board",
+   "stage": "pre_seed"
   },
   {
    "name": "Terminal",
@@ -18235,6 +19591,19 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "The Public Interest Company",
+   "platform": "ashby",
+   "slug": "publicinterestco",
+   "source": "vc_board",
+   "stage": "other"
+  },
+  {
+   "name": "The Redesign Group",
+   "platform": "rippling",
+   "slug": "redesigncareers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "The Subvocal Company",
    "platform": "yc",
    "slug": "the-subvocal-company",
@@ -18272,6 +19641,12 @@
    "name": "Thea Energy",
    "platform": "lever",
    "slug": "thea.energy"
+  },
+  {
+   "name": "TheGuarantors",
+   "platform": "rippling",
+   "slug": "theguarantors-open-positions",
+   "source": "bulk_refresh"
   },
   {
    "name": "Theodo",
@@ -18434,6 +19809,12 @@
    "slug": "tickpick"
   },
   {
+   "name": "Tidal Financial Group",
+   "platform": "rippling",
+   "slug": "open-roles",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Tilde Research",
    "platform": "ashby",
    "slug": "tilderesearch"
@@ -18465,6 +19846,12 @@
    "team_size": 2,
    "batch": "Summer 2024",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Tive",
+   "platform": "rippling",
+   "slug": "tive-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "tldraw",
@@ -18526,6 +19913,12 @@
    "name": "Topanga",
    "platform": "lever",
    "slug": "topanga"
+  },
+  {
+   "name": "TopDog Law",
+   "platform": "rippling",
+   "slug": "topdoglaw",
+   "source": "bulk_refresh"
   },
   {
    "name": "Topkey",
@@ -18783,6 +20176,12 @@
    "slug": "triparc"
   },
   {
+   "name": "Triple",
+   "platform": "rippling",
+   "slug": "triplecareers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Triumph",
    "platform": "ashby",
    "slug": "triumph-arcade"
@@ -18819,6 +20218,12 @@
    "team_size": 10,
    "batch": "Winter 2024",
    "verified_via": "yc-page"
+  },
+  {
+   "name": "Truepoint Wealth Counsel",
+   "platform": "rippling",
+   "slug": "truepointcareers",
+   "source": "bulk_refresh"
   },
   {
    "name": "TrueTandem",
@@ -18887,6 +20292,12 @@
    "name": "Tubi",
    "platform": "greenhouse",
    "slug": "tubitv"
+  },
+  {
+   "name": "Tuesday Health",
+   "platform": "rippling",
+   "slug": "jobs-at-tuesday-health",
+   "source": "bulk_refresh"
   },
   {
    "name": "Tuesday Lab",
@@ -19022,6 +20433,12 @@
    "name": "Udemy",
    "platform": "greenhouse",
    "slug": "udemybedi"
+  },
+  {
+   "name": "UHIN",
+   "platform": "rippling",
+   "slug": "uhin-careers",
+   "source": "bulk_refresh"
   },
   {
    "name": "UiPath",
@@ -19603,6 +21020,12 @@
    "slug": "verygoodsecurity"
   },
   {
+   "name": "Veryable",
+   "platform": "rippling",
+   "slug": "veryable-careers",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Veryfi, Inc.",
    "platform": "yc",
    "slug": "veryfi-inc",
@@ -19627,9 +21050,23 @@
    "slug": "vevo"
   },
   {
+   "name": "VIA",
+   "platform": "greenhouse",
+   "slug": "via99",
+   "source": "vc_board",
+   "stage": "series_b"
+  },
+  {
    "name": "Viam",
    "platform": "greenhouse",
    "slug": "viamrobotics"
+  },
+  {
+   "name": "Vida Health",
+   "platform": "lever",
+   "slug": "vida",
+   "source": "vc_board",
+   "stage": "series_unknown"
   },
   {
    "name": "VideoGen",
@@ -19680,6 +21117,12 @@
    "name": "Virtu",
    "platform": "greenhouse",
    "slug": "virtu"
+  },
+  {
+   "name": "Virtu Financial",
+   "platform": "greenhouse",
+   "slug": "virturecruitinghidden",
+   "source": "bulk_refresh"
   },
   {
    "name": "Virtuous Management",
@@ -19828,6 +21271,12 @@
    "verified_via": "site-link"
   },
   {
+   "name": "Vortex Companies, LLC",
+   "platform": "rippling",
+   "slug": "vortex-companies-llc",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Vortexa",
    "platform": "workable",
    "slug": "vortexa"
@@ -19860,6 +21309,15 @@
    "name": "Vulcan Elements",
    "platform": "greenhouse",
    "slug": "vulcanelements"
+  },
+  {
+   "name": "Vyra",
+   "platform": "yc",
+   "slug": "vyra",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "Vytalize Health",
@@ -20094,6 +21552,12 @@
    "slug": "whatnot"
   },
   {
+   "name": "Whc",
+   "platform": "rippling",
+   "slug": "whc",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Wheelhouse",
    "platform": "greenhouse",
    "slug": "wheelhouse",
@@ -20119,6 +21583,19 @@
    "name": "Whoop",
    "platform": "lever",
    "slug": "whoop"
+  },
+  {
+   "name": "Whop",
+   "platform": "greenhouse",
+   "slug": "whop",
+   "source": "vc_board",
+   "stage": "other"
+  },
+  {
+   "name": "Wildfire Defense Systems, Inc.",
+   "platform": "rippling",
+   "slug": "wdscareers",
+   "source": "bulk_refresh"
   },
   {
    "name": "Willis Aviation",
@@ -20226,6 +21703,15 @@
    "name": "Workato",
    "platform": "greenhouse",
    "slug": "workato"
+  },
+  {
+   "name": "Workers IO",
+   "platform": "yc",
+   "slug": "workers-io",
+   "source": "yc",
+   "team_size": 2,
+   "batch": "Fall 2026",
+   "verified_via": "yc-page"
   },
   {
    "name": "WorkMotion",
@@ -20461,6 +21947,12 @@
    "verified_via": "yc-page"
   },
   {
+   "name": "Zededa",
+   "platform": "rippling",
+   "slug": "zededa",
+   "source": "bulk_refresh"
+  },
+  {
    "name": "Zego",
    "platform": "workable",
    "slug": "zego"
@@ -20541,6 +22033,13 @@
    "stage": "acquisition"
   },
   {
+   "name": "Zin Technologies, Inc.",
+   "platform": "greenhouse",
+   "slug": "voyagertechnologiesinc",
+   "source": "vc_board",
+   "stage": "acquisition"
+  },
+  {
    "name": "Zip",
    "platform": "ashby",
    "slug": "zip"
@@ -20583,6 +22082,12 @@
    "slug": "dnsfilter",
    "source": "vc_board",
    "stage": "acquisition"
+  },
+  {
+   "name": "Zuckerman Investment Group",
+   "platform": "rippling",
+   "slug": "zuckerman-investment-group",
+   "source": "bulk_refresh"
   },
   {
    "name": "zudo.work",
