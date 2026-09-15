@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-15T17:38:48.792975+00:00",
+ "run_utc": "2026-09-15T21:13:53.372098+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 115,
@@ -21,7 +21,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
+   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -29,19 +29,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arine",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Artefact",
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -54,6 +50,10 @@
   },
   {
    "name": "Barkley",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arine",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -85,9 +85,9 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 22,
- "companies_skipped_too_large": 119,
- "rejected_wrong_location": 9,
+ "companies_empty_state_preserved": 23,
+ "companies_skipped_too_large": 118,
+ "rejected_wrong_location": 5,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,19 +95,19 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 536
-  },
-  {
-   "name": "Nebius",
-   "open_roles": 374
+   "open_roles": 532
   },
   {
    "name": "Barry's",
-   "open_roles": 372
+   "open_roles": 374
+  },
+  {
+   "name": "Nebius",
+   "open_roles": 373
   },
   {
    "name": "Carbon Health",
-   "open_roles": 352
+   "open_roles": 354
   },
   {
    "name": "Halter",
@@ -115,7 +115,7 @@
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 223
+   "open_roles": 222
   },
   {
    "name": "Allara",
@@ -127,74 +127,42 @@
   },
   {
    "name": "Saalex",
-   "open_roles": 205
+   "open_roles": 206
   }
  ],
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "H1",
-   "platform": "lever",
-   "title": "Sr. Revenue Operations Analyst",
-   "url": "https://jobs.lever.co/h1/5d22dea0-1b3d-427a-8932-77b35a7cf6b1",
-   "location": "US Remote, US Remote, remote",
-   "company_open_roles": 23
-  },
-  {
-   "company": "Mach9",
-   "platform": "ashby",
-   "title": "Business Operations Associate",
-   "url": "https://jobs.ashbyhq.com/mach9/8bb32c28-bdce-4832-9a48-c40fa5368113",
-   "location": "San Francisco",
-   "company_open_roles": 13
-  },
-  {
-   "company": "Order.co",
-   "platform": "rippling",
-   "title": "Director, Engineering Operations",
-   "url": "https://ats.rippling.com/orderco/jobs/5bc5b544-7f26-4b5f-b548-93c44b995d31",
-   "location": "Remote (United States)",
-   "company_open_roles": 13
-  },
-  {
-   "company": "Samsung",
+   "company": "GuidePoint Security",
    "platform": "greenhouse",
-   "title": "Workplace Project Manager, Project Management Office, Workplace Solutions Group",
-   "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/7991457003",
-   "location": "San Jose, California, United States",
-   "company_open_roles": 70
-  },
-  {
-   "company": "Sonatus",
-   "platform": "greenhouse",
-   "title": "People Operations Generalist",
-   "url": "https://job-boards.greenhouse.io/sonatus/jobs/5238820007",
-   "location": "Sunnyvale, CA",
-   "company_open_roles": 24
-  },
-  {
-   "company": "Terabase",
-   "platform": "workable",
-   "title": "Associate Project Manager Closure RMA and Warranty",
-   "url": "https://apply.workable.com/j/EDCD1DD342",
-   "location": "Berkeley, California, United States",
-   "company_open_roles": 41
-  },
-  {
-   "company": "TopDog Law",
-   "platform": "rippling",
-   "title": "Litigation Operations Manager",
-   "url": "https://ats.rippling.com/topdoglaw/jobs/1b862785-1fd9-4fc7-9dc7-bc09000effa6",
-   "location": "Remote (United States)",
+   "title": "Project Manager (Northeast)",
+   "url": "https://boards.greenhouse.io/guidepointsecurity/jobs/6193385004?gh_jid=6193385004",
+   "location": "Remote",
    "company_open_roles": 65
   },
   {
-   "company": "Trata",
-   "platform": "yc",
-   "title": "Marketplace Operations Manager",
-   "url": "https://www.ycombinator.com/companies/trata/jobs/uR1gMzW-marketplace-operations-manager",
-   "location": "New York, NY, US",
-   "company_open_roles": 3
+   "company": "GuidePoint Security",
+   "platform": "greenhouse",
+   "title": "Sales Operations Lead (Northeast)",
+   "url": "https://boards.greenhouse.io/guidepointsecurity/jobs/6191945004?gh_jid=6191945004",
+   "location": "Remote",
+   "company_open_roles": 65
+  },
+  {
+   "company": "Jerry",
+   "platform": "ashby",
+   "title": "People Ops Generalist",
+   "url": "https://jobs.ashbyhq.com/jerry.ai/9a2a44b9-f060-49be-a46e-cd38ea44f3ed",
+   "location": "Remote, Chicago, Illinois, Boston, Massachusetts, Austin, Texas, New York, New York, Palo Alto, California, Los Angeles, California, Remote",
+   "company_open_roles": 45
+  },
+  {
+   "company": "Wpromote",
+   "platform": "lever",
+   "title": "Senior Digital Project Manager",
+   "url": "https://jobs.lever.co/wpromote/5093c457-ca86-4ced-95c1-f8fe7a3ae73b",
+   "location": "New York City, New York, New York City, New York, hybrid",
+   "company_open_roles": 49
   }
  ]
 }
