@@ -1,15 +1,15 @@
 {
- "run_utc": "2026-09-15T21:13:53.372098+00:00",
+ "run_utc": "2026-09-15T23:39:09.347430+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
- "companies_unreachable": 115,
+ "companies_unreachable": 116,
  "unreachable_sample": [
   {
-   "name": "AcreTrader",
+   "name": "AGILE Space Industries",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AGILE Space Industries",
+   "name": "AcreTrader",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -21,19 +21,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Arcellx",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -41,7 +29,23 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Arine",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Atomic Semi",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -53,15 +57,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arine",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "BitGo",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Boom Supersonic",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -70,6 +66,10 @@
   },
   {
    "name": "Cadence Solutions",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Boom Supersonic",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -86,20 +86,20 @@
   }
  ],
  "companies_empty_state_preserved": 23,
- "companies_skipped_too_large": 118,
- "rejected_wrong_location": 5,
+ "companies_skipped_too_large": 117,
+ "rejected_wrong_location": 4,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 912
+   "open_roles": 914
   },
   {
    "name": "Prepared",
-   "open_roles": 532
+   "open_roles": 531
   },
   {
    "name": "Barry's",
-   "open_roles": 374
+   "open_roles": 375
   },
   {
    "name": "Nebius",
@@ -133,36 +133,20 @@
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "GuidePoint Security",
-   "platform": "greenhouse",
-   "title": "Project Manager (Northeast)",
-   "url": "https://boards.greenhouse.io/guidepointsecurity/jobs/6193385004?gh_jid=6193385004",
-   "location": "Remote",
-   "company_open_roles": 65
-  },
-  {
-   "company": "GuidePoint Security",
-   "platform": "greenhouse",
-   "title": "Sales Operations Lead (Northeast)",
-   "url": "https://boards.greenhouse.io/guidepointsecurity/jobs/6191945004?gh_jid=6191945004",
-   "location": "Remote",
-   "company_open_roles": 65
-  },
-  {
-   "company": "Jerry",
+   "company": "Glimpse",
    "platform": "ashby",
-   "title": "People Ops Generalist",
-   "url": "https://jobs.ashbyhq.com/jerry.ai/9a2a44b9-f060-49be-a46e-cd38ea44f3ed",
-   "location": "Remote, Chicago, Illinois, Boston, Massachusetts, Austin, Texas, New York, New York, Palo Alto, California, Los Angeles, California, Remote",
-   "company_open_roles": 45
+   "title": "Product Operations Manager",
+   "url": "https://jobs.ashbyhq.com/glimpse/dd897a33-2c29-4524-960c-f9bd721242cd",
+   "location": "NYC HQ",
+   "company_open_roles": 10
   },
   {
-   "company": "Wpromote",
-   "platform": "lever",
-   "title": "Senior Digital Project Manager",
-   "url": "https://jobs.lever.co/wpromote/5093c457-ca86-4ced-95c1-f8fe7a3ae73b",
-   "location": "New York City, New York, New York City, New York, hybrid",
-   "company_open_roles": 49
+   "company": "Pagaya Investments",
+   "platform": "greenhouse",
+   "title": "Senior Director, Commercial Strategy and Operations, Office of the President",
+   "url": "https://job-boards.greenhouse.io/pagaya/jobs/7753878003",
+   "location": "New York, NY",
+   "company_open_roles": 13
   }
  ]
 }
