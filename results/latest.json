@@ -1,15 +1,15 @@
 {
- "run_utc": "2026-09-15T23:39:09.347430+00:00",
+ "run_utc": "2026-09-16T04:39:56.120079+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 116,
  "unreachable_sample": [
   {
-   "name": "AGILE Space Industries",
+   "name": "AcreTrader",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AcreTrader",
+   "name": "AGILE Space Industries",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -21,15 +21,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcellx",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arine",
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -37,15 +29,23 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
+   "name": "Arcellx",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Atomic Semi",
+   "name": "Arine",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Artefact",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -61,15 +61,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Boom Supersonic",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Brooklinen",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Cadence Solutions",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Boom Supersonic",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,13 +81,13 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Celestial AI",
+   "name": "CALSTART",
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 23,
+ "companies_empty_state_preserved": 22,
  "companies_skipped_too_large": 117,
- "rejected_wrong_location": 4,
+ "rejected_wrong_location": 1,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -107,11 +107,11 @@
   },
   {
    "name": "Carbon Health",
-   "open_roles": 354
+   "open_roles": 356
   },
   {
    "name": "Halter",
-   "open_roles": 239
+   "open_roles": 238
   },
   {
    "name": "AST SpaceMobile",
@@ -133,20 +133,36 @@
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Glimpse",
-   "platform": "ashby",
-   "title": "Product Operations Manager",
-   "url": "https://jobs.ashbyhq.com/glimpse/dd897a33-2c29-4524-960c-f9bd721242cd",
-   "location": "NYC HQ",
-   "company_open_roles": 10
+   "company": "Instawork",
+   "platform": "greenhouse",
+   "title": "People Ops Manager",
+   "url": "https://job-boards.greenhouse.io/instawork/jobs/4713714006",
+   "location": "San Francisco, California, United States",
+   "company_open_roles": 54
   },
   {
-   "company": "Pagaya Investments",
+   "company": "NORY",
+   "platform": "ashby",
+   "title": "Head of Bay Area Expansion & Summer Camp Operations (STEM Enrichment)",
+   "url": "https://jobs.ashbyhq.com/nory-co/e816cc21-8e34-46f8-a2ad-7532f717a05b",
+   "location": "San Francisco Bay Area",
+   "company_open_roles": 24
+  },
+  {
+   "company": "Peregrine",
    "platform": "greenhouse",
-   "title": "Senior Director, Commercial Strategy and Operations, Office of the President",
-   "url": "https://job-boards.greenhouse.io/pagaya/jobs/7753878003",
-   "location": "New York, NY",
-   "company_open_roles": 13
+   "title": "Member of Biz Ops & Strategy",
+   "url": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4675315005",
+   "location": "San Francisco, CA",
+   "company_open_roles": 91
+  },
+  {
+   "company": "quip",
+   "platform": "greenhouse",
+   "title": "Marketplace Operations Manager",
+   "url": "https://job-boards.greenhouse.io/quip/jobs/8206671",
+   "location": "quip NYC",
+   "company_open_roles": 5
   }
  ]
 }
