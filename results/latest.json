@@ -1,8 +1,8 @@
 {
- "run_utc": "2026-09-16T14:49:41.089494+00:00",
+ "run_utc": "2026-09-16T18:50:22.481044+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
- "companies_unreachable": 115,
+ "companies_unreachable": 114,
  "unreachable_sample": [
   {
    "name": "AcreTrader",
@@ -21,15 +21,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Arcellx",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -38,6 +34,10 @@
   },
   {
    "name": "Artefact",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -85,17 +85,17 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 23,
+ "companies_empty_state_preserved": 29,
  "companies_skipped_too_large": 116,
- "rejected_wrong_location": 6,
+ "rejected_wrong_location": 3,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 916
+   "open_roles": 915
   },
   {
    "name": "Prepared",
-   "open_roles": 530
+   "open_roles": 534
   },
   {
    "name": "Nebius",
@@ -107,7 +107,7 @@
   },
   {
    "name": "Carbon Health",
-   "open_roles": 356
+   "open_roles": 353
   },
   {
    "name": "Halter",
@@ -115,30 +115,46 @@
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 223
+   "open_roles": 221
   },
   {
    "name": "Allara",
-   "open_roles": 210
+   "open_roles": 211
   },
   {
    "name": "Saronic Technologies",
-   "open_roles": 209
+   "open_roles": 207
   },
   {
    "name": "Saalex",
    "open_roles": 204
   }
  ],
- "duplicates_collapsed": 0,
+ "duplicates_collapsed": 1,
  "new_matches": [
   {
-   "company": "Precision AQ",
+   "company": "Garner Health",
    "platform": "greenhouse",
-   "title": "Project Manager, Healthcare and Pharmaceutical Advertising",
-   "url": "https://job-boards.greenhouse.io/precisionaq/jobs/6194744004",
-   "location": "Remote, United States",
-   "company_open_roles": 43
+   "title": "Growth Marketing Operations Manager",
+   "url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6188757004",
+   "location": "New York City, New York",
+   "company_open_roles": 72
+  },
+  {
+   "company": "Verse Medical",
+   "platform": "ashby",
+   "title": "Strategy & Operations",
+   "url": "https://jobs.ashbyhq.com/versemedical/ee7ecb59-301d-4f66-a966-deecb2dbf586",
+   "location": "New York City, San Francisco, Remote",
+   "company_open_roles": 27
+  },
+  {
+   "company": "Versapay",
+   "platform": "lever",
+   "title": "Revenue Operations Manager",
+   "url": "https://jobs.lever.co/versapay/85ead5e4-2a96-441b-a849-e31527bba0ee",
+   "location": "United States (Remote), United States (Remote), remote",
+   "company_open_roles": 22
   }
  ]
 }
