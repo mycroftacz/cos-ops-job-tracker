@@ -1,8 +1,8 @@
 {
- "run_utc": "2026-09-16T18:50:22.481044+00:00",
+ "run_utc": "2026-09-16T22:04:03.978212+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
- "companies_unreachable": 114,
+ "companies_unreachable": 115,
  "unreachable_sample": [
   {
    "name": "AcreTrader",
@@ -13,19 +13,19 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Alma",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
+   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Arcellx",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -37,7 +37,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -77,17 +77,17 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "CALSTART",
+   "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Celestial AI",
+   "name": "CALSTART",
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 29,
+ "companies_empty_state_preserved": 30,
  "companies_skipped_too_large": 116,
- "rejected_wrong_location": 3,
+ "rejected_wrong_location": 5,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,19 +95,19 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 534
+   "open_roles": 537
   },
   {
    "name": "Nebius",
-   "open_roles": 377
+   "open_roles": 376
   },
   {
    "name": "Barry's",
-   "open_roles": 375
+   "open_roles": 371
   },
   {
    "name": "Carbon Health",
-   "open_roles": 353
+   "open_roles": 350
   },
   {
    "name": "Halter",
@@ -115,7 +115,7 @@
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 221
+   "open_roles": 223
   },
   {
    "name": "Allara",
@@ -123,38 +123,38 @@
   },
   {
    "name": "Saronic Technologies",
-   "open_roles": 207
+   "open_roles": 206
   },
   {
    "name": "Saalex",
    "open_roles": 204
   }
  ],
- "duplicates_collapsed": 1,
+ "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Garner Health",
-   "platform": "greenhouse",
-   "title": "Growth Marketing Operations Manager",
-   "url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6188757004",
-   "location": "New York City, New York",
-   "company_open_roles": 72
-  },
-  {
-   "company": "Verse Medical",
+   "company": "Outset",
    "platform": "ashby",
-   "title": "Strategy & Operations",
-   "url": "https://jobs.ashbyhq.com/versemedical/ee7ecb59-301d-4f66-a966-deecb2dbf586",
-   "location": "New York City, San Francisco, Remote",
-   "company_open_roles": 27
+   "title": "People Operations Generalist ",
+   "url": "https://jobs.ashbyhq.com/outset/cfe0e5c3-53d3-44a2-8747-b06e24f2d182",
+   "location": "San Francisco, Remote",
+   "company_open_roles": 20
   },
   {
-   "company": "Versapay",
-   "platform": "lever",
-   "title": "Revenue Operations Manager",
-   "url": "https://jobs.lever.co/versapay/85ead5e4-2a96-441b-a849-e31527bba0ee",
-   "location": "United States (Remote), United States (Remote), remote",
-   "company_open_roles": 22
+   "company": "Real Chemistry",
+   "platform": "greenhouse",
+   "title": "Senior AI Project Manager",
+   "url": "https://job-boards.greenhouse.io/realchemistry/jobs/5426209008",
+   "location": "Boston - Massachusetts; Carmel - Indiana; Chicago - Illinois; Lambertville - New Jersey; Water Street - New York",
+   "company_open_roles": 78
+  },
+  {
+   "company": "Socure",
+   "platform": "ashby",
+   "title": "Compliance Operations Manager",
+   "url": "https://jobs.ashbyhq.com/socure/4a4f3bdf-2f91-4873-968f-f0b168c9044e",
+   "location": "Hub - San Francisco, Hub - Miami, Hub - New York, Hub - Seattle",
+   "company_open_roles": 88
   }
  ]
 }
