@@ -1,15 +1,15 @@
 {
- "run_utc": "2026-09-16T09:51:02.765449+00:00",
+ "run_utc": "2026-09-16T14:49:41.089494+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
- "companies_unreachable": 116,
+ "companies_unreachable": 115,
  "unreachable_sample": [
   {
-   "name": "AGILE Space Industries",
+   "name": "AcreTrader",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AcreTrader",
+   "name": "AGILE Space Industries",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -21,7 +21,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Arcellx",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -30,14 +38,6 @@
   },
   {
    "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -65,6 +65,10 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Brooklinen",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Cadence Solutions",
    "error": "HTTP Error 404: Not Found"
   },
@@ -73,37 +77,33 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Capitalize",
+   "name": "CALSTART",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Chainlink Labs",
-   "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 23,
- "companies_skipped_too_large": 117,
- "rejected_wrong_location": 7,
+ "companies_skipped_too_large": 116,
+ "rejected_wrong_location": 6,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 914
+   "open_roles": 916
   },
   {
    "name": "Prepared",
    "open_roles": 530
   },
   {
-   "name": "Barry's",
-   "open_roles": 375
+   "name": "Nebius",
+   "open_roles": 377
   },
   {
-   "name": "Nebius",
-   "open_roles": 373
+   "name": "Barry's",
+   "open_roles": 375
   },
   {
    "name": "Carbon Health",
@@ -111,7 +111,7 @@
   },
   {
    "name": "Halter",
-   "open_roles": 239
+   "open_roles": 238
   },
   {
    "name": "AST SpaceMobile",
@@ -127,34 +127,18 @@
   },
   {
    "name": "Saalex",
-   "open_roles": 206
+   "open_roles": 204
   }
  ],
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Dualentry",
-   "platform": "ashby",
-   "title": "Special Projects Product Manager",
-   "url": "https://jobs.ashbyhq.com/dualentry/96260064-9fce-4f55-b0c3-a00e280565b7",
-   "location": "New York City",
-   "company_open_roles": 74
-  },
-  {
-   "company": "Marble",
-   "platform": "yc",
-   "title": "Founding Ops",
-   "url": "https://www.ycombinator.com/companies/joinmarble/jobs/1V1GfLm-founding-ops",
-   "location": "New York, NY, US",
-   "company_open_roles": 2
-  },
-  {
-   "company": "Sieve",
-   "platform": "ashby",
-   "title": "Growth Operations Lead",
-   "url": "https://jobs.ashbyhq.com/sieve/91af747a-2f9e-4eff-a03a-be0447e9594a",
-   "location": "San Francisco",
-   "company_open_roles": 13
+   "company": "Precision AQ",
+   "platform": "greenhouse",
+   "title": "Project Manager, Healthcare and Pharmaceutical Advertising",
+   "url": "https://job-boards.greenhouse.io/precisionaq/jobs/6194744004",
+   "location": "Remote, United States",
+   "company_open_roles": 43
   }
  ]
 }
