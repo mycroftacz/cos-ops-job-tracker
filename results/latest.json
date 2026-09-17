@@ -1,8 +1,8 @@
 {
- "run_utc": "2026-09-17T15:17:14.478312+00:00",
+ "run_utc": "2026-09-17T19:14:05.685123+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
- "companies_unreachable": 115,
+ "companies_unreachable": 117,
  "unreachable_sample": [
   {
    "name": "AcreTrader",
@@ -10,10 +10,6 @@
   },
   {
    "name": "AGILE Space Industries",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -33,15 +29,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcade",
+   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -49,7 +37,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Ava Labs",
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -73,25 +69,29 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Capital Rx",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Chainlink Labs",
    "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "CALSTART",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "ChipStack",
+   "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 32,
+ "companies_empty_state_preserved": 34,
  "companies_skipped_too_large": 115,
- "rejected_wrong_location": 10,
+ "rejected_wrong_location": 4,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 920
+   "open_roles": 923
   },
   {
    "name": "Prepared",
@@ -103,7 +103,7 @@
   },
   {
    "name": "Barry's",
-   "open_roles": 371
+   "open_roles": 365
   },
   {
    "name": "Carbon Health",
@@ -115,15 +115,15 @@
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 222
+   "open_roles": 223
   },
   {
    "name": "Allara",
-   "open_roles": 211
+   "open_roles": 210
   },
   {
    "name": "Saronic Technologies",
-   "open_roles": 207
+   "open_roles": 210
   },
   {
    "name": "Saalex",
@@ -133,12 +133,20 @@
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Stepful",
+   "company": "Docker",
    "platform": "ashby",
-   "title": "Curriculum Developer - Healthcare Generalist",
-   "url": "https://jobs.ashbyhq.com/Stepful/2a796dd5-5642-49a9-82bc-2ac22bd98a9b",
-   "location": "Remote, United States, Remote",
-   "company_open_roles": 37
+   "title": "Senior Event Operations Manager",
+   "url": "https://jobs.ashbyhq.com/docker/c9fffb9d-ca8d-4702-b364-a2b58125a273",
+   "location": "United States, Remote",
+   "company_open_roles": 63
+  },
+  {
+   "company": "Socure",
+   "platform": "ashby",
+   "title": "Principal Product Operations Manager",
+   "url": "https://jobs.ashbyhq.com/socure/66f9e73e-1eb8-45a7-a47a-d2095c73c3b4",
+   "location": "New York - Remote, Hub - Miami, Hub - Washington DC, Hub - New York, Hub - Seattle, Remote",
+   "company_open_roles": 87
   }
  ]
 }
