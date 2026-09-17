@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-17T00:21:51.435516+00:00",
+ "run_utc": "2026-09-17T05:15:04.561440+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 115,
@@ -21,15 +21,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Arcellx",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -37,15 +29,19 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Atomic Semi",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -69,6 +65,10 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Cadence Solutions",
    "error": "HTTP Error 404: Not Found"
   },
@@ -85,9 +85,9 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 30,
+ "companies_empty_state_preserved": 31,
  "companies_skipped_too_large": 115,
- "rejected_wrong_location": 2,
+ "rejected_wrong_location": 1,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -107,11 +107,11 @@
   },
   {
    "name": "Carbon Health",
-   "open_roles": 350
+   "open_roles": 351
   },
   {
    "name": "Halter",
-   "open_roles": 238
+   "open_roles": 240
   },
   {
    "name": "AST SpaceMobile",
@@ -131,14 +131,5 @@
   }
  ],
  "duplicates_collapsed": 0,
- "new_matches": [
-  {
-   "company": "StubHub",
-   "platform": "greenhouse",
-   "title": "Associate Product Manager - Marketing Operations and Automation",
-   "url": "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4917872101",
-   "location": "New York, New York, United States",
-   "company_open_roles": 29
-  }
- ]
+ "new_matches": []
 }
