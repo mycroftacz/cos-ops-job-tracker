@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-17T05:15:04.561440+00:00",
+ "run_utc": "2026-09-17T10:22:29.496548+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 115,
@@ -13,11 +13,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Alma",
+   "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Altera Digital Health",
+   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -41,11 +41,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
+   "name": "Ava Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Ava Labs",
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -57,15 +57,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Boom Supersonic",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Brooklinen",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -85,9 +85,9 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 31,
+ "companies_empty_state_preserved": 32,
  "companies_skipped_too_large": 115,
- "rejected_wrong_location": 1,
+ "rejected_wrong_location": 0,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,11 +95,11 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 534
+   "open_roles": 535
   },
   {
    "name": "Nebius",
-   "open_roles": 377
+   "open_roles": 375
   },
   {
    "name": "Barry's",
@@ -111,11 +111,11 @@
   },
   {
    "name": "Halter",
-   "open_roles": 240
+   "open_roles": 239
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 223
+   "open_roles": 222
   },
   {
    "name": "Allara",
