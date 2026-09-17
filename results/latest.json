@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-17T10:22:29.496548+00:00",
+ "run_utc": "2026-09-17T15:17:14.478312+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 115,
@@ -13,11 +13,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Altera Digital Health",
+   "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Alma",
+   "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -37,6 +37,14 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
@@ -45,19 +53,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Barkley",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "BitGo",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -87,19 +87,19 @@
  ],
  "companies_empty_state_preserved": 32,
  "companies_skipped_too_large": 115,
- "rejected_wrong_location": 0,
+ "rejected_wrong_location": 10,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 915
+   "open_roles": 920
   },
   {
    "name": "Prepared",
-   "open_roles": 535
+   "open_roles": 541
   },
   {
    "name": "Nebius",
-   "open_roles": 375
+   "open_roles": 380
   },
   {
    "name": "Barry's",
@@ -131,5 +131,14 @@
   }
  ],
  "duplicates_collapsed": 0,
- "new_matches": []
+ "new_matches": [
+  {
+   "company": "Stepful",
+   "platform": "ashby",
+   "title": "Curriculum Developer - Healthcare Generalist",
+   "url": "https://jobs.ashbyhq.com/Stepful/2a796dd5-5642-49a9-82bc-2ac22bd98a9b",
+   "location": "Remote, United States, Remote",
+   "company_open_roles": 37
+  }
+ ]
 }
