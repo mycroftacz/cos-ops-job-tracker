@@ -1,8 +1,8 @@
 {
- "run_utc": "2026-09-17T19:14:05.685123+00:00",
+ "run_utc": "2026-09-17T22:24:42.343672+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
- "companies_unreachable": 117,
+ "companies_unreachable": 115,
  "unreachable_sample": [
   {
    "name": "AcreTrader",
@@ -13,11 +13,27 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Alma",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Arcellx",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -29,23 +45,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Alma",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcade",
+   "name": "Ava Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -69,11 +73,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Celestial AI",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Chainlink Labs",
+   "name": "Capital Rx",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,13 +81,13 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "ChipStack",
+   "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 34,
  "companies_skipped_too_large": 115,
- "rejected_wrong_location": 4,
+ "rejected_wrong_location": 8,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,19 +95,19 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 541
+   "open_roles": 545
   },
   {
    "name": "Nebius",
-   "open_roles": 380
-  },
-  {
-   "name": "Barry's",
-   "open_roles": 365
+   "open_roles": 381
   },
   {
    "name": "Carbon Health",
    "open_roles": 351
+  },
+  {
+   "name": "Barry's",
+   "open_roles": 350
   },
   {
    "name": "Halter",
@@ -115,7 +115,7 @@
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 223
+   "open_roles": 222
   },
   {
    "name": "Allara",
@@ -133,20 +133,44 @@
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Docker",
+   "company": "Clay",
    "platform": "ashby",
-   "title": "Senior Event Operations Manager",
-   "url": "https://jobs.ashbyhq.com/docker/c9fffb9d-ca8d-4702-b364-a2b58125a273",
-   "location": "United States, Remote",
-   "company_open_roles": 63
+   "title": "Partner & Marketplace Operations Lead",
+   "url": "https://jobs.ashbyhq.com/claylabs/d3bd708c-4b20-45c9-9522-f38abc30ca06",
+   "location": "New York, San Francisco, Remote",
+   "company_open_roles": 60
   },
   {
-   "company": "Socure",
+   "company": "Hadrius",
+   "platform": "yc",
+   "title": "Strategic Finance and Operations Manager",
+   "url": "https://www.ycombinator.com/companies/hadrius/jobs/sPagTwJ-strategic-finance-and-operations-manager",
+   "location": "New York, NY, US",
+   "company_open_roles": 9
+  },
+  {
+   "company": "Nidus Technologies",
    "platform": "ashby",
-   "title": "Principal Product Operations Manager",
-   "url": "https://jobs.ashbyhq.com/socure/66f9e73e-1eb8-45a7-a47a-d2095c73c3b4",
-   "location": "New York - Remote, Hub - Miami, Hub - Washington DC, Hub - New York, Hub - Seattle, Remote",
-   "company_open_roles": 87
+   "title": "Business Operations Lead",
+   "url": "https://jobs.ashbyhq.com/nidus-technologies/71c0f7b7-459e-4c8c-ad55-dadfa7800e99",
+   "location": "New York City",
+   "company_open_roles": 4
+  },
+  {
+   "company": "VectorShift",
+   "platform": "yc",
+   "title": "Chief of Staff",
+   "url": "https://www.ycombinator.com/companies/vectorshift/jobs/5o3IUe3-chief-of-staff",
+   "location": "New York, NY, US",
+   "company_open_roles": 9
+  },
+  {
+   "company": "WITHIN",
+   "platform": "greenhouse",
+   "title": "Project Manager",
+   "url": "https://job-boards.greenhouse.io/agencywithin/jobs/5241386007",
+   "location": "New York City",
+   "company_open_roles": 58
   }
  ]
 }
