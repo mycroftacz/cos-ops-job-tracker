@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-16T22:04:03.978212+00:00",
+ "run_utc": "2026-09-17T00:21:51.435516+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 115,
@@ -13,11 +13,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Alma",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Alma",
+   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -33,15 +37,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,13 +81,13 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "CALSTART",
+   "name": "Chainlink Labs",
    "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 30,
- "companies_skipped_too_large": 116,
- "rejected_wrong_location": 5,
+ "companies_skipped_too_large": 115,
+ "rejected_wrong_location": 2,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,11 +95,11 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 537
+   "open_roles": 534
   },
   {
    "name": "Nebius",
-   "open_roles": 376
+   "open_roles": 377
   },
   {
    "name": "Barry's",
@@ -123,7 +123,7 @@
   },
   {
    "name": "Saronic Technologies",
-   "open_roles": 206
+   "open_roles": 207
   },
   {
    "name": "Saalex",
@@ -133,28 +133,12 @@
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Outset",
-   "platform": "ashby",
-   "title": "People Operations Generalist ",
-   "url": "https://jobs.ashbyhq.com/outset/cfe0e5c3-53d3-44a2-8747-b06e24f2d182",
-   "location": "San Francisco, Remote",
-   "company_open_roles": 20
-  },
-  {
-   "company": "Real Chemistry",
+   "company": "StubHub",
    "platform": "greenhouse",
-   "title": "Senior AI Project Manager",
-   "url": "https://job-boards.greenhouse.io/realchemistry/jobs/5426209008",
-   "location": "Boston - Massachusetts; Carmel - Indiana; Chicago - Illinois; Lambertville - New Jersey; Water Street - New York",
-   "company_open_roles": 78
-  },
-  {
-   "company": "Socure",
-   "platform": "ashby",
-   "title": "Compliance Operations Manager",
-   "url": "https://jobs.ashbyhq.com/socure/4a4f3bdf-2f91-4873-968f-f0b168c9044e",
-   "location": "Hub - San Francisco, Hub - Miami, Hub - New York, Hub - Seattle",
-   "company_open_roles": 88
+   "title": "Associate Product Manager - Marketing Operations and Automation",
+   "url": "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4917872101",
+   "location": "New York, New York, United States",
+   "company_open_roles": 29
   }
  ]
 }
