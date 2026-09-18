@@ -1,8 +1,8 @@
 {
- "run_utc": "2026-09-18T21:11:12.113901+00:00",
+ "run_utc": "2026-09-18T23:32:58.641521+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
- "companies_unreachable": 116,
+ "companies_unreachable": 117,
  "unreachable_sample": [
   {
    "name": "AcreTrader",
@@ -21,14 +21,6 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Arcellx",
    "error": "HTTP Error 404: Not Found"
   },
@@ -37,11 +29,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
+   "name": "Artefact",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Artefact",
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -49,11 +45,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Barkley",
+   "name": "Ava Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Ava Labs",
+   "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Barkley",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -69,15 +69,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Buyers Edge Platform",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Cadence Solutions",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Capital Rx",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "CALSTART",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -87,7 +87,7 @@
  ],
  "companies_empty_state_preserved": 36,
  "companies_skipped_too_large": 116,
- "rejected_wrong_location": 5,
+ "rejected_wrong_location": 4,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,7 +95,7 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 537
+   "open_roles": 538
   },
   {
    "name": "Nebius",
@@ -107,7 +107,7 @@
   },
   {
    "name": "Carbon Health",
-   "open_roles": 351
+   "open_roles": 352
   },
   {
    "name": "Halter",
@@ -133,28 +133,12 @@
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Garner Health",
-   "platform": "greenhouse",
-   "title": "Strategy & Operations Manager",
-   "url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6198900004",
-   "location": "New York City, New York",
-   "company_open_roles": 76
-  },
-  {
-   "company": "Smartsheet",
-   "platform": "greenhouse",
-   "title": "Sr. Manager, Service Operations  (Remote Eligible - US)",
-   "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8099286",
-   "location": "-REMOTE, USA-",
-   "company_open_roles": 95
-  },
-  {
-   "company": "Suno",
+   "company": "Cranston AI",
    "platform": "ashby",
-   "title": "Trust & Safety Operations Manager",
-   "url": "https://jobs.ashbyhq.com/suno/9370b6c6-bb96-4f19-a5b3-53ec97f2c7c0",
-   "location": "San Francisco, NYC",
-   "company_open_roles": 69
+   "title": "Founding Strategy & Operations",
+   "url": "https://jobs.ashbyhq.com/cranston/13d638db-bd7a-4ad4-ad22-d3b7ff3e21b0",
+   "location": "San Francisco",
+   "company_open_roles": 4
   }
  ]
 }
