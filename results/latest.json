@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-18T11:04:34.226729+00:00",
+ "run_utc": "2026-09-18T14:56:00.251259+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 116,
@@ -25,14 +25,6 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arine",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
@@ -41,15 +33,19 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Artefact",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Ava Labs",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -77,6 +73,10 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "CALSTART",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   },
@@ -85,21 +85,21 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 36,
+ "companies_empty_state_preserved": 35,
  "companies_skipped_too_large": 116,
- "rejected_wrong_location": 1,
+ "rejected_wrong_location": 4,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 924
+   "open_roles": 925
   },
   {
    "name": "Prepared",
-   "open_roles": 545
+   "open_roles": 544
   },
   {
    "name": "Nebius",
-   "open_roles": 382
+   "open_roles": 385
   },
   {
    "name": "Carbon Health",
@@ -133,12 +133,28 @@
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "interface.ai",
+   "company": "Confido",
    "platform": "ashby",
-   "title": "Chief of Staff to the CEO",
-   "url": "https://jobs.ashbyhq.com/interface-ai/bd91c102-d60d-454c-ad47-729b5593710e",
-   "location": "San Francisco",
-   "company_open_roles": 26
+   "title": "Senior Analyst - Business Operations",
+   "url": "https://jobs.ashbyhq.com/confido/64f75552-8869-4d63-a079-151dc66fdd37",
+   "location": "NYC Office",
+   "company_open_roles": 33
+  },
+  {
+   "company": "Polymarket",
+   "platform": "ashby",
+   "title": "Director of CX Operations",
+   "url": "https://jobs.ashbyhq.com/polymarket/357af8a7-07b0-40f0-9678-f20f3d472464",
+   "location": "Remote, Remote",
+   "company_open_roles": 83
+  },
+  {
+   "company": "Prior Labs",
+   "platform": "ashby",
+   "title": "Head of Operations",
+   "url": "https://jobs.ashbyhq.com/prior-labs/ef0f3137-3f58-4dab-a9be-d98744fe3707",
+   "location": "Berlin, New York",
+   "company_open_roles": 24
   }
  ]
 }
