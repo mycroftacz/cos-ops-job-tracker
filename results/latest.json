@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-18T05:48:31.500565+00:00",
+ "run_utc": "2026-09-18T11:04:34.226729+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 116,
@@ -45,11 +45,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
+   "name": "Ava Labs",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Ava Labs",
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -87,7 +87,7 @@
  ],
  "companies_empty_state_preserved": 36,
  "companies_skipped_too_large": 116,
- "rejected_wrong_location": 0,
+ "rejected_wrong_location": 1,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -99,7 +99,7 @@
   },
   {
    "name": "Nebius",
-   "open_roles": 381
+   "open_roles": 382
   },
   {
    "name": "Carbon Health",
@@ -131,5 +131,14 @@
   }
  ],
  "duplicates_collapsed": 0,
- "new_matches": []
+ "new_matches": [
+  {
+   "company": "interface.ai",
+   "platform": "ashby",
+   "title": "Chief of Staff to the CEO",
+   "url": "https://jobs.ashbyhq.com/interface-ai/bd91c102-d60d-454c-ad47-729b5593710e",
+   "location": "San Francisco",
+   "company_open_roles": 26
+  }
+ ]
 }
