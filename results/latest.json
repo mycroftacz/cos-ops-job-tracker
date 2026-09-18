@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-18T14:56:00.251259+00:00",
+ "run_utc": "2026-09-18T18:19:20.208472+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 116,
@@ -9,19 +9,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AGILE Space Industries",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Alma",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Altera Digital Health",
+   "name": "AGILE Space Industries",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcellx",
+   "name": "Altera Digital Health",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -30,6 +26,10 @@
   },
   {
    "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcellx",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -73,29 +73,29 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "CALSTART",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Celestial AI",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Chainlink Labs",
    "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Chatham Financial",
+   "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 35,
  "companies_skipped_too_large": 116,
- "rejected_wrong_location": 4,
+ "rejected_wrong_location": 7,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 925
+   "open_roles": 930
   },
   {
    "name": "Prepared",
-   "open_roles": 544
+   "open_roles": 538
   },
   {
    "name": "Nebius",
@@ -133,28 +133,92 @@
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Confido",
+   "company": "Clipboard Health",
    "platform": "ashby",
-   "title": "Senior Analyst - Business Operations",
-   "url": "https://jobs.ashbyhq.com/confido/64f75552-8869-4d63-a079-151dc66fdd37",
-   "location": "NYC Office",
-   "company_open_roles": 33
+   "title": "Chief of Staff, Product",
+   "url": "https://jobs.ashbyhq.com/clipboard/6c968aba-8687-4e7b-b8c3-43828b24aa94",
+   "location": "Hybrid (San Francisco, CA), Remote",
+   "company_open_roles": 39
   },
   {
-   "company": "Polymarket",
+   "company": "Ellipsis Labs",
    "platform": "ashby",
-   "title": "Director of CX Operations",
-   "url": "https://jobs.ashbyhq.com/polymarket/357af8a7-07b0-40f0-9678-f20f3d472464",
-   "location": "Remote, Remote",
-   "company_open_roles": 83
+   "title": "Operations Associate",
+   "url": "https://jobs.ashbyhq.com/ellipsislabs/9628d475-a386-4eff-9c3c-b4ac11fc60ca",
+   "location": "New York, New York",
+   "company_open_roles": 13
   },
   {
-   "company": "Prior Labs",
+   "company": "Flagler Health",
    "platform": "ashby",
-   "title": "Head of Operations",
-   "url": "https://jobs.ashbyhq.com/prior-labs/ef0f3137-3f58-4dab-a9be-d98744fe3707",
-   "location": "Berlin, New York",
-   "company_open_roles": 24
+   "title": "Project Manager, Customer Success",
+   "url": "https://jobs.ashbyhq.com/flaglerhealth/d2fd6803-235d-4753-8419-694bf5d9ac8e",
+   "location": "NYC Office, Remote",
+   "company_open_roles": 21
+  },
+  {
+   "company": "Gemini",
+   "platform": "greenhouse",
+   "title": "People Operations Associate",
+   "url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8112938&gh_jid=8112938",
+   "location": "New York, New York",
+   "company_open_roles": 35
+  },
+  {
+   "company": "Gusto",
+   "platform": "greenhouse",
+   "title": "Payment Operations Manager",
+   "url": "https://job-boards.greenhouse.io/gusto/jobs/8022501",
+   "location": "New York, NY - Hybrid; San Francisco, CA - Hybrid",
+   "company_open_roles": 98
+  },
+  {
+   "company": "Instawork",
+   "platform": "greenhouse",
+   "title": "IT Generalist",
+   "url": "https://job-boards.greenhouse.io/instawork/jobs/4652827006",
+   "location": "San Francisco, California, United States",
+   "company_open_roles": 57
+  },
+  {
+   "company": "Omnea",
+   "platform": "ashby",
+   "title": "Founding BizOps, US",
+   "url": "https://jobs.ashbyhq.com/omnea/b647e01d-e4a5-4a06-82b3-6c3db7ba77d7",
+   "location": "New York, Remote",
+   "company_open_roles": 51
+  },
+  {
+   "company": "Pair Eyewear",
+   "platform": "ashby",
+   "title": "Sales Operations Manager, Wholesale",
+   "url": "https://jobs.ashbyhq.com/paireyewear/4819b46b-9bd9-4104-97d1-1cc1a9b77974",
+   "location": "New York, NY",
+   "company_open_roles": 10
+  },
+  {
+   "company": "Samba TV",
+   "platform": "lever",
+   "title": "Associate Partner Operations Manager",
+   "url": "https://jobs.lever.co/sambatv/7a82698a-05de-48bf-9977-eb90698c3158",
+   "location": "New York City, New York, New York City, New York, onsite",
+   "company_open_roles": 56
+  },
+  {
+   "company": "TopDog Law",
+   "platform": "rippling",
+   "title": "Pre-Litigation Operations Manager",
+   "url": "https://ats.rippling.com/topdoglaw/jobs/b96e31f4-d590-4989-a185-5ce5913a0b01",
+   "location": "Remote (United States)",
+   "company_open_roles": 67
+  },
+  {
+   "company": "Vapi",
+   "platform": "ashby",
+   "title": "Chief of Staff",
+   "url": "https://jobs.ashbyhq.com/vapi/8db6bb9c-5cc7-41ad-b978-0401e7a8143e",
+   "location": "San Francisco, Remote",
+   "company_open_roles": 35
   }
  ]
 }
