@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-17T22:24:42.343672+00:00",
+ "run_utc": "2026-09-18T00:44:26.912457+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 115,
@@ -33,15 +33,15 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcade",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Arine",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Artefact",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -85,13 +85,13 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 34,
+ "companies_empty_state_preserved": 35,
  "companies_skipped_too_large": 115,
- "rejected_wrong_location": 8,
+ "rejected_wrong_location": 0,
  "largest_skipped": [
   {
    "name": "Rxdefine",
-   "open_roles": 923
+   "open_roles": 924
   },
   {
    "name": "Prepared",
@@ -133,44 +133,20 @@
  "duplicates_collapsed": 0,
  "new_matches": [
   {
-   "company": "Clay",
-   "platform": "ashby",
-   "title": "Partner & Marketplace Operations Lead",
-   "url": "https://jobs.ashbyhq.com/claylabs/d3bd708c-4b20-45c9-9522-f38abc30ca06",
-   "location": "New York, San Francisco, Remote",
-   "company_open_roles": 60
-  },
-  {
-   "company": "Hadrius",
-   "platform": "yc",
-   "title": "Strategic Finance and Operations Manager",
-   "url": "https://www.ycombinator.com/companies/hadrius/jobs/sPagTwJ-strategic-finance-and-operations-manager",
-   "location": "New York, NY, US",
-   "company_open_roles": 9
-  },
-  {
-   "company": "Nidus Technologies",
-   "platform": "ashby",
-   "title": "Business Operations Lead",
-   "url": "https://jobs.ashbyhq.com/nidus-technologies/71c0f7b7-459e-4c8c-ad55-dadfa7800e99",
-   "location": "New York City",
-   "company_open_roles": 4
-  },
-  {
-   "company": "VectorShift",
-   "platform": "yc",
-   "title": "Chief of Staff",
-   "url": "https://www.ycombinator.com/companies/vectorshift/jobs/5o3IUe3-chief-of-staff",
-   "location": "New York, NY, US",
-   "company_open_roles": 9
-  },
-  {
-   "company": "WITHIN",
+   "company": "Armada",
    "platform": "greenhouse",
-   "title": "Project Manager",
-   "url": "https://job-boards.greenhouse.io/agencywithin/jobs/5241386007",
-   "location": "New York City",
-   "company_open_roles": 58
+   "title": "Senior Events Operations Manager ",
+   "url": "https://job-boards.greenhouse.io/armada/jobs/5427922008",
+   "location": "San Francisco, California Office (HQ)",
+   "company_open_roles": 49
+  },
+  {
+   "company": "Pragma",
+   "platform": "rippling",
+   "title": "People Operations Generalist",
+   "url": "https://ats.rippling.com/pragma/jobs/0589c7bb-7503-48e0-8be6-eee234a5c359",
+   "location": "Remote (North America)",
+   "company_open_roles": 8
   }
  ]
 }
