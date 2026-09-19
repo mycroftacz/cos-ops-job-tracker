@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-19T11:25:52.882382+00:00",
+ "run_utc": "2026-09-19T14:43:29.843157+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 117,
@@ -17,23 +17,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcellx",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Altera Digital Health",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arine",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Artefact",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -41,11 +25,27 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Atomic Semi",
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcellx",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arine",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Arcade",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Artefact",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,13 +81,13 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Celestial AI",
+   "name": "CALSTART",
    "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 35,
  "companies_skipped_too_large": 116,
- "rejected_wrong_location": 1,
+ "rejected_wrong_location": 0,
  "largest_skipped": [
   {
    "name": "Rxdefine",
