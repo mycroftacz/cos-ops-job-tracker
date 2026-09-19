@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-19T14:43:29.843157+00:00",
+ "run_utc": "2026-09-19T17:56:36.367393+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 117,
@@ -21,19 +21,19 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Anti Capital",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Arcellx",
+   "name": "AnySignal",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Arine",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcellx",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -107,7 +107,7 @@
   },
   {
    "name": "Carbon Health",
-   "open_roles": 352
+   "open_roles": 351
   },
   {
    "name": "Halter",
