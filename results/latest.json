@@ -1,15 +1,15 @@
 {
- "run_utc": "2026-09-19T01:31:00.972081+00:00",
+ "run_utc": "2026-09-19T06:31:27.015676+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 117,
  "unreachable_sample": [
   {
-   "name": "AcreTrader",
+   "name": "AGILE Space Industries",
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "AGILE Space Industries",
+   "name": "AcreTrader",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -21,19 +21,7 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Arcellx",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -45,7 +33,19 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Atomic Semi",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -65,14 +65,6 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Brooklinen",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Buyers Edge Platform",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Cadence Solutions",
    "error": "HTTP Error 404: Not Found"
   },
@@ -81,13 +73,21 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Celestial AI",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Chainlink Labs",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "CALSTART",
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "companies_empty_state_preserved": 36,
- "companies_skipped_too_large": 115,
- "rejected_wrong_location": 0,
+ "companies_empty_state_preserved": 35,
+ "companies_skipped_too_large": 116,
+ "rejected_wrong_location": 1,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -115,7 +115,7 @@
   },
   {
    "name": "AST SpaceMobile",
-   "open_roles": 223
+   "open_roles": 224
   },
   {
    "name": "Saronic Technologies",
