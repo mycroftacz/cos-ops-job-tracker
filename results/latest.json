@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-09-18T23:32:58.641521+00:00",
+ "run_utc": "2026-09-19T01:31:00.972081+00:00",
  "is_seed_run": false,
  "companies_checked": 3480,
  "companies_unreachable": 117,
@@ -21,7 +21,19 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
+   "name": "Anti Capital",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "AnySignal",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
    "name": "Arcellx",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -33,23 +45,11 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Anti Capital",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "AnySignal",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
    "name": "Atomic Semi",
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Ava Labs",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "name": "Arcade",
    "error": "HTTP Error 404: Not Found"
   },
   {
@@ -81,13 +81,13 @@
    "error": "HTTP Error 404: Not Found"
   },
   {
-   "name": "Celestial AI",
+   "name": "CALSTART",
    "error": "HTTP Error 404: Not Found"
   }
  ],
  "companies_empty_state_preserved": 36,
- "companies_skipped_too_large": 116,
- "rejected_wrong_location": 4,
+ "companies_skipped_too_large": 115,
+ "rejected_wrong_location": 0,
  "largest_skipped": [
   {
    "name": "Rxdefine",
@@ -95,7 +95,7 @@
   },
   {
    "name": "Prepared",
-   "open_roles": 538
+   "open_roles": 539
   },
   {
    "name": "Nebius",
@@ -131,14 +131,5 @@
   }
  ],
  "duplicates_collapsed": 0,
- "new_matches": [
-  {
-   "company": "Cranston AI",
-   "platform": "ashby",
-   "title": "Founding Strategy & Operations",
-   "url": "https://jobs.ashbyhq.com/cranston/13d638db-bd7a-4ad4-ad22-d3b7ff3e21b0",
-   "location": "San Francisco",
-   "company_open_roles": 4
-  }
- ]
+ "new_matches": []
 }
